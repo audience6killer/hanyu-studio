@@ -94,7 +94,7 @@ GitHub Pages is free for **public** repositories. Private-repo Pages requires Gi
 3. Netlify reads the included `netlify.toml`: build command `npm run build`, publish directory `deploy`. No Python is needed.
 4. Set the production branch to `main`. The first deploy starts; every later push to `main` redeploys automatically.
 5. Use the `*.netlify.app` HTTPS URL as the Supabase Site URL and open it on the iPhone → Share → Add to Home Screen.
-6. If you are not using Pages, disable the Pages workflow so pushes do not show a red Pages run: **Actions → Deploy HSK5 Studio → … → Disable workflow**.
+6. The Pages workflow is already manual-only while billing is locked, so it will not run on pushes. You can leave it for later or disable it under **Actions → Deploy HSK5 Studio → … → Disable workflow**.
 
 **3. Cloudflare Pages (also free, private repos supported).**
 
@@ -280,6 +280,8 @@ To rebuild the vocabulary data from source files, put the HSK JSON lists in `dat
 | iPhone offline | Install via Share → Add to Home Screen and open the icon once while online so the service worker caches the shell |
 | Sync from two devices at once | Let both finish; revision conflicts merge automatically. An open session pauses sync until finished |
 | Netlify exits 2 with "Missing script: build" | The repo is missing `package.json` or an older commit was deployed. Push the current `package.json`; Netlify's build command should be `npm run build` |
+| Netlify did not pick up the latest commit | **Deploys → Trigger deploy → Clear cache and deploy site** |
+| Netlify site shows "Login Redirect" or HTTP 401 | Edge Access / visitor access is enabled. Netlify → **Site configuration → Access & security → Visitor access**, switch to public (or log in on the iPhone) |
 | Netlify "Cannot find module tools/prepare_deploy.mjs" | Commit `tools/prepare_deploy.mjs`, and make sure Netlify's **Base directory** is empty (repo root) |
 | Netlify "service worker references missing files" | A generated asset was not committed. In particular commit `assets/js/data/tap.js`; if editing passages, run `python tools/build_tapdata.py` and `node tools/check_tap.mjs` first |
 | Netlify "Deploy directory deploy does not exist" | Set **Publish directory** to `deploy`; `netlify.toml` already does this unless the UI overrides it |
