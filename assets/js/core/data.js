@@ -105,20 +105,63 @@
   }
 
   let examples = null;
+
+  /** Split an English passage into sentences. Chinese uses U.splitSentences;
+   * this keeps the matching English line for each Chinese line. */
+  function splitEnglish(text) {
+    const s = String(text || "");
+    const out = [];
+    let start = 0;
+    for (let i = 0; i < s.length; i++) {
+      const ch = s[i];
+      if (ch !== "." && ch !== "!" && ch !== "?") continue;
+      let end = i + 1;
+      while (end < s.length && /["'”’)]/.test(s[end])) end++;
+      if (end < s.length && !/\s/.test(s[end])) continue;
+      const part = s.slice(start, end).trim();
+      if (part) out.push(part);
+      start = end;
+      i = end - 1;
+    }
+    const tail = s.slice(start).trim();
+    if (tail) out.push(tail);
+    return out;
+  }
+
   function buildExamples() {
     examples = {};
     for (const L of lessons) {
       if (!L.content) continue;
       const c = L.content;
-      const bucket = [];
-      bucket.push({ zh: c.reading.text, en: c.reading.translation, src: "Reading · Lesson " + L.n });
-      c.listening.dictation.forEach((s) => bucket.push({ zh: s, src: "Dictation · Lesson " + L.n }));
-      (c.grammar.examples || []).forEach((e) => bucket.push({ zh: e.zh, en: e.en, src: "Grammar · Lesson " + L.n }));
       const own = new Set(L.items);
       const sents = [];
-      for (const b of bucket) {
-        for (const s of HY.util.splitSentences(b.zh)) sents.push({ zh: s, en: b.en, src: b.src });
-      }
+
+      const readingZh = HY.util.splitSentences(c.reading.text);
+      const readingEn = splitEnglish(c.reading.translation);
+      const readingAligned = readingZh.length === readingEn.length;
+      readingZh.forEach((zh, i) => sents.push({
+        zh,
+        en: readingAligned ? readingEn[i] : "",
+        src: "Reading · Lesson " + L.n
+      }));
+
+      c.listening.dictation.forEach((line) => {
+        HY.util.splitSentences(line).forEach((zh) => sents.push({
+          zh, en: "", src: "Dictation · Lesson " + L.n
+        }));
+      });
+
+      (c.grammar.examples || []).forEach((e) => {
+        const parts = HY.util.splitSentences(e.zh);
+        const ens = splitEnglish(e.en);
+        const aligned = parts.length === ens.length;
+        parts.forEach((zh, i) => sents.push({
+          zh,
+          en: aligned ? ens[i] : (parts.length === 1 ? e.en : ""),
+          src: "Grammar · Lesson " + L.n
+        }));
+      });
+
       for (const w of own) {
         if (w.length < 2) continue;
         const hits = sents.filter((s) => s.zh.includes(w)).slice(0, 2);
