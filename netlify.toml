@@ -1,3 +1,7 @@
+# Every push to main runs this build. SUPABASE_URL and SUPABASE_ANON_KEY are
+# read from the build environment and baked into
+# deploy/assets/js/data/config.js. Set them under Project configuration ->
+# Environment variables; changing them requires a fresh deploy.
 [build]
   command = "npm run build"
   publish = "deploy"
