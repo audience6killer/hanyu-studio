@@ -1,11 +1,9 @@
 name: Deploy HSK5 Studio
 
-# Every push to main validates the lesson files, rebuilds the static bundle and
-# publishes it to GitHub Pages. The deploy bundle is intentionally not committed;
-# this workflow is the source of truth for production.
+# GitHub Actions is manual-only while the account is billing-locked.
+# Netlify (or Cloudflare Pages) handles automatic deploys from main.
+# Restore the push trigger after GitHub billing is fixed.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:

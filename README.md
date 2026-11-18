@@ -33,10 +33,11 @@ The full walkthrough lives in **`setup.html`**. In short:
 1. Create a free Supabase project and run `supabase/schema.sql` in its SQL editor.
 2. Turn **Confirm email** off under Authentication → Providers → Email (or confirm the message).
 3. Copy the project URL and the **anon public** key.
-4. Push this folder to GitHub and enable **Settings → Pages → Source: GitHub Actions**. The included workflow deploys on every push to `main`. (Manual alternative: run `python tools/prepare_deploy.py` and drag `deploy/` to Netlify Drop or Cloudflare Pages.)
-5. Open the HTTPS URL — `https://USER.github.io/REPO/` for Pages. Note it as the address for the Supabase Site URL.
-6. On the work computer, open **Settings → Cloud sync**, paste the URL/key, create the account, and let the first sync upload this browser's progress.
-7. On the iPhone, open the same URL in Safari → **Share → Add to Home Screen** → open the icon → sign in with the same account → **Sync now**.
+4. Push this folder to GitHub.
+5. Connect the repo to **Netlify** (recommended; `netlify.toml` is included) or **Cloudflare Pages** (build `npm run build`, output `deploy`). Both are free, support private repos and redeploy on every push to `main`. GitHub Pages is optional and currently manual-only because the GitHub account is billing-locked.
+6. Open the resulting HTTPS URL — `*.netlify.app`, `*.pages.dev`, or `USER.github.io/REPO/`. Note it as the Supabase Site URL.
+7. On the work computer, open **Settings → Cloud sync**, paste the URL/key, create the account, and let the first sync upload this browser's progress.
+8. On the iPhone, open the same URL in Safari → **Share → Add to Home Screen** → open the icon → sign in with the same account → **Sync now**.
 
 After that, either device can study offline. The next time both are online, the app merges the two histories.
 
@@ -44,7 +45,9 @@ After that, either device can study offline. The next time both are online, the 
 
 ## Automatic deployment from GitHub
 
-`.github/workflows/deploy.yml` is the production pipeline. On every push to `main` it:
+> **Current status:** the GitHub account is billing-locked, so GitHub Actions cannot start. The Pages workflow is therefore manual-only, and **Netlify handles automatic deploys from `main`**. The instructions below apply once billing is resolved; Netlify/Cloudflare remain the working path today.
+
+`.github/workflows/deploy.yml` is the optional GitHub Pages pipeline. When run (or after re-enabling its `push` trigger) it:
 
 1. validates all 36 lesson files,
 2. rebuilds `assets/js/data/lessons.js`,
