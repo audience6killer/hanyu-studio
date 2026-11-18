@@ -71,12 +71,37 @@ Then, in the GitHub repository:
 Notes:
 
 - **`deploy/` and `hsk5-studio-site.zip` are ignored** and rebuilt by CI. Keep them for a local drag-and-drop deploy; do not commit them.
-- **Private repositories:** Pages on a free plan requires a public repository. The repository contains no Supabase keys or study data; the project URL and anon key are entered in Settings at runtime. If you need a private repo, use GitHub Pro or point Netlify/Cloudflare at the same folder.
+- **Private repositories:** Pages on a free plan requires a public repository. The repository contains no Supabase keys or study data; the project URL and anon key are entered in Settings at runtime. If you need a private repo, use the Netlify/Cloudflare alternatives below.
 - **PWA updates:** the cache name changes with the bundle hash, so an installed iPhone app installs the new assets on its next online launch.
 - **Supabase Site URL:** if email confirmation is on, set Authentication → URL Configuration → Site URL to the deployed URL (including the `/REPO/` path).
 - **Manual re-run:** Actions → Deploy HSK5 Studio → Run workflow. The workflow also runs on `workflow_dispatch`.
 - **Custom domain:** add it under Pages, then update the Supabase Site URL and sign in again on the phone (the browser origin and therefore local storage are new; cloud sync restores progress).
 - If your default branch is not `main`, change the `branches` entry in the workflow.
+
+### If GitHub Pages billing blocks you
+
+GitHub Pages is free for **public** repositories. Private-repo Pages requires GitHub Pro/Team, which is the usual billing wall. You have two free ways out:
+
+**1. Make the repository public.** Pages becomes free immediately. The repository contains no Supabase keys, no study history and no personal data; the project URL and anon key are entered in Settings at runtime. Then continue from step 2 above.
+
+**2. Keep it private and use Netlify (recommended alternative).**
+
+1. Push the repository to GitHub.
+2. At [app.netlify.com](https://app.netlify.com) choose **Add new site → Import an existing project → GitHub** and pick the repo.
+3. Netlify reads the included `netlify.toml`: build command `npm run build`, publish directory `deploy`. No Python is needed.
+4. Set the production branch to `main`. The first deploy starts; every later push to `main` redeploys automatically.
+5. Use the `*.netlify.app` HTTPS URL as the Supabase Site URL and open it on the iPhone → Share → Add to Home Screen.
+6. If you are not using Pages, disable the Pages workflow so pushes do not show a red Pages run: **Actions → Deploy HSK5 Studio → … → Disable workflow**.
+
+**3. Cloudflare Pages (also free, private repos supported).**
+
+1. In the Cloudflare dashboard: **Workers & Pages → Create → Pages → Connect to Git**, select the repository.
+2. Framework preset: **None**. Build command: `npm run build`. Build output directory: `deploy`. Production branch: `main`.
+3. Optionally set `NODE_VERSION=20` as a build environment variable.
+4. Every push to `main` deploys to `*.pages.dev`. Use that URL for Supabase and the iPhone home screen.
+
+Both alternatives use the same Node build, the same SQL injection into `setup.html`, the same `.nojekyll`, and the same content-hashed service-worker cache as the Pages workflow. `deploy/` and the zip stay generated artifacts and remain ignored by git.
+
 
 ---
 
@@ -184,7 +209,11 @@ assets/js/data/tap.js       generated tap-to-define reference for the reading pa
 content/lesson-NN.json      editable source for each lesson's reading, grammar, dictation and writing task
 content/vocab-by-lesson.json lesson vocabulary used to author and validate content
 supabase/schema.sql         table, RLS and atomic save function
-tools/prepare_deploy.py     build deploy/ and hsk5-studio-site.zip
+netlify.toml                Netlify build config (npm build, publish deploy/)
+package.json                npm build entry point and Node engine
+.nvmrc                      Node 20 for Netlify/Cloudflare builds
+tools/prepare_deploy.py     Python build: deploy/ plus hsk5-studio-site.zip
+tools/prepare_deploy.mjs    Node build used by Netlify/Cloudflare and CI
 tools/build_content.py      regenerate lessons.js from content/
 tools/build_tapdata.py      regenerate tap.js from content/ and the CC-CEDICT / pinyin / jieba caches
 tools/check_tap.mjs         verify every passage character opens pinyin, gloss and audio
@@ -247,6 +276,10 @@ To rebuild the vocabulary data from source files, put the HSK JSON lists in `dat
 | "Sync error / Network error" | Confirm the project URL starts with `https://`, the anon key is the public one, and the device is online. The local copy is unaffected |
 | iPhone offline | Install via Share → Add to Home Screen and open the icon once while online so the service worker caches the shell |
 | Sync from two devices at once | Let both finish; revision conflicts merge automatically. An open session pauses sync until finished |
+| Netlify exits 2 with "Missing script: build" | The repo is missing `package.json` or an older commit was deployed. Push the current `package.json`; Netlify's build command should be `npm run build` |
+| Netlify "Cannot find module tools/prepare_deploy.mjs" | Commit `tools/prepare_deploy.mjs`, and make sure Netlify's **Base directory** is empty (repo root) |
+| Netlify "service worker references missing files" | A generated asset was not committed. In particular commit `assets/js/data/tap.js`; if editing passages, run `python tools/build_tapdata.py` and `node tools/check_tap.mjs` first |
+| Netlify "Deploy directory deploy does not exist" | Set **Publish directory** to `deploy`; `netlify.toml` already does this unless the UI overrides it |
 | GitHub Actions fails at "Configure Pages" | Set **Settings → Pages → Source: GitHub Actions**. Private repositories need GitHub Pro (free Pages requires a public repo) |
 | Workflow does not run on push | The trigger is `main`. Change the branch in `.github/workflows/deploy.yml` if your default branch differs |
 | Site still looks old on iPhone | Close the home-screen app completely and reopen it while online; each CI build has a new service-worker cache hash |
