@@ -12,6 +12,7 @@ const CORE = [
   "./assets/icons/icon-512.png",
   "./assets/icons/icon-maskable-512.png",
   "./assets/icons/apple-touch-icon.png",
+  "./assets/js/data/config.js",
   "./assets/js/data/vocab.js",
   "./assets/js/data/lessons.js",
   "./assets/js/data/tap.js",

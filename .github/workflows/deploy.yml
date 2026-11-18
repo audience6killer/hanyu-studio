@@ -39,6 +39,11 @@ jobs:
 
       - name: Build static bundle
         run: python tools/prepare_deploy.py
+        env:
+          # Optional. Set as repository variables (Settings -> Secrets and
+          # variables -> Actions -> Variables). Both empty keeps manual setup.
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ vars.SUPABASE_ANON_KEY }}
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

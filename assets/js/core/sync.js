@@ -29,6 +29,38 @@
   S.configured = () => !!(config() && config().url && config().anonKey);
   S.signedIn = () => !!(config() && config().accessToken && config().refreshToken);
 
+  /* Build-time defaults written into assets/js/data/config.js at deploy time.
+   * The anon/publishable key is public by design; Row Level Security protects
+   * the row. When present this wins over anything typed on a device, so the
+   * project is configured once (Netlify env vars) instead of per device. */
+  S.siteConfig = function () {
+    const raw = typeof window !== "undefined" ? window.HY_CONFIG : null;
+    if (!raw) return null;
+    const url = String(raw.supabaseUrl || "").trim().replace(/\/+$/, "");
+    const anonKey = String(raw.supabaseAnonKey || "").trim();
+    if (!url || !anonKey) return null;
+    return { url, anonKey };
+  };
+  S.usesSiteConfig = () => !!S.siteConfig();
+
+  S.applySiteConfig = function () {
+    const site = S.siteConfig();
+    if (!site) return false;
+    const c = config();
+    if (c && c.url === site.url && c.anonKey === site.anonKey) return false;
+    /* A different project means the saved session token belongs to the old
+     * project and must not be sent to the new one. */
+    const moved = !!(c && c.url && c.url !== site.url);
+    const patch = { url: site.url, anonKey: site.anonKey };
+    if (moved) Object.assign(patch, {
+      accessToken: "", refreshToken: "", expiresAt: 0, baseRev: 0, lastSyncAt: 0, lastError: ""
+    });
+    saveConfig(patch);
+    S.state.lastError = "";
+    S.state.lastSyncAt = moved ? 0 : S.state.lastSyncAt;
+    return true;
+  };
+
   function saveConfig(patch) {
     const s = HY.store.state;
     s.meta = s.meta || {};

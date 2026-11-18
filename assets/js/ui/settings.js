@@ -37,6 +37,10 @@
   function cloudCard(s) {
     const cfg = HY.sync.config() || {};
     const st = HY.sync.state;
+    /* When the deploy baked in SUPABASE_URL / SUPABASE_ANON_KEY there is
+     * nothing project-shaped left to type on a device: sign in, that is all. */
+    const baked = HY.sync.usesSiteConfig();
+    const host = (() => { try { return new URL(cfg.url).host; } catch (e) { return cfg.url || ""; } })();
     const card = C.card({ title: "Cloud sync", sub: "The same progress on this computer and your iPhone. Local-first, always." });
     const body = card.querySelector(".card-body");
     let working = false;
@@ -45,9 +49,9 @@
     guide.target = "_blank";
     guide.rel = "noopener";
 
-    function authFields(prefillEmail) {
-      const urlIn = el("input", { class: "input", type: "url", placeholder: "https://your-project.supabase.co", value: cfg.url || "" });
-      const keyIn = el("input", { class: "input", type: "text", placeholder: "anon public key", value: cfg.anonKey || "" });
+    function authFields(prefillEmail, withProject) {
+      const urlIn = withProject ? el("input", { class: "input", type: "url", placeholder: "https://your-project.supabase.co", value: cfg.url || "" }) : null;
+      const keyIn = withProject ? el("input", { class: "input", type: "text", placeholder: "anon public key", value: cfg.anonKey || "" }) : null;
       const emailIn = el("input", { class: "input", type: "email", placeholder: "you@example.com", value: prefillEmail || cfg.email || "", autocomplete: "username" });
       const passIn = el("input", { class: "input", type: "password", placeholder: "Password (at least 6 characters)", autocomplete: "current-password" });
       return { urlIn, keyIn, emailIn, passIn };
@@ -64,7 +68,9 @@
       const hadProfile = !!HY.store.state.profile;
       (buttons || []).forEach((b) => { b.disabled = true; });
       try {
-        HY.sync.saveConfig({ url: f.urlIn.value, anonKey: f.keyIn.value, email: f.emailIn.value.trim(), enabled: true });
+        const patch = { email: f.emailIn.value.trim(), enabled: true };
+        if (f.urlIn) { patch.url = f.urlIn.value; patch.anonKey = f.keyIn.value; }
+        HY.sync.saveConfig(patch);
         const res = kind === "signup"
           ? await HY.sync.signUp(f.emailIn.value.trim(), f.passIn.value)
           : await HY.sync.signIn(f.emailIn.value.trim(), f.passIn.value);
@@ -107,7 +113,7 @@
     }
 
     if (!HY.sync.configured()) {
-      const f = authFields();
+      const f = authFields(null, true);
       const signIn = C.btn("Sign in", { kind: "primary", icon: "cloud", onClick: () => authenticate("signin", f, [signIn, signUp]) });
       const signUp = C.btn("Create account", { kind: "soft", onClick: () => authenticate("signup", f, [signIn, signUp]) });
       add(
@@ -125,18 +131,20 @@
     }
 
     if (!HY.sync.signedIn()) {
-      const f = authFields(cfg.email);
+      const f = authFields(cfg.email, !baked);
       const signIn = C.btn("Sign in", { kind: "primary", icon: "cloud", onClick: () => authenticate("signin", f, [signIn]) });
       add(
         el("div", { class: "sync-status" },
           el("span", { class: "sync-dot idle" }),
-          el("div", { class: "sync-status-main" }, el("strong", {}, "Connected to " + cfg.url), el("span", { class: "muted small" }, "Sign in to pull your progress.")),
+          el("div", { class: "sync-status-main" }, el("strong", {}, "Connected to " + (host || "your project")), el("span", { class: "muted small" }, "Sign in to pull your progress.")),
           el("span", { class: "pill pill-muted" }, "signed out")),
+        baked ? C.notice("info", el("div", {}, "This site is already pointed at your sync project. ",
+          "Sign in with the account you created there; the project URL and key are a deploy setting, not something to paste on each device.")) : null,
         el("div", { class: "sync-grid" },
           field("Email", f.emailIn),
           field("Password", f.passIn)),
         el("div", { class: "sync-actions" }, signIn,
-          C.btn("Change project", { kind: "ghost", icon: "gear", onClick: () => {
+          baked ? null : C.btn("Change project", { kind: "ghost", icon: "gear", onClick: () => {
             C.confirm("Change the sync project?", "Sign out and forget this project URL and key on this device. Local progress stays.", "Change").then((ok) => {
               if (!ok) return;
               HY.sync.disconnect();

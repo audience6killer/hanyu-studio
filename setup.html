@@ -135,7 +135,7 @@ grant execute on function public.save_progress(jsonb, bigint) to authenticated;
   <ol class="steps">
     <li>In Supabase, open <strong>Authentication → Providers → Email</strong>.</li>
     <li>For a personal single-user desk, turn <strong>Confirm email</strong> off and save. Then the app can sign in immediately. If you leave it on, create the account, click the confirmation link in your inbox, then sign in.</li>
-    <li>Open <strong>Project Settings → API</strong> and copy the <strong>Project URL</strong> and the <strong>anon public</strong> key. You will paste both into the app, not here.</li>
+    <li>Open <strong>Project Settings → API</strong> and copy the <strong>Project URL</strong> and the <strong>anon public</strong> key. Either paste both into the app once on each device, or set them once as build environment variables (section 3b) so every device inherits them.</li>
     <li>If you keep email confirmation on, set <strong>Authentication → URL Configuration → Site URL</strong> to the HTTPS address where you deploy the app, so the confirmation link returns you there.</li>
   </ol>
 
@@ -151,10 +151,20 @@ grant execute on function public.save_progress(jsonb, bigint) to authenticated;
   <div class="note"><strong>Netlify access control:</strong> a new Netlify site can be behind <strong>Edge Access / Visitor access</strong>, which shows a Netlify login redirect (HTTP 401) instead of the app. For a home-screen study app, open <strong>Site configuration → Access &amp; security → Visitor access</strong> and make the site public, or log in on the phone. This is separate from the app's Supabase account.</div>
   <div class="note"><strong>Automatic deploy:</strong> the GitHub Pages workflow, Netlify and Cloudflare all inject the current SQL into <code>setup.html</code> and stamp a new service-worker cache version, so an installed iPhone app picks up new assets on its next launch. The GitHub Pages workflow is already manual-only while the GitHub account is billing-locked, so it will not run on pushes.</div>
 
+  <h2>3b. Optional: configure the project once</h2>
+  <p>The app has no server, so the closest thing to “set the database in Netlify” is to give the build the project URL and anon key. The build writes them into <code>assets/js/data/config.js</code>, and Settings then asks only for email and password.</p>
+  <ol class="steps">
+    <li><strong>Netlify:</strong> <strong>Site configuration → Environment variables → Add a variable</strong>. Add <code>SUPABASE_URL</code> (for example <code>https://abcd.supabase.co</code>) and <code>SUPABASE_ANON_KEY</code> (the anon public key). Leave the scope at its default so builds receive the values.</li>
+    <li><strong>Netlify:</strong> <strong>Deploys → Trigger deploy → Clear cache and deploy site</strong>. Variables are read at build time; saving them does not change the live site until a rebuild.</li>
+    <li><strong>Cloudflare Pages:</strong> <strong>Settings → Environment variables</strong>, add both for Production, then <strong>Retry deployment</strong>.</li>
+    <li><strong>Local build:</strong> <code>$env:SUPABASE_URL = "https://…"</code> and <code>$env:SUPABASE_ANON_KEY = "…"</code>, then <code>npm run build</code>.</li>
+  </ol>
+  <div class="note">Set <strong>both or neither</strong>; the build stops if only one is present. Only the <strong>anon public</strong> key belongs here — it is public by design and row-level security protects the row. Never use the <code>service_role</code> key. Changing the project URL makes the app drop the old session and ask you to sign in again; local progress is kept. The schema itself is still created once by the SQL in step 1 — environment variables configure the client, not Postgres.</div>
+
   <h2>4. Connect the work computer</h2>
   <ol class="steps">
     <li>In the app: <strong>Settings → Cloud sync</strong>.</li>
-    <li>Paste the Project URL and anon key, enter your email and a password of at least six characters, and press <strong>Create account</strong>. If confirmation is on, confirm by email and then sign in.</li>
+    <li>If the site was configured in section 3b, only email and password appear. Otherwise also paste the Project URL and anon key. Enter your email and a password of at least six characters, and press <strong>Create account</strong>. If confirmation is on, confirm by email and then sign in.</li>
     <li>The first sync uploads this browser's existing progress. If it asks, choose <strong>Upload this device</strong> — the cloud row is still empty.</li>
     <li>Check that the status reads <em>Synced …</em> and a revision number appears.</li>
   </ol>
@@ -182,6 +192,8 @@ grant execute on function public.save_progress(jsonb, bigint) to authenticated;
     <li><strong>“The progress table is missing”</strong> — run the SQL above, then press Sync now.</li>
     <li><strong>“Email not confirmed”</strong> — confirm the email, or turn Confirm email off in Supabase Auth settings.</li>
     <li><strong>Network error</strong> — check the Project URL begins with <code>https://</code>, the anon key is the public one, and the phone/computer is online.</li>
+    <li><strong>Settings still asks for the project URL and key</strong> — the build did not see the environment variables. Add both in Netlify, then <strong>Trigger deploy → Clear cache and deploy site</strong>; an installed home-screen app may need one online relaunch.</li>
+    <li><strong>Build says “Set both SUPABASE_URL and SUPABASE_ANON_KEY”</strong> — remove the stray variable or add its pair.</li>
     <li><strong>Sync status says signed out</strong> — sign in again; tokens expire but the local progress is untouched.</li>
     <li><strong>Offline install did not update</strong> — close the home-screen app completely and reopen while online; the service worker refreshes its cache.</li>
   </ul>

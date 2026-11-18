@@ -177,6 +177,7 @@
 
   function boot() {
     HY.store.load();
+    if (HY.sync) HY.sync.applySiteConfig();
     HY.tts.init();
     HY.store.onStorageError(() => {
       C.toast("Could not save to this browser's storage. Export a backup from Settings.", "warn");

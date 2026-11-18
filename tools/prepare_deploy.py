@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import hashlib
 import html
+import json
 import os
 import re
 import shutil
@@ -33,6 +34,9 @@ def copy_tree(rel: str) -> None:
 
 
 def main() -> None:
+    # Windows consoles default to cp1252 and choke on the guide's arrows.
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     if os.path.isdir(OUT):
         shutil.rmtree(OUT)
     if os.path.exists(ZIP):
@@ -43,6 +47,21 @@ def main() -> None:
         copy_file(rel)
     for rel in ("assets/css", "assets/js", "assets/icons"):
         copy_tree(rel)
+
+    # Optional build-time Supabase defaults. The anon/publishable key is public
+    # by design; never use a secret/service_role key here.
+    site_url = os.environ.get("SUPABASE_URL", "").strip().rstrip("/")
+    site_key = os.environ.get("SUPABASE_ANON_KEY", "").strip()
+    if bool(site_url) != bool(site_key):
+        raise SystemExit("Set both SUPABASE_URL and SUPABASE_ANON_KEY, or neither.")
+    if site_url and not re.match(r"^https?://", site_url):
+        raise SystemExit("SUPABASE_URL must start with https://")
+    config_js = "window.HY_CONFIG = " + json.dumps(
+        {"supabaseUrl": site_url, "supabaseAnonKey": site_key}, ensure_ascii=False
+    ) + ";\n"
+    with open(os.path.join(OUT, "assets", "js", "data", "config.js"), "w", encoding="utf-8") as f:
+        f.write(config_js)
+    print("supabase:      " + ("configured at build time" if site_url else "not configured (manual Settings)"))
 
     # Inject the single source-of-truth SQL into the setup page.
     schema = open(os.path.join(ROOT, "supabase", "schema.sql"), encoding="utf-8").read()
@@ -107,7 +126,7 @@ def main() -> None:
     print(f"cache:         hsk5-studio-{build_id}")
     print(f"zip ready:     {os.path.getsize(ZIP) / 1024:.0f} KB  -> {ZIP}")
     print("Next: drag deploy/ or the zip to https://app.netlify.com/drop")
-    print("      or Cloudflare Pages → Direct Upload. GitHub Actions does this automatically.")
+    print("      or Cloudflare Pages Direct Upload. GitHub Actions does this automatically.")
     print("Setup page: /setup.html")
 
 

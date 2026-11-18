@@ -28,6 +28,7 @@ const REQUIRED = [
   "assets/js/data/vocab.js",
   "assets/js/data/lessons.js",
   "assets/js/data/tap.js",
+  "assets/js/data/config.js",
   "tools/prepare_deploy.mjs",
 ];
 const missingRequired = REQUIRED.filter((rel) => !fs.existsSync(path.join(ROOT, rel)));
@@ -68,6 +69,22 @@ for (const rel of ["index.html", "setup.html", "manifest.webmanifest", "sw.js"])
 for (const rel of ["assets/css", "assets/js", "assets/icons"]) {
   fs.cpSync(path.join(ROOT, rel), path.join(OUT, rel), { recursive: true });
 }
+
+// Optional build-time Supabase defaults. The anon/publishable key is public by
+// design; never use a secret/service_role key here.
+const supabaseUrl = (process.env.SUPABASE_URL || "").trim().replace(/\/+$/, "");
+const supabaseAnonKey = (process.env.SUPABASE_ANON_KEY || "").trim();
+if (!!supabaseUrl !== !!supabaseAnonKey) {
+  throw new Error("Set both SUPABASE_URL and SUPABASE_ANON_KEY, or neither.");
+}
+if (supabaseUrl && !/^https?:\/\//.test(supabaseUrl)) {
+  throw new Error("SUPABASE_URL must start with https://");
+}
+fs.writeFileSync(
+  path.join(OUT, "assets/js/data/config.js"),
+  `window.HY_CONFIG = ${JSON.stringify({ supabaseUrl, supabaseAnonKey })};\n`
+);
+console.log(`supabase:      ${supabaseUrl ? "configured at build time" : "not configured (manual Settings)"}`);
 
 // Keep the single SQL source of truth inside the deployed setup page.
 const schema = read("supabase/schema.sql");

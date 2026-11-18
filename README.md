@@ -35,11 +35,47 @@ The full walkthrough lives in **`setup.html`**. In short:
 3. Copy the project URL and the **anon public** key.
 4. Push this folder to GitHub.
 5. Connect the repo to **Netlify** (recommended; `netlify.toml` is included) or **Cloudflare Pages** (build `npm run build`, output `deploy`). Both are free, support private repos and redeploy on every push to `main`. GitHub Pages is optional and currently manual-only because the GitHub account is billing-locked.
-6. Open the resulting HTTPS URL — `*.netlify.app`, `*.pages.dev`, or `USER.github.io/REPO/`. Note it as the Supabase Site URL.
-7. On the work computer, open **Settings → Cloud sync**, paste the URL/key, create the account, and let the first sync upload this browser's progress.
-8. On the iPhone, open the same URL in Safari → **Share → Add to Home Screen** → open the icon → sign in with the same account → **Sync now**.
+6. In Netlify, add the two Supabase values once as **build environment variables** (`SUPABASE_URL`, `SUPABASE_ANON_KEY`), then redeploy with a cleared cache. See [Configure the sync project once](#configure-the-sync-project-once-in-netlify) below. Skip this if you prefer to paste them into Settings on each device.
+7. Open the resulting HTTPS URL — `*.netlify.app`, `*.pages.dev`, or `USER.github.io/REPO/`. Note it as the Supabase Site URL.
+8. On the work computer, open **Settings → Cloud sync**, create the account (only email and password if the project was baked in), and let the first sync upload this browser's progress.
+9. On the iPhone, open the same URL in Safari → **Share → Add to Home Screen** → open the icon → sign in with the same account → **Sync now**.
 
 After that, either device can study offline. The next time both are online, the app merges the two histories.
+
+### Configure the sync project once in Netlify
+
+The app is a static site, so there is no server that could hold a database setting at runtime. The equivalent of "set the database in Netlify" is to put the Supabase **project URL and anon public key** into Netlify's build environment: the build writes them into `deploy/assets/js/data/config.js`, and every device that loads the site inherits them. Settings then only asks for email and password.
+
+**Netlify**
+
+1. **Site configuration → Environment variables → Add a variable**.
+2. `SUPABASE_URL` = `https://YOUR-PROJECT.supabase.co` (a trailing slash is stripped automatically).
+3. `SUPABASE_ANON_KEY` = the **anon public** / publishable key from Supabase → Project Settings → API. Never the `service_role` key.
+4. Leave the scope at its default so builds receive the values.
+5. **Deploys → Trigger deploy → Clear cache and deploy site**. Environment variables are read at build time; saving them alone does not change the live site.
+6. Reload the site. Settings → Cloud sync now shows only email and password, and the "Change project" control is hidden.
+
+**Cloudflare Pages**: Settings → Environment variables → add both for Production, then **Retry deployment**.
+
+**GitHub Pages**: repository **Settings → Secrets and variables → Actions → Variables**, add `SUPABASE_URL` and `SUPABASE_ANON_KEY`; the workflow passes them to the build. The workflow is manual-only while GitHub billing is locked.
+
+**Local build**
+
+```powershell
+$env:SUPABASE_URL = "https://YOUR-PROJECT.supabase.co"
+$env:SUPABASE_ANON_KEY = "anon-public-key"
+npm run build
+```
+
+Set both or neither: the build fails if only one is present, to avoid a half-configured site. With neither set, the app falls back to the manual Settings form, exactly as before.
+
+Notes:
+
+- The anon/publishable key is **public by design**; it ships in every browser bundle anyway. Row-level security protects the data. The `service_role` key bypasses RLS and must never be used here.
+- A baked-in value wins over anything stored on a device. If `SUPABASE_URL` changes, the app clears the old session and revision on its next load and asks you to sign in again; local progress is untouched.
+- Email and password cannot be baked in, and should not be: each device signs in once so Supabase can authorize that user's row. Local storage is origin-specific, so after moving from a local server to the Netlify URL, export a backup on the old origin and import it on the new one.
+- The database itself is still created once in Supabase by running `supabase/schema.sql`. Netlify environment variables configure the client, not the Postgres schema.
+
 
 ---
 
@@ -51,7 +87,7 @@ After that, either device can study offline. The next time both are online, the 
 
 1. validates all 36 lesson files,
 2. rebuilds `assets/js/data/lessons.js`,
-3. builds `deploy/` with `tools/prepare_deploy.py`, injecting the current Supabase SQL into `setup.html`,
+3. builds `deploy/` with `tools/prepare_deploy.py`, injecting the current Supabase SQL into `setup.html` and any `SUPABASE_URL` / `SUPABASE_ANON_KEY` repository variables into `config.js`,
 4. stamps a fresh service-worker cache name derived from a hash of the bundle, and
 5. publishes the artifact to GitHub Pages.
 
@@ -74,7 +110,7 @@ Then, in the GitHub repository:
 Notes:
 
 - **`deploy/` and `hsk5-studio-site.zip` are ignored** and rebuilt by CI. Keep them for a local drag-and-drop deploy; do not commit them.
-- **Private repositories:** Pages on a free plan requires a public repository. The repository contains no Supabase keys or study data; the project URL and anon key are entered in Settings at runtime. If you need a private repo, use the Netlify/Cloudflare alternatives below.
+- **Private repositories:** Pages on a free plan requires a public repository. The repository contains no Supabase keys or study data; the project URL and anon key are build-time variables or are entered in Settings at runtime. If you need a private repo, use the Netlify/Cloudflare alternatives below.
 - **PWA updates:** the cache name changes with the bundle hash, so an installed iPhone app installs the new assets on its next online launch.
 - **Supabase Site URL:** if email confirmation is on, set Authentication → URL Configuration → Site URL to the deployed URL (including the `/REPO/` path).
 - **Manual re-run:** Actions → Deploy HSK5 Studio → Run workflow. The workflow also runs on `workflow_dispatch`.
@@ -85,7 +121,7 @@ Notes:
 
 GitHub Pages is free for **public** repositories. Private-repo Pages requires GitHub Pro/Team, which is the usual billing wall. You have two free ways out:
 
-**1. Make the repository public.** Pages becomes free immediately. The repository contains no Supabase keys, no study history and no personal data; the project URL and anon key are entered in Settings at runtime. Then continue from step 2 above.
+**1. Make the repository public.** Pages becomes free immediately. The repository contains no Supabase keys, no study history and no personal data; the project URL and anon key are build-time variables or are entered in Settings at runtime. Then continue from step 2 above.
 
 **2. Keep it private and use Netlify (recommended alternative).**
 
@@ -209,6 +245,7 @@ assets/js/ui/               screens
 assets/js/data/vocab.js     generated vocabulary (1,367 book + 390 gap + 598 HSK4)
 assets/js/data/lessons.js   generated lesson content (36 units)
 assets/js/data/tap.js       generated tap-to-define reference for the reading passages
+assets/js/data/config.js    optional build-injected Supabase URL + anon key (empty by default)
 content/lesson-NN.json      editable source for each lesson's reading, grammar, dictation and writing task
 content/vocab-by-lesson.json lesson vocabulary used to author and validate content
 supabase/schema.sql         table, RLS and atomic save function
@@ -285,6 +322,9 @@ To rebuild the vocabulary data from source files, put the HSK JSON lists in `dat
 | Netlify "Cannot find module tools/prepare_deploy.mjs" | Commit `tools/prepare_deploy.mjs`, and make sure Netlify's **Base directory** is empty (repo root) |
 | Netlify "service worker references missing files" | A generated asset was not committed. In particular commit `assets/js/data/tap.js`; if editing passages, run `python tools/build_tapdata.py` and `node tools/check_tap.mjs` first |
 | Netlify "Deploy directory deploy does not exist" | Set **Publish directory** to `deploy`; `netlify.toml` already does this unless the UI overrides it |
+| Settings still asks for the project URL and key | The build did not see the environment variables. Add `SUPABASE_URL` and `SUPABASE_ANON_KEY` in Netlify → Environment variables, then **Trigger deploy → Clear cache and deploy site**; an installed PWA may need one online relaunch to pick up the new bundle |
+| Netlify build fails with "Set both SUPABASE_URL and SUPABASE_ANON_KEY" | Only one variable is defined. Add the other, or delete both to fall back to manual Settings |
+| Signed out after changing the Supabase project | Expected: tokens from the old project are cleared. Sign in again; local progress is kept and merges |
 | GitHub Actions fails at "Configure Pages" | Set **Settings → Pages → Source: GitHub Actions**. Private repositories need GitHub Pro (free Pages requires a public repo) |
 | Workflow does not run on push | The trigger is `main`. Change the branch in `.github/workflows/deploy.yml` if your default branch differs |
 | Site still looks old on iPhone | Close the home-screen app completely and reopen it while online; each CI build has a new service-worker cache hash |
