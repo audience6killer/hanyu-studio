@@ -158,7 +158,9 @@
   function friendly(e) {
     const msg = String(e && e.message || e || "");
     if (/failed to fetch|networkerror|load failed/i.test(msg)) return "Network error. Check the connection and the project URL.";
-    if (/invalid login credentials/i.test(msg)) return "Email or password is incorrect.";
+    if (/email logins are disabled/i.test(msg)) return "Email sign-in is disabled in Supabase. Authentication → Sign In / Providers → Email → enable the Email provider.";
+    if (/signups not allowed|signup.*disabled/i.test(msg)) return "Account creation is disabled in Supabase. Authentication → Sign In / Providers → enable “Allow new users to sign up”, create the account, then turn it off again.";
+    if (/invalid login credentials/i.test(msg)) return "Email or password is incorrect. If this is your first time, use Create account.";
     if (/email not confirmed/i.test(msg)) return "Confirm your email first, then sign in.";
     if (/user already registered/i.test(msg)) return "That email already has an account. Sign in instead.";
     if (/relation .*progress.* does not exist/i.test(msg)) return "The progress table is missing. Run supabase/schema.sql in the SQL editor.";
@@ -166,6 +168,7 @@
     if (/jwt|token.*expired|invalid.*token/i.test(msg)) return "The session expired. Sign in again.";
     return msg;
   }
+  S.friendly = friendly;
 
   /* ---------------- HTTP ---------------- */
   async function ensureAuth() {

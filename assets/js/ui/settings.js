@@ -91,7 +91,7 @@
         }
         HY.app.refresh();
       } catch (e) {
-        C.toast(e.message || "Could not connect.", "warn");
+        C.toast((HY.sync.friendly && HY.sync.friendly(e)) || e.message || "Could not connect.", "warn");
       } finally {
         working = false;
         (buttons || []).forEach((b) => { b.disabled = false; });
@@ -132,18 +132,19 @@
 
     if (!HY.sync.signedIn()) {
       const f = authFields(cfg.email, !baked);
-      const signIn = C.btn("Sign in", { kind: "primary", icon: "cloud", onClick: () => authenticate("signin", f, [signIn]) });
+      const signIn = C.btn("Sign in", { kind: "primary", icon: "cloud", onClick: () => authenticate("signin", f, [signIn, signUp]) });
+      const signUp = C.btn("Create account", { kind: "soft", onClick: () => authenticate("signup", f, [signIn, signUp]) });
       add(
         el("div", { class: "sync-status" },
           el("span", { class: "sync-dot idle" }),
           el("div", { class: "sync-status-main" }, el("strong", {}, "Connected to " + (host || "your project")), el("span", { class: "muted small" }, "Sign in to pull your progress.")),
           el("span", { class: "pill pill-muted" }, "signed out")),
         baked ? C.notice("info", el("div", {}, "This site is already pointed at your sync project. ",
-          "Sign in with the account you created there; the project URL and key are a deploy setting, not something to paste on each device.")) : null,
+          "Sign in with the account you created there, or create it here first; the project URL and key are a deploy setting, not something to paste on each device.")) : null,
         el("div", { class: "sync-grid" },
           field("Email", f.emailIn),
           field("Password", f.passIn)),
-        el("div", { class: "sync-actions" }, signIn,
+        el("div", { class: "sync-actions" }, signIn, signUp,
           baked ? null : C.btn("Change project", { kind: "ghost", icon: "gear", onClick: () => {
             C.confirm("Change the sync project?", "Sign out and forget this project URL and key on this device. Local progress stays.", "Change").then((ok) => {
               if (!ok) return;
