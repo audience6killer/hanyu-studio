@@ -1,0 +1,116 @@
+{
+  "lesson": 7,
+  "title_zh": "成语故事两则",
+  "title_en": "Two Idiom Stories",
+  "theme": "Two old idioms about seeing only part of the picture, read as advice for listening carefully and reaching a fair conclusion at work.",
+  "grammar": {
+    "id": "g07",
+    "point": "只有……才……",
+    "point_en": "only if A, and only then B",
+    "structure": "只有 + condition + 才 + result",
+    "explain_en": "Use 只有……才…… when the result in the second clause depends on one condition and on nothing else: 'only if A, then B'. 只有 introduces that single necessary condition. 才 comes after the subject of the second clause and immediately before its verb or adjective, and it marks the result as something that becomes possible only because the condition has been met. The condition clause normally comes first, though it can be moved to the end for emphasis. The subject usually follows 只有 (只有你把计划说清楚，我们才……), but putting the subject first is also fine (你只有说清楚，我们才……). 才 is the fixed partner; it is not a tense marker and it cannot be replaced by 就. Compare 只要……就……, which presents a sufficient condition and sounds permissive ('as long as A happens, B follows'). 只有……才…… narrows the options and often carries a note of insistence or warning. Compare 除非……否则……, which names the only exception and then states what happens without it.",
+    "common_mistake": "The usual slip is pairing the wrong partners, as in 只有努力，就能成功 or 只要你努力，才能成功. Learners also leave 才 out when the second clause ends in an adjective: 只有早睡，身体好 instead of 只有早睡，身体才会好.",
+    "examples": [
+      {
+        "zh": "只有先听清楚别人的想法，才能把自己的意见说对。",
+        "py": "zhǐ yǒu xiān tīng qīng chu bié rén de xiǎng fǎ cái néng bǎ zì jǐ de yì jiàn shuō duì",
+        "en": "Only by hearing other people's thinking first can you put your own view across correctly."
+      },
+      {
+        "zh": "他只有把每个数字都确定下来，才会签字。",
+        "py": "tā zhǐ yǒu bǎ měi gè shù zì dōu què dìng xià lái cái huì qiān zì",
+        "en": "He signs only after every figure has been confirmed."
+      },
+      {
+        "zh": "只有把两个人的想法放在一起，才看得见问题的全部。",
+        "py": "zhǐ yǒu bǎ liǎng gè rén de xiǎng fǎ fàng zài yì qǐ cái kàn de jiàn wèn tí de quán bù",
+        "en": "Only by putting both people's ideas side by side can you see the whole of the problem."
+      }
+    ],
+    "drills": [
+      {
+        "q": "____你先把材料看完，我们才能开始。",
+        "options": [
+          "只有",
+          "只要",
+          "既然",
+          "虽然"
+        ],
+        "answer": 0,
+        "explain": "只有 is the only one of these that can be answered by 才 in the result clause. 只要 would require 就 (只要你把材料看完，我们就可以开始), 既然 pairs with 就 to draw a conclusion from an accepted fact, and 虽然 needs 但是 or 也 to set up a contrast."
+      },
+      {
+        "q": "这种味道，____从小在这里长大的人，____说得清楚。",
+        "options": [
+          "只有……才……",
+          "只要……就……",
+          "既然……就……",
+          "越……越……"
+        ],
+        "answer": 0,
+        "explain": "The slot after the first marker holds a noun phrase (从小在这里长大的人), and the sentence says those people and nobody else can explain the taste — the exclusive reading that 只有……才…… gives. 只要 and 既然 need a full clause with its own subject and predicate, and 越……越…… compares two changes in degree, which cannot be built out of a noun phrase."
+      }
+    ]
+  },
+  "reading": {
+    "title": "每个人都摸到了什么",
+    "text": "公司开周会时，同一个问题常常有好几种说法。有人只看到数据，有人只听到客户的意见。如果大家急着争论，最后拿到的结论往往是片面的。这让我想起盲人摸象的故事：几个人一起去摸大象，一个摸到牙齿，一个摸到尾巴，一个摸到腿，分别说出自己的感觉，谁也不服谁。\n\n其实他们都没有错，只是每个人看到的部分太小。工作上也一样，只有把不同的观察放在一起，才能确定问题到底在哪儿。善于听别人说话的人，往往比急着下结论的人更有智慧。团队讨论的价值，不在于谁的反应最快，而在于大家愿意把话说完整。",
+    "translation": "In a weekly office meeting, the same problem often comes out in several versions. One person looks only at the numbers; another has only heard the customer's complaint. If everyone starts arguing straight away, the conclusion we end up with is usually one-sided. This reminds me of the story of the blind men and the elephant: several of them go up to the animal together, one feels its teeth, one its tail, one its leg, and each reports what he feels, and not one of them gives way. In fact none of them is wrong; each has simply seen too small a part. Work is the same. Only by putting the separate observations side by side can we work out where the problem really is. People who are good at listening tend to have more wisdom than people who are quick to announce a conclusion. The value of a team discussion is not who reacts fastest, but whether everyone is willing to finish the sentence.",
+    "questions": [
+      {
+        "q": "这篇文章主要想说的是____。",
+        "options": [
+          "开会的时候最好少说话",
+          "把片面的看法放在一起才接近事实",
+          "盲人比普通人更有智慧",
+          "客户的意见比数据更重要"
+        ],
+        "answer": 1,
+        "explain": "The second paragraph states the point directly: only by putting different observations together can the team find the real problem."
+      },
+      {
+        "q": "文中说，他们摸大象的时候____。",
+        "options": [
+          "一起把大象画了下来",
+          "分别说出自己的感觉",
+          "找将军来判断对错",
+          "把绳子系在大象身上"
+        ],
+        "answer": 1,
+        "explain": "The passage says 一个摸到牙齿，一个摸到尾巴……分别说出自己的感觉，谁也不服谁."
+      },
+      {
+        "q": "从文章看，作者认为团队讨论最重要的是____。",
+        "options": [
+          "谁的声音最大",
+          "谁的反应最快",
+          "大家愿意把话说完整",
+          "谁手里的数据最多"
+        ],
+        "answer": 2,
+        "explain": "The closing sentence contrasts 反应最快 with 愿意把话说完整 and names the second as the real value."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "盲人用手摸大象，每个人说的都不一样。",
+      "你先别急着下结论，事情还没有确定。",
+      "他善于听别人说话，所以很少出错。",
+      "只看到一部分就下判断，结论常常是片面的。",
+      "这次讨论没有结果，大家分别回了办公室。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe a meeting or a family discussion where people saw the same situation differently. Show what happened when you slowed down and put the pieces together. Use the words below.",
+    "required_words": [
+      "结论",
+      "片面",
+      "确定",
+      "善于"
+    ],
+    "min_chars": 80,
+    "model": "上周我们讨论一个新项目。开始时每个人看到的部分都不一样，有人担心成本，有人担心时间。我们没有急着下结论，而是把意见一条一条写下来，再逐条确定。只看一部分就下判断，结论往往是片面的。讨论结束后我发现，只有把不同的看法放在一起，才会得出完整的答案。善于听别人说话，也是一种智慧。",
+    "tips": "Open with the situation in one sentence, then give one concrete disagreement. Show the turn — what you did differently — and close with a short line about what you now believe."
+  }
+}

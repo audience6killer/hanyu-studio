@@ -1,0 +1,86 @@
+{
+  "lesson": 25,
+  "title_zh": "给自己加满水",
+  "title_en": "Adding up the load on yourself",
+  "theme": "A ship's ballast becomes a working metaphor: the duties, rules and dependable people that keep a career steady are weight you add on purpose.",
+  "grammar": {
+    "id": "g25",
+    "point": "鉴于 / 基于 / 出于",
+    "point_en": "in view of / on the basis of / out of (a motive)",
+    "structure": "鉴于 + 情况，…… ｜ 基于 + 依据，…… ｜ 出于 + 动机，……",
+    "explain_en": "These three prepositions all introduce a reason, but each one takes a different kind of reason, and that is exactly where learners slip. 鉴于 ('in view of, given') introduces a situation you have observed, usually a problem, a change or a risk, and the clause after it says what should be done about that situation. It is formal and common in reports, notices and minutes: 鉴于最近的情况，我们决定…… It nearly always opens the sentence, before the subject, with a comma after the phrase. 基于 ('on the basis of, based on') introduces the material or evidence that a judgement, plan or claim rests on: data, research, experience, a contract, a survey. The phrase can come before the subject, or after a noun as 基于……的 + noun, for example 基于数据的判断. 出于 ('out of, from') introduces the motive or feeling behind a person's action: 出于好奇, 出于礼貌, 出于责任, 出于同情. Its subject is a person or an organisation with intentions, and the phrase explains why they acted, not what the evidence was. A quick test: is the reason an observed situation (鉴于), a body of evidence (基于), or a motive inside someone's head (出于)? Keep the reason inside the phrase, then a comma, then a full clause with its own subject. Do not drop the comma and do not stack 因为 in the same slot.",
+    "common_mistake": "Learners mix the members up: 鉴于我很累 and 出于调查结果 both sound wrong to a native ear. Match the phrase to the kind of reason — observed situation, evidence, or personal motive.",
+    "examples": [
+      {
+        "zh": "鉴于天气恶劣，公司决定推迟今天的户外活动。",
+        "py": "jiàn yú tiān qì è liè gōng sī jué dìng tuī chí jīn tiān de hù wài huó dòng",
+        "en": "In view of the bad weather, the company decided to postpone today's outdoor event."
+      },
+      {
+        "zh": "基于去年的数据，我们认为这个方案的风险可以承受。",
+        "py": "jī yú qù nián de shù jù wǒ men rèn wéi zhè ge fāng àn de fēng xiǎn kě yǐ chéng shòu",
+        "en": "On the basis of last year's figures, we think the risk of this plan is bearable."
+      },
+      {
+        "zh": "他出于谨慎，把每一份合同都读了两遍。",
+        "py": "tā chū yú jǐn shèn bǎ měi yī fèn hé tóng dōu dú le liǎng biàn",
+        "en": "Out of caution, he read every contract twice."
+      }
+    ],
+    "drills": [
+      {
+        "q": "他____同情，把那位老人的车费免了。",
+        "options": ["出于", "鉴于", "基于", "至于"],
+        "answer": 0,
+        "explain": "同情 is a feeling inside a person, so 出于 (out of a motive) is the only fit. 鉴于 needs an observed situation before a decision, 基于 needs evidence such as data, and 至于 means 'as for' and changes the topic."
+      },
+      {
+        "q": "这份市场报告是____三年的销售数据写成的，所以结论比较可靠。",
+        "options": ["出于", "鉴于", "基于", "关于"],
+        "answer": 2,
+        "explain": "基于 introduces the evidence that a piece of work rests on, here three years of sales data. 出于 would make the data a motive, 鉴于 introduces an observed situation for a decision rather than the basis of writing, and 关于 only marks a topic."
+      }
+    ]
+  },
+  "reading": {
+    "title": "船上的重量",
+    "text": "去年冬天，我跟一位老船长出海。船刚离开港口，风浪就大了起来，船身左右摇晃。我在舱里坐不住，心里有点慌张，只好抓住桌子。老船长却很镇定，他让人往船底的水箱里灌水，动作很谨慎。我不明白：船已经这么重了，为什么还要加水？他说，海上最大的风险不是浪，而是空船；加了重量，船才稳。那天风浪一直没停，我们却平平安安地返航了。\n\n鉴于那次经历，我慢慢懂得了一个道理：人不总是越轻越好。工作也一样，适当的责任、清楚的规则、几个靠得住的伙伴，都是我们的重量。它们让我们在恶劣的环境里保持平衡，不至于一有风吹草动就摔倒。彻底明白这一点，我用了好几年。",
+    "translation": "Last winter I went out to sea with an old captain. We had barely left the harbour when the wind and waves picked up and the hull began to roll from side to side. I could not sit still in the cabin, felt a little flustered and had to hold on to the table. The captain stayed calm. He had the crew pump water into the tanks at the bottom of the boat, working carefully. I did not understand: the boat was already so heavy, why add water? He said that at sea the biggest risk is not the waves but an empty hull; with the weight in, the boat steadies. The wind never dropped that day, yet we made it home safely. In view of that experience, I gradually learned something: a person is not always safer the lighter they are. Work is the same. Reasonable responsibility, clear rules and a few dependable colleagues are our weight. They hold us in balance in bad conditions, so that we do not fall over at the first gust of wind. It took me several years to understand this fully.",
+    "questions": [
+      {
+        "q": "这篇文章主要想说明____。",
+        "options": ["船越轻就越安全", "人在工作中也需要一点重量", "老船长其实不熟悉海上的情况", "出海之前应该多准备一些水"],
+        "answer": 1,
+        "explain": "The second paragraph turns the boat into a metaphor and states the point directly: work is the same, responsibilities and rules are our weight."
+      },
+      {
+        "q": "老船长让人往水箱里灌水，是因为____。",
+        "options": ["船舱里的水不够用", "空船在风浪里更危险", "他想让船开得更快", "水箱需要经常清洗"],
+        "answer": 1,
+        "explain": "The captain says '海上最大的风险不是浪，而是空船', and the fact that the boat stayed steady confirms the reason."
+      },
+      {
+        "q": "从“彻底明白这一点，我用了好几年”可以看出作者____。",
+        "options": ["一直不认同老船长的做法", "后来再也不愿意出海", "花了很长时间才理解这个道理", "很快就当上了船长"],
+        "answer": 2,
+        "explain": "The closing sentence says the author needed several years to understand the idea fully, so the lesson came slowly rather than at once."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "那天的风浪很大，船上的人都有点慌张。",
+      "老船长很谨慎，他先检查了每个水箱。",
+      "空船在海上风险更大，必须增加重量。",
+      "我们终于平安返航，大家都松了一口气。",
+      "遇到恶劣的天气，保持平衡最重要。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe a time when an extra responsibility or a strict rule turned out to help you stay steady at work. Use at least three of the words below.",
+    "required_words": ["平衡", "谨慎", "重量", "承受"],
+    "min_chars": 90,
+    "model": "去年我接手了一个新项目，事情多得像石头，压得我喘不过气。起初我只想快点做完，结果越想快越乱。后来我给自己加了几条规则：每天只排三件最重要的事，每周五留半小时整理。这些规则看起来是重量，其实是一种平衡。我变得谨慎，不再一有问题就慌，也慢慢能承受更多的任务。",
+    "tips": "Open with the pressure you felt, name one concrete rule or extra duty you took on, then close with the specific change you noticed afterwards."
+  }
+}

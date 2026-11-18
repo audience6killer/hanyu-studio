@@ -1,0 +1,116 @@
+{
+  "lesson": 36,
+  "title_zh": "老舍与养花",
+  "title_en": "Lao She and his flowers",
+  "theme": "What a few pots of chrysanthemums on a balcony teach about patience, small daily care and the pleasure of sharing.",
+  "grammar": {
+    "id": "g36",
+    "point": "值得 / 便于 / 善于 / 勇于",
+    "point_en": "be worth; make it easy to; be good at; be brave enough to",
+    "structure": "值得/便于/善于/勇于 + 动词短语",
+    "explain_en": "These four are verb-like words that take another verb phrase after them, and each adds a different judgement. 值得 means 'be worth it': 值得花时间, 值得一试. The thing after it is an action whose value you are endorsing. It also works with verbs of deserving when the subject is a person or thing — 值得信赖, 值得尊敬 — but it never takes a bare adjective: say 很值得, not 值得很.\n便于 means 'make it convenient to' and usually follows a measure or an arrangement, explaining what that arrangement makes easier: 把常用文件放在桌边，便于随时查找。 It describes the purpose of a set-up, not a personal skill.\n善于 means 'be good at' and points to a method or a way of handling people and situations: 善于安排时间, 善于沟通。 擅长 is close, but it is used more for trained skills and often takes a noun (擅长画画).\n勇于 means 'have the courage to' and is formal and approving. It introduces something risky but admirable: 勇于承认错误, 勇于尝试。 敢于 is stronger and more neutral; 勇于 sounds like praise.\nAll four normally take a verb phrase rather than a bare noun; 便于 in particular describes an arrangement, not a personal skill.",
+    "common_mistake": "Learners say 值得很 for 'very worth it', or put a bare noun after 善于 without a verb (善于英语). They also use 勇于 for trivial actions, where 敢于 or 愿意 sounds more natural.",
+    "examples": [
+      {
+        "zh": "这份报告值得再花半天时间修改。",
+        "py": "zhè fèn bào gào zhí dé zài huā bàn tiān shí jiān xiū gǎi",
+        "en": "This report is worth another half day of revision."
+      },
+      {
+        "zh": "常用文件放在桌边，便于随时查找。",
+        "py": "cháng yòng wén jiàn fàng zài zhuō biān biàn yú suí shí chá zhǎo",
+        "en": "Keeping frequently used files at the edge of the desk makes them easy to find at any time."
+      },
+      {
+        "zh": "他善于安排时间，也勇于承认自己的错误。",
+        "py": "tā shàn yú ān pái shí jiān yě yǒng yú chéng rèn zì jǐ de cuò wù",
+        "en": "He is good at managing his time and brave enough to admit his own mistakes."
+      }
+    ],
+    "drills": [
+      {
+        "q": "这套工具放在门口，____取用。",
+        "options": [
+          "便于",
+          "值得",
+          "善于",
+          "勇于"
+        ],
+        "answer": 0,
+        "explain": "便于 links a placement to the convenience it creates, here 'easy to take and use'. 值得 judges value, while 善于 and 勇于 describe people's abilities, not where tools are kept."
+      },
+      {
+        "q": "这个习惯要坚持下去，很____。",
+        "options": [
+          "便于",
+          "善于",
+          "值得",
+          "勇于"
+        ],
+        "answer": 2,
+        "explain": "值得 can end a short evaluative sentence meaning 'worth doing'. The other three all need a following verb phrase and cannot sit at the end of the sentence like this."
+      }
+    ]
+  },
+  "reading": {
+    "title": "阳台上的菊花",
+    "text": "搬进这套房子时，阳台是空的。我从菜市场捡回两个旧花盆，又买了三盆菊花，摆在窗边。起初只是想让屋里多一点颜色，没想到一年以后，我成了这栋楼里最会浇水的人。\n养花没有想象中轻松。夏天暴雨来得急，盆里的土总是潮湿的，根就会烂；冬天屋里干燥，该浇的时候不能拖，不然叶子容易发黄。我慢慢熟练了，也学会了看天气：天热时早晚各浇一次，天冷了就少浇。施肥也有讲究，多了烧根，少了不开花；花盆垫高一点，便于排水。这些经验，都是在一个个失败的周末里攒下来的。\n去年秋天，第一朵菊花开的那个早上，我在阳台上站了很久。那种开心很难跟别人解释，反正就是觉得日子有了回报。养花值得花时间，也让我学会了等待。现在邻居路过，总问我能不能分几枝，我总是很乐意分享。",
+    "translation": "When I moved into this flat, the balcony was empty. I picked up two old flowerpots from the market, bought three pots of chrysanthemums and set them by the window. At first I only wanted a little more colour in the room; a year later I had become the best waterer in the building.\nGrowing flowers is less easy than it looks. Summer rainstorms come fast and the soil in the pots stays damp, so the roots rot; indoors in winter the air is dry, and watering cannot be put off, otherwise the leaves soon turn yellow. I gradually learned to read the weather: water morning and evening on hot days, less when it turns cold. Fertilising has its rules too — too much burns the roots, too little means no flowers; I raised the pots on bricks so the water drains away easily. All of this I gathered over a series of failed weekends.\nLast autumn, on the morning the first chrysanthemum opened, I stood on the balcony for a long time. That kind of happiness is hard to explain to anyone else; it simply felt as though the days had paid me back. Growing flowers is worth the time, and it has taught me to wait. Now when neighbours pass by they ask whether they can have a few stems, and I am always happy to share.",
+    "questions": [
+      {
+        "q": "这篇文章主要写的是____。",
+        "options": [
+          "菜市场里的花应该怎样挑选",
+          "作者养菊花的过程和感受",
+          "邻居之间如何互相帮助",
+          "阳台装修需要注意什么"
+        ],
+        "answer": 1,
+        "explain": "The passage follows the balcony from empty pots to the first flower and ends with sharing stems, so it is about the process of growing chrysanthemums and how it felt."
+      },
+      {
+        "q": "作者说夏天暴雨过后，盆里的土总是潮湿的，这样会让____。",
+        "options": [
+          "花开得更早",
+          "叶子变红",
+          "土变得很干",
+          "根烂掉"
+        ],
+        "answer": 3,
+        "explain": "The second paragraph states that after a summer rainstorm the soil in the pots stays damp, and the roots rot (根就会烂)."
+      },
+      {
+        "q": "从最后一段看，作者认为养花最大的收获是____。",
+        "options": [
+          "省下了买花的钱",
+          "认识了整栋楼的邻居",
+          "学会了耐心和分享",
+          "把阳台装饰得更漂亮"
+        ],
+        "answer": 2,
+        "explain": "The closing lines say growing flowers made the author good at waiting and happy to give stems to neighbours, which points to patience and sharing rather than money or decoration."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "这盆菊花需要每天浇水。",
+      "暴雨过后，花盆里积了很多水。",
+      "施肥不能太多，不然叶子会发黄。",
+      "她把多出来的花分享给邻居。",
+      "养花让我的生活多了不少乐趣。"
+    ]
+  },
+  "writing": {
+    "prompt": "Write about a hobby or routine that rewards patience. Describe how you started, one difficulty you hit, and what you get from it now. Use the words below.",
+    "required_words": [
+      "养",
+      "乐趣",
+      "熟练",
+      "分享"
+    ],
+    "min_chars": 80,
+    "model": "我在阳台上养了几盆菊花，开始连浇水都不熟练，不是太多就是太少。后来我每天记下天气和土的干湿，慢慢摸出了规律。花开的时候，我把照片分享给同事，大家都说好看。养花最大的乐趣，是看着一件小事一天天变好。",
+    "tips": "Open with how the hobby started, describe one concrete difficulty and how you fixed it, then close with the pleasure it gives you now."
+  }
+}

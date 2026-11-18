@@ -1,0 +1,96 @@
+{
+  "lesson": 23,
+  "title_zh": "放手",
+  "title_en": "Letting go",
+  "theme": "A parent's account of one broken rule, a long family conversation, and the evening she began to let go.",
+  "grammar": {
+    "id": "g23",
+    "point": "在……方面 / 从……角度看",
+    "point_en": "in the area of X / from the perspective of X",
+    "structure": "在 + X + 方面，…… / 从 + X + 角度看，……",
+    "explain_en": "在……方面 limits a claim to one area of a person or a subject — 'in terms of, as regards'. It answers the question 'where does this statement apply?' and it can also sit inside a phrase to modify a noun: 他在语言方面的能力, 公司在培训方面的投入. 从……角度看 (also 从……来看, 从……看) switches the sentence to a viewpoint, usually because the speaker is about to contrast it with another angle — 'from the point of view of'. It answers 'from whose side are we looking?' The two are not interchangeable: only 在 can attach to a noun with 的 and modify it (在管理方面的经验), while 从 needs 角度 or 看 / 来看 after the noun and never takes 的. Both frames come before the clause they frame, normally at the start of the sentence or straight after the subject. In an exam essay, 在……方面 is handy for scoping a paragraph and 从……角度看 for adding a second opinion before you take sides.",
+    "common_mistake": "Learners mix the prepositions and the nouns, producing 在……角度看, which does not exist. The other slip is leaving the frame unfinished (从父母), because 角度 or 看 is what makes 从 a viewpoint marker.",
+    "examples": [
+      {
+        "zh": "在教育方面，他和妻子的想法不太一样。",
+        "py": "zài jiào yù fāng miàn tā hé qī zi de xiǎng fǎ bú tài yí yàng",
+        "en": "Where education is concerned, he and his wife think somewhat differently."
+      },
+      {
+        "zh": "从孩子的角度看，父母安排得太紧了。",
+        "py": "cóng hái zi de jiǎo dù kàn fù mǔ ān pái de tài jǐn le",
+        "en": "From the child's point of view, the parents' schedule is too tight."
+      },
+      {
+        "zh": "她在沟通方面很有经验。",
+        "py": "tā zài gōu tōng fāng miàn hěn yǒu jīng yàn",
+        "en": "She has a lot of experience in communication."
+      }
+    ],
+    "drills": [
+      {
+        "q": "____，这个规定确实太严了。",
+        "options": ["从孩子的角度看", "在孩子的角度看", "以孩子的角度看", "在孩子的角度"],
+        "answer": 0,
+        "explain": "从……角度看 is the fixed viewpoint frame. 在 pairs with 方面, not with 角度看; 以 belongs to 以……为……; and 在……的角度 on its own never forms a viewpoint phrase."
+      },
+      {
+        "q": "他在写作____很有经验，改稿子的工作可以交给他。",
+        "options": ["方面", "角度", "方向", "部分"],
+        "answer": 0,
+        "explain": "在……方面 is the frame for naming an area of skill or activity. 角度 belongs with 从……看, and 方向 and 部分 do not name an area inside this frame."
+      }
+    ]
+  },
+  "reading": {
+    "title": "那一次我没有替她做决定",
+    "text": "女儿上高中以后，我们有过一次很长的谈话。起因是她违反了一条家里的规矩：晚上十点才回家，事先没有说一声。我当时很生气，觉得她不够乖。后来才知道，那天班里排练到很晚，她是征求了老师的意见才留下的。晚饭后，我们三个人坐下来谈。在教育方面，我和她爸爸的想法并不完全一致。我认为规矩要严，他觉得孩子需要一个自己判断的阶段。从女儿的角度看，她已经不是小学生了，很多事可以单独处理；可在我这里，她还是那个需要人操心的孩子。最后我们都做了让步：晚归要提前发消息，但具体时间由她自己安排。那天她回房间以后，我在客厅坐了很久。我隐约感觉到，真正的难题不是定规矩，而是学会放手。",
+    "translation": "After my daughter started senior high school, we had one very long conversation. It began because she had broken a rule of the house: she came home at ten in the evening without saying anything in advance. I was angry at the time and thought she had not been a well-behaved girl. Only later did I learn that her class had been rehearsing late and that she had stayed after asking her teacher for advice. After dinner the three of us sat down to talk. When it comes to education, my husband and I do not fully agree. I think rules should be strict; he thinks a child needs a stage in which she judges things for herself. From my daughter's point of view she is no longer a primary-school pupil and can handle many things on her own, but in my mind she is still the child who needs someone to worry about her. In the end we both made concessions: she has to send a message before staying out late, but she arranges the exact time herself. That night, after she went back to her room, I sat in the living room for a long while. I had a faint sense that the real difficulty was not making rules but learning to let go.",
+    "questions": [
+      {
+        "q": "这篇文章主要写了____。",
+        "options": [
+          "一位母亲在孩子长大时学着放手的经过",
+          "女儿考试成绩下降的原因",
+          "一次学校家长会的内容",
+          "家里重新装修房子的经历"
+        ],
+        "answer": 0,
+        "explain": "The passage runs from the broken rule, through the family talk and the compromise, to the closing line about learning to let go."
+      },
+      {
+        "q": "女儿那天晚归，是因为____。",
+        "options": ["班里排练到很晚", "路上堵车", "她和同学去逛书店", "老师留她补课"],
+        "answer": 0,
+        "explain": "The text says 那天班里排练到很晚，她是征求了老师的意见才留下的. Nothing about traffic, bookshops or extra lessons appears."
+      },
+      {
+        "q": "文章最后说“真正的难题……是学会放手”，可以看出作者____。",
+        "options": [
+          "有些不舍，但明白必须这样做",
+          "非常生气，准备加重惩罚",
+          "很轻松，因为问题彻底解决了",
+          "后悔当初定下这条规矩"
+        ],
+        "answer": 0,
+        "explain": "She sits alone for a long time and calls letting go the real difficulty; the tone is reluctant understanding rather than anger or relief."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "这件事你应该先征求一下父母的意见。",
+      "家里的规矩不能随便改，要一起商量。",
+      "他一个人单独完成了整个报告。",
+      "遇到问题要多沟通，别一个人想办法。",
+      "这个阶段最重要的是保持耐心。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe a time you had to stop managing something and let someone else handle it. Explain what you were worried about and what actually happened. Use four of the words below.",
+    "required_words": ["沟通", "单独", "让步", "面临"],
+    "min_chars": 80,
+    "model": "去年我把一个项目交给新同事。最初我什么都要操心，每天看三次进度。后来我意识到，这样只会让她不敢单独做决定。我们认真沟通了一次，我把要求说清楚，就不再每天追问。她做得比我预想的好，只在关键的地方来问我。我也学会了一点：面临选择时，让步不是不负责，而是把事情交给更合适的人。",
+    "tips": "Set the scene in one sentence, show the worry with a concrete detail, then close with what the other person did and what you learned."
+  }
+}

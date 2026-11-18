@@ -1,0 +1,96 @@
+{
+  "lesson": 20,
+  "title_zh": "小人书摊",
+  "title_en": "Picture-story book stalls",
+  "theme": "A street-corner picture-book stall from childhood, and the cheap shared pleasure of reading before screens took over.",
+  "grammar": {
+    "id": "g20",
+    "point": "为……而……",
+    "point_en": "for the sake of / because of",
+    "structure": "为 + purpose or cause + 而 + verb phrase",
+    "explain_en": "为……而…… puts a purpose or a cause in front of an action, literally 'for the sake of X, do Y'. Two uses matter. The first is purpose: 为家人而努力 (work hard for one's family), 为这本书而坚持 (keep going for the sake of this book), 为梦想而搬到北京 (move to Beijing for a dream). The 为-phrase names the goal the action serves. The second is cause or emotion: 为这样的进步而高兴 (be glad about progress like this), 为孩子的安全而担心 (worry about the child's safety), 为那段经历而感谢他 (thank him for that experience). Here the 为-phrase names what triggers the feeling. The 而 is not optional — without it the sentence turns into a bare preposition and loses its pivot. The register is written and semi-formal: it belongs in speeches, essays and news copy rather than in a quick chat. Compare 为了……: it also comes before the verb and marks purpose, but it takes a purpose phrase and never needs 而 (为了省时间，他坐地铁). Compare 因为……所以……: that pair marks plain cause and effect in speech, while 为……而…… fuses the cause and the action into one compact written phrase. Position: the subject comes first, then 为 + noun phrase + 而 + verb phrase; 而 never comes before 为.",
+    "common_mistake": "The usual slip is putting a whole clause after 为 (为我他很高兴) or dropping 而 and breaking the frame. Remember 为 is read wèi here, and the 为-phrase follows the subject instead of opening the sentence.",
+    "examples": [
+      {
+        "zh": "他每天早起，为自己的目标而努力。",
+        "py": "tā měi tiān zǎo qǐ wèi zì jǐ de mù biāo ér nǔ lì",
+        "en": "He gets up early every day and works hard for his own goals."
+      },
+      {
+        "zh": "老人为这些旧书而自豪，它们陪了他四十年。",
+        "py": "lǎo rén wèi zhè xiē jiù shū ér zì háo tā men péi le tā sì shí nián",
+        "en": "The old man is proud of these old books; they have been with him for forty years."
+      },
+      {
+        "zh": "我们为这个小小的进步而高兴。",
+        "py": "wǒ men wèi zhè ge xiǎo xiǎo de jìn bù ér gāo xìng",
+        "en": "We are delighted about this small amount of progress."
+      }
+    ],
+    "drills": [
+      {
+        "q": "请不要____一点小事而生气，先把情况说清楚。",
+        "options": ["为", "以", "把", "由"],
+        "answer": 0,
+        "explain": "为……而…… is the fixed frame for a cause that triggers a feeling or an action. 以 would need another 为 later, 把 needs an object plus a verb result, and 由 marks the doer in a passive."
+      },
+      {
+        "q": "他为____而坚持每天写作，十年没有停过。",
+        "options": ["自己的梦想", "自己的梦想是", "他有一个梦想", "因为梦想"],
+        "answer": 0,
+        "explain": "Only a noun phrase can stand between 为 and 而. 是 cannot appear inside the phrase, 他有一个梦想 is a complete clause, and 因为梦想 repeats the meaning of 为."
+      }
+    ]
+  },
+  "reading": {
+    "title": "街边的书摊",
+    "text": "我小时候，最热闹的地方是街边的书摊。摊主用砖头和木板搭了一个棚子，上面铺着旧布，很粗糙，却收拾得整整齐齐。架上摆着几百册连环画，题材大多是历史和英雄故事。看一本要付两分钱，还要交五分钱押金。对小学生来说，那是最便宜的娱乐。放学以后，我们挤在棚子下面，一页一页地翻，谁也不说话。那时没有网络，也没有动画片，电视只有几个台，节目单调，可我们一点也不觉得闷。摊主是位老人，年纪很大，身材瘦小，做这行已经三十多年。他常说，假如这些书能让孩子多认几个字，他就满足了。很多年过去了，书摊不见了，那些木头和砖头也找不到了。我仍然为那段简单的快乐而感谢那位老人。",
+    "translation": "When I was a child, the busiest spot in the neighbourhood was the book stall by the road. The owner had put up a shed with bricks and wooden boards, covered it with old cloth, and although it was coarse it was kept extremely neat. The shelves held several hundred picture-story books, mostly on history and heroes. Reading one cost two cents, plus a five-cent deposit. For a primary-school pupil that was the cheapest entertainment around. After school we crowded under the shed and turned the pages one by one, and nobody said a word. There was no internet then and no cartoons; the television had only a few channels and the programmes were monotonous, yet we never felt bored. The owner was an old man, very advanced in years and small in build, who had been in this trade for over thirty years. He often said that if these books could get children to recognise a few more characters, he would be satisfied. Many years have passed, the stall is gone, and those wooden boards and bricks cannot be found anywhere. I am still grateful to that old man for those simple pleasures.",
+    "questions": [
+      {
+        "q": "这篇文章主要写了____。",
+        "options": [
+          "作者小时候在书摊看连环画的经历",
+          "一本连环画从编辑到印刷的过程",
+          "动画片为什么比旧书更受欢迎",
+          "老人收藏旧书的几种方法"
+        ],
+        "answer": 0,
+        "explain": "The passage describes the stall, its prices, the children reading there and the owner; the final paragraph confirms it is a memory of that period."
+      },
+      {
+        "q": "那时候看一本连环画，需要付____。",
+        "options": ["两分钱和五分钱押金", "五分钱", "一角钱", "什么也不用付"],
+        "answer": 0,
+        "explain": "The text says 看一本要付两分钱，还要交五分钱押金, so both amounts are needed; five cents alone is only the deposit."
+      },
+      {
+        "q": "老人说“假如这些书能让孩子多认几个字，他就满足了”，可以看出他____。",
+        "options": [
+          "更在意孩子从书里得到什么",
+          "想靠书摊赚很多钱",
+          "不喜欢孩子常来看书",
+          "打算把书全部卖掉"
+        ],
+        "answer": 0,
+        "explain": "The condition he sets is about the children learning characters, not about profit; the deposit and low price point the same way."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "那时候没有网络，孩子们最大的娱乐就是看连环画。",
+      "他每天下班以后都去书摊翻一翻旧杂志。",
+      "现在的孩子更习惯看动画片，很少翻纸质书。",
+      "这本连环画很旧了，他却一直收藏着。",
+      "周末的娱乐不一定要花很多钱。"
+    ]
+  },
+  "writing": {
+    "prompt": "Write about a cheap activity you loved as a child. Describe the place, what you did there, and how you feel about it now. Use four of the words below.",
+    "required_words": ["娱乐", "连环画", "年代", "收藏"],
+    "min_chars": 80,
+    "model": "我小时候的娱乐很简单：街口有个旧书摊，摆着几百册连环画。看一本只要两分钱，我常常在那里站一个下午。那个年代没有网络，也没有动画片，可我们一点也不觉得闷。有一本讲船长的书我特别喜欢，后来攒了三个月的零钱才买下来，一直收藏到现在。",
+    "tips": "Start with the activity and what it cost, add two concrete details about the place, then close with the difference between then and now."
+  }
+}

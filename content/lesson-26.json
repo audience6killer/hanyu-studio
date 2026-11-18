@@ -1,0 +1,86 @@
+{
+  "lesson": 26,
+  "title_zh": "你属于哪一种“忙”",
+  "title_en": "Which kind of “busy” person are you",
+  "theme": "Two kinds of busy — one driven by other people's messages, one driven by your own plan — and the weekly review that tells them apart.",
+  "grammar": {
+    "id": "g26",
+    "point": "难免 / 不免 / 未免",
+    "point_en": "inevitably / cannot help but / rather too much",
+    "structure": "难免 + (会) + 动词/形容词 ｜ 不免 + 动词短语（情绪） ｜ 未免 + (太/过于) + 形容词/动词短语",
+    "explain_en": "All three concede that something undesirable is hard to dodge, but their force and their grammar differ. 难免 ('hard to avoid, inevitably') is the neutral, common one in writing. It follows a statement of a fact or a tendency and predicts the natural consequence: 忙起来难免会出错. It works for anybody, including yourself, and takes a verb phrase or an adjective, very often with 会 inserted. 不免 ('cannot help but') adds a personal, slightly emotional tone. It describes a feeling or reaction the speaker cannot suppress — 看到他这么努力，我不免有点感动 — and it normally has a person as subject, most often 我, 我们 or 人. 未免 ('rather too, a bit much') is different in kind: it evaluates and mildly criticises, meaning 'more than is reasonable'. It usually precedes 太, 过于 or 有点 plus an adjective, or a verb phrase describing excess: 这个要求未免太高了. So: 难免 predicts a natural result, 不免 reports an involuntary feeling, 未免 judges something excessive. Position is the same for all three — after the subject, before the predicate — but 未免 carries a complaint, so it cannot be used for a neutral prediction without sounding as if you are blaming someone.",
+    "common_mistake": "Learners use 未免 for plain unavoidable results, e.g. 时间紧，未免会加班, which sounds like a complaint that the overtime is excessive. For a neutral prediction, use 难免.",
+    "examples": [
+      {
+        "zh": "第一次上台讲话，难免会有点紧张。",
+        "py": "dì yī cì shàng tái jiǎng huà nán miǎn huì yǒu diǎn jǐn zhāng",
+        "en": "Speaking in public for the first time, you are bound to feel a little nervous."
+      },
+      {
+        "zh": "看到那张旧照片，他不免想起小时候的事。",
+        "py": "kàn dào nà zhāng jiù zhào piàn tā bù miǎn xiǎng qǐ xiǎo shí hou de shì",
+        "en": "Seeing that old photo, he could not help thinking of his childhood."
+      },
+      {
+        "zh": "这份报告的要求未免太高了，一天根本做不完。",
+        "py": "zhè fèn bào gào de yāo qiú wèi miǎn tài gāo le yī tiān gēn běn zuò bù wán",
+        "en": "The requirements for this report are rather too demanding; nobody could finish it in a day."
+      }
+    ],
+    "drills": [
+      {
+        "q": "一份炒饭卖八十块，____太贵了。",
+        "options": ["未免", "难免", "不免", "何尝"],
+        "answer": 0,
+        "explain": "未免 marks the judgement that something is excessive and pairs naturally with 太. 难免 and 不免 report unavoidable results or involuntary feelings, not a value judgement, and 何尝 is a rhetorical 'when did I ever'."
+      },
+      {
+        "q": "新员工不熟悉流程，____会出一点小错，这很正常。",
+        "options": ["难免", "未免", "不免", "难道"],
+        "answer": 0,
+        "explain": "A general fact plus 会 plus the comment 这很正常 points to 难免. 未免 would judge the errors as excessive and contradicts 这很正常, 不免 describes the speaker's own involuntary feeling, and 难道 needs a rhetorical question with 吗."
+      }
+    ]
+  },
+  "reading": {
+    "title": "两种忙",
+    "text": "公司里最忙的人，往往也是效率最低的人。我观察过一位同事：他每天第一个到，最后一个走，桌上堆着两台电脑，一连几个月没有周末。可是到了年底，他负责的项目还是耽误了。\n\n问题不在勤奋，而在被动。他的时间表由别人的消息决定，谁找他，他就先做谁的事。忙了一整天，真正重要的步骤一步也没走。这种忙碌久了难免让人疲劳，也难免让人怀疑自己到底在做什么。\n\n与其等着被安排，不如每周留出一个小时安静地反省：这一周，哪些事是别人要我做的，哪些事是我自己觉得该做的？想清楚了，忙才有方向。",
+    "translation": "The busiest person in an office is often the least efficient one. I once watched a colleague: he was the first to arrive and the last to leave, had two laptops piled on his desk, and went months without a weekend. Yet by the end of the year the project he was in charge of was still behind schedule. The problem was not diligence but passivity. His timetable was set by other people's messages; whoever contacted him got served first. After a whole busy day, not one of the genuinely important steps had been taken. Sustained that way, being busy is bound to leave you tired, and bound to make you wonder what you are actually doing. Rather than waiting to be assigned work, it is better to set aside an hour each week to reflect quietly: which of these tasks did other people ask for, and which did I decide were worth doing? Once that is clear, being busy has a direction.",
+    "questions": [
+      {
+        "q": "这篇文章主要谈的是____。",
+        "options": ["怎样减少每天加班的时间", "两种忙之间的区别", "怎样和同事处好关系", "项目为什么会延误"],
+        "answer": 1,
+        "explain": "The passage contrasts busy work driven by other people with busy work driven by your own priorities, and the title names the contrast directly."
+      },
+      {
+        "q": "那位同事的项目到年底还是耽误了，主要是因为____。",
+        "options": ["他不够勤奋努力", "他的时间由别人的消息决定", "公司的电脑太旧", "他不愿意在周末加班"],
+        "answer": 1,
+        "explain": "The second paragraph states it plainly: the problem lies in passivity, and his schedule is decided by other people's messages."
+      },
+      {
+        "q": "作者建议每周反省，是为了____。",
+        "options": ["让老板看到自己的努力", "推掉别人安排的事情", "分清哪些事真正重要", "把时间表交给同事安排"],
+        "answer": 2,
+        "explain": "The review asks which tasks were other people's requests and which were your own judgement, so its purpose is to find what actually matters."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "最近公司很忙碌，大家都在赶进度。",
+      "他被安排了很多杂事，工作变得很被动。",
+      "忙了一整天，重要的步骤一步也没走。",
+      "周末安静下来，我花了一个小时反省。",
+      "这样做效率不高，还容易让人疲劳。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe a week when you were busy but not effective, and the one change you made to your schedule. Use at least three of the words below.",
+    "required_words": ["忙碌", "效率", "被动", "反省"],
+    "min_chars": 90,
+    "model": "上个月我特别忙碌，每天回完所有消息天就黑了，真正想做的事一件也没完成。后来我发现，自己太被动了：谁找我，我就先处理谁的事。于是我改了一个习惯，早上先关掉提醒，用一小时做当天最重要的一件事，晚上再统一回复。一周下来，效率高了不少。每周五花十分钟反省，比多加班两个小时更有用。",
+    "tips": "Start with the honest state of that week, name one specific change in your daily schedule, and finish with the measurable difference it made."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "lesson": 4,
+  "title_zh": "子路背米",
+  "title_en": "Zilu Carrying Rice",
+  "theme": "An old story about carrying rice home shows that care is measured in effort rather than in what money can buy.",
+  "grammar": {
+    "id": "g04",
+    "point": "即使……也……",
+    "point_en": "even if..., still...",
+    "structure": "即使 + unlikely condition，Subject + 也 + unchanged result",
+    "explain_en": "即使……也…… concedes an extreme or unlikely condition and then insists that the result does not change. The 即使 half is a hypothesis, not a fact, which is what separates it from 虽然……但是……. Compare 虽然下雨了，我们还是出发了, where the rain really happened, with 即使下雨，我们也要出发, where the rain is only a possibility being pushed aside. The main clause needs 也, or 还是 and 仍然 for a stronger tone; 但是 and 所以 cannot sit inside this pair. The concession is usually something the listener would expect to change the outcome, so the sentence sounds resolute: it says my decision survives this too. One subject can serve both halves, and it may stand before 即使 or be repeated in the second clause. Both halves normally use the same verb shape; if the first half has an adjective, the second half should describe a matching consequence. Do not combine 即使 with 而且 or 只有. Keep 也 before the verb, never at the end of the sentence.",
+    "common_mistake": "The usual error is answering 即使 with 但是 or 所以, as in 即使下雨，但是我们也要出发. The main clause takes 也 (or 还是, 仍然), but a 但是 clause cannot be grafted onto 即使.",
+    "examples": [
+      {
+        "zh": "即使下大雨，比赛也照常进行。",
+        "py": "jí shǐ xià dà yǔ bǐ sài yě zhào cháng jìn xíng",
+        "en": "Even if it pours with rain, the match will go ahead as usual."
+      },
+      {
+        "zh": "这份资料即使看不完，也要先分清重点。",
+        "py": "zhè fèn zī liào jí shǐ kàn bù wán yě yào xiān fēn qīng zhòng diǎn",
+        "en": "Even if you cannot finish these materials, you still need to sort out the key points first."
+      },
+      {
+        "zh": "即使你不同意，也应该先把理由说清楚。",
+        "py": "jí shǐ nǐ bù tóng yì yě yīng gāi xiān bǎ lǐ yóu shuō qīng chu",
+        "en": "Even if you disagree, you should still explain your reasons first."
+      }
+    ],
+    "drills": [
+      {
+        "q": "____明天下雨，我们也要按时出发。",
+        "options": ["即使", "因为", "只要", "不但"],
+        "answer": 0,
+        "explain": "也要 in the main clause marks a concession that survives the condition, which is the job of 即使. 因为 needs 所以, 只要 needs 就, and 不但 needs 而且, so none of them can answer 也."
+      },
+      {
+        "q": "即使路很远，他____坚持每天走回家。",
+        "options": ["也", "但是", "所以", "因为"],
+        "answer": 0,
+        "explain": "The slot between the subject and the verb takes the adverb 也 or 都, and 即使 requires 也 in the main clause. 但是, 所以 and 因为 are conjunctions, so they cannot fill an adverb slot or complete this pair."
+      }
+    ]
+  },
+  "reading": {
+    "title": "一袋米的路",
+    "text": "从前有一个年轻人，家里很穷，父母年纪大了，吃得很少。他听说很远的一个镇上有活干，就背起简单的行李出门了。\n\n他在一户人家做事。主人见他老实、勤奋，愿意多给他一点银子。他把钱都存着，舍不得花一分，只想早点回家。\n\n每年冬天，他都要背一袋米回去，要走三天的路。后背被带子磨得发红，肩膀酸得抬不起来，可他从不说委屈。有人劝他把米卖了换成钱，他摇头：父母年纪大了，能吃到儿子背回来的米，比什么都好。\n\n后来他的父母先后去世，他常常惭愧，觉得陪他们的时间太少。这个故事在民间流传至今，人们用它讲孝顺。即使今天物质丰富、买米一点也不难，这份心意也没有过时。",
+    "translation": "Long ago there was a young man whose family was very poor; his parents were old and ate very little. When he heard that there was work in a town far away, he packed a simple bag and set off. He worked for a household there. The head of the house saw that he was honest and hard-working and was willing to pay him a little more silver. He saved every bit of it and begrudged spending any, wanting only to get home sooner. Every winter he carried a bag of rice back, a journey of three days. The strap rubbed his back red and his shoulders ached so much he could hardly lift them, but he never complained of being hard done by. People urged him to sell the rice for money instead, and he shook his head: his parents were old, and being able to eat rice their son had carried home himself was better than anything. After his parents passed away one after the other, he often felt ashamed, thinking he had spent too little time with them. The story has been passed down among ordinary people to this day, and people use it to talk about caring for one's parents. Even now, when goods are plentiful and buying rice is no trouble at all, that feeling has not gone out of date.",
+    "questions": [
+      {
+        "q": "这个故事主要讲的是____。",
+        "options": ["古代农民怎样种米", "一个年轻人对父母的孝心", "一个镇上做生意的办法", "民间故事是怎么记下来的"],
+        "answer": 1,
+        "explain": "The young man saves his pay, walks three days with rice on his back, and refuses to sell it; the last paragraph says people use the story to talk about 孝顺, so the theme is care for parents."
+      },
+      {
+        "q": "每年冬天，年轻人回家时都要____。",
+        "options": ["带一些银子送给邻居", "坐船去县里买米", "背一袋米走三天的路", "在镇上住一个冬天"],
+        "answer": 2,
+        "explain": "Paragraph three begins 每年冬天，他都要背一袋米回去，要走三天的路, and the passage never mentions a boat, a county town or a winter stay."
+      },
+      {
+        "q": "父母去世以后，他的心情说明他____。",
+        "options": ["觉得自己陪父母的时间不够", "后悔没有多挣一些银子", "从此不想再回家", "认为这个故事没有意义"],
+        "answer": 0,
+        "explain": "The text says 他常常惭愧，觉得陪他们的时间太少, so the shame comes from too little time together, not from money or from rejecting the story."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "他把挣来的银子都存了起来。",
+      "这个故事在民间流传了很久。",
+      "他很惭愧，觉得自己做得不够。",
+      "那个人老实又勤奋，值得信任。",
+      "即使路很远，他也决定走回去。"
+    ]
+  },
+  "writing": {
+    "prompt": "Write about someone in your family who quietly does more than their share. Use the words below.",
+    "required_words": ["勤奋", "惭愧", "团圆", "满足"],
+    "min_chars": 80,
+    "model": "我父亲是个老实人，在工厂做技术工作，一辈子勤奋。他很少说自己累，下班还去照顾爷爷。过年的时候一家人团圆，他话最少，却最早起来准备饭菜。我以前觉得这一切理所当然，现在想起来有点惭愧。他不求出名，只要家人满足，就笑了。",
+    "tips": "Introduce the person and one habit in the first sentence, then show it in a single scene such as a holiday meal. Finish by naming what you now feel about it, keeping the change of heart modest."
+  }
+}

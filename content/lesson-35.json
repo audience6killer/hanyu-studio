@@ -1,0 +1,86 @@
+{
+  "lesson": 35,
+  "title_zh": "植物会出汗",
+  "title_en": "Plants also sweat",
+  "theme": "How leaves quietly release water all afternoon, and what that small system teaches about cooling down and keeping balance.",
+  "grammar": {
+    "id": "g35",
+    "point": "差点儿 / 好不容易",
+    "point_en": "almost; barely; with great difficulty",
+    "structure": "差点儿 + 动词/形容词（+ 了）；好不容易（才）+ 动词",
+    "explain_en": "差点儿 marks a situation that came very close to happening. With something unwanted, it means the event did not happen: 路上很滑，他差点儿摔倒 (he nearly fell but stayed on his feet). With something wanted, it usually means the chance was missed: 我差点儿赶上那班车 often implies I did not catch it. Adding 没 flips the reading for wanted events — 差点儿没赶上 means I did catch it — which is why clear context matters.\n好不容易 means 'with great difficulty' and praises the effort behind a result. It sits before the verb, very often with 才: 我好不容易才找到停车位。 The 才 is not compulsory, but it makes the struggle explicit. 好容易 means exactly the same thing despite looking opposite; 很容易 is the real opposite.\n差点儿 describes what almost happened and usually refers to a single event. 好不容易 describes how a completed action was finally achieved. Do not mix them: 差点儿买到票 suggests you probably did not get the ticket, while 好不容易买到票 means you did get it and it was hard work.",
+    "common_mistake": "Learners over-correct 差点儿 for bad events: 差点儿没摔倒 does not mean 'did not nearly fall' — it still says the fall almost happened. They also use 好不容易 as an adjective meaning 'difficult' (这件事好不容易), where 不容易 is the right form.",
+    "examples": [
+      {
+        "zh": "路面很滑，他差点儿摔倒。",
+        "py": "lù miàn hěn huá tā chà diǎnr shuāi dǎo",
+        "en": "The road was slippery and he nearly fell."
+      },
+      {
+        "zh": "我好不容易才在附近找到一个停车位。",
+        "py": "wǒ hǎo bù róng yì cái zài fù jìn zhǎo dào yí ge tíng chē wèi",
+        "en": "I had a hard time finding a parking space nearby."
+      },
+      {
+        "zh": "这次测验他差点儿就及格了，只差两分。",
+        "py": "zhè cì cè yàn tā chà diǎnr jiù jí gé le zhǐ chà liǎng fēn",
+        "en": "He almost passed this test, missing it by only two points."
+      }
+    ],
+    "drills": [
+      {
+        "q": "路上堵得厉害，我____才赶上九点的会议。",
+        "options": ["好不容易", "好容易不", "很容易", "不容易地"],
+        "answer": 0,
+        "explain": "好不容易（才）…… describes a result achieved with difficulty, which matches the heavy traffic. 很容易 means the opposite, and the other two are not valid forms."
+      },
+      {
+        "q": "他下楼时脚下一滑，____摔倒。",
+        "options": ["差不多", "一点儿", "差点", "差点儿"],
+        "answer": 3,
+        "explain": "差点儿 + a verb marks something that very nearly happened. 差不多 means 'about' or 'almost' in quantity, 一点儿 is a quantity expression, and 差点 cannot stand alone as an adverb."
+      }
+    ]
+  },
+  "reading": {
+    "title": "叶子的汗",
+    "text": "夏天的午后，你从树荫下走过，会不会觉得那里比马路上凉快？这不只是因为太阳被挡住了。树叶一直在悄悄工作：它们从根部吸收水分，再把水送到枝干和叶梢。\n水最后从叶子上的小孔跑出去，这个过程叫蒸腾。它有点像人的汗腺。天热的时候，水分从毛孔冒出来，带走一部分热量，身体就能慢慢恢复舒服的状态。植物没有肌肉，不会自己走到荫凉的地方歇一歇，但它有一套系统，能自动控制水分的释放。\n有人做过测验：一片成熟的叶子，一天蒸腾掉的水比它自己的重量还多。所以树林里的空气总是湿润的。那天下班晚，我差点儿错过观察的时间；好不容易等到一片云飘过，才看清叶面上细细的水痕。下次你觉得热，不妨看看身边的树，它们正用你看不见的方式给自己降温。",
+    "translation": "On a summer afternoon, when you walk through the shade of a tree, does it feel cooler than the road? That is not only because the sun is blocked. The leaves have been working quietly all along: they absorb water through the roots and send it up to the branches and the tips of the twigs.\nThe water finally escapes through tiny holes in the leaf, and this process is called transpiration. It works a little like human sweat glands. On a hot day water comes out through the pores, carries some of the heat away, and the body gradually returns to a comfortable state. Plants have no muscles and cannot walk over to a shady spot to rest, but they have a system that automatically controls how much water they release.\nSomeone once ran a test: a single mature leaf can give off more water in a day than its own weight. That is why the air in a wood is always moist. I finished work late that day and almost missed the best time to watch; it took me a long while to wait for a cloud to pass so that I could see the fine streaks of water on the leaf surface. Next time you feel hot, take a look at the tree beside you — it is cooling itself in a way you cannot see.",
+    "questions": [
+      {
+        "q": "这篇文章主要说明的是____。",
+        "options": ["夏天为什么应该多喝凉开水", "植物怎样通过蒸腾给自己降温", "树荫和马路的温度差别有多大", "叶子上的小孔是怎样形成的"],
+        "answer": 1,
+        "explain": "The passage explains how roots take up water, how it leaves through the leaf, and why that cools the plant — transpiration is the central idea."
+      },
+      {
+        "q": "水从叶子跑出去的过程叫____。",
+        "options": ["吸收", "循环", "蒸腾", "呼吸"],
+        "answer": 2,
+        "explain": "The second paragraph names the process directly: water leaves through small holes in the leaf and this is called 蒸腾."
+      },
+      {
+        "q": "作者提到人的汗腺，是为了____。",
+        "options": ["帮助读者理解植物的蒸腾", "说明人比植物更怕热", "证明夏天应该多喝水", "比较人和植物的体温"],
+        "answer": 0,
+        "explain": "The sweat gland comparison is introduced with 有点像 and is used to make the unfamiliar process of transpiration easier to picture, not to compare the two bodies' temperatures."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "植物的根一直在吸收水分。",
+      "天热的时候，叶子会释放水分。",
+      "树荫下的空气往往比较湿润。",
+      "这个系统能自动控制水的多少。",
+      "我差点儿忘了今天下午的测验。"
+    ]
+  },
+  "writing": {
+    "prompt": "Explain one simple everyday science idea to a colleague who has never thought about it. Keep the tone practical, and give one concrete example. Use the words below.",
+    "required_words": ["吸收", "控制", "恢复", "常识"],
+    "min_chars": 80,
+    "model": "夏天办公室的空调总开得太低，很多人下午反而没有精神。身体需要一点时间恢复，温度变化太快并不好。我在茶水间贴了一张小纸条：小口喝温水，身体吸收得更好，也能控制住忽冷忽热。这些只是常识，可真正做到的人不多。",
+    "tips": "Start with the everyday observation your colleague will recognise, explain the simple mechanism in two or three short sentences, then end with one practical suggestion."
+  }
+}

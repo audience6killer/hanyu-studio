@@ -1,0 +1,96 @@
+{
+  "lesson": 21,
+  "title_zh": "汉字叔叔：一个美国人的汉字情缘",
+  "title_en": "Uncle Hanzi: The predestined love of an American for Chinese characters",
+  "theme": "A foreign engineer who turned a chance encounter with ancient script into a twenty-year research project he never got paid for.",
+  "grammar": {
+    "id": "g21",
+    "point": "把……当作 / 作为……",
+    "point_en": "to treat X as / to regard X as",
+    "structure": "把 + X + 当作/作为 + Y",
+    "explain_en": "把……当作…… and 把……作为…… both mean 'treat or regard X as Y', and the choice between them is a matter of stance and register. 当作 (also written 当成) reports how someone actually treats something, often a personal attitude or a temporary arrangement: 他把沙发当作床, 我把周末当作读书的时间. It belongs in speech and narrative. 作为 is formal: it states a role, a category or a condition that is declared rather than improvised, as in 我们把环保作为今年的重点 or 他把这本书作为教材. 作为 also works as a plain preposition meaning 'as, in the capacity of' at the head of a sentence, with no 把 at all: 作为一名老师，他很耐心. That use is a different construction and must not be mixed with the 把 frame. Word order: subject + 把 + X + 当作/作为 + Y, and Y has to be a noun phrase — both verbs still need an object after them. In conversation 当作 is the safer choice; in a report or a plan 作为 sounds more deliberate.",
+    "common_mistake": "Learners drop 作 (把书当教材) or leave Y empty (把这件事当作). A second slip is copying the 作为-as-preposition sentence into the 把 frame: 把一名老师，他有责任 is impossible.",
+    "examples": [
+      {
+        "zh": "他把收集汉字当作一种习惯。",
+        "py": "tā bǎ shōu jí hàn zì dāng zuò yì zhǒng xí guàn",
+        "en": "He treats collecting Chinese characters as a habit."
+      },
+      {
+        "zh": "我们把这本书作为这学期的教材。",
+        "py": "wǒ men bǎ zhè běn shū zuò wéi zhè xué qī de jiào cái",
+        "en": "We are using this book as the textbook for this term."
+      },
+      {
+        "zh": "作为一名工程师，他很注意细节。",
+        "py": "zuò wéi yì míng gōng chéng shī tā hěn zhù yì xì jié",
+        "en": "As an engineer, he pays close attention to details."
+      }
+    ],
+    "drills": [
+      {
+        "q": "他把学汉语____生活的一部分，每天都练一会儿。",
+        "options": ["当作", "认为", "以为", "觉得"],
+        "answer": 0,
+        "explain": "Only 当作 can follow 把 and take a noun phrase such as 生活的一部分. 认为, 以为 and 觉得 all introduce a clause, so 把 would be left without an object to move."
+      },
+      {
+        "q": "____一名新员工，他每天提早半小时到办公室。",
+        "options": ["作为", "把", "当作", "为了"],
+        "answer": 0,
+        "explain": "作为 opens a sentence meaning 'in the capacity of'. 把 needs a verb later in the clause, 当作 cannot stand alone without 把 and an object, and 为了 would introduce a purpose instead of a role."
+      }
+    ]
+  },
+  "reading": {
+    "title": "一个人的汉字库",
+    "text": "他第一次见到汉字，是在一个很小的图书馆里。那时他在大学学物理，偶然看到一本介绍古文字的书，从此对中国字产生了兴趣。最初，他只是把认字当作一种游戏，每天记录几个新字。后来他发现，每个字里都包含一段历史，笔画的变化有清楚的内在逻辑。他把这件事当作第二份工作：用二十年时间收集资料，把不同的写法输入电脑，建立一个可以按形状查询的资料库。元旦那天，网站第一次公开，访问量很小，但他很满足。有人称赞他，也有人说他过分认真。他承认自己常常思考同一个问题：这些字为什么这样写？为了尽快找到答案，他把每天的日程排得很紧。现在他已经退休，还在完善这个库。他说，自己最大的梦想，是让更多孩子喜欢上这些字。",
+    "translation": "He first saw Chinese characters in a very small library. At the time he was studying physics at university, and he happened to pick up a book about ancient scripts; from then on he was interested in Chinese writing. At first he treated learning characters as a game and noted down a few new ones each day. Later he found that every character contains a piece of history and that the changes in its strokes follow a clear inner logic. He made this his second job: twenty years spent collecting material, keying the different forms into a computer, and building a database that can be searched by shape. On New Year's Day the website went public for the first time; the traffic was tiny, but he was pleased. Some people praised him and some said he was far too serious about it. He admits that he keeps asking himself one question: why are these characters written this way? To find the answer as quickly as possible, he keeps his daily schedule packed. He is retired now and still improving the database. He says his biggest dream is to get more children to like these characters.",
+    "questions": [
+      {
+        "q": "这篇文章主要介绍了____。",
+        "options": [
+          "一个人用很长时间收集和研究汉字的经历",
+          "一所大学图书馆的借书规定",
+          "中文网站的设计方法",
+          "外国人练习汉语口语的几种办法"
+        ],
+        "answer": 0,
+        "explain": "Every paragraph follows the same person's work on characters, from the first book to the database he still improves after retiring."
+      },
+      {
+        "q": "网站第一次公开是在____。",
+        "options": ["元旦", "春节", "中秋节", "他的生日"],
+        "answer": 0,
+        "explain": "The sentence 元旦那天，网站第一次公开，访问量很小 gives the date directly."
+      },
+      {
+        "q": "从文章中可以看出，作者对这位研究者的态度是____。",
+        "options": [
+          "佩服他的坚持",
+          "觉得他浪费了时间",
+          "认为他只是运气好",
+          "怀疑他的资料不可靠"
+        ],
+        "answer": 0,
+        "explain": "The article keeps stressing twenty years of collecting, a full schedule and continued work after retirement; that selection of detail signals admiration."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "他偶然在一本旧书里看到汉字的图片。",
+      "建立一个资料库需要很多时间和耐心。",
+      "每个汉字的变化都有它自己的逻辑。",
+      "他退休以后还在完善自己的研究。",
+      "同事们都称赞他的坚持和认真。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe a hobby that started by chance and became a long-term project. Say how it began, what you do now, and what it has taught you. Use four of the words below.",
+    "required_words": ["偶然", "收集", "思考", "梦想"],
+    "min_chars": 80,
+    "model": "我开始写读书笔记完全出于偶然。五年前，我在旧书店里翻到一本介绍古文字的小册子，觉得有趣，就开始收集里面提到的书。慢慢地，我养成了习惯：每读完一本，就把自己的想法写下来，再花十分钟思考这本书和我有什么关系。这个习惯看起来很小，却让我离自己的梦想近了一点。",
+    "tips": "Open with the chance moment, describe the routine it turned into, and end with one sentence about what the habit has given you."
+  }
+}

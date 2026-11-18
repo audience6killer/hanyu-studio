@@ -1,0 +1,86 @@
+{
+  "lesson": 33,
+  "title_zh": "以堵治堵—缓解交通有妙招",
+  "title_en": "Treating congestion with congestion: A smart way to relieve traffic burden",
+  "theme": "Why removing a convenient left turn made a busy junction faster, and what that teaches about solving problems by subtraction.",
+  "grammar": {
+    "id": "g33",
+    "point": "并非 / 并不是",
+    "point_en": "is not (in fact); not A but B",
+    "structure": "并非/并不是 + A + （而是/只是）+ B",
+    "explain_en": "并非 and 并不是 both deny something in a firm, slightly corrective way: 'it is not in fact the case that...'. The 并 adds the sense of 'contrary to what you might assume'. They come before the thing being denied, and they are very often followed by 而是, 只是 or 不过是, which supplies the real explanation: 这次问题的原因并非车太多，而是路口设计不合理。 / 他并不是不想帮忙，只是手上还有别的事。\n并不是 is the everyday form and can deny almost anything in speech. 并非 is shorter, more formal and more written; it also appears alone in the fixed phrase 并非如此. Both can deny a noun, a verb phrase or a whole clause. Do not confuse 并非 with 并不: 并不 is an adverb that negates verbs and adjectives (并不容易, 并不想), while 并非 negates the verb 是 or stands before a noun phrase. 并非 is not simply a louder 不是 — the extra meaning is the correction of an assumption, so the sentence usually expects a follow-up that says what is actually true.",
+    "common_mistake": "Learners write 并非 directly before an adjective or a plain verb, as in 并非容易 or 并非知道; use 并不容易 and 并不知道 instead. They also forget that the 而是 or 只是 clause is usually the real point of the sentence.",
+    "examples": [
+      {
+        "zh": "这次拥堵的原因并非车太多，而是路口的安排不合理。",
+        "py": "zhè cì yōng dǔ de yuán yīn bìng fēi chē tài duō ér shì lù kǒu de ān pái bù hé lǐ",
+        "en": "The cause of this congestion is not too many cars but poor planning at the junction."
+      },
+      {
+        "zh": "他取消会议并不是因为不重视，而是时间实在排不开。",
+        "py": "tā qǔ xiāo huì yì bìng bú shì yīn wèi bù zhòng shì ér shì shí jiān shí zài pái bu kāi",
+        "en": "He cancelled the meeting not because he does not care, but because his schedule truly could not be rearranged."
+      },
+      {
+        "zh": "问题并非无法解决，只是需要多花一点时间。",
+        "py": "wèn tí bìng fēi wú fǎ jiě jué zhǐ shì xū yào duō huā yì diǎn shí jiān",
+        "en": "The problem is not unsolvable; it simply needs a little more time."
+      }
+    ],
+    "drills": [
+      {
+        "q": "这次事故的原因____司机不小心，而是路面太滑。",
+        "options": ["并非", "并不", "并没", "并非不"],
+        "answer": 0,
+        "explain": "The frame 并非……而是…… denies a noun phrase and then gives the real cause. 并不 and 并没 can only negate verbs or adjectives, and 并非不 is a double negative that reverses the meaning."
+      },
+      {
+        "q": "新规定____要限制大家，只是想让流程更清楚。",
+        "options": ["并非不", "并不是", "并不曾", "不是不"],
+        "answer": 1,
+        "explain": "并不是要……只是…… corrects an assumption and then explains the real purpose. 并非不 and 不是不 are double negatives, and 并不曾 means 'never did', which clashes with a present purpose."
+      }
+    ]
+  },
+  "reading": {
+    "title": "路口的那条左转线",
+    "text": "我们公司门口那条路，早晚高峰总是堵得厉害。路口只有两条车道，左转的车一多，直行的队伍就排到广场边上。大家都说，路太窄，唯一的办法是把面积扩大。交通部门来社区咨询时，一位工程师却提出了相反的想法：取消左转，让车多绕几百米。\n方案公布以后，同事们纷纷摇头，觉得这个主意太主观。第一个月，抱怨不少，甚至有人打电话去投诉。可到了第二个月，数据变了：直行的通行时间缩短了近四成，拥挤明显缓解，行人也敢过马路了。\n工程师解释说，挡住整条路的其实是那几辆左转车。把左转线去掉，看起来更堵，实际上是把路面留给了大多数人。这个道理并非人人都能想到，只是需要一点勇气去试。现在那条路照常繁忙，只是队伍短了很多。",
+    "translation": "The road outside our company gate is always badly jammed at rush hour. The junction has only two lanes, and as soon as a few cars turn left, the queue going straight backs up to the edge of the square. Everyone said the road was too narrow and the only answer was to enlarge the area. When the traffic department came to consult the community, a young engineer proposed the opposite idea: ban the left turn and make cars drive a few hundred metres further.\nAfter the plan was announced, colleagues shook their heads, feeling the idea was too subjective. In the first month there were plenty of complaints, and some people even phoned in to object. But by the second month the figures had changed: the time needed to go straight was cut by nearly forty percent, the crowding eased noticeably, and pedestrians dared to cross again.\nThe engineer explained that the real blockage was those few left-turning cars. Removing the left-turn lane looks like making things more congested, but actually it gives the road back to the majority. This idea is not something everyone thinks of — it just takes a little courage to try. The road is as busy as ever now, but the queue is much shorter.",
+    "questions": [
+      {
+        "q": "这篇文章主要介绍的是____。",
+        "options": ["一条马路扩宽工程的全过程", "一个用限制来缓解拥堵的办法", "交通部门如何招聘工程师", "公司班车路线的调整方案"],
+        "answer": 1,
+        "explain": "The whole passage is built around the engineer's counter-intuitive proposal, the objections it met, and the improvement in travel time — a way of relieving congestion by restricting one movement."
+      },
+      {
+        "q": "工程师提出的办法是____。",
+        "options": ["把路口面积扩大一倍", "禁止行人过马路", "增加一条公交车道", "取消路口的左转"],
+        "answer": 3,
+        "explain": "The first paragraph quotes the engineer's proposal directly: cancel the left turn and let cars drive a few hundred metres more."
+      },
+      {
+        "q": "从同事们第一个月的反应看，他们____。",
+        "options": ["早就期待这次改变", "完全赞成工程师", "对新方案抱有怀疑", "认为数据不够真实"],
+        "answer": 2,
+        "explain": "They shook their heads, complained, and some even called to object, which shows doubt about the proposal rather than support."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "这条路一到早上就特别拥挤。",
+      "取消左转以后，拥堵明显缓解了。",
+      "行人和骑车的人共用一条通道。",
+      "广场旁边的停车场周末照常开放。",
+      "新方案要经过批准才能开始实施。"
+    ]
+  },
+  "writing": {
+    "prompt": "Write a short proposal for one small change at work or in your neighbourhood. Name the usual assumption, then offer a different solution and its likely effect. Use the words below.",
+    "required_words": ["拥挤", "缓解", "取消", "期待"],
+    "min_chars": 80,
+    "model": "楼下的早餐店每天都很拥挤，排队的人一直站到门口。店长原想扩大店面，可他算过数据才发现，真正慢的是结账。上个月他取消了两种现做的点心，队伍短了一半，拥挤的情况缓解了不少。现在老顾客都很期待他再改一改。",
+    "tips": "State the familiar assumption in one sentence, then present your different solution, add a concrete detail such as a figure or a time saved, and close with the result."
+  }
+}

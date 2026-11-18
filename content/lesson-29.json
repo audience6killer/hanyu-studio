@@ -1,0 +1,86 @@
+{
+  "lesson": 29,
+  "title_zh": "培养对手",
+  "title_en": "Training your rivals",
+  "theme": "A new stationery shop next door does not finish off the old one: a livelier street brings more customers, and a rival keeps you from getting lazy.",
+  "grammar": {
+    "id": "g29",
+    "point": "索性 / 干脆 / 不妨",
+    "point_en": "simply decided to / just went ahead and / might as well",
+    "structure": "索性 + 动词短语（经过犹豫） ｜ 干脆 + 动词短语 / 形容词 ｜ 不妨 + 动词短语（建议）",
+    "explain_en": "All three mean something like 'just do it', but they come out of different situations. 索性 marks a decisive move after hesitation, or after other attempts have failed: 等了两个小时也没来车，我们索性走回去. It reports what was actually done, so it belongs with completed actions. 干脆 is close but adds briskness — cutting out the middle steps: 他干脆把整段删了. It is also a plain adjective meaning 'straightforward, no-nonsense' as in 说话很干脆, which 索性 can never be, so 干脆 covers both an adverb and a description of manner. Use 干脆 for a clean, resolute action, and 索性 when you gave up on the reasonable option and did the more drastic thing instead. 不妨 is a different animal: a soft suggestion, 'you might as well, there is no harm in it'. It appears in advice to another person or in 我们 suggestions — 你不妨先打个电话问问 — and it never narrates a finished action. To sum up: 索性 and 干脆 both report what someone did, with 索性 signalling resignation or a last resort and 干脆 signalling a clean decision; 不妨 only proposes something someone could try. All three sit after the subject and before the verb, and none of them takes 了 right after it.",
+    "common_mistake": "Learners use 不妨 to report the past (昨天我不妨去了) and 索性 for polite advice. 不妨 only makes suggestions; 索性 reports a decisive action that has already been taken.",
+    "examples": [
+      {
+        "zh": "等了半个小时公交车也没来，我们索性走路回家。",
+        "py": "děng le bàn gè xiǎo shí gōng jiāo chē yě méi lái wǒ men suǒ xìng zǒu lù huí jiā",
+        "en": "We waited half an hour and no bus came, so we simply walked home."
+      },
+      {
+        "zh": "这张表太复杂，他干脆重新做了一份。",
+        "py": "zhè zhāng biǎo tài fù zá tā gān cuì chóng xīn zuò le yī fèn",
+        "en": "The form was too complicated, so he just made a new one."
+      },
+      {
+        "zh": "你要是拿不定主意，不妨先问问同事。",
+        "py": "nǐ yào shì ná bù dìng zhǔ yì bù fáng xiān wèn wèn tóng shì",
+        "en": "If you can't decide, you might as well ask a colleague first."
+      }
+    ],
+    "drills": [
+      {
+        "q": "在门口等了一个小时也没等到人，我们____打车过去了。",
+        "options": ["索性", "不妨", "鉴于", "难免"],
+        "answer": 0,
+        "explain": "After a failed attempt the speaker reports a decisive action, which is 索性. 不妨 can only offer advice about the future, 鉴于 needs an observed situation at the head of the clause, and 难免 needs a verb phrase predicting a natural result."
+      },
+      {
+        "q": "这个方案还不成熟，你____先找两位老客户试一试。",
+        "options": ["不妨", "索性", "到底", "竟然"],
+        "answer": 0,
+        "explain": "The sentence gives soft advice, which is exactly the job of 不妨. 索性 would report a decisive action already taken and implies earlier hesitation, while 到底 and 竟然 do not fit this slot at all."
+      }
+    ]
+  },
+  "reading": {
+    "title": "隔壁的文具店",
+    "text": "我家楼下有两家文具店，隔着一条小路，老板都是中年人。左边那家开了十几年，右边的去年才开张。\n\n开张那阵子，邻居们都说，老店这下麻烦了。可奇怪的是，老店的生意并没有垮。有一次我去买电池，正好碰上右边的小老板来问事，老店的老板干脆把进货单拿出来给他看，还告诉他哪家批发商的日用品便宜。\n\n我有点不理解，问他为什么帮对手。他说，这条街以前只有我一家，安静得很，天黑以后没人愿意走过来；现在好了，两家都在，家长会带着孩子一起逛。\n\n原来生意不是一个人吃完的。他说，一条街的利润不能只算自己那一份，两家适当拉开价格，谁也不挤谁。把对手培养起来，街道才有人气，自己也不至于越来越懒。这个道理，他比我们想得远。",
+    "translation": "Downstairs from my home there are two stationery shops separated by a narrow path, both run by middle-aged owners. The one on the left has been open for over ten years; the one on the right opened only last year. When it opened, the neighbours all said the old shop was in trouble now. Strangely, the old shop did not collapse. Once, when I went to buy batteries, the young owner from next door happened to come over with a question, and the old owner simply took out his purchase invoices and showed them to him, even telling him which wholesaler sells cheap household goods. I did not quite understand and asked why he helped a rival. He said that for years this street had only his shop, quiet as anything, and after dark nobody wanted to walk down it; now it was better, with both shops there, parents would bring their children to stroll along. So business is not something one person can eat all of. He said the profit on a street cannot be counted as just your own share; if the two shops keep their prices reasonably apart, neither crowds the other out. Train your rival and the street comes alive, and you yourself do not get lazier and lazier. On this point, he saw further than the rest of us.",
+    "questions": [
+      {
+        "q": "这篇文章主要说明____。",
+        "options": ["老店怎样把新店挤走", "两家店为什么卖一样的东西", "有对手有时反而是好事", "邻居之间应该少来往"],
+        "answer": 2,
+        "explain": "The old owner's explanation and the closing line about training a rival both make the case that a competitor can help, which is the main idea."
+      },
+      {
+        "q": "老店老板给新店看进货单，是因为他____。",
+        "options": ["想让新店早点关门", "希望整条街热闹起来", "以前欠了对方的人情", "担心自己的货卖不出去"],
+        "answer": 1,
+        "explain": "He explains that a single quiet shop kept people away, while two shops bring families to the street, so a livelier street is his reason."
+      },
+      {
+        "q": "从“自己也不至于越来越懒”可以推出来____。",
+        "options": ["两家店早晚会合并", "有竞争人才不会停下来", "老店老板准备退休了", "新店很快会搬到别处去"],
+        "answer": 1,
+        "explain": "The sentence implies that without a rival the owner would slack off, so competition keeps people working rather than complacent."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "隔壁新开了一家文具店，老板很热心。",
+      "老店没有垮，生意反而更好了。",
+      "两家店一竞争，整条街都热闹起来。",
+      "他干脆把进货的价格告诉了我。",
+      "把对手培养起来，对自己也有好处。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe a competitor, classmate or colleague who made you better, and what you learned from having them around. Use at least three of the words below.",
+    "required_words": ["对手", "培养", "合理", "利益"],
+    "min_chars": 90,
+    "model": "刚进公司时，我很怕隔壁组的那位同事，觉得他处处比我快。后来我们一起做一个项目，他做事很干脆，从不拖到最后一刻。我学着他的样子，把每天的任务分成三块。项目结束后我发现，我们的利益其实在一起：客户留住了，两个组都有活干。现在我愿意身边多一些这样的对手，因为合理的关系不是互相消耗，而是互相培养。",
+    "tips": "Name the person and the one thing they did better, skip the revenge angle, and end with the habit you copied from them."
+  }
+}

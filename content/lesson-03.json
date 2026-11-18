@@ -1,0 +1,86 @@
+{
+  "lesson": 3,
+  "title_zh": "人生有选择，一切可改变",
+  "title_en": "Having Choices in Life Makes Change Possible",
+  "theme": "A steady job is not the only safe choice, and a deliberate change at midlife can be the more honest one.",
+  "grammar": {
+    "id": "g03",
+    "point": "无论/不管……都/也……",
+    "point_en": "no matter what/whether..., still...",
+    "structure": "无论/不管 + unlimited conditions，Subject + 都/也 + main clause",
+    "explain_en": "Both 无论 and 不管 open a clause that sweeps over every possible case, and the main clause answers with 都 or 也. 无论 is the more formal choice and appears often in writing; 不管 is common in speech and slightly more casual, but the structure is identical. Inside the opening clause you need a question word such as 什么, 谁, 怎么, 哪, 多少, or a 多么 + adjective, or a 还是……还是…… list, or 多 + adjective. Without one of those signals the clause is not a real sweep and the sentence falls apart. The main clause must carry 都 or 也; 还 and 就 do not work here. Word order: the 无论 clause comes first, then the subject of the main clause, then 都/也 right before the verb: 无论多忙，他都回家吃饭. When one subject serves both clauses, it can sit before 无论 or between the clauses, and both are fine. Do not add 但是 in the main clause. Compare 即使……也……, which concedes one unlikely extreme rather than covering all cases.",
+    "common_mistake": "Learners drop 都/也 from the main clause and write 无论天气怎么样，他出去跑步, or put 但是 there instead. The main clause needs 都 or 也, and 但是 is wrong inside this pair.",
+    "examples": [
+      {
+        "zh": "无论天气怎么样，他都在六点半到公司。",
+        "py": "wú lùn tiān qì zěn me yàng tā dōu zài liù diǎn bàn dào gōng sī",
+        "en": "No matter what the weather is like, he reaches the office at half past six."
+      },
+      {
+        "zh": "不管客户提出什么问题，她都能耐心回答。",
+        "py": "bù guǎn kè hù tí chū shén me wèn tí tā dōu néng nài xīn huí dá",
+        "en": "Whatever question a client raises, she can answer it patiently."
+      },
+      {
+        "zh": "不管是哪个版本，成本都要先算清楚。",
+        "py": "bù guǎn shì nǎ ge bǎn běn chéng běn dōu yào xiān suàn qīng chu",
+        "en": "Whichever version it is, the cost has to be worked out first."
+      }
+    ],
+    "drills": [
+      {
+        "q": "____天气怎么样，他每天早上都跑步。",
+        "options": ["无论", "因为", "虽然", "只有"],
+        "answer": 0,
+        "explain": "The main clause already has 都, which is the partner of 无论/不管. 因为 would introduce a cause, 虽然 would need 但是, and 只有 would need 才, so only 无论 fits."
+      },
+      {
+        "q": "无论工作多忙，他____会抽时间陪家人。",
+        "options": ["都", "但是", "因为", "所以"],
+        "answer": 0,
+        "explain": "The slot between the subject and the verb takes the adverb 都 or 也. 但是, 因为 and 所以 are conjunctions that cannot sit in that adverb position, and none of them pairs with 无论."
+      }
+    ]
+  },
+  "reading": {
+    "title": "四十岁那年，他去学开船",
+    "text": "老陈在工厂干了二十年，是熟练的工人。工作稳定，待遇也不差，可他每年冬天都发愁一件事：这辈子是不是就到这里了。\n\n四十岁那年，他用积蓄买了一条二手帆船。太太一开始坚决不同意，说这个年纪该安静一点。他还是决定辞职，跟着船队学驾驶。\n\n第一次出海的傍晚，风很小，船几乎不动。他坐在甲板上，忽然觉得心里很平静。后来他常说，海上没有谁催你，只有风和你的手。\n\n如今他在港口干活儿，收入不高，可日子正是他盼望的样子。他每天六点起床，比在工厂时还早。无论别人怎么评价，他都不后悔自己的选择。人生有选择，一切才可能改变。",
+    "translation": "Chen had worked in a factory for twenty years and was a skilled worker there. The job was stable and the pay and benefits were not bad, yet every winter he worried about one thing: was this as far as his life would go? In the year he turned forty he used his savings to buy a second-hand sailing boat. His wife was firmly against it at first and said that at this age he ought to settle down. He still decided to resign and learned to steer with a sailing crew. On the evening of his first trip out, the wind was very light and the boat barely moved. Sitting on the deck, he suddenly felt calm inside. Later he often said that at sea nobody hurries you, only the wind and your own hands. These days he works at the harbour and earns little, but his days are exactly what he hoped for. He gets up at six every morning, earlier than he did at the factory. No matter how other people judge it, he does not regret his choice. Life offers choices, and that is what makes change possible.",
+    "questions": [
+      {
+        "q": "这篇文章想告诉我们____。",
+        "options": ["海上航行其实非常危险", "中年换一种活法也有意义", "工厂的工作待遇不好", "买帆船应该先问家人"],
+        "answer": 1,
+        "explain": "The closing sentence is 人生有选择，一切才可能改变, and the whole middle section shows that Chen's change worked out, so the passage argues that a different way of living in midlife is worthwhile."
+      },
+      {
+        "q": "四十岁那年，老陈做的主要事情是____。",
+        "options": ["在工厂当上了负责人", "带着太太一起去旅行", "买了二手帆船，后来辞了职", "把积蓄都存进了银行"],
+        "answer": 2,
+        "explain": "Paragraph two says he used his savings to buy a second-hand sailing boat, then decided to resign and learn to steer; the wife was against it, so she did not join him."
+      },
+      {
+        "q": "从最后一段可以看出，老陈____。",
+        "options": ["后悔当初辞掉工作", "对现在的日子比较满意", "想回工厂继续上班", "收入比以前高很多"],
+        "answer": 1,
+        "explain": "He says his days are what he hoped for and that he does not regret his choice, and the passage notes his income is not high, so he is content rather than regretful or richer."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "他在这个工厂干了二十年。",
+      "这份工作很稳定，待遇也不错。",
+      "她辞职以后，每天去学驾驶帆船。",
+      "无论多晚回家，他都先做饭。",
+      "傍晚的海面平静得像一面镜子。"
+    ]
+  },
+  "writing": {
+    "prompt": "Write about a change you made that surprised the people around you. Use the words below.",
+    "required_words": ["稳定", "辞职", "盼望", "未来"],
+    "min_chars": 80,
+    "model": "三年前我从一份稳定的工作辞职，去了一家很小的公司。很多同事不理解，我自己也曾经为收入发愁。可是每天做的事都是我盼望的，我愿意从头学新的东西。未来不一定更轻松，但这个选择是我自己的，我不后悔。",
+    "tips": "Say what you left and what you moved to in the first two sentences, then add one worry you actually had. End with how you judge the decision now, without claiming it was easy."
+  }
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#a63b28">
+  <meta name="description" content="A local, offline study desk for HSK Standard Course 5: vocabulary, reading, listening and typed writing with spaced review.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="HSK5">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>HSK5 Studio</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23a63b28'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='%23fff8ee' font-family='serif'%3E汉%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <script>
+    try {
+      var saved = JSON.parse(localStorage.getItem("hanyu.v1"));
+      if (saved && saved.settings && saved.settings.theme) document.documentElement.dataset.theme = saved.settings.theme;
+      if (saved && saved.settings && saved.settings.reduceMotion) document.documentElement.dataset.motion = "reduced";
+    } catch (e) { /* first run */ }
+  </script>
+</head>
+<body>
+  <div id="app" class="app">
+    <aside class="sidebar" aria-label="Primary navigation"></aside>
+    <div class="main">
+      <header class="topbar"></header>
+      <main id="view" class="view" tabindex="-1"></main>
+    </div>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toast-root" class="toast-root"></div>
+  <noscript>
+    <div style="max-width:640px;margin:60px auto;padding:24px;font-family:system-ui;border:1px solid #ddd;border-radius:12px">
+      <h1>JavaScript is required</h1>
+      <p>This study desk runs entirely in your browser. Enable JavaScript and reload the page.</p>
+    </div>
+  </noscript>
+
+  <script src="assets/js/data/vocab.js"></script>
+  <script src="assets/js/data/lessons.js"></script>
+  <script src="assets/js/data/tap.js"></script>
+  <script src="assets/js/core/util.js"></script>
+  <script src="assets/js/core/data.js"></script>
+  <script src="assets/js/core/storage.js"></script>
+  <script src="assets/js/core/srs.js"></script>
+  <script src="assets/js/core/plan.js"></script>
+  <script src="assets/js/core/tts.js"></script>
+  <script src="assets/js/core/session.js"></script>
+  <script src="assets/js/core/sync.js"></script>
+  <script src="assets/js/ui/components.js"></script>
+  <script src="assets/js/ui/onboarding.js"></script>
+  <script src="assets/js/ui/dashboard.js"></script>
+  <script src="assets/js/ui/session.js"></script>
+  <script src="assets/js/ui/lessons.js"></script>
+  <script src="assets/js/ui/lesson.js"></script>
+  <script src="assets/js/ui/review.js"></script>
+  <script src="assets/js/ui/exam.js"></script>
+  <script src="assets/js/ui/stats.js"></script>
+  <script src="assets/js/ui/settings.js"></script>
+  <script src="assets/js/ui/diagnostic.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

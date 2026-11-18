@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HSK5 Studio · sync setup</title>
+<style>
+  :root { --paper:#f4f1e9; --surface:#fffdf8; --ink:#241f19; --muted:#776e5f; --line:#e4ddcd; --accent:#a63b28; --jade:#2e6b5b; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:15px/1.65 ui-sans-serif,-apple-system,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif; }
+  main { max-width:860px; margin:0 auto; padding:44px 24px 80px; }
+  .kicker { font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); font-weight:700; }
+  h1 { font-size:42px; line-height:1.1; letter-spacing:-.03em; margin:8px 0 10px; }
+  h2 { font-size:18px; margin:34px 0 10px; }
+  p, li { color:#4b4338; }
+  .lede { font-size:17px; color:var(--muted); max-width:66ch; }
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:20px 22px; margin:18px 0; }
+  .steps { counter-reset:step; list-style:none; padding:0; }
+  .steps > li { counter-increment:step; position:relative; padding:0 0 18px 44px; margin:0; }
+  .steps > li::before { content:counter(step); position:absolute; left:0; top:0; width:28px; height:28px; border-radius:50%; background:var(--accent); color:#fff8ef; font-weight:700; font-size:13px; display:flex; align-items:center; justify-content:center; }
+  code, pre { font-family:ui-monospace,"Cascadia Mono",Consolas,monospace; }
+  code { background:#f0ebdf; padding:1px 5px; border-radius:4px; font-size:.9em; }
+  pre { background:#211d18; color:#f4ede0; padding:16px; border-radius:10px; overflow:auto; font-size:12px; line-height:1.55; max-height:420px; }
+  .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  button { border:1px solid var(--jade); background:var(--jade); color:#fff; border-radius:8px; padding:8px 13px; font:inherit; font-size:13px; font-weight:600; cursor:pointer; }
+  button.secondary { background:transparent; color:var(--jade); }
+  a { color:var(--accent); }
+  .note { border-left:3px solid var(--accent); background:#f7e7e0; padding:10px 14px; border-radius:0 8px 8px 0; font-size:13px; margin:14px 0; }
+  .ok { color:var(--jade); font-weight:600; }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  td { border-top:1px solid var(--line); padding:8px 6px; vertical-align:top; }
+  td:first-child { width:30%; font-weight:600; }
+  @media (max-width:600px){ h1{font-size:32px} main{padding:26px 16px 60px} pre{font-size:11px} }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">HSK5 Studio · one-time setup</div>
+  <h1>Sync your desk.</h1>
+  <p class="lede">The app works entirely on its own. This page connects it to your own Supabase project so the laptop and iPhone share one progress history. It takes about fifteen minutes and stays on free tiers.</p>
+  <div class="row">
+    <a href="./index.html">← Back to the app</a>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">What you need</h2>
+    <ul>
+      <li>A <strong>Supabase</strong> account (free) for the progress row and email/password login.</li>
+      <li>A free <strong>GitHub</strong> account and repository (recommended: the included workflow deploys on every push to <code>main</code>), or Netlify Drop / Cloudflare Pages for a manual deploy.</li>
+      <li>If you deploy manually: the <code>hsk5-studio-site.zip</code> produced by <code>python tools/prepare_deploy.py</code>, or the <code>deploy/</code> folder.</li>
+    </ul>
+    <div class="note">The public <code>anon</code> key is meant to be embedded in a browser app. Row-level security keeps every user to their own row. Never paste the <code>service_role</code> key into the app.</div>
+  </div>
+
+  <h2>1. Create the Supabase project</h2>
+  <ol class="steps">
+    <li>Sign in at <a href="https://supabase.com/dashboard" target="_blank" rel="noopener">supabase.com/dashboard</a> and create a new project. Choose a region near you and save the database password somewhere safe.</li>
+    <li>Open <strong>SQL Editor → New query</strong>.</li>
+    <li>Paste the SQL below and press <strong>Run</strong>. It creates the <code>progress</code> table, row-level security, and the atomic save function.</li>
+  </ol>
+  <div class="row" style="margin-bottom:10px">
+    <button id="copy">Copy SQL</button>
+    <span id="copied" class="ok" style="display:none">Copied</span>
+  </div>
+  <pre id="sql">-- HSK5 Studio / Supabase sync schema
+-- Run this once in the Supabase SQL editor for your project.
+-- It creates one row per authenticated user and an atomic save function
+-- that refuses to overwrite a newer revision.
+
+create table if not exists public.progress (
+  user_id uuid primary key references auth.users(id) on delete cascade,
+  state jsonb not null,
+  rev bigint not null default 1,
+  updated_at timestamptz not null default now()
+);
+
+alter table public.progress enable row level security;
+
+drop policy if exists &quot;progress_select_own&quot; on public.progress;
+create policy &quot;progress_select_own&quot; on public.progress
+  for select to authenticated
+  using (auth.uid() = user_id);
+
+-- The client never writes the table directly; only the function below does.
+revoke all on public.progress from anon, authenticated;
+grant select on public.progress to authenticated;
+
+create or replace function public.save_progress(p_state jsonb, p_base_rev bigint)
+returns table (rev bigint, state jsonb, conflict boolean)
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  v public.progress%rowtype;
+begin
+  if auth.uid() is null then
+    raise exception &#x27;not authenticated&#x27;;
+  end if;
+
+  select * into v
+    from public.progress
+   where user_id = auth.uid()
+   for update;
+
+  if not found then
+    insert into public.progress (user_id, state, rev)
+    values (auth.uid(), p_state, 1)
+    returning * into v;
+    return query select v.rev, v.state, false;
+    return;
+  end if;
+
+  if v.rev &lt;&gt; coalesce(p_base_rev, 0) then
+    return query select v.rev, v.state, true;
+    return;
+  end if;
+
+  update public.progress
+     set state = p_state,
+         rev = v.rev + 1,
+         updated_at = now()
+   where user_id = auth.uid()
+   returning * into v;
+
+  return query select v.rev, v.state, false;
+end;
+$$;
+
+revoke all on function public.save_progress(jsonb, bigint) from public;
+grant execute on function public.save_progress(jsonb, bigint) to authenticated;
+</pre>
+
+  <h2>2. Make sign-in convenient</h2>
+  <ol class="steps">
+    <li>In Supabase, open <strong>Authentication → Providers → Email</strong>.</li>
+    <li>For a personal single-user desk, turn <strong>Confirm email</strong> off and save. Then the app can sign in immediately. If you leave it on, create the account, click the confirmation link in your inbox, then sign in.</li>
+    <li>Open <strong>Project Settings → API</strong> and copy the <strong>Project URL</strong> and the <strong>anon public</strong> key. You will paste both into the app, not here.</li>
+    <li>If you keep email confirmation on, set <strong>Authentication → URL Configuration → Site URL</strong> to the HTTPS address where you deploy the app, so the confirmation link returns you there.</li>
+  </ol>
+
+  <h2>3. Put the app online</h2>
+  <ol class="steps">
+    <li><strong>GitHub Pages (automatic, recommended):</strong> push this folder to a GitHub repository's <code>main</code> branch, then open the repository's <strong>Settings → Pages → Build and deployment → Source</strong> and choose <strong>GitHub Actions</strong>. The included <code>.github/workflows/deploy.yml</code> validates the lessons, rebuilds the bundle and publishes it on every push to <code>main</code>. The URL is <code>https://USER.github.io/REPO/</code>.</li>
+    <li>If the repository is private on a free plan, GitHub Pages is not available; either make the repository public (the app contains no account secrets) or use the manual host below.</li>
+    <li><strong>Netlify Drop / Cloudflare Pages (manual):</strong> run <code>python tools/prepare_deploy.py</code>, then drag <code>deploy/</code> (or <code>hsk5-studio-site.zip</code>) to <a href="https://app.netlify.com/drop" target="_blank" rel="noopener">app.netlify.com/drop</a>, or upload it to Cloudflare Pages → Direct Upload. Note the HTTPS URL.</li>
+    <li>Open the deployed URL once on the computer that already has your progress. If you use GitHub Pages, every later push to <code>main</code> updates the same URL.</li>
+  </ol>
+  <div class="note"><strong>Automatic deploy:</strong> the workflow also runs content validation and stamps a new service-worker cache version, so an installed iPhone app picks up the new assets on its next launch. Manual re-runs live under <strong>Actions → Deploy HSK5 Studio → Run workflow</strong>.</div>
+
+  <h2>4. Connect the work computer</h2>
+  <ol class="steps">
+    <li>In the app: <strong>Settings → Cloud sync</strong>.</li>
+    <li>Paste the Project URL and anon key, enter your email and a password of at least six characters, and press <strong>Create account</strong>. If confirmation is on, confirm by email and then sign in.</li>
+    <li>The first sync uploads this browser's existing progress. If it asks, choose <strong>Upload this device</strong> — the cloud row is still empty.</li>
+    <li>Check that the status reads <em>Synced …</em> and a revision number appears.</li>
+  </ol>
+
+  <h2>5. Add it to the iPhone</h2>
+  <ol class="steps">
+    <li>Open the same HTTPS URL in <strong>Safari</strong>.</li>
+    <li>Tap <strong>Share → Add to Home Screen</strong>. Open the new icon; it runs full-screen and caches its files for offline study.</li>
+    <li>In the app: <strong>Settings → Cloud sync</strong>, sign in with the same email and password, then tap <strong>Sync now</strong> (or <strong>Download from cloud</strong> on a fresh phone).</li>
+    <li>Your vocabulary, cards, lesson stages and attempts appear. Work offline on either device; the next connection merges both sides.</li>
+  </ol>
+
+  <h2>How the merge behaves</h2>
+  <table>
+    <tr><td>Vocabulary and cards</td><td>Union. A card reviewed on both devices keeps the later review; reps and lapses take the larger count.</td></tr>
+    <tr><td>Lessons</td><td>Stage completion is unioned; completed lessons stay completed.</td></tr>
+    <tr><td>Daily totals</td><td>Per-day maximum, not a sum, so a session is not double-counted.</td></tr>
+    <tr><td>Exams and essays</td><td>Union by timestamp; nothing is silently dropped.</td></tr>
+    <tr><td>Plan and settings</td><td>The most recently changed configuration wins. Changing the target date on one device propagates after the next sync.</td></tr>
+    <tr><td>Current session</td><td>The later active session wins. Sync pauses while a session is open so the runner is not replaced mid-card.</td></tr>
+  </table>
+
+  <h2>Troubleshooting</h2>
+  <ul>
+    <li><strong>“The progress table is missing”</strong> — run the SQL above, then press Sync now.</li>
+    <li><strong>“Email not confirmed”</strong> — confirm the email, or turn Confirm email off in Supabase Auth settings.</li>
+    <li><strong>Network error</strong> — check the Project URL begins with <code>https://</code>, the anon key is the public one, and the phone/computer is online.</li>
+    <li><strong>Sync status says signed out</strong> — sign in again; tokens expire but the local progress is untouched.</li>
+    <li><strong>Offline install did not update</strong> — close the home-screen app completely and reopen while online; the service worker refreshes its cache.</li>
+  </ul>
+
+  <div class="card">
+    <p style="margin:0"><strong>Backups still matter.</strong> The cloud row is one JSON snapshot. Use <strong>Settings → Export backup</strong> before resetting a device or changing projects. Nothing except this snapshot is sent; the app makes no other network requests.</p>
+  </div>
+</main>
+<script>
+  document.getElementById("copy").addEventListener("click", async () => {
+    const text = document.getElementById("sql").textContent;
+    try { await navigator.clipboard.writeText(text); }
+    catch (e) {
+      const range = document.createRange();
+      range.selectNodeContents(document.getElementById("sql"));
+      const sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+      document.execCommand("copy");
+    }
+    const ok = document.getElementById("copied");
+    ok.style.display = "inline";
+    setTimeout(() => { ok.style.display = "none"; }, 2000);
+  });
+</script>
+</body>
+</html>

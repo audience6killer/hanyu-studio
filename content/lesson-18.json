@@ -1,0 +1,101 @@
+{
+  "lesson": 18,
+  "title_zh": "抽象艺术美不美",
+  "title_en": "Abstract Art: Beautiful or Not?",
+  "theme": "Two visitors argue in front of a blue canvas, and an afternoon at the gallery changes how one of them looks at abstract art.",
+  "grammar": {
+    "id": "g18",
+    "point": "由……组成",
+    "point_en": "to be made up of; to consist of",
+    "structure": "整体 + 由 + 部分 + 组成",
+    "explain_en": "由……组成 describes what a whole is made of: the whole comes first, 由 introduces the parts, and 组成 closes the phrase — 一个班由二十个学生组成. The parts are usually nouns listed with 、 or 和, and there should be at least two of them. The pattern is stative rather than an action: you are describing composition, so no 了 goes after 组成, and the sentence often reads as a plain statement of fact. Note that 由 also appears in other frames with a different meaning, such as 由他负责 “he is in charge”, so check that the parts sit between 由 and a closing verb. Compare 组成 with 包括: 包括 lists members and may cover only some of them (包括我), while 由……组成 presents the full recipe, so the parts should add up to the whole. Do not put 组成 before the parts, and do not use 由 to mean “because of” — that idea needs 由于.",
+    "common_mistake": "The usual error is word order: 组成部分由这幅画 is wrong because the whole must come before 由. Also avoid adding 了 to 组成, since composition is a state rather than a completed action.",
+    "examples": [
+      {
+        "zh": "这幅画由深浅不同的蓝色组成。",
+        "py": "zhè fú huà yóu shēn qiǎn bù tóng de lán sè zǔ chéng",
+        "en": "This painting is made up of blues of different depths."
+      },
+      {
+        "zh": "我们的项目组由五名工程师和两名设计师组成。",
+        "py": "wǒ men de xiàng mù zǔ yóu wǔ míng gōng chéng shī hé liǎng míng shè jì shī zǔ chéng",
+        "en": "Our project team consists of five engineers and two designers."
+      },
+      {
+        "zh": "这本教材由三部分组成，每一部分都有练习。",
+        "py": "zhè běn jiào cái yóu sān bù fen zǔ chéng měi yī bù fen dōu yǒu liàn xí",
+        "en": "The textbook consists of three parts, and each part has exercises."
+      }
+    ],
+    "drills": [
+      {
+        "q": "这个展览由三个部分____。",
+        "options": ["组成", "组合", "成为", "形成"],
+        "answer": 0,
+        "explain": "由……组成 is the fixed frame for composition, so the parts sit between 由 and 组成. 组合 means to combine actively, 成为 means to become something, and 形成 means to take shape."
+      },
+      {
+        "q": "我们的小组由六个人____。",
+        "options": ["组织", "组成", "组建", "组合"],
+        "answer": 1,
+        "explain": "Only 组成 completes the 由 phrase and states what the group is made of. 组织 means to organise, 组建 means to set up, and 组合 means to combine, none of which follows a 由 phrase this way."
+      }
+    ]
+  },
+  "reading": {
+    "title": "一块蓝色的布",
+    "text": "周末，美术馆有一个现代绘画展。我本来只想随便看看，没想到待了三个小时。\n\n第一展厅挂着一幅很大的作品：一块深蓝色的布，中间洒了几点白，其余的地方什么也没有。我看了很久，也没看出它想说什么。两位观众在小声争论，一个说它极其简单，贵在自由；另一个说，这样的画谁都会画。\n\n后来我遇到一位常来看展的中年人。他说，抽象画不负责讲故事，它把颜色、线条这些元素放在一起，让你自己去感受。他还说，一幅画不是只由一块颜色组成的，画布上每一块颜色的位置，都经过反复调整。\n\n离开之前，我又回到那幅画前面。这一次，我不再问“画的是什么”，而是问自己：站在这里，我感觉怎么样？答案并不清晰，可那种安静确实存在。可见，欣赏不一定非要得出结论。",
+    "translation": "At the weekend there was an exhibition of modern painting at the art gallery. I had meant to look round quickly and ended up staying three hours.\n\nIn the first room hung a very large work: one piece of deep blue cloth with a few white drops in the middle and nothing at all elsewhere. I looked at it for a long time and still could not see what it was trying to say. Two visitors were arguing in low voices; one said it was extremely simple and its value lay in its freedom, the other said anyone could paint something like that.\n\nLater I met a middle-aged man who came to exhibitions often. He said abstract painting does not tell a story; it puts colours, lines and other elements together and lets you feel your own response. He added that a painting is not made of just one block of colour — the layout on the canvas, the position of every patch of colour, have all been adjusted again and again.\n\nBefore leaving I went back to the painting. This time I stopped asking what it showed and asked myself how I felt standing there. The answer was not clear, but the calm was really there. It seems that appreciating a painting does not have to end in a conclusion.",
+    "questions": [
+      {
+        "q": "这篇文章主要写的是____。",
+        "options": [
+          "作者一次看抽象画展的经历",
+          "美术馆的展览安排",
+          "怎样画好一幅抽象画",
+          "观众对美术馆的意见"
+        ],
+        "answer": 0,
+        "explain": "The passage follows the writer through one gallery visit, from the first confusing painting to a second look before leaving."
+      },
+      {
+        "q": "两位观众争论的问题是____。",
+        "options": [
+          "这样简单的画算不算好作品",
+          "这幅画应该卖多少钱",
+          "画家是哪一年出生的",
+          "展厅的灯光是不是太亮"
+        ],
+        "answer": 0,
+        "explain": "One calls the painting extremely simple and valuable for its freedom, the other says anyone could paint it — a disagreement about whether it is a good work."
+      },
+      {
+        "q": "从最后一段可以看出，作者____。",
+        "options": [
+          "不再要求自己看懂每一幅画",
+          "决定以后不再来看展览",
+          "认为抽象画没有价值",
+          "想把那幅画买回家里"
+        ],
+        "answer": 0,
+        "explain": "The writer stops asking what the painting shows and accepts an unclear but real feeling, which means giving up the demand to fully understand it."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "这幅画由几个简单的色块组成。",
+      "美术馆目前正在展出几位年轻画家的作品。",
+      "他随手在纸上画了几笔，看起来很抽象。",
+      "我分辨不出这幅画和那幅画有什么区别。",
+      "艺术没有统一的规则，每个人都可以有自己的看法。"
+    ]
+  },
+  "writing": {
+    "prompt": "Think of a piece of art, music or design you did not understand at first. Write about how your view changed. Use 4 of the words below.",
+    "required_words": ["欣赏", "元素", "调整", "事实"],
+    "min_chars": 80,
+    "model": "第一次看现代舞时，我几乎睡着了。台上没有故事，只有几个人在重复简单的动作。散场后我很失望，觉得这不叫艺术。后来朋友给了我一本书，我才知道编舞者把音乐、灯光和身体这些元素放在一起，是为了让人注意时间。我重新看了一次，调整了自己的期待，这次看到了细节。事实是，欣赏一件作品，有时需要先放下习惯。",
+    "tips": "Describe the first, puzzled reaction, then the piece of information that shifted it. Close with what you notice now that you did not notice before."
+  }
+}

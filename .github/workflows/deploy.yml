@@ -1,0 +1,63 @@
+name: Deploy HSK5 Studio
+
+# Every push to main validates the lesson files, rebuilds the static bundle and
+# publishes it to GitHub Pages. The deploy bundle is intentionally not committed;
+# this workflow is the source of truth for production.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate lesson content
+        run: python tools/validate_content.py --lessons 1-36
+
+      - name: Rebuild lesson data
+        run: python tools/build_content.py
+
+      - name: Verify tap-to-define coverage
+        run: node tools/check_tap.mjs
+
+      - name: Build static bundle
+        run: python tools/prepare_deploy.py
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: deploy
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,101 @@
+{
+  "lesson": 14,
+  "title_zh": "北京的四合院",
+  "title_en": "Quadrangle Courtyards in Beijing",
+  "theme": "An afternoon in an old courtyard home, and why its shared yard still makes people feel close.",
+  "grammar": {
+    "id": "g14",
+    "point": "之所以……是因为……",
+    "point_en": "the reason that X is so is that Y",
+    "structure": "之所以 + 结果 + 是因为 + 原因",
+    "explain_en": "之所以……是因为…… puts the result first and explains it afterwards, so the listener hears the effect before the cause. 之所以 opens the sentence (or follows the subject) and marks the result; 是因为 introduces the reason and answers the question that the first half has just raised. Use it when you want to explain, defend or analyse something rather than simply report it, for instance 这座院子之所以受欢迎，是因为…… . It differs from 因为……所以…… in emphasis: 因为……所以…… moves forward from cause to effect in a neutral way, while 之所以……是因为…… moves backwards, putting the fact on the table before justifying it. The two halves share the same subject, and the second half can be emphasised with 就是因为 when you want to stress the cause. Do not use 所以 in the second half, and do not reverse the two halves.",
+    "common_mistake": "The usual error is to reverse the order and write 是因为……之所以……, or to keep 所以 after 是因为. Start with the result, then explain it with 是因为.",
+    "examples": [
+      {
+        "zh": "这种民居之所以受欢迎，是因为它住起来很方便。",
+        "py": "zhè zhǒng mín jū zhī suǒ yǐ shòu huān yíng shì yīn wèi tā zhù qǐ lái hěn fāng biàn",
+        "en": "This kind of dwelling is popular because it is convenient to live in."
+      },
+      {
+        "zh": "他之所以没有参加会议，是因为临时有客户来访。",
+        "py": "tā zhī suǒ yǐ méi yǒu cān jiā huì yì shì yīn wèi lín shí yǒu kè hù lái fǎng",
+        "en": "The reason he missed the meeting was that a client turned up at short notice."
+      },
+      {
+        "zh": "老房子之所以让人留恋，是因为里面有很多人共同生活的记忆。",
+        "py": "lǎo fáng zi zhī suǒ yǐ ràng rén liú liàn shì yīn wèi lǐ miàn yǒu hěn duō rén gòng tóng shēng huó de jì yì",
+        "en": "Old houses are hard to leave behind because they hold the memory of many people living together."
+      }
+    ],
+    "drills": [
+      {
+        "q": "这座老院子____还有人愿意住，是因为它冬暖夏凉。",
+        "options": ["之所以", "是因为", "因此", "虽然"],
+        "answer": 0,
+        "explain": "之所以 marks the result that the second half explains with 是因为. 是因为 would repeat the marker, 因此 introduces a consequence rather than a fact to be explained, and 虽然 marks concession."
+      },
+      {
+        "q": "这座院子之所以让人住得舒服，____它的空间安排很合理。",
+        "options": ["是因为", "所以", "因此", "何况"],
+        "answer": 0,
+        "explain": "是因为 follows 之所以 to name the reason. 所以 and 因此 would present the second half as a result, reversing the logic, and 何况 means let alone, which cannot introduce a cause."
+      }
+    ]
+  },
+  "reading": {
+    "title": "院子里的那杯茶",
+    "text": "去年秋天，我去同事老周家做客。他住在一座老四合院里，院子不大，却收拾得很干净。\n\n一进大门，先是一条短短的走廊，两边是东西厢房。北房通常留给家里的长辈，东、西厢房则由年轻的一代居住。四座房子围住院子，组合成一个方正的空间。院里种着竹子，墙角有一缸金鱼，太阳一出来，水面亮亮的，很有情趣。\n\n老周说，这种民居之所以让人留恋，是因为一家人的日常起居都在同一个院子里：谁家做了好吃的，邻居隔着墙就能闻见香味；孩子放学回来，在院子里写作业，也不用大人一直看着。关上院门，世界安静下来，却并不封闭。\n\n我坐在院子里喝完一杯茶，觉得这种建筑最珍贵的地方不是样式，而是它给人的那份亲切。",
+    "translation": "Last autumn I went to my colleague Zhou's home for tea. He lives in an old quadrangle courtyard; the yard is small but kept very tidy.\n\nBeyond the gate there is a short corridor with the east and west wing rooms on either side. The north room is usually kept for the elders of the family, while the east and west wings are lived in by the younger generation. Four buildings around the yard combine into a square space. Bamboo grows in the yard and a jar of goldfish stands in the corner; once the sun is out the water shines, and the place has real charm.\n\nZhou says the reason this kind of dwelling is hard to leave is that the whole family's daily life happens in one yard. When someone cooks something good, the neighbours can smell it through the wall; when the children come home from school they do their homework in the yard, and no adult has to watch them all the time. With the gate shut, the world goes quiet, but the yard is not sealed off.\n\nI finished a cup of tea in the yard and felt that the most precious thing about this architecture is not its style but the warmth it gives people.",
+    "questions": [
+      {
+        "q": "这篇文章主要写的是____。",
+        "options": [
+          "一座四合院里的居住生活",
+          "北京老房子的建筑历史",
+          "老周一家搬家的原因",
+          "城市里新的住房样式"
+        ],
+        "answer": 0,
+        "explain": "The passage follows a visit to one courtyard home and describes the yard, the rooms and the family life inside it."
+      },
+      {
+        "q": "根据文章，北房通常住的是____。",
+        "options": [
+          "家里的长辈",
+          "年轻的一代",
+          "来做客的同事",
+          "放学回来的孩子"
+        ],
+        "answer": 0,
+        "explain": "The second paragraph says 北房通常留给家里的长辈, while the younger generation lives in the east and west wings."
+      },
+      {
+        "q": "从“关上院门……却并不封闭”可以看出，作者认为这种院子____。",
+        "options": [
+          "安静，但人和人之间并不疏远",
+          "太封闭，不适合年轻人住",
+          "只有老人才会觉得舒服",
+          "需要重新设计和改造"
+        ],
+        "answer": 0,
+        "explain": "The gate shuts out noise, yet neighbours still smell each other's cooking and children play in the shared yard, so the life inside stays open."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "这座四合院已经有八十多年的历史了。",
+      "院子的两边是厢房，中间是一条走廊。",
+      "长辈们通常起得很早，喜欢在院子里劳动。",
+      "屋里的空间不大，布置得却很有情趣。",
+      "这种民居的样式很常见，功能也很实用。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe a home or building you remember well. What did its layout make you feel? Use 4 of the words below.",
+    "required_words": ["建筑", "空间", "情趣", "亲切"],
+    "min_chars": 80,
+    "model": "我小时候住的是单位分的楼房，三间屋子连在一起，空间并不大。厨房在走廊尽头，谁家做饭，整层楼都能闻到。邻居们常在楼道里聊天，孩子们在楼梯口写作业。那座建筑很普通，样式也谈不上好看，可是它有一种特别的情趣：人和人离得很近。现在回想起来，最让我怀念的不是房子，而是那份亲切。",
+    "tips": "Name the building first, then describe one or two concrete parts of its layout. Close with the feeling those details still leave you with."
+  }
+}

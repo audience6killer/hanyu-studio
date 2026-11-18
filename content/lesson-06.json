@@ -1,0 +1,86 @@
+{
+  "lesson": 6,
+  "title_zh": "除夕的由来",
+  "title_en": "Origin of Chuxi",
+  "theme": "A New Year's Eve legend explains why one night of staying up together still carries meaning.",
+  "grammar": {
+    "id": "g06",
+    "point": "宁可……也不……",
+    "point_en": "would rather A than B",
+    "structure": "宁可 + accepted cost，Subject + 也不 + refused option",
+    "explain_en": "宁可……也不…… states a preference that costs the speaker something. The 宁可 half is what they agree to accept, even though it is inconvenient, tiring or expensive; the 也不 half is what they refuse. The pattern is about principle rather than neutral comparison: two options exist, and one is ruled out on purpose. 也不 is the default second half. 也不愿 and 也不想 appear when the second verb is 愿意 or 想, and 决 can stand in for 也 for a firmer tone, as in 宁可……决不……. One subject covers both halves, and 也不 sits directly after the comma, before the verb. Compare 与其……不如……: that pair also weighs two options, but it recommends one instead of rejecting one, so the tone is practical advice rather than resolve. Compare 宁愿, which is warmer and more common in speech, and 宁可不……也要……, where the second half is something still wanted rather than refused. Word order is fixed, 宁可 first and 也不 second, and the refused clause usually takes no 但是.",
+    "common_mistake": "Learners leave out 也 and write 宁可……不愿意……, or add 但是 in the second clause. Keep both halves: 宁可 first, then 也不 before the verb you are refusing.",
+    "examples": [
+      {
+        "zh": "宁可多等十分钟，也不挤那趟地铁。",
+        "py": "nìng kě duō děng shí fēn zhōng yě bù jǐ nà tàng dì tiě",
+        "en": "I would rather wait ten minutes longer than squeeze onto that train."
+      },
+      {
+        "zh": "她宁可自己加班，也不愿把任务推给别人。",
+        "py": "tā nìng kě zì jǐ jiā bān yě bù yuàn bǎ rèn wù tuī gěi bié rén",
+        "en": "She would rather work late herself than push the task onto someone else."
+      },
+      {
+        "zh": "我们宁可少赚，也不降低质量。",
+        "py": "wǒ men nìng kě shǎo zhuàn yě bù jiàng dī zhì liàng",
+        "en": "We would rather earn less than lower the quality."
+      }
+    ],
+    "drills": [
+      {
+        "q": "我____多走二十分钟，也不坐那趟挤满人的车。",
+        "options": ["宁可", "与其", "不但", "因为"],
+        "answer": 0,
+        "explain": "也不 in the second half marks a refusal, and only 宁可 sets that up. 与其 needs 不如, 不但 needs 而且, and 因为 needs 所以, so none of them can answer 也不."
+      },
+      {
+        "q": "她宁可自己加班，____麻烦别人。",
+        "options": ["也不愿意", "但是不愿意", "所以不愿意", "因为不愿意"],
+        "answer": 0,
+        "explain": "The fixed pair is 宁可……也不……, so the second half must begin with 也不. 但是, 所以 and 因为 would each set up a different relation and break the pattern."
+      }
+    ]
+  },
+  "reading": {
+    "title": "外公讲的除夕",
+    "text": "小时候，每到农历的最后一天，外公都会给我讲除夕的由来。\n\n他说，很久以前，山里有一种怪物，每到这一天的半夜就出来。谁家的门没关好，它就去吓人。人们恨它，又拿它没办法。后来有人发现，这怪物怕红色，也怕很响的声音。于是大家在家门口贴上红纸，把竹子放在火里烧，噼啪的声音把它赶走了。\n\n外公说，那天晚上没有人敢睡，全家坐在一起，这就叫守岁。宁可熬夜，也不让怪物进门。\n\n我问外公，怪物真的存在吗？他笑着说，说不定这个说法只是编出来骗小孩的。可是第二天，家家门口都是红色的纸，整个村子都是鞭炮的声音。大人们纷纷说，这样过一夜，心里才踏实。这个风俗就这样一年一年地传下来。",
+    "translation": "When I was small, my grandfather on my mother's side would tell me the origin of New Year's Eve on the last day of the lunar calendar every year. He said that long ago there was a kind of monster in the mountains, and it came out in the middle of the night on that day. If a household had not shut its door properly, it would go and frighten the people inside. People hated it and could do nothing about it. Then someone discovered that the monster was afraid of red and also afraid of loud noises. So everyone pasted red paper on their doors and burned bamboo in the fire, and the crackling sound drove it away. My grandfather said that nobody dared to sleep that night and the whole family sat up together, which is what people call staying up for the New Year. They would rather lose sleep than let the monster in. I asked him whether the monster really existed. He laughed and said that maybe the story was just made up to frighten children. But the next day every doorway was red and the whole village rang with firecrackers. The grown-ups all said that after a night like that, you finally feel settled. And that is how the custom has been passed down, year after year.",
+    "questions": [
+      {
+        "q": "这篇文章主要讲的是____。",
+        "options": ["除夕和它的习俗是怎么来的", "小孩子为什么怕黑", "农村的冬天怎么取暖", "红纸是怎么做出来的"],
+        "answer": 0,
+        "explain": "The first sentence announces 除夕的由来, and the rest explains the monster story, 守岁 and 鞭炮, so the passage is about the origin of the festival and its customs."
+      },
+      {
+        "q": "为了赶走怪物，人们贴红纸，还____。",
+        "options": ["在门口放了一锅水", "全家一起唱老歌", "烧竹子弄出很大的响声", "把门锁得比平时更紧"],
+        "answer": 2,
+        "explain": "Paragraph two says people pasted red paper and 把竹子放在火里烧，噼啪的声音把它赶走了; the water, the singing and the extra locks are not in the text."
+      },
+      {
+        "q": "外公说“说不定这个说法只是编出来骗小孩的”，可以看出外公____。",
+        "options": ["其实非常害怕怪物", "对这个说法并不完全相信", "觉得孩子不该过年", "希望孩子早点回家睡觉"],
+        "answer": 1,
+        "explain": "He is laughing as he says it, and 说不定 marks uncertainty about the legend, so he does not fully believe the story. Nothing in the passage suggests fear or a wish for the child to go to bed."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "除夕的晚上，一家人一起守岁。",
+      "我们宁可早到，也不愿意迟到。",
+      "过年的时候，孩子们最喜欢放鞭炮。",
+      "外婆说，这个风俗很有意义。",
+      "他昨天熬夜把工作做完了。"
+    ]
+  },
+  "writing": {
+    "prompt": "Write about a family custom or a rule you keep, and say what it means to you. Use the words below.",
+    "required_words": ["除夕", "风俗", "意义", "整个"],
+    "min_chars": 80,
+    "model": "我们家有一个小小的风俗：除夕那天，不管多忙，全家都要一起包饺子。母亲和面，父亲剁馅，我负责把饺子摆得整整齐齐。整个厨房都是热气。这个习惯看起来普通，意义却不小，它让我们知道，一年总要有一天是为家人留出来的。",
+    "tips": "Start by naming the custom and when it happens, then describe one concrete moment with two or three actions. Finish with the meaning in a single sentence instead of a long moral."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "lesson": 30,
+  "title_zh": "竞争让市场更高效",
+  "title_en": "Competition makes the market more efficient",
+  "theme": "Two delivery teams running the same route show how clear rules turn rivalry into better equipment, cheaper prices and livelier staff.",
+  "grammar": {
+    "id": "g30",
+    "point": "何必 / 何尝 / 难道 / 岂",
+    "point_en": "why bother / have I ever not / surely not / how could it be",
+    "structure": "何必 + 动词短语（+ 呢）？ ｜ 何尝 + 不/没有……？ ｜ 难道 + 主语 + 谓语……吗？ ｜ 岂 + 不/能/敢……？",
+    "explain_en": "These four are all rhetorical, which means the speaker does not want an answer — they want agreement. 何必 ('why bother') says that an action is unnecessary or not worth the trouble: 只是小问题，何必这么紧张？ It comes before the verb, often with 呢, and it rejects doing something. 何尝 ('have I ever not…') is the subtle one: it uses a negative form to insist that the opposite is true. 我何尝不想去？ means 'of course I want to go'; the surface is a question, the meaning is an assertion. It almost always appears with 不 or 没有 and a question mark, and it is literary in tone. 难道 starts a challenge and expects 'no' as the answer, and it nearly always ends the sentence with 吗 or 不成: 难道你忘了我们的约定吗？ It can front the subject or follow it. 岂 is the most formal and the most compressed: 岂不更好？ 'wouldn't that be even better?', 岂能随便改？ 'how could it be changed just like that?'. It pairs with 不, 能, 敢 or 是 and reads like written argument. All four turn a statement into a challenge or an insistence, and none of them reports a plain fact. Tone is the real difference: 何必 rejects an action, 何尝 reveals a hidden truth, 难道 challenges the listener, 岂 asserts with formal force.",
+    "common_mistake": "Learners write 难道 in ordinary statements without 吗, and they read 何必 as 'why not'. 何必 always means the action is unnecessary, and 难道 needs the question frame.",
+    "examples": [
+      {
+        "zh": "只是一个小误会，何必说得这么严重？",
+        "py": "zhǐ shì yī gè xiǎo wù huì hé bì shuō de zhè me yán zhòng",
+        "en": "It was only a small misunderstanding; why make it sound so serious?"
+      },
+      {
+        "zh": "我何尝不想休息，只是这个月实在太忙。",
+        "py": "wǒ hé cháng bù xiǎng xiū xi zhǐ shì zhè ge yuè shí zài tài máng",
+        "en": "It is not that I don't want a break; this month is simply too busy."
+      },
+      {
+        "zh": "难道你没有收到我昨天发的邮件吗？",
+        "py": "nán dào nǐ méi yǒu shōu dào wǒ zuó tiān fā de yóu jiàn ma",
+        "en": "Surely you received the email I sent yesterday?"
+      }
+    ],
+    "drills": [
+      {
+        "q": "只是晚了十分钟，你____发这么大的火？",
+        "options": ["何必", "何尝", "岂", "到底"],
+        "answer": 0,
+        "explain": "何必 says the reaction is unnecessary and pairs with a bare verb phrase. 何尝 needs 不 or 没有 to insist on a hidden truth, 岂 needs 不/能/敢, and 到底 only presses a question."
+      },
+      {
+        "q": "____你忘了今天下午要交报告吗？",
+        "options": ["何必", "难道", "何尝", "岂"],
+        "answer": 1,
+        "explain": "难道 opens a rhetorical challenge and is completed by 吗 at the end. 何必 needs a verb phrase about an unnecessary action, 何尝 would need 不 or 没有, and 岂 cannot sit before a subject."
+      }
+    ]
+  },
+  "reading": {
+    "title": "两条路线",
+    "text": "我们公司做生鲜运输，主要把海边的鱼送到城里的饭店。前几年只有一条路线，车队由一位老负责人管，大家早上装货，下午到达，日子过得很和平。\n\n问题也慢慢出来了：设备越来越旧，没有人提；送到的鱼死了一半，也没有人急。因为没有别的车队，饭店只能接受。\n\n去年，老板做了一个让所有人意外的决定：同样的路线，再成立一个小组，两组分别报出每周的成本。消息一出来，两个组的员工都坐不住了。老组第一次主动换了设备，新组把装车的时间缩短了半小时。几个月后，鱼存活的比例提高了很多，价格也降了下来，服务也改善了不少。\n\n难道竞争一定伤感情吗？我看未必。只要规则清楚，它更像一条鲇鱼，让本来安静的沙丁鱼不得不游起来。",
+    "translation": "Our company delivers fresh food, mainly carrying fish from the coast to restaurants in the city. For years there was only one route, run by an old manager: everyone loaded in the morning, arrived in the afternoon, and life was peaceful. Then the problems surfaced one by one. The equipment was getting old and nobody raised it; half the fish arrived dead and nobody panicked. With no other fleet around, the restaurants could only accept it. Last year the boss made a decision that surprised everyone: on the same route, set up a second team, and have the two teams each report their weekly cost. The moment the news came out, staff in both teams could not sit still. The old team changed the equipment on its own initiative for the first time, and the new team cut loading time by half an hour. A few months later the share of fish surviving the trip had risen a lot, prices had come down, and the service had improved noticeably. Must competition always hurt feelings? I doubt it. As long as the rules are clear, it works more like a catfish, making the once-quiet sardines swim.",
+    "questions": [
+      {
+        "q": "这篇文章主要讲的是____。",
+        "options": ["怎样把鱼运得更快一些", "适度竞争带来的变化", "老板为什么要换新设备", "饭店怎样降低采购成本"],
+        "answer": 1,
+        "explain": "The passage describes the quiet monopoly, the boss's decision and the concrete improvements that followed, so the changes brought by competition are the main point."
+      },
+      {
+        "q": "老板做的决定是____。",
+        "options": ["取消原来的那个车队", "把两条路线合并成一条", "再成立一个小组跑同样的路线", "把鱼的价格提高一半"],
+        "answer": 2,
+        "explain": "The third paragraph says the two teams cover the same route and report their weekly costs separately, which is exactly the decision."
+      },
+      {
+        "q": "“它更像一条鲇鱼”这个比喻想说的是____。",
+        "options": ["竞争会伤害同事之间的感情", "竞争能让人保持活力", "鱼比人更需要活动空间", "新组一定比老组更能干"],
+        "answer": 1,
+        "explain": "The catfish makes the sardines swim, and the author says competition does not have to hurt feelings, so the image stands for the energy rivalry creates."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "我们公司负责把海边的鱼运输到城里。",
+      "两个组的员工都开始想办法降低成本。",
+      "设备换了以后，鱼存活的比例高了很多。",
+      "难道竞争一定会伤害感情吗？",
+      "只要规则清楚，竞争对大家都有利。"
+    ]
+  },
+  "writing": {
+    "prompt": "Think of a place where competition made things better for customers — a market, a street of shops, a team. Explain what changed. Use at least three of the words below.",
+    "required_words": ["商品", "改善", "活力", "有利"],
+    "min_chars": 90,
+    "model": "我家附近有一条卖早餐的小街，以前只有一家店，包子常常是凉的，价格也不便宜。后来街口又开了两家，同样的商品，质量差一点就没人买。第一家店很快换了设备，还改善了几种点心的做法。现在整条街都很有活力，早上七点就排起了队。竞争对顾客是有利的，对认真做事的店主也未必是坏事。",
+    "tips": "Describe the situation before, the moment a competitor appeared, and one concrete change a customer can see or taste."
+  }
+}

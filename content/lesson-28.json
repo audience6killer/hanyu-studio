@@ -1,0 +1,86 @@
+{
+  "lesson": 28,
+  "title_zh": "最受欢迎的毕业生",
+  "title_en": "The most popular graduate",
+  "theme": "A recruiter looks at only three lines of a CV, and the answer to campus anxiety turns out to be attitude rather than credentials.",
+  "grammar": {
+    "id": "g28",
+    "point": "简直 / 究竟 / 到底",
+    "point_en": "simply, virtually / exactly (what), after all",
+    "structure": "简直 + 像/是/不敢/无法 + …… ｜ 究竟/到底 + 疑问词（问句） ｜ 到底 + 毕竟/终于（陈述句）",
+    "explain_en": "简直 is an intensifier of comparison, not a question word. It tells the listener that what follows is an extreme way of putting something: 房间里简直像冰库. It almost always needs a partner — 像, 是, 等于, 成了, or a negative verb such as 不敢, 无法, 不敢相信. Without that partner the sentence feels unfinished, which is why a bare 我简直很高兴 sounds wrong. 究竟 and 到底 share one job: pressing a question, 'what exactly, after all'. Both stand before the verb or before the question word: 他究竟为什么辞职？/ 你到底想说什么？ 究竟 is the more written, slightly formal choice and often ends with 呢; 到底 is the everyday spoken one. Only 到底 has a second life outside questions, meaning 'after all, in the end': 他到底还是答应了, or 他到底是个新人，别要求太高. 究竟 has no such use. Position is the same for both — after the subject, before the predicate, never at the very start of a sentence. If your sentence already ends in 吗, do not add 究竟 or 到底: they want a question word such as 为什么, 怎么, 谁, 哪, or a choice between two alternatives, not a yes-or-no question.",
+    "common_mistake": "Learners write 简直 with no comparison (我简直很高兴) and use 究竟 in statements to mean 'in the end'. Pair 简直 with 像/是/不敢, and keep 究竟 for questions.",
+    "examples": [
+      {
+        "zh": "这间办公室安静得简直像图书馆。",
+        "py": "zhè jiān bàn gōng shì ān jìng de jiǎn zhí xiàng tú shū guǎn",
+        "en": "This office is so quiet it is simply like a library."
+      },
+      {
+        "zh": "你究竟想让我先做哪一件事？",
+        "py": "nǐ jiū jìng xiǎng ràng wǒ xiān zuò nǎ yī jiàn shì",
+        "en": "Which task exactly do you want me to do first?"
+      },
+      {
+        "zh": "他到底还是个新人，别对他要求太高。",
+        "py": "tā dào dǐ hái shì gè xīn rén bié duì tā yāo qiú tài gāo",
+        "en": "He is still a newcomer after all; don't expect too much of him."
+      }
+    ],
+    "drills": [
+      {
+        "q": "这份计划改了六遍，我____不敢相信自己看错了日期。",
+        "options": ["究竟", "到底", "简直", "索性"],
+        "answer": 2,
+        "explain": "简直 pairs with 不敢相信 to exaggerate, and that partner is exactly what it needs. 究竟 and 到底 only press questions, and 索性 means 'decided to just', which does not fit here."
+      },
+      {
+        "q": "别急，他____比你早入行五年，经验多一些。",
+        "options": ["简直", "究竟", "到底", "难道"],
+        "answer": 2,
+        "explain": "Here 到底 means 'after all' in a statement, which is its second use. 究竟 has no such use in statements, 简直 would need 像/是/不敢相信, and 难道 needs a rhetorical question."
+      }
+    ]
+  },
+  "reading": {
+    "title": "三行简历",
+    "text": "上个月的招聘会，我在现场待了一整天。最挤的展位不是工资最高的那家，而是一家做节水设备的小公司。老板亲自坐在桌后，一上午没有停过。\n\n那一届毕业生的就业情况本来就不太好，来的人特别多。老板后来告诉我，收简历时他只看三行：你做过什么，做出过什么结果，你还想学什么。至于学校，他不太在意。他说，很多年轻人把简历写得很漂亮，却说不清自己究竟能解决什么问题；也有些人学校很普通，优势却正好在具体做事上。\n\n我问他：什么样的人你愿意留下？他想了一会儿说：面对问题不逃跑的人。经验缺乏不要紧，技能可以培养，态度培养不了。\n\n回去的路上我一直在想这句话。工作到底需要什么样的人？答案也许比我们想的简单：不是最聪明的，而是能把一件小事真正做完的人。",
+    "translation": "At last month's job fair I spent a whole day on site. The busiest stand was not the one paying the most but a small company that makes water-saving equipment. The owner sat behind the table himself and did not stop once all morning. That year's graduates were having a hard time finding work, so the crowd was especially large. The owner later told me that he reads only three lines of a CV: what you have done, what result you produced, and what you still want to learn. As for your school, he does not care much. He said many young people write a beautiful CV but cannot say what problem they can actually solve, while others come from very ordinary schools yet their strength happens to be in getting concrete things done. I asked him what kind of person he wanted to keep. He thought for a moment and said: someone who does not run away when a problem appears. A lack of experience is not a problem; skills can be taught, attitude cannot. On the way home I kept thinking about that sentence. What kind of person does work really need? The answer may be simpler than we think: not the cleverest one, but the one who can actually finish a small job properly.",
+    "questions": [
+      {
+        "q": "这篇文章主要说明的是____。",
+        "options": ["招聘会上哪个展位最挤", "小公司怎样提高工资待遇", "老板最看重毕业生的什么", "一份简历应该写多长"],
+        "answer": 2,
+        "explain": "The whole passage is built around the owner's three-line test and his closing comment about attitude, so what he values is the main point."
+      },
+      {
+        "q": "老板看简历时最先看的三行不包括____。",
+        "options": ["你做过什么", "你做出过什么结果", "你还想学什么", "你毕业于哪所学校"],
+        "answer": 3,
+        "explain": "The passage lists the three lines and then says '至于学校，他并不太在意', so the school is explicitly not one of them."
+      },
+      {
+        "q": "从“遇到问题不逃跑的人”这句话可以看出来，老板最看重____。",
+        "options": ["学历和成绩", "经验和人脉", "面对问题的态度", "说话的能力"],
+        "answer": 2,
+        "explain": "He follows the sentence with '态度培养不了', so not running away is a matter of attitude rather than of qualifications."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "那一届毕业生的就业情况比往年难。",
+      "我的简历只有一页，写了三行重点。",
+      "老板问得很具体，我一时不知道怎么回答。",
+      "他最大的优势是遇到问题不逃避。",
+      "这份工作有没有前途，要看行业的发展。"
+    ]
+  },
+  "writing": {
+    "prompt": "Write the three lines you would put at the top of your CV and explain why they matter for the job you want. Use at least three of the words below.",
+    "required_words": ["简历", "优势", "具体", "前途"],
+    "min_chars": 90,
+    "model": "我的简历开头只有三行。第一行写我做过什么：在一家小公司负责过三年的客户维护。第二行写结果：把老客户的流失从每月五家降到一家。第三行写我还想学什么：数据分析。我的优势不是名校，而是能把具体的事情做完。这份工作我看重的是前途，所以愿意从最基础的部分学起。",
+    "tips": "Give three short lines rather than a paragraph, put a number in at least one of them, and close with why this role fits your longer plan."
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "lesson": 34,
+  "title_zh": "鸟儿的护肤术",
+  "title_en": "How birds take care of their feathers",
+  "theme": "A balcony sparrow's grooming routine, read as a lesson in small daily maintenance rather than mere instinct.",
+  "grammar": {
+    "id": "g34",
+    "point": "再……不过 / 没有比……更……",
+    "point_en": "couldn't be more; nothing is more ... than ...",
+    "structure": "再 + 形容词 + 不过（+ 了）；没有比 + A + 更 + 形容词 + 的（+ 了）",
+    "explain_en": "Both patterns push a quality to its maximum, but they are built differently. 再……不过 is a fixed frame: 再 + adjective + 不过, optionally with 了. It works like a strong 'extremely' and usually evaluates a situation rather than comparing two things: 这个时间再合适不过了。 Only a small set of evaluative adjectives fit comfortably (好, 合适, 简单, 清楚, 方便); you do not put 很 or 非常 inside the frame.\n没有比……更…… is a real comparison. It names the thing you are comparing with after 比, then the quality after 更, and the phrase usually ends with 的 or 了: 没有比这个更清楚的办法了。 The 更 is obligatory — without it the sentence is incomplete. The item after 比 can be a person, a time, a place or an action.\nUse 再……不过 for a quick verdict on a plan or an occasion, and 没有比……更…… when you want the comparison to be visible. Neither pattern is used to ask a question, and neither takes 是 before the adjective.",
+    "common_mistake": "The usual errors are dropping 更 from 没有比……更…… (as in 没有比这个好), keeping 很 or 非常 inside 再……不过 (as in 再好很不过), and reading 不过 as the conjunction 'but' rather than as part of the frame.",
+    "examples": [
+      {
+        "zh": "这件事交给你再合适不过了。",
+        "py": "zhè jiàn shì jiāo gěi nǐ zài hé shì bú guò le",
+        "en": "This task could not be in better hands than yours."
+      },
+      {
+        "zh": "对刚学打字的人来说，这个输入法再简单不过。",
+        "py": "duì gāng xué dǎ zì de rén lái shuō zhè ge shū rù fǎ zài jiǎn dān bú guò",
+        "en": "For someone just learning to type, this input method could not be simpler."
+      },
+      {
+        "zh": "对我们来说，没有比按时下班更让人高兴的事了。",
+        "py": "duì wǒ men lái shuō méi yǒu bǐ àn shí xià bān gèng ràng rén gāo xìng de shì le",
+        "en": "For us there is nothing more pleasing than leaving work on time."
+      }
+    ],
+    "drills": [
+      {
+        "q": "周末去公园看鸟____了，天气预报说这两天都是晴天。",
+        "options": [
+          "再好很过",
+          "比再好",
+          "再好不过",
+          "更不过好"
+        ],
+        "answer": 2,
+        "explain": "The fixed frame is 再 + adjective + 不过, so 再好不过了 is the only grammatical option. The others either insert 很 inside the frame or reorder 比 and 更, which the pattern does not allow."
+      },
+      {
+        "q": "对一个刚入职的新人来说，没有比遇到耐心的师傅____的事了。",
+        "options": [
+          "更幸运",
+          "很幸运",
+          "最幸运",
+          "太幸运"
+        ],
+        "answer": 0,
+        "explain": "The frame 没有比……更…… requires 更 before the adjective. 很, 最 and 太 cannot fill that slot after 比, so only 更幸运 completes the comparison."
+      }
+    ]
+  },
+  "reading": {
+    "title": "羽毛的日常",
+    "text": "阳台上一直放着一个浅盘子，我常往里倒一点水。夏天最热的时候，麻雀会跳进去，把翅膀张开，反复拍打，水花溅得到处都是。洗完了，它站在栏杆上，用嘴一下一下地整理羽毛，动作很像人用梳子梳头。\n鸟爱惜羽毛的程度，超出很多人的想象。羽毛光滑，既能保暖，又能挡水；没有它，鸟既飞不上天空，也熬不过干燥的季节。所以它们一有空就整理，发现寄生虫就马上处理。有的鸟还会把蚂蚁放在翅膀下面，借蚂蚁的气味赶走小虫。\n我原以为这只是本能，后来才明白，这更像一种保养：每天花几分钟，把最重要的东西照顾好。对一只鸟来说，没有比羽毛更值得花时间的东西了。人其实也一样。",
+    "translation": "A shallow dish has always sat on my balcony, and I often pour a little water into it. On the hottest summer days a sparrow will hop in, spread its wings, and beat them again and again until water splashes everywhere. When it has finished, it stands on the railing and tidies its feathers with its beak, one stroke at a time, much as a person combs their hair.\nBirds treasure their feathers far more than most people imagine. Feathers are smooth and keep the bird both warm and dry; without them a bird could neither fly up into the sky nor survive the dry season. So whenever they have a moment, they groom, and they deal with parasites at once. Some birds even tuck ants under their wings and use the ants' smell to drive away tiny insects.\nI used to think this was pure instinct, but later I understood it is closer to maintenance: a few minutes a day spent looking after the thing that matters most. For a bird there is nothing more worth the time than its feathers. People are much the same.",
+    "questions": [
+      {
+        "q": "这篇文章主要写的是____。",
+        "options": [
+          "阳台上的盘子该怎么摆放",
+          "鸟怎样照顾自己的羽毛",
+          "麻雀和蚂蚁之间的合作",
+          "人应该怎样在家里养鸟"
+        ],
+        "answer": 1,
+        "explain": "The passage describes the sparrow bathing, tidying its feathers, and dealing with parasites, then draws the parallel with human maintenance — the focus is feather care."
+      },
+      {
+        "q": "鸟洗完澡以后会____。",
+        "options": [
+          "把盘子里的水喝光",
+          "用肥皂清洗翅膀",
+          "站在栏杆上整理羽毛",
+          "飞到树上睡一觉"
+        ],
+        "answer": 2,
+        "explain": "The first paragraph says that after washing, the bird stands on the railing and tidies its feathers with its beak."
+      },
+      {
+        "q": "作者写这篇文章，主要想____。",
+        "options": [
+          "借鸟的习性谈日常保养",
+          "介绍一种少见的鸟类",
+          "说明阳台应该怎样布置",
+          "提醒大家不要养鸟"
+        ],
+        "answer": 0,
+        "explain": "The last paragraph explicitly turns the bird's routine into a point about people: daily maintenance of what matters most, which is the author's real purpose."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "小鸟站在栏杆上反复整理翅膀。",
+      "它的羽毛又光滑又干净。",
+      "每天花几分钟保养自己很重要。",
+      "洗完澡以后，它看起来痛快多了。",
+      "这个秘密他一直没有告诉别人。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe an object or a daily habit you maintain carefully. Say what you do, why others find it excessive, and what it gives you back. Use the words below.",
+    "required_words": [
+      "保养",
+      "反复",
+      "爱惜",
+      "秘密"
+    ],
+    "min_chars": 80,
+    "model": "我有一把用了六年的剪刀，每次用完都擦干净，放回抽屉。朋友笑我太爱惜，我却觉得这是最简单的保养。工具反复使用，总会有磨损；花两分钟照顾它，它就能多陪你几年。这个秘密其实不新鲜，只是很少人愿意坚持。",
+    "tips": "Name the object or habit, describe the small routine in detail, mention the mild teasing you get, then close with what the habit actually gives you."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "lesson": 5,
+  "title_zh": "济南的泉水",
+  "title_en": "Spring Water in Ji'nan",
+  "theme": "The springs of a city matter less as a sight to tick off than as a daily habit that sets its pace.",
+  "grammar": {
+    "id": "g05",
+    "point": "与其……不如……",
+    "point_en": "rather than A, it would be better to B",
+    "structure": "与其 + less good option，不如 + preferred option",
+    "explain_en": "与其……不如…… compares two things you could do and comes down on the second one. 与其 introduces the option the speaker is setting aside, and 不如 introduces the one being recommended, so the order of the two clauses carries the advice. This is why the pair is not simply 'rather than': it always ends with a recommendation. Both halves should be actions with matching shape, normally the same verb type and length. The subject usually stands before 与其 and is not repeated in the second clause, and 不如 comes directly after the comma. In speech 不如 is often strengthened to 还不如, and 倒 can be added for a softer, slightly ironic tone. The pattern is close to 与其说……不如说……, but that version corrects a description rather than choosing between actions: 与其说他是领导，不如说他是老师 does not mean you can pick one. It is the opposite of 宁可……也不……, which refuses the second option instead of recommending it. Keep the pair in this order; 不如……与其…… is not used.",
+    "common_mistake": "Learners reverse the two halves (不如……与其……) or leave out 不如 after the comma. The fixed order is 与其 first, 不如 second, and both clauses need a full predicate.",
+    "examples": [
+      {
+        "zh": "与其在群里反复讨论，不如先把数据核对清楚。",
+        "py": "yǔ qí zài qún lǐ fǎn fù tǎo lùn bù rú xiān bǎ shù jù hé duì qīng chu",
+        "en": "Rather than going round and round in the group chat, it would be better to check the figures carefully first."
+      },
+      {
+        "zh": "与其换新的，不如把这台修好。",
+        "py": "yǔ qí huàn xīn de bù rú bǎ zhè tái xiū hǎo",
+        "en": "Rather than replace it, it would be better to get this one repaired."
+      },
+      {
+        "zh": "与其说他是我的领导，不如说他是我的老师。",
+        "py": "yǔ qí shuō tā shì wǒ de lǐng dǎo bù rú shuō tā shì wǒ de lǎo shī",
+        "en": "He is less my manager than my teacher."
+      }
+    ],
+    "drills": [
+      {
+        "q": "与其等别人来帮忙，____自己先试一次。",
+        "options": ["不如", "因为", "虽然", "即使"],
+        "answer": 0,
+        "explain": "与其 must be answered by 不如, the only partner that carries the recommendation. 因为 needs 所以, 虽然 needs 但是, and 即使 needs 也, so the sentence would have no main clause."
+      },
+      {
+        "q": "与其花钱请人修，____。",
+        "options": ["不如自己动手试试", "宁可自己动手试试", "只好自己动手试试", "才自己动手试试"],
+        "answer": 0,
+        "explain": "The second half of 与其 is fixed as 不如. 宁可 needs a rejected 也不 clause, 只好 does not pair with 与其, and 才 needs a preceding condition rather than a comparison."
+      }
+    ]
+  },
+  "reading": {
+    "title": "泉水边的十分钟",
+    "text": "到济南的第二天，我才明白这里的人为什么爱说泉水。\n\n老城的巷子里，泉眼分布得很密，几乎每走几百步就能碰见一处。水从石头下面出来，一年四季都是温的。冬天清晨，水面上飘着一层白气，像有人在下面生了一盆火。\n\n从前的文字里就记载过这些水。有人写它，说它清得像玉，说它的声音像有人在小声说话。如今来打水的人还是很多，老人提着水壶，排成一条不长的队，一边等一边聊天。\n\n这些泉不是人工挖出来的，而是天然形成的。地势低，水无处可去，就从岩石的缝里出来。水在石头表面流过，留下形状不同的痕迹，所以每一处泉眼看着都不一样。\n\n与其赶着去下一个地方，不如在这里坐十分钟。这份从容，才是泉水真正给人的东西。",
+    "translation": "It was only on my second day in Ji'nan that I understood why people here love to talk about the spring water. In the lanes of the old town the springs are spread densely, and you bump into one every few hundred steps. The water comes out from under the stones and is warm all year round. On a winter morning a layer of white vapour drifts over the surface, as if someone had lit a small fire underneath. Written records from long ago already noted this water. Someone wrote that it was as clear as jade, and that its sound was like a person speaking softly. Even today many people come to fetch water: elderly men and women carry kettles and form a short queue, chatting while they wait. These springs were not dug by hand; they formed naturally. The ground lies low, the water has nowhere else to go, so it comes out through cracks in the rock. As it runs over the surface of the stones it leaves marks of different shapes, which is why every spring looks a little different. Rather than rushing off to the next place, it is better to sit here for ten minutes. That unhurried quality is what the springs really give a person.",
+    "questions": [
+      {
+        "q": "作者写这篇文章，主要是想____。",
+        "options": ["介绍泉水形成的原因", "表达对这座城市的喜欢", "说明打水为什么要排队", "介绍济南的历史名人"],
+        "answer": 1,
+        "explain": "The passage moves from the springs to the people fetching water and ends with sitting by them for ten minutes, so the aim is affection for the city rather than a science or history lesson."
+      },
+      {
+        "q": "根据第四段，泉水是从____出来的。",
+        "options": ["岩石的缝里", "老城的墙根下", "人工挖的水井里", "河边的新管子里"],
+        "answer": 0,
+        "explain": "The fourth paragraph says 水无处可去，就从岩石的缝里出来, and it states plainly that the springs were not dug by hand, which rules out a well or a pipe."
+      },
+      {
+        "q": "作者说“不如在这里坐十分钟”，是因为____。",
+        "options": ["走累了需要休息", "泉水边有免费的茶", "想体会这座城市慢慢的节奏", "下一班车还没有来"],
+        "answer": 2,
+        "explain": "The last two sentences link the ten minutes with 从容 and say that this is what the springs really give, so the reason is the city's pace, not tiredness or a bus."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "这些泉水是天然形成的。",
+      "老人在泉边排队打水，一边聊天。",
+      "这块石头的形状很独特。",
+      "这座城市的历史很悠久。",
+      "与其坐车，不如走过去看看。"
+    ]
+  },
+  "writing": {
+    "prompt": "Write about a place in your city you would take a visitor to, and explain why. Use the words below.",
+    "required_words": ["悠久", "独特", "充满", "优美"],
+    "min_chars": 80,
+    "model": "如果朋友来我的城市，我会带他去老河边的那条街。那里的房子很老，历史很悠久，每一家的门都不一样，颜色也很独特，看上去十分优美。傍晚的时候，街上充满饭香，小孩在跑，老人坐在门口聊天。我每次走在那里，都能感受到这座城慢慢的样子。",
+    "tips": "Name the place and one detail a visitor would notice first, then add what happens there at a certain time of day. Close with why you keep going back, in one short sentence."
+  }
+}

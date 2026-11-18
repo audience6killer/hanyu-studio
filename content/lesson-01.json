@@ -1,0 +1,86 @@
+{
+  "lesson": 1,
+  "title_zh": "爱的细节",
+  "title_en": "Details of Love",
+  "theme": "Affection in long relationships shows up as small, repeated habits rather than speeches.",
+  "grammar": {
+    "id": "g01",
+    "point": "不是……而是……",
+    "point_en": "not A, but B",
+    "structure": "不是 + A + 而是 + B",
+    "explain_en": "This pattern corrects a wrong assumption. The speaker first names what something is not, then supplies what it actually is. Use it when the listener probably has the wrong idea, or when you want to sharpen a contrast you have just suggested. The 不是 half is usually short, and 而是 must come in the same clause with the real answer. The two halves are balanced, so the words either side of the pair normally share the same shape: noun with noun, verb with verb, clause with clause. It differs from 不是……就是……, which offers two genuine options; here one option is rejected and the other is asserted. It also differs from 不但……而且……, which adds information instead of replacing it. Word order is fixed, 不是 first, 而是 second, and the whole pair usually follows the subject: 他 不是 忘了，而是 没听见. If the subject would be long, repeat a short pronoun in the second half instead of stretching one subject across both halves. The pattern often opens a sentence with 真正的 or 真正的问题, because its job is to redraw the definition before giving a conclusion.",
+    "common_mistake": "Learners write 不是……但是…… or drop 是 from the second half (不是他，而他不来). Keep 是 in both halves; 但是 cannot replace 而是 here.",
+    "examples": [
+      {
+        "zh": "她不是没看见我，而是不想说话。",
+        "py": "tā bú shì méi kàn jiàn wǒ ér shì bù xiǎng shuō huà",
+        "en": "It is not that she failed to see me; she simply did not want to talk."
+      },
+      {
+        "zh": "我先说明，这不是抱怨，而是提醒。",
+        "py": "wǒ xiān shuō míng zhè bú shì bào yuàn ér shì tí xǐng",
+        "en": "Let me be clear from the start: this is not a complaint, it is a reminder."
+      },
+      {
+        "zh": "真正的问题不是时间不够，而是顺序不对。",
+        "py": "zhēn zhèng de wèn tí bú shì shí jiān bù gòu ér shì shùn xù bú duì",
+        "en": "The real problem is not too little time, but the wrong order of steps."
+      }
+    ],
+    "drills": [
+      {
+        "q": "他今天迟到，____因为堵车，而是因为闹钟坏了。",
+        "options": ["不是", "不但", "虽然", "即使"],
+        "answer": 0,
+        "explain": "而是 can only pair with 不是. 不但 needs 而且 later, 虽然 needs 但是 later, and 即使 needs 也 later, so none of them can sit in this half."
+      },
+      {
+        "q": "他不是不想帮忙，____。",
+        "options": ["而是那天实在没有时间", "但是那天实在没有时间", "而且那天实在没有时间", "就是那天实在没有时间"],
+        "answer": 0,
+        "explain": "The corrective pair must stay 不是……而是……. 但是 and 而且 would signal a different relation, and 就是 expresses emphasis, not correction."
+      }
+    ]
+  },
+  "reading": {
+    "title": "一碗汤的温度",
+    "text": "周末我回老家吃饭。奶奶的耳朵越来越不好，跟她说话得大声喊。爷爷嘴上总抱怨她慢，一边催她，一边又把椅子往后拉了一点。\n\n我坐在旁边看这两个人。他们结婚四十多年，也吵架，也会互相不耐烦。可我慢慢发现，真正打动人的，不是好听的话，而是很多很小的细节。爷爷记得她的药放在哪个抽屉，也知道她半夜会咳，就把水杯放在她手边。\n\n吃饭前，爷爷把一碗汤递给她，手指在碗边停了一下，试了试温度。奶奶什么也没说，只把碗往他那边推了推。晚饭后，爷爷打开电台听新闻，她就坐在旁边安静地等待，不时替他加一点热水。\n\n那一刻我忽然明白，他们的婚姻很少说“爱”，可这些动作一直在说。",
+    "translation": "At the weekend I went back to my hometown for a meal. My grandmother's hearing is getting worse, so you have to shout when you talk to her. My grandfather complains out loud that she is slow, and he is always urging her along, but at the same time he pulls her chair back a little for her. I sat beside them and watched. They have been married for more than forty years; they quarrel, and they do get impatient with each other. Yet I slowly noticed that what really moves people is not fine words but a great many very small details. My grandfather remembers which drawer her medicine is in, and he knows she coughs in the middle of the night, so he puts a glass of water by her hand. Before dinner he passes her a bowl of soup, pauses his fingers at the rim and tests the temperature. She says nothing, only pushes the bowl slightly back towards him. After dinner he turns on the radio for the news, and she sits beside him waiting quietly, now and then topping up his hot water. In that moment I suddenly understood: their marriage rarely says the word love, but these movements have been saying it all along.",
+    "questions": [
+      {
+        "q": "作者写这篇文章，主要是想告诉我们____。",
+        "options": ["老夫妻的关心藏在很小的动作里", "奶奶的耳朵越来越不好", "爷爷每天都要听一会儿新闻", "老家吃饭时的气氛很安静"],
+        "answer": 0,
+        "explain": "The middle two paragraphs are both built from small acts of care, and the closing line says the marriage rarely speaks the word love while the movements keep saying it."
+      },
+      {
+        "q": "根据第一段，爷爷一边催奶奶，一边____。",
+        "options": ["把她的椅子往后拉了一点", "大声喊她快点吃饭", "把药悄悄放进抽屉里", "顺手打开电台听新闻"],
+        "answer": 0,
+        "explain": "The last sentence of paragraph one says 一边催她，一边又把椅子往后拉了一点, so the second action is pulling her chair back for her."
+      },
+      {
+        "q": "作者说他们的婚姻“很少说爱”，是想说明____。",
+        "options": ["老人不习惯说出这个词", "感情主要靠动作表达出来", "语言在婚姻里没有用处", "作者自己的婚姻也不顺利"],
+        "answer": 1,
+        "explain": "The last sentence contrasts 很少说 with 一直在说, and the paragraph before it lists actions such as testing the soup and topping up hot water, so the point is that the feeling lives in the actions."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "奶奶总抱怨爷爷说话太吵。",
+      "他们年轻时也常常吵架。",
+      "爱的细节往往藏在很小的动作里。",
+      "爷爷半夜起来给她倒水。",
+      "他每天清晨听一会儿电台新闻。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe one small habit that shows someone cares, at home or at work. Use the words below.",
+    "required_words": ["细节", "抱怨", "爱护", "等待"],
+    "min_chars": 80,
+    "model": "我们办公室有一位同事，每天早上先把饮水机打开。这不算什么大事，可这些细节让加班的人有热水喝。他很少抱怨辛苦，也常常爱护新来的年轻人，愿意等待他们慢慢学会。真正的关心，大概就是这样安静地做下去。",
+    "tips": "Open with the habit itself in one sentence, then give one concrete moment that shows its effect on someone. Finish with a short sentence about what the habit means, not a summary of everything."
+  }
+}

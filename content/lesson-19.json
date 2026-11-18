@@ -1,0 +1,96 @@
+{
+  "lesson": 19,
+  "title_zh": "家乡的萝卜饼",
+  "title_en": "Turnip pancakes in my hometown",
+  "theme": "A winter kitchen memory: the making of one home-town dish, and why its taste belongs to a person rather than to a recipe.",
+  "grammar": {
+    "id": "g19",
+    "point": "以……为……",
+    "point_en": "to take X as / to be based on X",
+    "structure": "以 + A + 为 + B",
+    "explain_en": "以……为…… literally means 'take A as B'. It states what something has as its standard, main element, example or identity, and it is a written, slightly formal pattern that turns up constantly in menus, reports, job descriptions and short essays: 以清淡为主 (mainly mild), 以这本小说为例 (taking this novel as an example), 以质量为标准 (with quality as the standard), 以做菜为乐 (to take cooking as a pleasure). The A slot is a noun or an adjective phrase, never a full clause, and B is a noun, a short adjective, or one of the fixed nouns 主 / 例 / 荣 / 乐 / 标准 / 基础. The frame can be the predicate after a subject (我们家的早饭以粥为主), or it can modify a noun from in front (以汉语为母语的人). Compare 把……当作……: that pattern also means 'treat A as B', but it reports a person's attitude or a temporary use and belongs in speech, while 以……为…… states a rule, a category or a general characteristic and belongs in writing. The word order never changes: 以 comes first, then A, then 为, then B.",
+    "common_mistake": "Learners put a full clause or a verb after 为 (以他很努力为例子), or they replace 为 with 是 (以质量是标准). Keep B short and nominal, and do not use this written pattern where a casual 把……当作…… would sound more natural.",
+    "examples": [
+      {
+        "zh": "我们家的早饭以粥和小菜为主。",
+        "py": "wǒ men jiā de zǎo fàn yǐ zhōu hé xiǎo cài wéi zhǔ",
+        "en": "Our family's breakfast is mainly congee and a few side dishes."
+      },
+      {
+        "zh": "以这道萝卜饼为例，它的原料只有三样。",
+        "py": "yǐ zhè dào luó bo bǐng wèi lì tā de yuán liào zhǐ yǒu sān yàng",
+        "en": "Take this turnip pancake as an example: it has only three ingredients."
+      },
+      {
+        "zh": "奶奶以做饭为乐，从来不觉得麻烦。",
+        "py": "nǎi nai yǐ zuò fàn wéi lè cóng lái bù jué de má fan",
+        "en": "Grandma takes pleasure in cooking and never finds it a bother."
+      }
+    ],
+    "drills": [
+      {
+        "q": "我们家的晚饭一直____清淡为主，很少放辣椒。",
+        "options": ["以", "把", "对", "从"],
+        "answer": 0,
+        "explain": "Only 以 can head the frame that ends in 为: 以……为…… is fixed. 把 needs an object and a verb result after it, 对 marks a target or an attitude, and 从 marks a starting point, so none of them can stand before 为."
+      },
+      {
+        "q": "这家小店____特色，吸引了不少外地客人。",
+        "options": ["以萝卜饼为", "以萝卜饼是", "把萝卜饼为", "萝卜饼以"],
+        "answer": 0,
+        "explain": "Only 以……为…… completes the frame. 是 cannot replace 为 after 以, 把 cannot be followed by 为 here, and reversing the order breaks the pattern completely."
+      }
+    ]
+  },
+  "reading": {
+    "title": "冬天的萝卜饼",
+    "text": "每年冬天，我都会想起家乡的萝卜饼。那时候，奶奶做的饼以薄、软为特色，邻居常来问做法。她的原料很简单：萝卜、面粉、少许盐。萝卜切成细丝，拌上一点醋，馅就做好了。面要擀得几乎透明，再折叠几次，放进锅里用文火慢慢煎。锅里不能放太多油，火一大就容易糊。屋里很快有了香味，奶奶把第一张放在盘子里，淋几滴酱油，让我先尝。我总趁热吃，一边吃一边说好吃，她就笑。奶奶说，萝卜清淡，冬天吃它，平安。那时我不太懂这句话，只觉得可口。如今我在城里也做过几次，颜色和味道总差一点。后来我才明白，我怀念的不只是饼，还有那个慢下来的下午。",
+    "translation": "Every winter I think of the turnip pancakes from my home town. Back then my grandmother's pancakes were known for being thin and soft, and the neighbours often came over to ask how she made them. Her ingredients were simple: turnip, flour, a little salt. The turnip was cut into fine shreds and mixed with a little vinegar, and the filling was done. The dough had to be rolled out until it was almost transparent, folded a few times, and then fried slowly in the pan over a low flame. There must not be too much oil, and a high flame burns it easily. Soon the whole room smelled good; Grandma put the first one on a plate, drizzled a few drops of soy sauce on it and let me taste it first. I always ate it while it was hot, saying how good it was between bites, and she would laugh. Grandma used to say that turnip is mild and that eating it in winter keeps you safe and well. I did not really understand that sentence then; I only knew it tasted good. Now I have made it a few times in the city, and the colour and the taste always come out a little different. Only later did I understand that what I miss is not just the pancake, but that slow afternoon as well.",
+    "questions": [
+      {
+        "q": "这篇文章主要写了____。",
+        "options": [
+          "奶奶做萝卜饼的方法和作者对家乡的怀念",
+          "作者在城里开小饭馆的经历",
+          "萝卜的营养价值和不同的吃法",
+          "邻居们向奶奶学习做菜的原因"
+        ],
+        "answer": 0,
+        "explain": "The passage moves from how the pancakes were made to what the author misses now; the last sentence says the memory is about more than food."
+      },
+      {
+        "q": "奶奶做饼的时候，面要____。",
+        "options": ["擀得几乎透明", "切得很细", "泡在水里", "炸成金黄色"],
+        "answer": 0,
+        "explain": "The text says 面要擀得几乎透明，再折叠几次. Thin shreds describe the turnip, and nothing in the passage is soaked or deep-fried."
+      },
+      {
+        "q": "作者说城里的饼“总差一点”，最可能的原因是____。",
+        "options": [
+          "城里买不到新鲜的萝卜",
+          "少了家乡和亲人在身边的感觉",
+          "她一直没有学会用文火",
+          "城里的锅不适合做饼"
+        ],
+        "answer": 1,
+        "explain": "The closing sentence turns from taste to the person and the slow afternoon, so the missing element is the setting and the grandmother, not the technique."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "我的家乡在北方，冬天经常下雪。",
+      "奶奶做的萝卜饼颜色好看，味道也很清淡。",
+      "我每次回家都特别想念妈妈做的家常菜。",
+      "这道菜以清淡为特色，老人和孩子都喜欢。",
+      "闻到厨房的香味，我就想起小时候的冬天。"
+    ]
+  },
+  "writing": {
+    "prompt": "Write about a dish from your home town that you miss. Say who used to make it, what it tasted like, and what you notice now that you cook it yourself. Use four of the words below.",
+    "required_words": ["家乡", "怀念", "清淡", "可口"],
+    "min_chars": 80,
+    "model": "我的家乡在北方，冬天很冷，最让我怀念的是街口那家小店的萝卜饼。它看起来普通，吃起来却很可口。老板把萝卜切成细丝，用文火慢慢煎，口味清淡，不油不腻。每次回去，我都要买两个，趁热吃完。现在那家店已经搬走了，但那个味道我一直记得。",
+    "tips": "Open with the dish and the person who made it, add two concrete details such as ingredients or cooking time, and finish with what has changed since then."
+  }
+}

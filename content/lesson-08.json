@@ -1,0 +1,116 @@
+{
+  "lesson": 8,
+  "title_zh": "“朝三暮四”的古今义",
+  "title_en": "Three at Dawn and Four at Dusk",
+  "theme": "How the same facts can be framed two ways, and why the order of a message changes how people feel about it.",
+  "grammar": {
+    "id": "g08",
+    "point": "只要……就……",
+    "point_en": "as long as A, then B",
+    "structure": "只要 + sufficient condition + 就 + result",
+    "explain_en": "Use 只要……就…… for a sufficient condition: as long as A happens, B follows, and nothing else is required. 只要 opens the first clause, though the subject may stand in front of it (只要你来 / 你只要来). 就 comes after the subject of the second clause, directly before its verb, adjective or a 会/能 phrase. The tone is encouraging or permissive — the speaker is lowering the bar and saying one thing is enough. 只要 takes 就 and never 才. Compare 只有……才……, which marks a necessary, exclusive condition and often carries an implied 'otherwise not'; 只要……就…… says this route is enough and does not rule out other routes. Compare 如果……就……, which is a neutral hypothesis and does not stress sufficiency. 只要 also appears in the frame 只要是……就…… when a whole category is meant (只要是本公司的员工就可以报名). When both clauses share one subject, the subject normally comes first.",
+    "common_mistake": "Two mistakes are common. One keeps the right meaning but swaps the partner: 只要你努力，才能成功 mixes a sufficient condition with a necessary one. The other is word order — 就 must follow the subject of the second clause, so 只要你说一声，就我来办 should be 只要你说一声，我就来办.",
+    "examples": [
+      {
+        "zh": "只要先把整体讲清楚，后面的限制就容易接受。",
+        "py": "zhǐ yào xiān bǎ zhěng tǐ jiǎng qīng chu hòu miàn de xiàn zhì jiù róng yì jiē shòu",
+        "en": "As long as you set out the whole picture first, the limits that follow are easy to accept."
+      },
+      {
+        "zh": "你只要提前十分钟出门，就不会迟到。",
+        "py": "nǐ zhǐ yào tí qián shí fēn zhōng chū mén jiù bú huì chí dào",
+        "en": "As long as you leave ten minutes earlier, you will not be late."
+      },
+      {
+        "zh": "只要大家把话说开，彼此就不会误会。",
+        "py": "zhǐ yào dà jiā bǎ huà shuō kāi bǐ cǐ jiù bú huì wù huì",
+        "en": "As long as everyone speaks openly, neither side will misunderstand the other."
+      }
+    ],
+    "drills": [
+      {
+        "q": "____你提前打个电话，我们就给你留个位置。",
+        "options": [
+          "只要",
+          "只有",
+          "除非",
+          "即使"
+        ],
+        "answer": 0,
+        "explain": "就 in the result clause fixes the partner as 只要. 只有 must be answered by 才, 除非 needs 否则 (or 才) rather than 就, and 即使 requires 也 — besides, nothing in the sentence is being conceded."
+      },
+      {
+        "q": "你只要提前十分钟出门，____不会迟到。",
+        "options": [
+          "才",
+          "就",
+          "也",
+          "又"
+        ],
+        "answer": 1,
+        "explain": "只要 is answered by 就 in the result clause. 才 belongs with 只有, 也 would need a frame such as 无论……都…… or 也……也……, and 又 marks repetition rather than a consequence."
+      }
+    ]
+  },
+  "reading": {
+    "title": "换个说法，结果真的不同",
+    "text": "小时候读猴子分橡子的寓言，只觉得猴子笨。长大以后才明白，同样七颗橡子，早上三颗晚上四颗，和早上四颗晚上三颗，猴子的反应完全不同。东西没有变，变的只是说话的方式。\n\n公司里也常有这样的事。去年年底，福利要调整，第一次开会时负责人只讲了减少的部分，会议室里格外安静，同事们脸上的表情都不太好看。第二次，他换了一个顺序：先讲公司保住了什么，再说明需要节省的地方。同样的内容，大家的反应缓和了很多，有人还提出了几个省钱的办法。\n\n这似乎并不是说话技巧的问题。人看事情，很难一下子看到整体，总是先注意自己关心的那一部分。只要把完整的图景放在前面，人就比较容易接受后面的限制。人和人相处，彼此之间很多误会并非来自事情本身，而是来自说话的顺序。",
+    "translation": "When I read the fable about monkeys and acorns as a child, I only thought the monkeys were stupid. Years later I understood: with the same seven acorns, three in the morning and four in the evening versus four in the morning and three in the evening, the monkeys reacted completely differently. Nothing had changed except the way it was said.\n\nThe same thing happens at the office. At the end of last year our benefits were being adjusted. At the first meeting the person in charge described only the cuts, the room went unusually quiet, and nobody's expression looked good. At the second meeting he changed the order: first what the company had kept, then where savings were needed. Same content, and people took it much more calmly; someone even suggested a few ways to save money.\n\nThis seems to be more than a matter of technique. When people look at something, they rarely take in the whole at once; they notice their own concern first. As long as the complete picture comes first, the limits that follow are easier to accept. Between people, plenty of misunderstanding comes not from the facts but from the order in which they are told.",
+    "questions": [
+      {
+        "q": "这篇文章主要想说的是____。",
+        "options": [
+          "猴子分东西的方法很笨",
+          "同样的内容换个说法会改变人的感受",
+          "公司不该减少员工的福利",
+          "开会的时候最好不要谈数字"
+        ],
+        "answer": 1,
+        "explain": "The acorn story and the two meetings both make the same point, stated in the last paragraph: the order of delivery changes how people take the news."
+      },
+      {
+        "q": "第二次开会时，负责人先讲了____。",
+        "options": [
+          "公司减少了哪些福利",
+          "公司保住了哪些福利",
+          "明年的工作计划",
+          "员工提出的省钱办法"
+        ],
+        "answer": 1,
+        "explain": "The passage says he 先讲公司保住了什么，再说明需要节省的地方 — the kept part came first."
+      },
+      {
+        "q": "从文章看，作者对换个说法的态度是____。",
+        "options": [
+          "认为这是在骗人",
+          "认为完全没有必要",
+          "认为有实际作用",
+          "认为只对猴子有用"
+        ],
+        "answer": 2,
+        "explain": "The closing lines treat it as a real feature of how people listen — 误会并非来自事情本身，而是来自说话的顺序 — not as trickery."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "这个寓言讲的是猴子分橡子的故事。",
+      "他说话的方式很客气，大家都愿意听。",
+      "请把完整的计划发给我，我需要看整体。",
+      "家里开始节省用电，每个月省下不少钱。",
+      "同事之间相处得好，工作会轻松很多。"
+    ]
+  },
+  "writing": {
+    "prompt": "Think of a message you had to deliver at work or at home — a change, a limit, a no. Describe how you phrased it the first time and what you changed. Use the words below.",
+    "required_words": [
+      "整体",
+      "节省",
+      "方式",
+      "相处"
+    ],
+    "min_chars": 80,
+    "model": "家里去年开始记账。刚开始，我们只盯着少买了什么，谁都不高兴。后来换了一种方式：先看完整的收入，再看可以节省的地方。这样讨论起来气氛好多了，也没有人觉得自己吃亏。人和人相处也是这样，先让对方看到整体，再谈具体的要求，对方就比较容易接受。",
+    "tips": "Start with the situation and the first, clumsy attempt. Then give the concrete re-ordering you tried, with one detail. Finish with the general lesson in a single short sentence."
+  }
+}

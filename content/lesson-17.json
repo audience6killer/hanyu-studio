@@ -1,0 +1,101 @@
+{
+  "lesson": 17,
+  "title_zh": "在最美好的时刻离开",
+  "title_en": "Ending at the Best Moment",
+  "theme": "A director closes a long-running play while tickets still sell, and a visitor works out what that decision means for work and leaving.",
+  "grammar": {
+    "id": "g17",
+    "point": "关于 / 对于 / 至于",
+    "point_en": "about / regarding; towards; as for",
+    "structure": "关于 + 话题；对于 + 对象；至于 + 另起的话题",
+    "explain_en": "All three introduce a topic, but they frame it differently. 关于 means “about, concerning” and simply names the subject matter; it can start a sentence or sit before a noun, as in 关于这个问题 or 一本关于历史的书. 对于 means “towards, with regard to” and points at the object that a judgement, feeling or action is directed at, after which the sentence says how someone feels or acts towards it: 对于新的规定，大家还有疑问. 至于 means “as for” and moves to a second, related topic after the first has been dealt with; it opens the new clause, often implies a contrast or a shift, and cannot introduce the opening topic of a sentence. A quick test: naming what something is about calls for 关于, stating an attitude towards something calls for 对于, and switching to another item on the list calls for 至于. 关于 and 对于 overlap in some sentences, but only 关于 can attach extra information to a noun.",
+    "common_mistake": "A common slip is to open a sentence with 至于 when there is no earlier topic for it to contrast with, and to use 关于 where the sentence expresses an attitude: 对于新的流程很满意, not 关于新的流程很满意.",
+    "examples": [
+      {
+        "zh": "关于这次培训的安排，行政部会发一封邮件。",
+        "py": "guān yú zhè cì xùn liàn de ān pái xíng zhèng bù huì fā yì fēng yóu jiàn",
+        "en": "The admin office will send an email about the arrangements for this training."
+      },
+      {
+        "zh": "对于新的报销规定，同事们还有一些疑问。",
+        "py": "duì yú xīn de bào xiāo guī dìng tóng shì men hái yǒu yì xiē yí wèn",
+        "en": "The colleagues still have some questions about the new expense rules."
+      },
+      {
+        "zh": "至于演出时间，我们下周再确认。",
+        "py": "zhì yú yǎn chū shí jiān wǒ men xià zhōu zài què rèn",
+        "en": "As for the performance time, we will confirm it next week."
+      }
+    ],
+    "drills": [
+      {
+        "q": "会上讨论了一个____员工培训的问题。",
+        "options": ["关于", "对于", "至于", "因而"],
+        "answer": 0,
+        "explain": "关于 can attach a topic to a noun, so 一个关于员工培训的问题 means a question about staff training. 对于 and 至于 cannot modify a noun this way, and 因而 is a result connective."
+      },
+      {
+        "q": "他____这份工作一直很认真。",
+        "options": ["关于", "至于", "对于", "何况"],
+        "answer": 2,
+        "explain": "对于 marks the object towards which the attitude 很认真 is directed. 关于 names a subject matter rather than an attitude target, 至于 needs an earlier topic to contrast with, and 何况 means let alone."
+      }
+    ]
+  },
+  "reading": {
+    "title": "散场之前",
+    "text": "小剧场的话剧《长街》演了六年，票依然很好卖。上个月，导演却宣布：这一季演完就结束，不再加场。\n\n很多人不理解。有人问他，为什么不趁着观众还多再演两年？他说，一部戏是有生命的。它的服装和道具都在变旧，化妆也过时了，演员的年纪也在变。如果一定要等到没人买票才停，最后留在观众记忆里的，可能是一场糟糕的演出。\n\n他宁可自己在高峰时告别。这样，观众记住的是它最好的样子，而不是一个烂掉的结尾。\n\n我看的是最后一场。散场时没有人急着走，大家安静地坐着，仿佛还想再听一句台词。那一刻我体会到：结束得漂亮，本身也是一种能力。至于什么时候该停下来，这部戏给了我一个提醒——不必等到掌声停了才下台。对于离开，我们平常想得太少，好像只有失败才需要退场。",
+    "translation": "The play “Long Street” has run in a small theatre for six years, and tickets still sell well. Last month, though, the director announced that it would close at the end of this season, with no extra performances.\n\nMany people did not understand. Someone asked him why he would not ride the audience wave for another two years. He said a play is a living thing: its costumes, make-up and props are slowly wearing out, and the actors are getting older too. If you insist on waiting until nobody buys a ticket, what stays in the audience's memory may be a bad production.\n\nHe would rather say goodbye at the peak. That way the audience remembers the play at its best, not with a rotten ending.\n\nI saw the last performance. When it ended, nobody hurried out; everyone sat quietly, as if hoping for one more line. In that moment it struck me that ending well is itself a skill. As for when to stop, the play gave me a reminder: you do not have to wait until the applause dies down before leaving the stage. We think too little about leaving; it is as if only failure calls for an exit.",
+    "questions": [
+      {
+        "q": "导演决定停演的主要原因是____。",
+        "options": [
+          "他希望把最好的样子留给观众",
+          "剧场要重新装修",
+          "演员们不愿意再演下去",
+          "观众已经不买票了"
+        ],
+        "answer": 0,
+        "explain": "The director says a play is alive, its costumes and props are wearing out, and he would rather leave at the peak so the audience remembers the best version."
+      },
+      {
+        "q": "关于最后一场演出，文章提到____。",
+        "options": [
+          "散场时观众坐着，没有人急着离开",
+          "演出结束后导演上台说了话",
+          "演员们一起唱了一首歌",
+          "剧场提前关了门"
+        ],
+        "answer": 0,
+        "explain": "The fourth paragraph says nobody hurried away after the final performance and everyone sat quietly as if wanting one more line."
+      },
+      {
+        "q": "从“结束得漂亮，本身也是一种能力”可以看出，作者____。",
+        "options": [
+          "认为适时结束需要判断力",
+          "不喜欢看戏剧的结尾",
+          "觉得失败的人才需要离开",
+          "希望这部戏能再演两年"
+        ],
+        "answer": 0,
+        "explain": "Calling a good ending a kind of ability means the writer sees timing an exit as a skill, which the last paragraph applies to leaving in general."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "这部戏剧在周末的开幕式上首次演出。",
+      "演员的服装和道具都是自己准备的。",
+      "他化妆用了半个小时，然后安静地坐着。",
+      "导演对这部作品的评价非常高。",
+      "婚礼结束以后，客人们陆续离开了。"
+    ]
+  },
+  "writing": {
+    "prompt": "Write about a time you ended something while it was still going well — a job, a project or a hobby. Use 4 of the words below.",
+    "required_words": ["告别", "高峰", "平常", "体会"],
+    "min_chars": 80,
+    "model": "教了五年课后，我决定在上学期结束时停下来。那时班里的学生最多，家长的评价也最好，很多人劝我再教两年。可我知道自己的精力已经不如从前，再教下去，课会慢慢变差。最后一节课，我没有讲新内容，只和每个人说了几句话，然后像平常下课那样告别。这件事让我体会到：在高峰时说再见，比在低谷时离开更需要勇气。",
+    "tips": "Open with the decision and the moment you made it, add one detail that shows things were still going well, then close on what the ending taught you."
+  }
+}

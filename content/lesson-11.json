@@ -1,0 +1,116 @@
+{
+  "lesson": 11,
+  "title_zh": "闹钟的危害",
+  "title_en": "Harm of Alarm Clocks",
+  "theme": "What a loud alarm does to the first hours of your morning, and how light and a steady schedule do the same job more gently.",
+  "grammar": {
+    "id": "g11",
+    "point": "一……就……",
+    "point_en": "as soon as A, then B",
+    "structure": "subject + 一 + verb 1 + (subject 2) + 就 + verb 2",
+    "explain_en": "一……就…… marks two things happening immediately one after the other: as soon as the first action happens, the second follows. 一 sits directly in front of the first verb; 就 comes before the second verb, after the second subject when the two subjects differ (他一说，我就明白了). The same frame also describes a standing habit — whenever A happens, B always follows (他一喝酒脸就红) — and a reaction you cannot control (一说到考试，我就紧张). When both clauses share one subject, put the subject at the front and keep 一 next to the verb: 我一进门就看见他, not 一我一进门就……. Compare 刚……就……, which reports a past sequence where the first action had only just finished, so it is tied to a single moment; 一……就…… is not tied to the past and is the natural choice for rules, habits and general statements. Compare 如果……就……, which leaves the first event as a possibility instead of presenting it as immediate.",
+    "common_mistake": "A common error is to slide a time word between 一 and the verb: 我一昨天就见过他. 一 must touch the verb itself, so the time word moves outside the frame. Learners also write 才 in the second clause, which reverses the immediacy the pattern is built on.",
+    "examples": [
+      {
+        "zh": "他一进门就发现气氛不对。",
+        "py": "tā yí jìn mén jiù fā xiàn qì fēn bú duì",
+        "en": "The moment he came in, he sensed that the mood was wrong."
+      },
+      {
+        "zh": "铃声一响，我就坐了起来。",
+        "py": "líng shēng yì xiǎng wǒ jiù zuò le qǐ lái",
+        "en": "As soon as the bell rang, I sat up."
+      },
+      {
+        "zh": "这个孩子一看见水就不肯走。",
+        "py": "zhè ge hái zi yí kàn jiàn shuǐ jiù bù kěn zǒu",
+        "en": "The moment this child sees water, he refuses to leave."
+      }
+    ],
+    "drills": [
+      {
+        "q": "他____听到这个数字就皱起了眉头。",
+        "options": [
+          "一",
+          "也",
+          "再",
+          "又"
+        ],
+        "answer": 0,
+        "explain": "一 before the first verb plus 就 before the second is the frame for an immediate reaction. 也 would need a parallel clause or 无论……都……, 再 marks repetition or a future 'again', and 又 marks a repeated past action — none of them pairs with 就 to express immediacy."
+      },
+      {
+        "q": "他一听到这个消息，____坐不住了。",
+        "options": [
+          "才",
+          "就",
+          "还",
+          "再"
+        ],
+        "answer": 1,
+        "explain": "一 in the first clause is answered by 就 in the second. 才 belongs with 只有 or 除非 and would reverse the relation; 还 marks continuation or 'still' and does not fit a single reaction; 再 marks repetition or a future 'again'."
+      }
+    ]
+  },
+  "reading": {
+    "title": "别让铃声打断睡眠",
+    "text": "我以前的闹钟声音很大，放在枕头旁边，每天早上都像被推了一把。铃声一响，我立刻就坐起来，人还没醒，心已经开始快跳。\n\n后来我发现，这样醒来的头两个小时，几乎没法思考。开会时能听见别人说话，却常常记不住内容。一位研究睡眠的朋友说，这不是懒，是身体还没有准备好。\n\n人从睡着到清醒需要一个过渡。早上被突然叫醒，大脑还停在浅睡状态，呼吸和心跳都没调整过来，情绪自然容易低落。光线比铃声柔和得多，也更容易让身体慢慢醒过来。这些危害看着不大，累起来却并不小。\n\n现在我换了个办法：晚上把窗帘留一条缝，早上让光线进来；闹钟改成很轻的音乐，时间往后放十分钟。我做了个实验，坚持三个星期，起不来的次数少了很多。睡眠有它自己的规律，我们能做的，是尽量不去打断它。",
+    "translation": "My old alarm clock was very loud and sat right by the pillow, so every morning felt like being shoved. The moment the bell rang I sat up at once — my body still asleep, my heart already racing.\n\nLater I noticed that for the first two hours after waking that way I could barely think. In meetings I could hear other people talking but often could not remember what they said. A friend who studies sleep told me it was not laziness; the body simply was not ready.\n\nGoing from asleep to awake takes a transition. Woken abruptly in the morning, the brain is still in light sleep, breathing and heartbeat have not adjusted, and the mood drops easily. Light is far gentler than a bell, and it brings the body round more easily. These harms look small, but added up day after day they are not small at all.\n\nSo I changed two things: at night I leave a gap in the curtains so that light comes in in the morning, and the alarm is now very soft music set ten minutes later. I ran a small experiment for three weeks, and the number of mornings I could not get up dropped a lot. Sleep has its own regular pattern; what we can do is try not to interrupt it.",
+    "questions": [
+      {
+        "q": "这篇文章主要想说明____。",
+        "options": [
+          "现代人应该完全不用闹钟",
+          "被突然叫醒会影响早上的状态",
+          "音乐比光线更让人清醒",
+          "早起的人身体一定更好"
+        ],
+        "answer": 1,
+        "explain": "The second and third paragraphs describe the foggy mornings and the transition the body needs, and the last paragraph offers a gentler way to wake — the harm of abrupt waking is the subject."
+      },
+      {
+        "q": "作者现在早上靠____醒过来。",
+        "options": [
+          "很响的闹钟铃声",
+          "朋友打来的电话",
+          "窗帘透进来的光线和轻音乐",
+          "每天自然睡到八点"
+        ],
+        "answer": 2,
+        "explain": "The last paragraph lists both changes: 窗帘留一条缝，让光线进来 and 闹钟改成很轻的音乐."
+      },
+      {
+        "q": "从文章看，作者对睡眠规律的态度是____。",
+        "options": [
+          "应该完全取消闹钟",
+          "应该顺着身体自己的规律",
+          "应该多做实验改造习惯",
+          "应该每天晚起一个小时"
+        ],
+        "answer": 1,
+        "explain": "The closing line — 我们能做的，是尽量不去打断它 — shows acceptance of the body's own rhythm rather than a fight against it."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "我的闹钟声音太大，每天早上都被吓醒。",
+      "拉开窗帘，让光线进来，人会清醒得快一些。",
+      "快走几步，呼吸会变得深一点。",
+      "他的情绪不好，可能跟最近睡得太少有关。",
+      "生活有规律，身体的状态才会稳定。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe your own morning routine and one change you made to it. Was it worth the trouble? Write for a colleague who keeps hitting snooze. Use the words below.",
+    "required_words": [
+      "闹钟",
+      "清醒",
+      "情绪",
+      "规律"
+    ],
+    "min_chars": 80,
+    "model": "我以前的闹钟放在枕头边上，声音很响。每天早上一响，我就跳起来，可是人并不清醒，情绪也很差，到了下午才慢慢好起来。后来我做了两个改变：把闹钟换成轻一点的声音，晚上固定时间关灯。开始时很难，坚持三周以后，早上醒得比闹钟还早。规律的生活看起来慢，其实省下了很多力气。",
+    "tips": "Set the old routine first, then the change and how long it took to work. End with a plain sentence on what you gained, not a lecture."
+  }
+}

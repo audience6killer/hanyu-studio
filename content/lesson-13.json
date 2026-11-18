@@ -1,0 +1,116 @@
+{
+  "lesson": 13,
+  "title_zh": "锯掉生活的“筐底”",
+  "title_en": "Cutting Off the “Bottom of the Basket” in Life",
+  "theme": "How one engineer questioned a step nobody could justify, and what a basketball basket with no bottom has to do with it.",
+  "grammar": {
+    "id": "g13",
+    "point": "由于……而……",
+    "point_en": "because of X, and therefore Y (formal written cause and result)",
+    "structure": "主语 + 由于 + 原因 + 而 + 结果（动词短语）",
+    "explain_en": "Use 由于……而…… when you want to give a reason and its result inside one sentence, in a formal or written register. The reason follows 由于, and 而 introduces the verb phrase that shows the result; you do not add 所以. The subject normally sits before 由于, and 而 must stay close to the verb: 由于准备不足而推迟. Compare it with 因为……所以……, which is neutral, spoken-friendly and takes a full clause after 所以. 由于……而…… is tighter: it combines cause and consequence into a single predicate, so it suits reports, news items and essays. Do not put a comma plus a new subject right after 而, because 而 needs a verb or adjective phrase that continues the same subject. The result after 而 is often something unwanted or outside the speaker's control, though neutral results are possible; the whole sentence sounds objective rather than emotional.",
+    "common_mistake": "Learners often add 所以 after 而 (由于下雨而所以推迟), or drop a fresh subject after 而. Remember: 由于 supplies the cause, 而 introduces the result verb phrase, and no 所以 is needed.",
+    "examples": [
+      {
+        "zh": "他由于缺乏经验而一再重复同样的错误。",
+        "py": "tā yóu yú quē fá jīng yàn ér yí zài chóng fù tóng yàng de cuò wù",
+        "en": "Because he lacked experience, he repeated the same mistakes again and again."
+      },
+      {
+        "zh": "这个项目由于预算不足而推迟了两个月。",
+        "py": "zhè ge xiàng mù yóu yú yù suàn bù zú ér tuī chí le liǎng ge yuè",
+        "en": "The project was delayed by two months because the budget fell short."
+      },
+      {
+        "zh": "会议由于时间关系而提前结束。",
+        "py": "huì yì yóu yú shí jiān guān xì ér tí qián jié shù",
+        "en": "The meeting ended early because of time constraints."
+      }
+    ],
+    "drills": [
+      {
+        "q": "球队____训练不足而在下半场失去了主动。",
+        "options": [
+          "由于",
+          "因此",
+          "虽然",
+          "所以"
+        ],
+        "answer": 0,
+        "explain": "由于 introduces the cause 训练不足, and 而 later carries the result. 因此 and 所以 are result connectives and cannot open a cause clause, while 虽然 marks concession and would leave the following 而 with nothing to explain."
+      },
+      {
+        "q": "这支队伍由于准备充分____在比赛中一直很主动。",
+        "options": [
+          "而",
+          "而且",
+          "然而",
+          "并且"
+        ],
+        "answer": 0,
+        "explain": "而 links 由于准备充分 to the result verb phrase 在比赛中一直很主动. 而且 and 并且 join two full clauses and would need their own subject, and 然而 marks contrast, which does not fit a cause and result link."
+      }
+    ]
+  },
+  "reading": {
+    "title": "没必要的那一步",
+    "text": "公司去年调整了报销流程，可新流程反而多出三步。李工是负责这个项目的工程师，做事一向认真，却一再被这些步骤困扰。有一次开会，他忍不住问：“这一步为什么要重复做？”会议室里安静了几秒，气氛有些尴尬。没有人答得上来，大家只知道以前的同事就是这么做事的。\n\n李工是个球迷，周末常看球，也陪孩子练习投篮。他忽然想到一个比方：如果篮球筐底下是封着的，每投进一个球都得有人爬上去取，比赛怎么可能顺畅？多亏有人用锯子把筐底锯掉，比赛才快了起来。\n\n项目组由于说不清这几步的用处而决定先停掉它们。一个月后，报表错得少了，同事之间也轻松了不少。李工说，真正阻碍我们的，往往不是缺少工具，而是那些没人再问一句“为什么”的老习惯。",
+    "translation": "Last year the company changed its expense-reimbursement process, and the new version somehow ended up with three extra steps. Li is the engineer in charge of the project. He is careful by nature, yet those steps troubled him time and again. In one meeting he finally asked, “Why do we do this step twice?” For a few seconds the room was quiet and the atmosphere was a little awkward. Nobody could answer; all anyone knew was that earlier colleagues had always done it that way.\n\nLi is a basketball fan who watches games at weekends and practises shooting with his child. A comparison came to him: if the bottom of a basketball basket were sealed, someone would have to climb up and fetch the ball after every shot, so how could the game ever run smoothly? It took someone with a saw to cut the bottom out, and only then did the game speed up.\n\nBecause nobody could explain what those steps were for, the project team decided to suspend them first. A month later the reports had fewer mistakes, and people got along more easily. What really blocks us, Li says, is often not a shortage of tools but an old habit that nobody has asked “why” about for years.",
+    "questions": [
+      {
+        "q": "这篇文章主要想告诉读者____。",
+        "options": [
+          "老习惯不一定合理，值得问一句为什么",
+          "报销流程越简单，公司效率就越高",
+          "篮球比赛的规则需要不断修改",
+          "年轻员工应该多听老同事的意见"
+        ],
+        "answer": 0,
+        "explain": "The last paragraph states the point directly: what blocks us is often an old habit nobody has questioned, not a lack of tools."
+      },
+      {
+        "q": "会上没有人回答李工的问题，是因为____。",
+        "options": [
+          "大家对这一步的用途并不清楚",
+          "大家觉得李工的问题太简单",
+          "会议时间不够，来不及讨论",
+          "这一步刚刚才被取消掉"
+        ],
+        "answer": 0,
+        "explain": "The passage says nobody could answer and that people only knew earlier colleagues had done it this way."
+      },
+      {
+        "q": "一个月后的情况说明，停掉那几步____。",
+        "options": [
+          "并没有让工作变得糟糕",
+          "让报表的错误更多了",
+          "让同事之间出现矛盾",
+          "只对少数人有帮助"
+        ],
+        "answer": 0,
+        "explain": "The passage reports fewer mistakes in the reports and easier relations between colleagues, so removing the steps did no harm."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "这台机器是上周安装好的，运行一直很顺畅。",
+      "他由于缺少训练而在比赛中一再重复错误。",
+      "讨论得越激烈，会议室里的气氛就越紧张。",
+      "这些工具是给新来的工程师准备的。",
+      "他好奇地瞧了一眼，连忙跑过去扶住栏杆。"
+    ]
+  },
+  "writing": {
+    "prompt": "Think of a rule or habit at work that nobody can explain. Where did it come from, and what happened when someone questioned it? Use 4 of the words below.",
+    "required_words": [
+      "项目",
+      "重复",
+      "顺畅",
+      "启发"
+    ],
+    "min_chars": 80,
+    "model": "我们组的周报原来要填十几项，其中三项的内容几乎重复。我问过老同事，没人说得出理由，只知道一直是这样。上个月，我把这三项合成一项，先在小项目里试了两周。结果并没有人抱怨，写报告的时间也少了不少。我的启发是：规则需要定期更新，顺畅的流程不是靠多加一步，而是靠去掉没用的那一步。",
+    "tips": "Open with the rule itself, then give one concrete scene in which you asked about it. Close with what changed, or with the question you still keep asking."
+  }
+}

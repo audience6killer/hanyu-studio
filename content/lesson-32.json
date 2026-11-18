@@ -1,0 +1,86 @@
+{
+  "lesson": 32,
+  "title_zh": "身边的环保",
+  "title_en": "Protecting the environment around us",
+  "theme": "How one office recycling box turned sceptical colleagues into careful users, and why local habits matter more than grand slogans.",
+  "grammar": {
+    "id": "g32",
+    "point": "甚至 / 乃至 / 以至于",
+    "point_en": "even; and even; so much so that",
+    "structure": "甚至 + 极端例子；乃至 + 书面并列项；……，以至于 + 结果",
+    "explain_en": "All three push an idea to an extreme, but they work at different levels. 甚至 means 'even' and adds a surprisingly extreme example to what has just been said. It stands before the example, often with 都 or 也 later in the clause: 他甚至周末也来加班。 It can link words, phrases or whole clauses, in speech and in writing.\n乃至 is the written, formal cousin of 甚至. It normally joins items inside one phrase or list, and it sounds odd introducing a full result clause: 工厂乃至每一个家庭都受到影响。\n以至于 means 'to such an extent that' and introduces a consequence. Before it you need a stated degree or a repeated action; after it comes the result, usually something unintended: 他连着熬了一个月，以至于把开会的时间都记错了。 Do not use 以至于 for a simple cause — that is 因为 — and unlike 甚至 it cannot join two nouns.\nSo: 甚至 adds an extreme case, 乃至 lists extreme cases in formal prose, and 以至于 reports where an extreme situation led.",
+    "common_mistake": "A common error is using 以至于 without any stated extent, as in 我很累，以至于想睡觉, and using 甚至 where the second part is a consequence rather than an added example.",
+    "examples": [
+      {
+        "zh": "这条河里连小鱼都看不见，甚至水草也很少了。",
+        "py": "zhè tiáo hé lǐ lián xiǎo yú dōu kàn bu jiàn shèn zhì shuǐ cǎo yě hěn shǎo le",
+        "en": "In this river you cannot even see small fish, and even the water weeds have become scarce."
+      },
+      {
+        "zh": "一座城市的能源供应，会影响到工厂乃至每一个家庭。",
+        "py": "yí zuò chéng shì de néng yuán gōng yìng huì yǐng xiǎng dào gōng chǎng nǎi zhì měi yí ge jiā tíng",
+        "en": "A city's energy supply affects everything from factories down to every single household."
+      },
+      {
+        "zh": "他连续加班一个月，以至于连周末是哪一天都忘了。",
+        "py": "tā lián xù jiā bān yí ge yuè yǐ zhì yú lián zhōu mò shì nǎ yì tiān dōu wàng le",
+        "en": "He worked overtime for a month straight, to the point that he forgot which day the weekend was."
+      }
+    ],
+    "drills": [
+      {
+        "q": "这道题连老师都想了很久，____用了三种方法才算出来。",
+        "options": ["甚至", "至于", "关于", "由于"],
+        "answer": 0,
+        "explain": "甚至 adds the extreme case: even the teacher needed three methods. 至于 changes the topic, 关于 means 'about', and 由于 gives a cause; none of them can add an extreme example here."
+      },
+      {
+        "q": "他连着一个月熬夜赶方案，____把开会的时间记错了。",
+        "options": ["因为", "虽然", "以至于", "不但"],
+        "answer": 2,
+        "explain": "The clause before the blank states the extent (a whole month of late nights) and what follows is its unintended result, which is exactly what 以至于 introduces. 因为 and 虽然 need paired clauses, and 不但 must be followed by 而且 or 还."
+      }
+    ]
+  },
+  "reading": {
+    "title": "楼里的分类箱",
+    "text": "去年春天，公司在一楼放了一台分类回收箱。开始没人当真，有人把没喝完的咖啡连杯子一起扔进去，墙上的说明也很少有人看。我也觉得这种事离自己太远，甚至有点麻烦。忙起来连说明都懒得看，以至于箱子放了半年，还有同事不知道它在那儿。\n三个月后，行政部公布了一组数据：整栋楼的用电量比前一年少了百分之九，废纸回收量多了一倍。数字不算大，却足够真实。大家开始自觉关灯，打印前也会多想一下；行政部还逐步把走廊的旧灯换成了节能的设施。\n最让我意外的是保洁阿姨。她每天把纸箱压平捆好，说这些资源扔了太可惜。现在出差住酒店，我也会先找一找回收箱。宏大的事离我们很远，可身边的小选择都在悄悄影响以后。每个人做一点贡献，加起来就不一样。",
+    "translation": "Last spring the company put a sorting and recycling bin on the ground floor. At first nobody took it seriously. Some people threw their half-finished coffee in, cup and all, and few bothered to read the notice on the wall. I also felt this kind of thing was far away from me, even a bit of a nuisance; when work got busy I could not be bothered to read the notice either, so much so that after six months some colleagues still did not know the bin was there.\nThree months later, the admin department published a set of figures: the whole building used nine percent less electricity than the year before, and paper recycling had doubled. The numbers were not large, but they were real enough. People began switching off lights without being asked and thinking twice before printing; the admin department also gradually replaced the old corridor lights with energy-saving fixtures.\nWhat surprised me most was the cleaning lady. Every day she flattened the cardboard boxes and tied them up, saying it would be a shame to throw such resources away. Now when I stay in a hotel on a business trip, I look for the recycling bin first. Grand events are far away from us, but the small choices around us quietly shape what comes next. Everyone making a small contribution adds up.",
+    "questions": [
+      {
+        "q": "这篇文章主要写的是____。",
+        "options": ["公司如何减少员工的加班时间", "酒店怎样处理用过的旧纸箱", "办公室里一项环保习惯慢慢形成", "行政部更换走廊灯的全过程"],
+        "answer": 2,
+        "explain": "The passage moves from the new bin and people's indifference to the published figures and the changed daily habits, so the main thread is how one environmental habit gradually took hold."
+      },
+      {
+        "q": "行政部公布的数据显示，整栋楼的用电量比前一年____。",
+        "options": ["增加了一倍", "减少了百分之九", "基本没有变化", "减少了大约一半"],
+        "answer": 1,
+        "explain": "The second paragraph says the building used nine percent less electricity than the previous year (少了百分之九), while the amount of recycled waste paper doubled."
+      },
+      {
+        "q": "从保洁阿姨的做法可以看出，她____。",
+        "options": ["真心爱惜这些资源", "只是应付上级检查", "觉得分类箱很麻烦", "对回收并不了解"],
+        "answer": 0,
+        "explain": "She flattens and ties the boxes every day and says it would be a shame to waste such resources, which shows genuine care rather than reluctance or ignorance."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "公司上个月公布了新的用电数据。",
+      "大家逐步养成了自觉关灯的习惯。",
+      "节约能源其实可以从关空调做起。",
+      "这些旧的办公设施还能继续使用。",
+      "下雨天尽量少开车，尾气会少一些。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe one small environmental habit your workplace could adopt. Say what it is, what resistance it met at first, and what changed. Use the words below.",
+    "required_words": ["数据", "自觉", "资源", "公布"],
+    "min_chars": 80,
+    "model": "我们部门从三月开始做垃圾分类。起初没人愿意，连我自己也觉得麻烦。行政部把每个月的用电数据公布在门口，大家看见曲线往下走，态度慢慢变了。现在关灯、双面打印都成了习惯，纸箱也会自觉压平。资源省下来了，办公室反而更整洁。",
+    "tips": "Open with the habit and the initial resistance, add one concrete detail such as the printed figures, then close with the change you can see today."
+  }
+}

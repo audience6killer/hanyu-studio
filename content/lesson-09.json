@@ -1,0 +1,116 @@
+{
+  "lesson": 9,
+  "title_zh": "别样鲁迅",
+  "title_en": "The Lu Xun You Don't Know",
+  "theme": "Another side of a familiar kind of person: a street-corner pastry shop and its reserved owner, judged by what he does rather than how warm he looks.",
+  "grammar": {
+    "id": "g09",
+    "point": "除非……否则……",
+    "point_en": "unless A, otherwise B",
+    "structure": "除非 + the only exception + 否则 + the bad outcome",
+    "explain_en": "除非……否则…… means 'unless A, otherwise B'. It isolates the one exception that would prevent B, then states B — the outcome that will happen in every other case. The 除非 clause comes first; 否则 opens the second clause and introduces the unwanted result, usually with 会, 就 or 很难. 除非 is the only partner for 否则 in this frame, and 否则 may not be replaced by 就 or 所以. A second, positive version exists: 除非 can be answered by 才 when the exception leads to a good result (除非你亲自去，他才会同意). Compare 只有……才……, which presents the single way to get something done and sounds insistent; 除非……否则…… is framed around what goes wrong if that one condition is missing, so it reads like a warning or a rule of thumb. In conversation 不然 and 要不 can stand in for 否则, and 除非 may be followed by 是 (除非是你亲自去). Keep the second clause in plain declarative order after 否则.",
+    "common_mistake": "The classic error is to mix the two frames: 除非你提前说，我就没办法安排 and 只有你提前说，否则没办法安排 are both wrong. 除非 pairs with 否则 (or 才), 只有 pairs with 才, and 否则 must open the second clause rather than sit inside it.",
+    "examples": [
+      {
+        "zh": "除非你每天亲自做，否则很难做出这个味道。",
+        "py": "chú fēi nǐ měi tiān qīn zì zuò fǒu zé hěn nán zuò chū zhè ge wèi dào",
+        "en": "Unless you make it yourself every day, it is hard to get this flavour."
+      },
+      {
+        "zh": "除非老板同意，否则这个计划不能改。",
+        "py": "chú fēi lǎo bǎn tóng yì fǒu zé zhè ge jì huà bù néng gǎi",
+        "en": "Unless the boss agrees, the plan cannot be changed."
+      },
+      {
+        "zh": "除非把资料看完，否则讨论没有意义。",
+        "py": "chú fēi bǎ zī liào kàn wán fǒu zé tǎo lùn méi yǒu yì yì",
+        "en": "Unless the material has been read, the discussion is pointless."
+      }
+    ],
+    "drills": [
+      {
+        "q": "这件事必须今天做完，____就要影响下周的计划了。",
+        "options": [
+          "否则",
+          "因此",
+          "而且",
+          "哪怕"
+        ],
+        "answer": 0,
+        "explain": "否则 means 'otherwise' and introduces the result of not doing what was just stated. 因此 draws a conclusion from what has already happened, not from what has not; 而且 adds information; 哪怕 opens a concessive clause (哪怕……也……)."
+      },
+      {
+        "q": "除非老板亲自同意，____。",
+        "options": [
+          "否则谁也不能改这个计划",
+          "所以谁也不能改这个计划",
+          "因此谁也不能改这个计划",
+          "而且谁也不能改这个计划"
+        ],
+        "answer": 0,
+        "explain": "除非 must be completed by 否则, which states what holds in every case other than the exception. 所以 and 因此 report the result of a cause already given as fact, which is the 因为……所以…… frame, and 而且 simply adds a further point."
+      }
+    ]
+  },
+  "reading": {
+    "title": "看起来冷的人",
+    "text": "我们单位旁边有一家很小的点心店，开在一条老胡同里，店面不大，装修也谈不上豪华。老板是位六十多岁的先生，话很少，表情总是淡淡的。第一次去的人，常常以为他不太欢迎客人。\n\n后来熟了才知道，他年轻时做过编辑，收藏了很多旧资料，对老北京的饭菜讲究得很。哪位客人第一次光临，他都会亲自端上一碟刚做好的点心，然后站在一边，听别人说好不好吃。作为一位好客的人，他很少大声招呼，也不喜欢交际，可是谁家有困难，他从来不小气。\n\n有人形容他像一个旧时代的人。他听了只是笑，说这样的形象挺好。他常说，做点心这件事，除非你每天亲自做，否则很难做好。明明是很小的一家店，却让人愿意一年一年地回去。",
+    "translation": "Next to my office there is a very small pastry shop down an old alley. The front is cramped and the decoration is nothing anyone would call luxurious. The owner is a man in his sixties who says little and whose face is always rather flat. People going in for the first time often assume he does not want customers.\n\nAfter a while you learn that he worked as an editor when he was young, that he has kept a large collection of old documents, and that he is extremely particular about old Beijing cooking. When a customer comes in for the first time, he carries over a plate of freshly made pastries himself and then stands to one side, listening to whether people like them. For a hospitable man he greets people quietly and dislikes small talk, yet no neighbour in trouble has ever found him stingy.\n\nSomeone once described him as a man from another age. He only laughed and said he liked that image. He often says that when it comes to pastries, unless you make them yourself every day, it is hard to do them well. The shop is small indeed, and yet you want to come back, year after year.",
+    "questions": [
+      {
+        "q": "这篇文章主要想说的是____。",
+        "options": [
+          "老胡同里的小店越来越少",
+          "第一次见面很难看清一个人",
+          "做点心需要很多旧资料",
+          "装修豪华的店更受欢迎"
+        ],
+        "answer": 1,
+        "explain": "The passage spends its first paragraph on the cold first impression and the rest overturning it, and ends with people returning year after year — the point is that a first look does not settle who someone is."
+      },
+      {
+        "q": "文中说，老板年轻时做过____。",
+        "options": [
+          "老师",
+          "编辑",
+          "厨师",
+          "司机"
+        ],
+        "answer": 1,
+        "explain": "The second paragraph states 他年轻时做过编辑，收藏了很多旧资料."
+      },
+      {
+        "q": "老板说“这样的形象挺好”，说明他____。",
+        "options": [
+          "不喜欢别人夸他",
+          "认可自己像旧时代的人",
+          "希望店里装修得更好",
+          "不愿意再跟客人说话"
+        ],
+        "answer": 1,
+        "explain": "He answers the description with a laugh and agreement, so he accepts the image rather than resisting it."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "这家点心店开在一条老胡同里。",
+      "他亲自做的点心，味道一直没变。",
+      "欢迎光临，请随便看看，不要客气。",
+      "他对吃什么很讲究，也很少在外面吃饭。",
+      "我曾经去过那家店，老板非常大方。"
+    ]
+  },
+  "writing": {
+    "prompt": "Write about someone you misjudged at first — a quiet colleague, a strict manager, a shop owner. Show the first impression and the moment it changed. Use the words below.",
+    "required_words": [
+      "表现",
+      "讲究",
+      "亲自",
+      "曾经"
+    ],
+    "min_chars": 80,
+    "model": "刚进公司时，我以为老张是个不好相处的人。他很少说话，会议上几乎没有什么表现，别人都觉得他很冷。后来我跟着他做项目，才发现他做事非常讲究：资料按日期保存，每个数字都要亲自核对。他曾经说过，工作做得好不好，客人第一次来就能感觉到。原来安静的人，往往把力气都用在了事情上。",
+    "tips": "Give the flat first impression in two sentences, then one concrete scene that corrects it. Keep the closing observation short and let the detail do the arguing."
+  }
+}

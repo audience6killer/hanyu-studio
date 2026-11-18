@@ -1,0 +1,101 @@
+{
+  "lesson": 24,
+  "title_zh": "支教行动",
+  "title_en": "Volunteer teaching",
+  "theme": "Two weeks of volunteer teaching in a village school, and what the teacher took away instead of what she gave.",
+  "grammar": {
+    "id": "g24",
+    "point": "随着……",
+    "point_en": "along with / as (something changes)",
+    "structure": "随着 + changing condition，+ clause describing the change it brings",
+    "explain_en": "随着 links two changes that happen together: the first clause names a gradual change in conditions, and the main clause says what changes along with it. The phrase after 随着 almost always contains a development verb — 随着经济的发展, 随着年纪的增长, 随着网络的普及, 随着时间的变化 — and never a static description. The main clause usually carries 越来越, 不断, 逐渐, 开始 or 也, because it is reporting movement rather than a state. Position: sentence-initial, or after a short subject (情况随着时间变了). The register is neutral; it is common in reports, essays and news copy. Compared with 因为……所以……, 随着 does not name a cause and an effect but two processes running side by side, so the main clause needs no 所以. Compared with 跟……一起 or 跟着, which need a person or a moving object, 随着 takes an abstract change. Two reliable shapes: 随着……，……越来越…… and 随着……，……开始…….",
+    "common_mistake": "The usual mistake is putting a fixed fact after 随着 (随着他很忙) or using it with a person moving through space (随着老师走进教室). The first half needs a change, and 随着 cannot be shortened to 随 in careful writing.",
+    "examples": [
+      {
+        "zh": "随着年龄的增长，他越来越理解父母。",
+        "py": "suí zhe nián líng de zēng zhǎng tā yuè lái yuè lǐ jiě fù mǔ",
+        "en": "As he gets older, he understands his parents better and better."
+      },
+      {
+        "zh": "随着网络的普及，人们查资料方便多了。",
+        "py": "suí zhe wǎng luò de pǔ jí rén men chá zī liào fāng biàn duō le",
+        "en": "With the spread of the internet, looking things up has become much easier."
+      },
+      {
+        "zh": "随着天气转冷，街上的行人少了。",
+        "py": "suí zhe tiān qì zhuǎn lěng jiē shàng de xíng rén shǎo le",
+        "en": "As the weather turns cold, there are fewer people on the street."
+      }
+    ],
+    "drills": [
+      {
+        "q": "____，村里的孩子有了更多的选择。",
+        "options": ["随着网络的发展", "随着网络发展着", "跟随网络的发展", "随着网络很发展"],
+        "answer": 0,
+        "explain": "随着 takes a noun phrase with 的 or a plain change verb. 发展着 adds a progressive particle that 随着 never takes, 跟随 means 'follow' and is used with people, and 很 cannot modify 发展 inside this phrase."
+      },
+      {
+        "q": "随着天气变冷，____。",
+        "options": ["来上课的人明显少了", "来上课的人一直很多", "来上课的人特别多", "来上课的人非常多"],
+        "answer": 0,
+        "explain": "The main clause has to register a change that runs alongside the first one. 一直很多, 特别多 and 非常多 are static descriptions, so 随着 would be left without any matching change."
+      }
+    ]
+  },
+  "reading": {
+    "title": "半个月的支教",
+    "text": "去年秋天，我请了半个月的假，参加了一个支教项目。出发前，我以为最大的困难是生活条件。到了以后才发现，真正艰巨的是课堂：三个年级在同一间教室里，基础差别很大。第一天讲地理，我讲到一半，就有孩子趴在桌上睡着了。后来我改变方法，把课文分成几段，让他们用朗读的方式互相检查。慢慢地，及格的人多了，愿意举手的人也多了。课余时间，我做家访，走了十几户。有的孩子父母在外打工，大部分家务要由他们承担。随着接触的增多，我开始明白，我们能带来的不只是几节课。离开之前，我们在操场上排练了一个小节目。那天下午，孩子们跳了一支舞蹈，动作也许不整齐，可掌声很热烈。回城以后，我把收获写在本子上：勇气、耐心，还有一双愿意慢慢看的眼睛。",
+    "translation": "Last autumn I took two weeks off and joined a volunteer teaching programme. Before I left I assumed the hardest part would be the living conditions. Only after arriving did I find that what was really formidable was the classroom: three year groups in one room, with a huge gap between the children's foundations. On the first day, teaching geography, I was halfway through when a child fell asleep with his head on the desk. Later I changed my method, split the text into sections and had them check each other by reading aloud. Gradually more of them passed the exercises, and more hands went up. In my free time I visited families, a dozen or so households. Some children have parents working away and have to take on most of the housework themselves. As I came into more contact with them, I began to see that what we could bring was not only a few lessons. Before leaving we rehearsed a short performance on the playground. That afternoon the children danced, and although the movements may not have been neat, the applause was warm. Back in the city I wrote the gains of those two weeks in a notebook: courage, patience, and a pair of eyes willing to look slowly.",
+    "questions": [
+      {
+        "q": "这篇文章主要写了____。",
+        "options": [
+          "作者参加支教活动的经历和感受",
+          "村里学校校舍的修建过程",
+          "一次期末考试的结果",
+          "作者旅行时看到的风景"
+        ],
+        "answer": 0,
+        "explain": "The passage follows the whole two weeks — arrival, classroom problems, home visits, the performance — and ends with what the author gained."
+      },
+      {
+        "q": "作者第一天讲地理课，____。",
+        "options": [
+          "有孩子趴在桌上睡着了",
+          "教室突然停电了",
+          "学生们没有课本",
+          "孩子问了很多问题"
+        ],
+        "answer": 0,
+        "explain": "The text says 第一天讲地理，我讲到一半，就有孩子趴在桌上睡着了. Power cuts, missing textbooks and questions are not mentioned."
+      },
+      {
+        "q": "作者把“一双愿意慢慢看的眼睛”写进收获里，是想说明____。",
+        "options": [
+          "支教让她学会了耐心观察",
+          "她打算以后去学医",
+          "村里的孩子视力不好",
+          "她准备换一份新工作"
+        ],
+        "answer": 0,
+        "explain": "The phrase closes a list of gains (courage, patience) and echoes 随着接触的增多，我开始明白; it is about her own way of seeing, not about eyesight."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "这次支教让我认识了很多可爱的孩子。",
+      "放学以后，老师去几户人家做家访。",
+      "他每天跟着录音练习朗读，进步很快。",
+      "孩子们排练了一个节目，家长都来鼓掌。",
+      "这次经历让我收获了勇气和耐心。"
+    ]
+  },
+  "writing": {
+    "prompt": "Write about a short project or trip where you expected to help others but learned something yourself. Say what you planned and what actually happened. Use four of the words below.",
+    "required_words": ["支教", "收获", "勇气", "承担"],
+    "min_chars": 80,
+    "model": "去年我参加了一次支教活动，只有两周。出发前，我准备了很详细的课件，以为自己能教很多。到了才发现，孩子们最需要的不是新知识，而是有人听他们说话。我陪他们朗读，一起排练节目，也去家里做过家访。那两周我承担的事情不多，收获却很大。回城以后，我多了面对陌生环境的勇气。",
+    "tips": "State the plan in one or two sentences, then describe what went differently, and close with the personal gain rather than a summary of the trip."
+  }
+}

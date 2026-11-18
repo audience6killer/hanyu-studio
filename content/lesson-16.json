@@ -1,0 +1,101 @@
+{
+  "lesson": 16,
+  "title_zh": "体重与节食",
+  "title_en": "Weight and Diet",
+  "theme": "A canteen makes small changes to the food environment, and a report asks whether dieting is really the answer.",
+  "grammar": {
+    "id": "g16",
+    "point": "以便 / 以免 / 免得",
+    "point_en": "so that; in order to avoid; so as not to",
+    "structure": "做法 + 以便/以免/免得 + 目的或要避免的情况",
+    "explain_en": "These three words all connect an action to its purpose, but the purpose is positive with 以便 and negative with 以免 and 免得. 以便 means “so that, in order to make something possible” and is followed by what you want to happen: 提前十分钟到，以便做好准备. 以免 and 免得 both mean “so as not to”, and the clause after them names something you want to prevent: 早点出发，以免堵车. The difference between 以免 and 免得 is register: 以免 is formal and belongs in notices, rules and reports, while 免得 is conversational and often suggests saving yourself trouble — 你给他打个电话，免得他白跑一趟. All three come after the main action, and the second clause usually has the same subject as the first, so do not insert a new subject right after them. With 以便 the second clause often contains 能 or 可以; with 以免 and 免得 it usually contains 不 or names an unwanted situation.",
+    "common_mistake": "Learners mix up the polarity: they put the thing they want to avoid after 以便, or the goal they want after 以免. Decide first whether the second half is a purpose (以便) or something to prevent (以免/免得).",
+    "examples": [
+      {
+        "zh": "请提前十分钟到会议室，以便做好准备工作。",
+        "py": "qǐng tí qián shí fēn zhōng dào huì yì shì yǐ biàn zuò hǎo zhǔn bèi gōng zuò",
+        "en": "Please come to the meeting room ten minutes early so that we can prepare."
+      },
+      {
+        "zh": "出门前检查一遍，以免忘记带文件。",
+        "py": "chū mén qián jiǎn chá yí biàn yǐ miǎn wàng jì dài wén jiàn",
+        "en": "Check once before you leave so as not to forget the documents."
+      },
+      {
+        "zh": "你把地址发给我，免得我走错路。",
+        "py": "nǐ bǎ dì zhǐ fā gěi wǒ miǎn de wǒ zǒu cuò lù",
+        "en": "Send me the address so that I don't take the wrong road."
+      }
+    ],
+    "drills": [
+      {
+        "q": "会议材料请提前一天发给大家，____每个人都能先看一遍。",
+        "options": ["以免", "以便", "何况", "免得"],
+        "answer": 1,
+        "explain": "以便 introduces a goal you want to make possible, and 每个人都能先看一遍 is exactly that goal. 以免 and 免得 introduce things to prevent, which reverses the meaning here, and 何况 means let alone."
+      },
+      {
+        "q": "把常用的文件放在手边，____每次都要花时间找。",
+        "options": ["以便", "从而", "以免", "何况"],
+        "answer": 2,
+        "explain": "以免 introduces the situation you want to prevent, 每次都要花时间找. 以便 needs a positive goal, 从而 links a means to an achieved result rather than a prevented one, and 何况 is used for rhetorical escalation."
+      }
+    ]
+  },
+  "reading": {
+    "title": "食堂里的小碗",
+    "text": "去年，公司食堂做了一次小小的调整：把大碗换成小碗，甜饮料放到最里面一排，蔬菜摆在最显眼的位置。行政部没有宣传，也没有要求谁节食。\n\n三个月后，工会做了一次调查。问卷不问体重，只问参与的人几个问题：最近吃得怎么样？下午会不会犯困？结果有些意外：说“吃得更舒服”的人明显多了，抱怨下午没精神的人却少了。\n\n负责这件事的小林说，他们分析了一些公开的研究：人一次摄入多少食物，和碗的大小有关系；把不健康的食物放远一点，人们就会少吃一点。这些措施并不神秘，只是很少有人真正去做。\n\n小林在报告里写道：与其下决心节食，不如调整环境。食堂还准备在桌上放一小瓶水，以免大家忙起来忘记喝水；把菜的营养信息贴在窗口，以便员工自己挑选。",
+    "translation": "Last year the company canteen made a small change: big bowls became smaller ones, sweet drinks moved to the furthest shelf, and vegetables were placed where the eye lands first. The admin office put up no posters and asked nobody to diet.\n\nThree months later the staff committee ran a survey. The questionnaire did not ask about weight, only a few questions for the people taking part: how have your meals been lately? Do you get sleepy in the afternoon? The result was a little unexpected: noticeably more people said they ate more comfortably, while fewer complained of having no energy in the afternoon.\n\nXiao Lin, who was in charge, says they analysed some published research: how much food a person takes in at one meal is related to bowl size, and if unhealthy food is placed further away, people eat a little less. These measures are no secret; it is just that few people actually apply them.\n\nAt the end of the report Xiao Lin wrote: rather than resolving to diet, adjust the environment. The canteen also plans to put a small bottle of water on every table so that nobody forgets to drink when things get busy, and to post the nutrition information at the counter so that staff can choose for themselves.",
+    "questions": [
+      {
+        "q": "这篇文章主要介绍的是____。",
+        "options": [
+          "食堂用小的改变改善员工饮食",
+          "一种能快速减重的节食方法",
+          "员工对食堂价格的看法",
+          "营养研究人员的工作方式"
+        ],
+        "answer": 0,
+        "explain": "The passage describes the canteen's small changes and the survey that followed, and ends with the idea of adjusting the environment instead of dieting."
+      },
+      {
+        "q": "根据文章，问卷里问到的是____。",
+        "options": [
+          "下午是否犯困",
+          "员工的体重",
+          "每年的体检结果",
+          "食堂的采购成本"
+        ],
+        "answer": 0,
+        "explain": "The text says the questionnaire did not ask about weight but did ask whether people got sleepy in the afternoon."
+      },
+      {
+        "q": "从食堂的做法可以看出，他们相信____。",
+        "options": [
+          "改变环境比依靠意志更可靠",
+          "员工应该每天计算热量",
+          "节食是保持健康最好的办法",
+          "食堂的饭菜需要提高价格"
+        ],
+        "answer": 0,
+        "explain": "The report's conclusion is to adjust the environment rather than resolve to diet, which trusts surroundings more than willpower."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "医生建议他少吃甜食，但不必完全节食。",
+      "研究人员分析了志愿者一年内的体重变化。",
+      "他的体重一直很稳定，没有明显的波动。",
+      "公司采取了几项措施，希望大家吃得更健康。",
+      "把水果放在桌上，以便大家随手拿到。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe one small change to your daily routine that made healthy eating easier. Use 4 of the words below.",
+    "required_words": ["营养", "摄入", "采取", "可靠"],
+    "min_chars": 80,
+    "model": "我以前常常忙到下午才想起吃饭，然后一次吃很多。后来我在办公桌的抽屉里放了几包坚果和一个水果盒，中午再忙也先吃一点。这样做的目的不是节食，而是让身体有稳定的营养来源，不至于晚上一次摄入太多。这个办法很普通，却比任何临时的计划都可靠。我还在手机上设了提醒，采取的措施不多，但一直坚持着。",
+    "tips": "Start with the old habit and its problem, then describe the change in one concrete detail. Finish with how reliable it proved in ordinary weeks."
+  }
+}

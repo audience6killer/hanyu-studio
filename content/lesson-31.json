@@ -1,0 +1,116 @@
+{
+  "lesson": 31,
+  "title_zh": "登门槛效应",
+  "title_en": "Foot-in-the-door effect",
+  "theme": "Why a very small first request is often the easiest way to get a larger one accepted, told through a new hire's first month at a newspaper office.",
+  "grammar": {
+    "id": "g31",
+    "point": "难怪 / 怪不得",
+    "point_en": "no wonder; that explains why",
+    "structure": "原因 + 难怪/怪不得 + 结果（先知道原因，再说“原来如此”）",
+    "explain_en": "Use 难怪 or 怪不得 when you have just learned a reason and it suddenly explains something you had already noticed. The cause comes first — either earlier in the same sentence or in the previous sentence — and what follows the adverb is the fact that is now explained: 难怪你今天这么精神，原来昨晚早睡了。 Both words go immediately before the subject of the clause, never at the end of it, and both can stand alone as a one-word reaction: 难怪！/ 怪不得！ 难怪 is neutral and slightly more written. 怪不得 is the everyday spoken form and often takes 了 or 啊 after it: 怪不得他这么高兴。 难怪 can also be followed by 原来 to spell the cause out. Neither word asks a question and neither means 'strange' — for that, use 奇怪. Compare 难怪 with 原来: 原来 simply reports the newly found fact, while 难怪 adds the speaker's reaction, 'that explains it'. If the clause after the adverb is only a guess rather than something you now understand, use 大概 or 也许 instead.",
+    "common_mistake": "Learners often put 难怪 in front of the cause, as in 难怪下雨，他没带伞, when the cause must come first: 他没带伞，难怪淋湿了。 A second slip is using 难怪 to translate 'strange'; 奇怪 is the word for that.",
+    "examples": [
+      {
+        "zh": "难怪你今天这么精神，原来昨晚早睡了。",
+        "py": "nán guài nǐ jīn tiān zhè me jīng shén yuán lái zuó wǎn zǎo shuì le",
+        "en": "No wonder you are so energetic today — you went to bed early last night."
+      },
+      {
+        "zh": "怪不得大家都赞成这个方案，它确实省时间。",
+        "py": "guài bu de dà jiā dōu zàn chéng zhè ge fāng àn tā què shí shěng shí jiān",
+        "en": "No wonder everyone approves of this plan; it really does save time."
+      },
+      {
+        "zh": "他报告写得那么清楚，难怪经理总让他处理急事。",
+        "py": "tā bào gào xiě de nà me qīng chu nán guài jīng lǐ zǒng ràng tā chǔ lǐ jí shì",
+        "en": "His reports are so clear that it is no wonder the manager always asks him to handle urgent matters."
+      }
+    ],
+    "drills": [
+      {
+        "q": "他连着值了三天班，____今天开会时一直打哈欠。",
+        "options": [
+          "难怪",
+          "难道",
+          "反而",
+          "简直"
+        ],
+        "answer": 0,
+        "explain": "难怪 introduces the explanation after a known cause: he worked three night shifts, so the yawning is no surprise. 难道 only appears in rhetorical questions, 反而 marks a contrast with expectation, and 简直 exaggerates a description; none of them means 'no wonder'."
+      },
+      {
+        "q": "____他这么熟悉这条街，原来他在这里住了十年。",
+        "options": [
+          "不得不",
+          "了不起",
+          "怪不得",
+          "由不得"
+        ],
+        "answer": 2,
+        "explain": "怪不得 fits the pattern reaction-first, reason-after: the 原来 clause supplies the cause. 不得不 means 'have to', 了不起 is an adjective meaning 'amazing', and 由不得 means 'not up to someone' — all are wrong parts of speech here."
+      }
+    ]
+  },
+  "reading": {
+    "title": "第一件小事",
+    "text": "刚进报社那年，我被安排给一位老编辑当助手。第一天轮到我值班，他只让我把一段三百字的消息看一遍，回来告诉他有没有错字。事情太小，我没有犹豫就答应了。\n第三天，他让我帮忙处理一封读者来信；一个星期以后，我已经在替他整理短评了。月底总结会上，我看见自己的名字第一次出现在报纸上。同事笑着说，这位编辑最会用这种办法带新人。先给一个很低的门槛，你点了头，后面的事就不觉得难。\n我这才明白，怪不得他从来不催人，也从不勉强谁。那种被信任的感觉，比任何报告都更让人迫切地想把下一步做好。",
+    "translation": "The year I joined the newspaper office, I was assigned as an assistant to a senior editor. On my first day on duty, he asked me only to read a three-hundred-character news item and tell him whether there were any typos. The task was so small that I agreed without hesitating.\nOn the third day he asked me to help handle a reader's letter; a week later I was already sorting his short commentaries. At the month-end review meeting I saw my own name in the paper for the first time. A colleague laughed and said this editor was a master at bringing new people along: give them a very low threshold first, and once they nod, the rest no longer feels difficult.\nOnly then did I understand — no wonder he never rushed anyone and never forced anyone. That feeling of being trusted made me more eager to do the next step well than any written report could.",
+    "questions": [
+      {
+        "q": "这篇文章主要讲的是____。",
+        "options": [
+          "一位编辑怎样一步步带新人",
+          "报社里如何检查错字",
+          "新人怎样写出一篇短评",
+          "总结会上如何汇报工作"
+        ],
+        "answer": 0,
+        "explain": "The passage follows the assistant's tasks from reading a short news item to sorting short commentaries, all arranged by the senior editor, so the focus is his step-by-step way of training a newcomer."
+      },
+      {
+        "q": "作者第一天值班时，被安排做的是____。",
+        "options": [
+          "替编辑写一篇短评",
+          "在总结会上发言",
+          "把一段消息看一遍",
+          "处理一封读者来信"
+        ],
+        "answer": 2,
+        "explain": "The first paragraph says that on his first day on duty he was asked to read a three-hundred-character news item and report whether there were any typos."
+      },
+      {
+        "q": "从文章最后一段看，作者对老编辑的做法____。",
+        "options": [
+          "有些反感",
+          "十分赞成",
+          "保持怀疑",
+          "不太理解"
+        ],
+        "answer": 1,
+        "explain": "The closing sentence says the trust made him eager to do the next step well, and he uses 怪不得 to show he now understands the method — clear approval rather than doubt."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "他值班的时候从来不接私人电话。",
+      "社区请我帮忙处理一份报告。",
+      "我没有犹豫就答应了这件事。",
+      "他劝我先实践一个月再作决定。",
+      "那位编辑说话很谦虚，也不轻易批评人。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe a small first step at work that later led to something bigger. What did you hesitate about, what did you agree to, and what changed afterwards? Use the words below.",
+    "required_words": [
+      "犹豫",
+      "处理",
+      "报告",
+      "实践"
+    ],
+    "min_chars": 80,
+    "model": "上个月主管让我试着处理客户来信。我有些犹豫，怕自己写不好。第一封只有两百字，我改了三遍才发出去；两周后我独立写了一份报告，才发现最难的是开头那一步。这件事让我更愿意在实践中学习，也让我明白：把小事做好，后面的路自然会宽一点。",
+    "tips": "Start with the request and your hesitation, add one concrete detail about the first small task, then close with what that first step changed in your attitude."
+  }
+}

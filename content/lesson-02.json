@@ -1,0 +1,86 @@
+{
+  "lesson": 2,
+  "title_zh": "留串钥匙给父母",
+  "title_en": "Leaving a Bunch of Keys to Our Parents",
+  "theme": "A spare key lets parents help in the way they know best, while learning to keep a respectful distance.",
+  "grammar": {
+    "id": "g02",
+    "point": "除了……（以外），还/也……",
+    "point_en": "besides A, also B",
+    "structure": "除了 + A + （以外），Subject + 还/也 + B",
+    "explain_en": "Use this pattern to add one more item to something the listener already knows. The 除了 part names the item that is already on the table; the main clause then adds the new information that the sentence is really about. 以外 is optional, but it is common in written Chinese and often makes the two halves easier to hear. After the second subject comes 还 or 也 before the verb, and never after the verb. With a plural subject, 都 is also possible, as in 除了他，我们也都去了. Compare 除了……都……, which is the exclusion reading: 除了他，别人都来了 means everyone except him came. The additive reading needs 还 or 也; using 都 changes the meaning completely. It also differs from 不但……而且……, which stacks two facts with rising emphasis, while 除了……还 merely adds a second point in a neutral tone. Word order matters: 除了 sits in front of its object, and 以外 closes that phrase. Do not put 除了 after the verb: 除了打扫屋子以外，母亲还…… is right, 母亲打扫了除了屋子以外 is not.",
+    "common_mistake": "Learners often place 还 after the verb (除了英语，他说还汉语) or use 都 when they mean addition. Keep 除了 + object + 以外 at the front, then subject, then 还/也, then the verb.",
+    "examples": [
+      {
+        "zh": "除了打扫屋子以外，母亲还修好了水龙头。",
+        "py": "chú le dǎ sǎo wū zi yǐ wài mǔ qīn hái xiū hǎo le shuǐ lóng tóu",
+        "en": "Besides cleaning the room, my mother also fixed the tap."
+      },
+      {
+        "zh": "这份工作除了工资，还能学到不少东西。",
+        "py": "zhè fèn gōng zuò chú le gōng zī hái néng xué dào bù shǎo dōng xi",
+        "en": "Apart from the salary, this job also lets you learn a lot."
+      },
+      {
+        "zh": "除了我，弟弟也想去县里看看。",
+        "py": "chú le wǒ dì di yě xiǎng qù xiàn lǐ kàn kan",
+        "en": "Besides me, my younger brother also wants to go and see the county town."
+      }
+    ],
+    "drills": [
+      {
+        "q": "____打扫屋子，母亲还修好了水龙头。",
+        "options": ["除了", "因为", "即使", "虽然"],
+        "answer": 0,
+        "explain": "The main clause already has 还, which marks an addition. 因为 would ask for a result, 即使 demands 也, and 虽然 demands 但是, so only 除了 sets up the additive frame."
+      },
+      {
+        "q": "____，这份工作还能让我学到不少东西。",
+        "options": ["除了工资以外", "工资除了以外", "除了以外工资", "以外除了工资"],
+        "answer": 0,
+        "explain": "除了 must come before the noun it introduces, and 以外 follows that noun. The other orders break the fixed 除了 + object + 以外 shape."
+      }
+    ]
+  },
+  "reading": {
+    "title": "门边的那串钥匙",
+    "text": "我在城里工作了六年，老家在农村。装修完新房那年，我把一串钥匙挂在门边的挂钩上，父母来的时候不用在楼下等我。\n\n母亲第一次来，是趁我上班，悄悄来的。晚上我回家，屋子亮着灯，被子晒过，又软又暖，桌上有汤，厨房的灰尘也不见了。她没留下字条，只把钥匙挂回了原处。\n\n我几乎能想象她干活儿的样子：先把窗户打开，再一间一间地擦。她不说，是怕我不高兴。\n\n后来我发现她来得不多。她说，除了送点吃的以外，她也不愿意多来，怕打扰我。父亲更少说话，只在电话里问一句锁好了没有。\n\n那串钥匙一直挂在门边。除了温暖以外，它还给我一种感受：这间屋子一直有人惦记着我。",
+    "translation": "I have worked in the city for six years, and my hometown is in the countryside. The year the new flat was decorated, I hung a bunch of keys on a hook by the door, so my parents would not have to wait for me downstairs. My mother's first visit came while I was at work, and she came quietly. When I got home that evening the room was lit up, the quilt had been aired and was soft and warm, soup was on the table, and the dust in the kitchen was gone. She left no note, only hung the key back where it belonged. I can almost picture how she worked: open the windows first, then wipe one room after another. She says nothing about it because she is afraid I would be annoyed. Later I realised she does not come often. She says that apart from bringing a little food, she does not want to visit too much in case she disturbs me. My father says even less; on the phone he only asks whether the lock is done up. That bunch of keys has stayed by the door. Besides warmth, it gives me a feeling that someone in this flat is always thinking of me.",
+    "questions": [
+      {
+        "q": "这篇文章主要写的是____。",
+        "options": ["作者装修新房的过程", "一串钥匙带来的家庭温暖", "母亲打扫房间的技巧", "城市和农村生活的区别"],
+        "answer": 1,
+        "explain": "The key is mentioned in the first and last paragraphs, and everything between describes the mother caring for the flat, so the passage is about the warmth the key brings rather than the decoration itself."
+      },
+      {
+        "q": "母亲第一次来的时候，____。",
+        "options": ["趁作者上班时悄悄来的", "提前打电话告诉了作者", "带着父亲一起来的", "在楼下等了很久"],
+        "answer": 0,
+        "explain": "Paragraph two opens with 母亲第一次来，是趁我上班，悄悄来的, which rules out an announced visit or waiting downstairs."
+      },
+      {
+        "q": "作者把一串钥匙留给父母，主要是因为____。",
+        "options": ["想让母亲常来帮忙打扫", "怕自己把钥匙弄丢", "希望父母来了不用在楼下等", "想请父母搬来城里长住"],
+        "answer": 2,
+        "explain": "The reason is stated directly after the key is mentioned: 父母来的时候不用在楼下等我. Nothing in the passage suggests she was asked to clean or that the parents were moving in."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "母亲悄悄地把被子抱到阳台上晒。",
+      "除了打扫屋子，母亲还留了一锅汤。",
+      "我在城里工作，老家在农村。",
+      "这间屋子不大，可是让人感到温暖。",
+      "她想象着母亲擦桌子的样子。"
+    ]
+  },
+  "writing": {
+    "prompt": "Write about something a family member quietly does for you. Use the words below.",
+    "required_words": ["农村", "屋子", "温暖", "感受"],
+    "min_chars": 80,
+    "model": "奶奶住在农村，屋子不大，却收拾得很干净。每次回去，她总把被子晒好，说这样睡着更暖。我以前只觉得方便，这几年才慢慢感受到，那些小动作是她表达想念的方式。屋子里的温暖，原来是有人一直在等你，就像小时候一样。",
+    "tips": "Start with where the person lives and one habit they repeat, then describe one visit in concrete detail. Close with what you understand now that you did not notice before."
+  }
+}

@@ -1,0 +1,9885 @@
+[
+ {
+  "lesson": 1,
+  "title": "爱的细节 Details of Love",
+  "items": [
+   {
+    "i": 1,
+    "w": "细节",
+    "py": "xì jié",
+    "pos": "n.",
+    "en": "details; particulars; minutiae"
+   },
+   {
+    "i": 2,
+    "w": "电台",
+    "py": "diàn tái",
+    "pos": "n.",
+    "en": "transceiver; radio station"
+   },
+   {
+    "i": 3,
+    "w": "恩爱",
+    "py": "ēn ài",
+    "pos": "adj.",
+    "en": "(of husband and wife) loving"
+   },
+   {
+    "i": 4,
+    "w": "对比",
+    "py": "duì bǐ",
+    "pos": "v.",
+    "en": "contrast; comparison; ratio"
+   },
+   {
+    "i": 5,
+    "w": "入围",
+    "py": "rù wéi",
+    "pos": "v.",
+    "en": "to be shortlisted"
+   },
+   {
+    "i": 6,
+    "w": "评委",
+    "py": "píng wěi",
+    "pos": "n.",
+    "en": "judge, member of a judging panel"
+   },
+   {
+    "i": 7,
+    "w": "如何",
+    "py": "rú hé",
+    "pos": "pron.",
+    "en": "how"
+   },
+   {
+    "i": 8,
+    "w": "瘫痪",
+    "py": "tān huàn",
+    "pos": "v.",
+    "en": "paralysis; palsy"
+   },
+   {
+    "i": 9,
+    "w": "离婚",
+    "py": "lí hūn",
+    "pos": "v.",
+    "en": "divorce"
+   },
+   {
+    "i": 10,
+    "w": "自杀",
+    "py": "zì shā",
+    "pos": "v.",
+    "en": "to commit suicide"
+   },
+   {
+    "i": 11,
+    "w": "抱怨",
+    "py": "bào yuàn",
+    "pos": "v.",
+    "en": "complain; grumble"
+   },
+   {
+    "i": 12,
+    "w": "爱护",
+    "py": "ài hù",
+    "pos": "v.",
+    "en": "care; cherish; take good care of"
+   },
+   {
+    "i": 13,
+    "w": "婚姻",
+    "py": "hūn yīn",
+    "pos": "n.",
+    "en": "marriage; matrimony"
+   },
+   {
+    "i": 14,
+    "w": "吵架",
+    "py": "chǎo jià",
+    "pos": "v.",
+    "en": "to quarrel; have a row"
+   },
+   {
+    "i": 15,
+    "w": "相敬如宾",
+    "py": "xiāng jìng rú bīn",
+    "pos": "v.",
+    "en": "to respect each other like guests"
+   },
+   {
+    "i": 16,
+    "w": "暗暗",
+    "py": "àn àn",
+    "pos": "adv.",
+    "en": "secretly; to oneself"
+   },
+   {
+    "i": 17,
+    "w": "轮",
+    "py": "lún",
+    "pos": "v.",
+    "en": "to take turns"
+   },
+   {
+    "i": 18,
+    "w": "不耐烦",
+    "py": "bú nài fán",
+    "pos": "adj.",
+    "en": "impatient"
+   },
+   {
+    "i": 19,
+    "w": "靠",
+    "py": "kào",
+    "pos": "v.",
+    "en": "lean on"
+   },
+   {
+    "i": 20,
+    "w": "肩膀",
+    "py": "jiān bǎng",
+    "pos": "n.",
+    "en": "shoulder"
+   },
+   {
+    "i": 21,
+    "w": "喊",
+    "py": "hǎn",
+    "pos": "v.",
+    "en": "shout; cry out; yell"
+   },
+   {
+    "i": 22,
+    "w": "伸",
+    "py": "shēn",
+    "pos": "v.",
+    "en": "stretch; extend"
+   },
+   {
+    "i": 23,
+    "w": "手指",
+    "py": "shǒu zhǐ",
+    "pos": "n.",
+    "en": "finger"
+   },
+   {
+    "i": 24,
+    "w": "歪歪扭扭",
+    "py": "wāi wāi niǔ niǔ",
+    "pos": "adj.",
+    "en": "crooked, askew"
+   },
+   {
+    "i": 25,
+    "w": "递",
+    "py": "dì",
+    "pos": "v.",
+    "en": "to hand over; to pass on; progressively"
+   },
+   {
+    "i": 26,
+    "w": "脑袋",
+    "py": "nǎo dài",
+    "pos": "n.",
+    "en": "head; brains"
+   },
+   {
+    "i": 27,
+    "w": "女士",
+    "py": "nǚ shì",
+    "pos": "n.",
+    "en": "lady; Madam; Miss"
+   },
+   {
+    "i": 28,
+    "w": "叙述",
+    "py": "xù shù",
+    "pos": "v.",
+    "en": "narrate; recount; relate"
+   },
+   {
+    "i": 29,
+    "w": "居然",
+    "py": "jū rán",
+    "pos": "adv.",
+    "en": "unexpectedly; to one's surprise"
+   },
+   {
+    "i": 30,
+    "w": "催",
+    "py": "cuī",
+    "pos": "v.",
+    "en": "to urge; hurry; to hasten"
+   },
+   {
+    "i": 31,
+    "w": "等待",
+    "py": "děng dài",
+    "pos": "v.",
+    "en": "to wait for; to await"
+   },
+   {
+    "i": 32,
+    "w": "蚊子",
+    "py": "wén zǐ",
+    "pos": "n.",
+    "en": "mosquito"
+   },
+   {
+    "i": 33,
+    "w": "半夜",
+    "py": "bàn yè",
+    "pos": "n.",
+    "en": "midnight"
+   },
+   {
+    "i": 34,
+    "w": "叮",
+    "py": "dīng",
+    "pos": "v.",
+    "en": "to bite, to sting"
+   },
+   {
+    "i": 35,
+    "w": "老婆",
+    "py": "lǎo po",
+    "pos": "n.",
+    "en": "wife [colloquial]"
+   },
+   {
+    "i": 36,
+    "w": "吵",
+    "py": "chǎo",
+    "pos": "adj.",
+    "en": "noisy"
+   },
+   {
+    "i": 37,
+    "w": "项",
+    "py": "xiàng",
+    "pos": "m.",
+    "en": "item; a measure word for projects or tasks"
+   },
+   {
+    "i": 38,
+    "w": "患难与共",
+    "py": "huàn nàn yǔ gòng",
+    "pos": "v.",
+    "en": "to share hardships together"
+   }
+  ]
+ },
+ {
+  "lesson": 2,
+  "title": "留串钥匙给父母 Leaving a Bunch of Keys to Our Parents",
+  "items": [
+   {
+    "i": 1,
+    "w": "串",
+    "py": "chuàn",
+    "pos": "m.",
+    "en": "string together"
+   },
+   {
+    "i": 2,
+    "w": "一辈子",
+    "py": "yí bèi zi",
+    "pos": "n.",
+    "en": "all one's life"
+   },
+   {
+    "i": 3,
+    "w": "农村",
+    "py": "nóng cūn",
+    "pos": "n.",
+    "en": "countryside rural area"
+   },
+   {
+    "i": 4,
+    "w": "屋子",
+    "py": "wū zi",
+    "pos": "n.",
+    "en": "room"
+   },
+   {
+    "i": 5,
+    "w": "断",
+    "py": "duàn",
+    "pos": "v.",
+    "en": "to break"
+   },
+   {
+    "i": 6,
+    "w": "以来",
+    "py": "yǐ lái",
+    "pos": "n.",
+    "en": "since"
+   },
+   {
+    "i": 7,
+    "w": "姥姥",
+    "py": "lǎo lao",
+    "pos": "n.",
+    "en": "grandmother [mother's mother]"
+   },
+   {
+    "i": 8,
+    "w": "舅舅",
+    "py": "jiù jiu",
+    "pos": "n.",
+    "en": "uncle [mother's brother]"
+   },
+   {
+    "i": 9,
+    "w": "姑姑",
+    "py": "gū gu",
+    "pos": "n.",
+    "en": "aunt [father's sister]"
+   },
+   {
+    "i": 10,
+    "w": "坚决",
+    "py": "jiān jué",
+    "pos": "adj.",
+    "en": "firm; resolute; determined"
+   },
+   {
+    "i": 11,
+    "w": "打工",
+    "py": "dǎ gōng",
+    "pos": "v.",
+    "en": "do manual work"
+   },
+   {
+    "i": 12,
+    "w": "挣",
+    "py": "zhèng",
+    "pos": "v.",
+    "en": "to make (money)"
+   },
+   {
+    "i": 13,
+    "w": "县",
+    "py": "xiàn",
+    "pos": "n.",
+    "en": "county"
+   },
+   {
+    "i": 14,
+    "w": "套",
+    "py": "tào",
+    "pos": "m.",
+    "en": "cover; case; set"
+   },
+   {
+    "i": 15,
+    "w": "装修",
+    "py": "zhuāng xiū",
+    "pos": "v.",
+    "en": "to decroate"
+   },
+   {
+    "i": 17,
+    "w": "醉",
+    "py": "zuì",
+    "pos": "v.",
+    "en": "drunk; intoxicated"
+   },
+   {
+    "i": 18,
+    "w": "强烈",
+    "py": "qiáng liè",
+    "pos": "adj.",
+    "en": "strong; intense; violent"
+   },
+   {
+    "i": 19,
+    "w": "夜",
+    "py": "yè",
+    "pos": "n.",
+    "en": "night; night-time; evening"
+   },
+   {
+    "i": 20,
+    "w": "锁",
+    "py": "suǒ",
+    "pos": "n.",
+    "en": "lock"
+   },
+   {
+    "i": 21,
+    "w": "临",
+    "py": "lín",
+    "pos": "prep.",
+    "en": "about to, just before"
+   },
+   {
+    "i": 22,
+    "w": "悄悄",
+    "py": "qiāo qiāo",
+    "pos": "adv.",
+    "en": "quietly; whisper; on the quiet"
+   },
+   {
+    "i": 23,
+    "w": "晒",
+    "py": "shài",
+    "pos": "v.",
+    "en": "shine upon; dry in the sun; bask"
+   },
+   {
+    "i": 24,
+    "w": "被子",
+    "py": "bèi zi",
+    "pos": "n.",
+    "en": "quilt"
+   },
+   {
+    "i": 25,
+    "w": "长途",
+    "py": "cháng tú",
+    "pos": "adj.",
+    "en": "long-distance"
+   },
+   {
+    "i": 26,
+    "w": "冻",
+    "py": "dòng",
+    "pos": "v.",
+    "en": "frozen; jelly"
+   },
+   {
+    "i": 27,
+    "w": "想象",
+    "py": "xiǎng xiàng",
+    "pos": "v.",
+    "en": "imagine; think; visualize"
+   },
+   {
+    "i": 28,
+    "w": "灰尘",
+    "py": "huī chén",
+    "pos": "n.",
+    "en": "dust; dirt; ash"
+   },
+   {
+    "i": 29,
+    "w": "亮",
+    "py": "liàng",
+    "pos": "adj.",
+    "en": "bright; to shine"
+   },
+   {
+    "i": 30,
+    "w": "微笑",
+    "py": "wēi xiào",
+    "pos": "n.",
+    "en": "smile"
+   },
+   {
+    "i": 31,
+    "w": "温暖",
+    "py": "wēn nuǎn",
+    "pos": "adj.",
+    "en": "warm"
+   },
+   {
+    "i": 32,
+    "w": "立刻",
+    "py": "lì kè",
+    "pos": "adv.",
+    "en": "immediately; at once; right away"
+   },
+   {
+    "i": 33,
+    "w": "扑",
+    "py": "pū",
+    "pos": "v.",
+    "en": "dedicate all one's energies to a cause"
+   },
+   {
+    "i": 34,
+    "w": "卧室",
+    "py": "wò shì",
+    "pos": "n.",
+    "en": "bedroom"
+   },
+   {
+    "i": 35,
+    "w": "铺",
+    "py": "pū",
+    "pos": "v.",
+    "en": "spread; display; bed"
+   },
+   {
+    "i": 36,
+    "w": "飘",
+    "py": "piāo",
+    "pos": "v.",
+    "en": "wave to and fro; float; flutter"
+   },
+   {
+    "i": 37,
+    "w": "阵",
+    "py": "zhèn",
+    "pos": "m.",
+    "en": "battle array; position; front"
+   },
+   {
+    "i": 38,
+    "w": "感受",
+    "py": "gǎn shòu",
+    "pos": "v.",
+    "en": "be affected by; feeling; perception"
+   },
+   {
+    "i": 39,
+    "w": "流泪",
+    "py": "liú lèi",
+    "pos": "v.",
+    "en": "to shed tears"
+   }
+  ]
+ },
+ {
+  "lesson": 3,
+  "title": "人生有选择，一切可改变 Having Choices in Life Makes Change Possible",
+  "items": [
+   {
+    "i": 1,
+    "w": "人生",
+    "py": "rén shēng",
+    "pos": "n.",
+    "en": "[human] life"
+   },
+   {
+    "i": 2,
+    "w": "工人",
+    "py": "gōng rén",
+    "pos": "n.",
+    "en": "(manual) worker; labourer"
+   },
+   {
+    "i": 3,
+    "w": "稳定",
+    "py": "wěn dìng",
+    "pos": "v.",
+    "en": "stabilise; steady"
+   },
+   {
+    "i": 4,
+    "w": "待遇",
+    "py": "dài yù",
+    "pos": "n.",
+    "en": "treatment"
+   },
+   {
+    "i": 5,
+    "w": "发愁",
+    "py": "fā chóu",
+    "pos": "v.",
+    "en": "to worry; to be anxious; sullen"
+   },
+   {
+    "i": 6,
+    "w": "平静",
+    "py": "píng jìng",
+    "pos": "adj.",
+    "en": "calm; quiet; tranquil"
+   },
+   {
+    "i": 7,
+    "w": "帆船",
+    "py": "fān chuán",
+    "pos": "n.",
+    "en": "sailing boat/ship"
+   },
+   {
+    "i": 8,
+    "w": "撞",
+    "py": "zhuàng",
+    "pos": "v.",
+    "en": "to hit"
+   },
+   {
+    "i": 9,
+    "w": "艘",
+    "py": "sōu",
+    "pos": "m.",
+    "en": "great boat; ship"
+   },
+   {
+    "i": 10,
+    "w": "航行",
+    "py": "háng xíng",
+    "pos": "v.",
+    "en": "navigate by water/air; sail"
+   },
+   {
+    "i": 11,
+    "w": "积蓄",
+    "py": "jī xù",
+    "pos": "n./v.",
+    "en": "savings; to save"
+   },
+   {
+    "i": 12,
+    "w": "二手",
+    "py": "èr shǒu",
+    "pos": "adj.",
+    "en": "second-hand"
+   },
+   {
+    "i": 13,
+    "w": "彩虹",
+    "py": "cǎi hóng",
+    "pos": "n.",
+    "en": "rainbow"
+   },
+   {
+    "i": 14,
+    "w": "包括",
+    "py": "bāo kuò",
+    "pos": "v.",
+    "en": "include"
+   },
+   {
+    "i": 15,
+    "w": "疯",
+    "py": "fēng",
+    "pos": "v.",
+    "en": "to be crazy, to go mad"
+   },
+   {
+    "i": 16,
+    "w": "辞职",
+    "py": "cí zhí",
+    "pos": "v.",
+    "en": "to resign; hand in one's resignation"
+   },
+   {
+    "i": 17,
+    "w": "驾驶",
+    "py": "jià shǐ",
+    "pos": "v.",
+    "en": "drive; pilot; steer"
+   },
+   {
+    "i": 18,
+    "w": "轮流",
+    "py": "lún liú",
+    "pos": "v.",
+    "en": "take turns; rotation"
+   },
+   {
+    "i": 19,
+    "w": "钓",
+    "py": "diào",
+    "pos": "v.",
+    "en": "fish with a hook and line; angle"
+   },
+   {
+    "i": 20,
+    "w": "顿",
+    "py": "dùn",
+    "pos": "m.",
+    "en": "[measure word for occurences, and therefore of meals]"
+   },
+   {
+    "i": 21,
+    "w": "海鲜",
+    "py": "hǎi xiān",
+    "pos": "n.",
+    "en": "seafood"
+   },
+   {
+    "i": 22,
+    "w": "傍晚",
+    "py": "bàng wǎn",
+    "pos": "n.",
+    "en": "towards evening; at nightfall; at dusk"
+   },
+   {
+    "i": 23,
+    "w": "舒适",
+    "py": "shū shì",
+    "pos": "adj.",
+    "en": "comfortable; cosy; snug"
+   },
+   {
+    "i": 24,
+    "w": "干活儿",
+    "py": "gàn huó er",
+    "pos": "v.",
+    "en": "to work [often manual] on a job"
+   },
+   {
+    "i": 25,
+    "w": "盼望",
+    "py": "pàn wàng",
+    "pos": "v.",
+    "en": "hope for; long for; yearn for"
+   },
+   {
+    "i": 26,
+    "w": "陆地",
+    "py": "lù dì",
+    "pos": "n.",
+    "en": "dry land; terrace"
+   },
+   {
+    "i": 27,
+    "w": "各自",
+    "py": "gè zì",
+    "pos": "pron.",
+    "en": "each; by oneself; respective"
+   },
+   {
+    "i": 28,
+    "w": "勿",
+    "py": "wù",
+    "pos": "adv.",
+    "en": "do not"
+   },
+   {
+    "i": 29,
+    "w": "时刻",
+    "py": "shí kè",
+    "pos": "n.",
+    "en": "time; hour; moment"
+   },
+   {
+    "i": 30,
+    "w": "着火",
+    "py": "zháo huǒ",
+    "pos": "v.",
+    "en": "to burn"
+   },
+   {
+    "i": 31,
+    "w": "漏",
+    "py": "lòu",
+    "pos": "v.",
+    "en": "to leak; divulge; disclose"
+   },
+   {
+    "i": 32,
+    "w": "雷",
+    "py": "léi",
+    "pos": "n.",
+    "en": "thunder"
+   },
+   {
+    "i": 33,
+    "w": "随时",
+    "py": "suí shí",
+    "pos": "adv.",
+    "en": "at any time"
+   },
+   {
+    "i": 34,
+    "w": "闪电",
+    "py": "shǎn diàn",
+    "pos": "n.",
+    "en": "lightning"
+   },
+   {
+    "i": 35,
+    "w": "击",
+    "py": "jī",
+    "pos": "v.",
+    "en": "to hit, to strike"
+   },
+   {
+    "i": 36,
+    "w": "拥抱",
+    "py": "yōng bào",
+    "pos": "v.",
+    "en": "embrace; hug"
+   },
+   {
+    "i": 37,
+    "w": "海里",
+    "py": "hǎi lǐ",
+    "pos": "m.",
+    "en": "sea mile"
+   },
+   {
+    "i": 38,
+    "w": "台阶",
+    "py": "tái jiē",
+    "pos": "n.",
+    "en": "step; altar; bench"
+   },
+   {
+    "i": 39,
+    "w": "未来",
+    "py": "wèi lái",
+    "pos": "n.",
+    "en": "coming; approaching; future"
+   },
+   {
+    "i": 40,
+    "w": "太太",
+    "py": "tài tai",
+    "pos": "n.",
+    "en": "Mrs; Madam"
+   },
+   {
+    "i": 41,
+    "w": "时代",
+    "py": "shí dài",
+    "pos": "n.",
+    "en": "times; age; era"
+   }
+  ]
+ },
+ {
+  "lesson": 4,
+  "title": "子路背米 Zilu Carrying Rice",
+  "items": [
+   {
+    "i": 1,
+    "w": "背",
+    "py": "bèi",
+    "pos": "v.",
+    "en": "back"
+   },
+   {
+    "i": 2,
+    "w": "从前",
+    "py": "cóng qián",
+    "pos": "n.",
+    "en": "in the past; formerly"
+   },
+   {
+    "i": 3,
+    "w": "时期",
+    "py": "shí qī",
+    "pos": "n.",
+    "en": "period"
+   },
+   {
+    "i": 4,
+    "w": "流传",
+    "py": "liú chuán",
+    "pos": "v.",
+    "en": "spread; circulate; hand down"
+   },
+   {
+    "i": 5,
+    "w": "至今",
+    "py": "zhì jīn",
+    "pos": "adv.",
+    "en": "up to now; hitherto; so far"
+   },
+   {
+    "i": 6,
+    "w": "孝敬",
+    "py": "xiào jìng",
+    "pos": "v.",
+    "en": "to show filial respect for"
+   },
+   {
+    "i": 7,
+    "w": "农民",
+    "py": "nóng mín",
+    "pos": "n.",
+    "en": "farmer; peasant"
+   },
+   {
+    "i": 8,
+    "w": "战争",
+    "py": "zhàn zhēng",
+    "pos": "n.",
+    "en": "war; warfare"
+   },
+   {
+    "i": 9,
+    "w": "满足",
+    "py": "mǎn zú",
+    "pos": "v.",
+    "en": "satisfied; content"
+   },
+   {
+    "i": 10,
+    "w": "惭愧",
+    "py": "cán kuì",
+    "pos": "adj.",
+    "en": "ashamed"
+   },
+   {
+    "i": 11,
+    "w": "决心",
+    "py": "jué xīn",
+    "pos": "n.",
+    "en": "determination; resolution"
+   },
+   {
+    "i": 12,
+    "w": "委屈",
+    "py": "wěi qū",
+    "pos": "adj.",
+    "en": "feel wronged; nurse a grievance"
+   },
+   {
+    "i": 13,
+    "w": "打听",
+    "py": "dǎ ting",
+    "pos": "v.",
+    "en": "to ask about; inquire about"
+   },
+   {
+    "i": 14,
+    "w": "主人",
+    "py": "zhǔ rén",
+    "pos": "n.",
+    "en": "owner"
+   },
+   {
+    "i": 15,
+    "w": "结实",
+    "py": "jiē shi",
+    "pos": "adj.",
+    "en": "solid; sturdy; durable"
+   },
+   {
+    "i": 16,
+    "w": "勤奋",
+    "py": "qín fèn",
+    "pos": "adj.",
+    "en": "diligent; assiduous; industrious"
+   },
+   {
+    "i": 17,
+    "w": "银子",
+    "py": "yín zi",
+    "pos": "n.",
+    "en": "silver"
+   },
+   {
+    "i": 18,
+    "w": "老实",
+    "py": "lǎo shi",
+    "pos": "adj.",
+    "en": "honest; frank"
+   },
+   {
+    "i": 19,
+    "w": "镇",
+    "py": "zhèn",
+    "pos": "n.",
+    "en": "town"
+   },
+   {
+    "i": 20,
+    "w": "后背",
+    "py": "hòu bèi",
+    "pos": "n.",
+    "en": "back"
+   },
+   {
+    "i": 21,
+    "w": "滑",
+    "py": "huá",
+    "pos": "adj.",
+    "en": "slippery"
+   },
+   {
+    "i": 22,
+    "w": "甩",
+    "py": "shuǎi",
+    "pos": "v.",
+    "en": "to move backward and forward; to swing"
+   },
+   {
+    "i": 23,
+    "w": "顶",
+    "py": "dǐng",
+    "pos": "m.",
+    "en": "apex; [measure word for something with a top (e.g. hat, tent, etc.)]"
+   },
+   {
+    "i": 24,
+    "w": "扶",
+    "py": "fú",
+    "pos": "v.",
+    "en": "hold up; support with the hand; to help somebody up"
+   },
+   {
+    "i": 25,
+    "w": "不行",
+    "py": "bù xíng",
+    "pos": "v.",
+    "en": "(indicating degree, intensity, etc.) terribly, extremely"
+   },
+   {
+    "i": 26,
+    "w": "团圆",
+    "py": "tuán yuán",
+    "pos": "v.",
+    "en": "to have a reunion"
+   },
+   {
+    "i": 27,
+    "w": "去世",
+    "py": "qù shì",
+    "pos": "v.",
+    "en": "die; pass away"
+   },
+   {
+    "i": 28,
+    "w": "国君",
+    "py": "guó jūn",
+    "pos": "n.",
+    "en": "king; monarch"
+   },
+   {
+    "i": 29,
+    "w": "本领",
+    "py": "běn lǐng",
+    "pos": "n.",
+    "en": "capability; capacity; faculty"
+   },
+   {
+    "i": 30,
+    "w": "人才",
+    "py": "rén cái",
+    "pos": "n.",
+    "en": "a talented person; talent"
+   },
+   {
+    "i": 31,
+    "w": "官",
+    "py": "guān",
+    "pos": "n.",
+    "en": "government official"
+   },
+   {
+    "i": 32,
+    "w": "物质",
+    "py": "wù zhì",
+    "pos": "n.",
+    "en": "matter; substance; material"
+   },
+   {
+    "i": 33,
+    "w": "反而",
+    "py": "fǎn ér",
+    "pos": "adv.",
+    "en": "on the contrary; instead"
+   },
+   {
+    "i": 34,
+    "w": "诚恳",
+    "py": "chéng kěn",
+    "pos": "adj.",
+    "en": "sincere; earnest"
+   },
+   {
+    "i": 35,
+    "w": "成就",
+    "py": "chéng jiù",
+    "pos": "n.",
+    "en": "achievement; accomplishment; attainment"
+   },
+   {
+    "i": 36,
+    "w": "古代",
+    "py": "gǔ dài",
+    "pos": "n.",
+    "en": "ancient; archaic; antiquity"
+   },
+   {
+    "i": 37,
+    "w": "孝顺",
+    "py": "xiào shun",
+    "pos": "v.",
+    "en": "filial piety"
+   },
+   {
+    "i": 38,
+    "w": "美德",
+    "py": "měi dé",
+    "pos": "n.",
+    "en": "virtue, goodness zhan"
+   },
+   {
+    "i": 39,
+    "w": "占",
+    "py": "zhàn",
+    "pos": "v.",
+    "en": "to occupy"
+   },
+   {
+    "i": 40,
+    "w": "食物",
+    "py": "shí wù",
+    "pos": "n.",
+    "en": "food"
+   }
+  ]
+ },
+ {
+  "lesson": 5,
+  "title": "济南的泉水 Spring Water in Ji&#x27;nan",
+  "items": [
+   {
+    "i": 1,
+    "w": "悠久",
+    "py": "yōu jiǔ",
+    "pos": "adj.",
+    "en": "long-standing; age-old"
+   },
+   {
+    "i": 2,
+    "w": "文字",
+    "py": "wén zì",
+    "pos": "n.",
+    "en": "writing"
+   },
+   {
+    "i": 3,
+    "w": "记载",
+    "py": "jì zǎi",
+    "pos": "v.",
+    "en": "put down in writing; record"
+   },
+   {
+    "i": 4,
+    "w": "形状",
+    "py": "xíng zhuàng",
+    "pos": "n.",
+    "en": "form; appearance; fashion"
+   },
+   {
+    "i": 5,
+    "w": "描写",
+    "py": "miáo xiě",
+    "pos": "v.",
+    "en": "describe; depict; portray"
+   },
+   {
+    "i": 6,
+    "w": "赞美",
+    "py": "zàn měi",
+    "pos": "v.",
+    "en": "praise; eulogize"
+   },
+   {
+    "i": 7,
+    "w": "诗",
+    "py": "shī",
+    "pos": "n.",
+    "en": "poetry; verse"
+   },
+   {
+    "i": 8,
+    "w": "老百姓",
+    "py": "lǎo bǎi xìng",
+    "pos": "n.",
+    "en": "common people; civilians"
+   },
+   {
+    "i": 9,
+    "w": "充满",
+    "py": "chōng mǎn",
+    "pos": "v.",
+    "en": "be filled with; be full of"
+   },
+   {
+    "i": 10,
+    "w": "感激",
+    "py": "gǎn jī",
+    "pos": "v.",
+    "en": "to feel grateful; be thankful"
+   },
+   {
+    "i": 11,
+    "w": "从而",
+    "py": "cóng ér",
+    "pos": "conj.",
+    "en": "thus; therebyupon"
+   },
+   {
+    "i": 12,
+    "w": "产生",
+    "py": "chǎn shēng",
+    "pos": "v.",
+    "en": "produce"
+   },
+   {
+    "i": 13,
+    "w": "传说",
+    "py": "chuán shuō",
+    "pos": "n.",
+    "en": "legend; lore"
+   },
+   {
+    "i": 14,
+    "w": "善良",
+    "py": "shàn liáng",
+    "pos": "adj.",
+    "en": "good and honest; kindhearted"
+   },
+   {
+    "i": 15,
+    "w": "救",
+    "py": "jiù",
+    "pos": "v.",
+    "en": "to rescue; save"
+   },
+   {
+    "i": 16,
+    "w": "晕",
+    "py": "yūn",
+    "pos": "v.",
+    "en": "dizzy; giddy; faint"
+   },
+   {
+    "i": 17,
+    "w": "龙",
+    "py": "lóng",
+    "pos": "n.",
+    "en": "dragon"
+   },
+   {
+    "i": 19,
+    "w": "玉",
+    "py": "yù",
+    "pos": "n.",
+    "en": "jade"
+   },
+   {
+    "i": 20,
+    "w": "壶",
+    "py": "hú",
+    "pos": "n.",
+    "en": "kettle; pot; flask"
+   },
+   {
+    "i": 21,
+    "w": "抢",
+    "py": "qiǎng",
+    "pos": "v.",
+    "en": "knock; grab; rob"
+   },
+   {
+    "i": 22,
+    "w": "埋",
+    "py": "mái",
+    "pos": "v.",
+    "en": "to bury; to hide"
+   },
+   {
+    "i": 24,
+    "w": "如今",
+    "py": "rú jīn",
+    "pos": "n.",
+    "en": "nowadays; these days"
+   },
+   {
+    "i": 25,
+    "w": "分布",
+    "py": "fēn bù",
+    "pos": "v.",
+    "en": "to distribute; spread; scatter"
+   },
+   {
+    "i": 26,
+    "w": "天然",
+    "py": "tiān rán",
+    "pos": "adj.",
+    "en": "natural"
+   },
+   {
+    "i": 27,
+    "w": "优美",
+    "py": "yōu měi",
+    "pos": "adj.",
+    "en": "graceful; fine; exquisite"
+   },
+   {
+    "i": 28,
+    "w": "独特",
+    "py": "dú tè",
+    "pos": "adj.",
+    "en": "unique; distinctive"
+   },
+   {
+    "i": 29,
+    "w": "反映",
+    "py": "fǎn yìng",
+    "pos": "v.",
+    "en": "to mirror"
+   },
+   {
+    "i": 30,
+    "w": "珍珠",
+    "py": "zhēn zhū",
+    "pos": "n.",
+    "en": "pearl"
+   },
+   {
+    "i": 31,
+    "w": "形成",
+    "py": "xíng chéng",
+    "pos": "v.",
+    "en": "form; shape"
+   },
+   {
+    "i": 32,
+    "w": "于",
+    "py": "yú",
+    "pos": "prep.",
+    "en": "from, out of"
+   },
+   {
+    "i": 33,
+    "w": "广大",
+    "py": "guǎng dà",
+    "pos": "adj.",
+    "en": "vast; wide; extensive"
+   },
+   {
+    "i": 34,
+    "w": "岩石",
+    "py": "yán shí",
+    "pos": "n.",
+    "en": "rock"
+   },
+   {
+    "i": 35,
+    "w": "亿",
+    "py": "yì",
+    "pos": "num.",
+    "en": "100 million"
+   },
+   {
+    "i": 37,
+    "w": "地区",
+    "py": "dì qū",
+    "pos": "n.",
+    "en": "area; district; region"
+   },
+   {
+    "i": 38,
+    "w": "表面",
+    "py": "biǎo miàn",
+    "pos": "n.",
+    "en": "surface"
+   },
+   {
+    "i": 39,
+    "w": "角度",
+    "py": "jiǎo dù",
+    "pos": "n.",
+    "en": "angle; point of view"
+   },
+   {
+    "i": 40,
+    "w": "斜",
+    "py": "xié",
+    "pos": "adj.",
+    "en": "oblique; slanting; bevel"
+   },
+   {
+    "i": 41,
+    "w": "为",
+    "py": "wèi",
+    "pos": "prep.",
+    "en": "for (someone; something); to do; to be"
+   },
+   {
+    "i": 42,
+    "w": "火成岩",
+    "py": "huǒ chéng yán",
+    "pos": "n.",
+    "en": "igneous rock"
+   },
+   {
+    "i": 43,
+    "w": "碰",
+    "py": "pèng",
+    "pos": "v.",
+    "en": "to meet with"
+   },
+   {
+    "i": 44,
+    "w": "挡",
+    "py": "dǎng",
+    "pos": "v.",
+    "en": "to block; hinder; resist"
+   },
+   {
+    "i": 45,
+    "w": "地势",
+    "py": "dì shì",
+    "pos": "n.",
+    "en": "physical features of a place; topography"
+   },
+   {
+    "i": 46,
+    "w": "神",
+    "py": "shén",
+    "pos": "n.",
+    "en": "spirit; god; deity"
+   }
+  ]
+ },
+ {
+  "lesson": 6,
+  "title": "除夕的由来 Origin of Chuxi",
+  "items": [
+   {
+    "i": 1,
+    "w": "除夕",
+    "py": "chú xī",
+    "pos": "n.",
+    "en": "(lunar) New Year’s Eve"
+   },
+   {
+    "i": 2,
+    "w": "由来",
+    "py": "yóu lái",
+    "pos": "n.",
+    "en": "origin, source youldi"
+   },
+   {
+    "i": 3,
+    "w": "农历",
+    "py": "nóng lì",
+    "pos": "n.",
+    "en": "[the traditional Chinese (agricultural/lunar) calendar]"
+   },
+   {
+    "i": 4,
+    "w": "守岁",
+    "py": "shǒu suì",
+    "pos": "v.",
+    "en": "to stay up late or all night on New Year's Eve"
+   },
+   {
+    "i": 5,
+    "w": "怪物",
+    "py": "guài wù",
+    "pos": "n.",
+    "en": "monster"
+   },
+   {
+    "i": 6,
+    "w": "伤害",
+    "py": "shāng hài",
+    "pos": "v.",
+    "en": "to injure"
+   },
+   {
+    "i": 7,
+    "w": "恨",
+    "py": "hèn",
+    "pos": "v.",
+    "en": "hate; regret"
+   },
+   {
+    "i": 8,
+    "w": "骨头",
+    "py": "gǔ tou",
+    "pos": "n.",
+    "en": "bone"
+   },
+   {
+    "i": 9,
+    "w": "无奈",
+    "py": "wú nài",
+    "pos": "v.",
+    "en": "cannot help but; have no alternative; have no choice"
+   },
+   {
+    "i": 10,
+    "w": "英雄",
+    "py": "yīng xióng",
+    "pos": "n.",
+    "en": "hero"
+   },
+   {
+    "i": 11,
+    "w": "英俊",
+    "py": "yīng jùn",
+    "pos": "adj.",
+    "en": "handsome; talented; brilliant"
+   },
+   {
+    "i": 12,
+    "w": "咬",
+    "py": "yǎo",
+    "pos": "v.",
+    "en": "bite; snap at"
+   },
+   {
+    "i": 13,
+    "w": "外公",
+    "py": "wài gōng",
+    "pos": "n.",
+    "en": "grandfather"
+   },
+   {
+    "i": 14,
+    "w": "询问",
+    "py": "xún wèn",
+    "pos": "v.",
+    "en": "ask about; enquire"
+   },
+   {
+    "i": 15,
+    "w": "天真",
+    "py": "tiān zhēn",
+    "pos": "adj.",
+    "en": "innocent; naive"
+   },
+   {
+    "i": 16,
+    "w": "杀",
+    "py": "shā",
+    "pos": "v.",
+    "en": "kill; slaughter; in the extreme"
+   },
+   {
+    "i": 17,
+    "w": "代替",
+    "py": "dài tì",
+    "pos": "v.",
+    "en": "instead"
+   },
+   {
+    "i": 18,
+    "w": "除",
+    "py": "chú",
+    "pos": "v.",
+    "en": "get rid of; eliminate; remove"
+   },
+   {
+    "i": 19,
+    "w": "制造",
+    "py": "zhì zào",
+    "pos": "v.",
+    "en": "to manufacture"
+   },
+   {
+    "i": 20,
+    "w": "灾害",
+    "py": "zāi hài",
+    "pos": "n.",
+    "en": "damage; disaster; calamity"
+   },
+   {
+    "i": 21,
+    "w": "逃",
+    "py": "táo",
+    "pos": "v.",
+    "en": "run away; flee; escape"
+   },
+   {
+    "i": 22,
+    "w": "影子",
+    "py": "yǐng zi",
+    "pos": "n.",
+    "en": "shadow; reflection; trace"
+   },
+   {
+    "i": 23,
+    "w": "此外",
+    "py": "cǐ wài",
+    "pos": "conj.",
+    "en": "besides; in addition; furthermore"
+   },
+   {
+    "i": 24,
+    "w": "说不定",
+    "py": "shuō bu dìng",
+    "pos": "adv.",
+    "en": "perhaps; maybe"
+   },
+   {
+    "i": 25,
+    "w": "熬夜",
+    "py": "áo yè",
+    "pos": "v.",
+    "en": "to stay up late or all night"
+   },
+   {
+    "i": 26,
+    "w": "赶紧",
+    "py": "gǎn jǐn",
+    "pos": "adv.",
+    "en": "at once; losing no time; hasten"
+   },
+   {
+    "i": 27,
+    "w": "果然",
+    "py": "guǒ rán",
+    "pos": "adv.",
+    "en": "really"
+   },
+   {
+    "i": 28,
+    "w": "姑娘",
+    "py": "gū niang",
+    "pos": "n.",
+    "en": "girl"
+   },
+   {
+    "i": 29,
+    "w": "锅",
+    "py": "guō",
+    "pos": "n.",
+    "en": "pan; pot; wok"
+   },
+   {
+    "i": 31,
+    "w": "整个",
+    "py": "zhěng gè",
+    "pos": "adj.",
+    "en": "whole; total; entire"
+   },
+   {
+    "i": 32,
+    "w": "吓",
+    "py": "xià",
+    "pos": "v.",
+    "en": "threaten; intimidate; to scare"
+   },
+   {
+    "i": 33,
+    "w": "似的",
+    "py": "shì de",
+    "pos": "part.",
+    "en": "as; -like"
+   },
+   {
+    "i": 34,
+    "w": "追",
+    "py": "zhuī",
+    "pos": "v.",
+    "en": "chase"
+   },
+   {
+    "i": 35,
+    "w": "箭",
+    "py": "jiàn",
+    "pos": "n.",
+    "en": "arrow she (ji) v.to shoot"
+   },
+   {
+    "i": 36,
+    "w": "射击",
+    "py": "shè jī",
+    "pos": "v.",
+    "en": "shoot; fire"
+   },
+   {
+    "i": 37,
+    "w": "纷纷",
+    "py": "fēn fēn",
+    "pos": "adv.",
+    "en": "one after another; in succession"
+   },
+   {
+    "i": 38,
+    "w": "表达",
+    "py": "biǎo dá",
+    "pos": "v.",
+    "en": "to voice (an opinion)"
+   },
+   {
+    "i": 39,
+    "w": "意义",
+    "py": "yì yì",
+    "pos": "n.",
+    "en": "meaning; sense; significance"
+   },
+   {
+    "i": 40,
+    "w": "鞭炮",
+    "py": "biān pào",
+    "pos": "n.",
+    "en": "firecrackers"
+   },
+   {
+    "i": 41,
+    "w": "风俗",
+    "py": "fēng sú",
+    "pos": "n.",
+    "en": "custom"
+   }
+  ]
+ },
+ {
+  "lesson": 7,
+  "title": "成语故事两则 Two Idiom Stories",
+  "items": [
+   {
+    "i": 1,
+    "w": "成语",
+    "py": "chéng yǔ",
+    "pos": "n.",
+    "en": "set phrase; idiom; proverb"
+   },
+   {
+    "i": 2,
+    "w": "则",
+    "py": "zé",
+    "pos": "conj.",
+    "en": "standard; norm; criterion"
+   },
+   {
+    "i": 3,
+    "w": "盲人",
+    "py": "máng rén",
+    "pos": "n.",
+    "en": "blind person"
+   },
+   {
+    "i": 4,
+    "w": "摸",
+    "py": "mō",
+    "pos": "v.",
+    "en": "feel [with the hand]"
+   },
+   {
+    "i": 5,
+    "w": "大象",
+    "py": "dà xiàng",
+    "pos": "n.",
+    "en": "elephant"
+   },
+   {
+    "i": 6,
+    "w": "智慧",
+    "py": "zhì huì",
+    "pos": "n.",
+    "en": "wisdom; intelligence; wit"
+   },
+   {
+    "i": 7,
+    "w": "士兵",
+    "py": "shì bīng",
+    "pos": "n.",
+    "en": "private; rank-and-file soldier"
+   },
+   {
+    "i": 8,
+    "w": "瞎",
+    "py": "xiā",
+    "pos": "adj.",
+    "en": "blind; aimlessly; groundlessly"
+   },
+   {
+    "i": 9,
+    "w": "分别",
+    "py": "fēn bié",
+    "pos": "v.",
+    "en": "to part; distinguish; differentiate"
+   },
+   {
+    "i": 10,
+    "w": "寻找",
+    "py": "xún zhǎo",
+    "pos": "v.",
+    "en": "seek; look for; search"
+   },
+   {
+    "i": 11,
+    "w": "牙齿",
+    "py": "yá chǐ",
+    "pos": "n.",
+    "en": "tooth"
+   },
+   {
+    "i": 12,
+    "w": "胡说",
+    "py": "hú shuō",
+    "pos": "v.",
+    "en": "nonsense; rubbish; drivel"
+   },
+   {
+    "i": 13,
+    "w": "尾巴",
+    "py": "wěi ba",
+    "pos": "n.",
+    "en": "tail; appendage"
+   },
+   {
+    "i": 14,
+    "w": "绳子",
+    "py": "shéng zi",
+    "pos": "n.",
+    "en": "cord; rope; string"
+   },
+   {
+    "i": 15,
+    "w": "平",
+    "py": "píng",
+    "pos": "adj.",
+    "en": "flat; level; even; equal"
+   },
+   {
+    "i": 16,
+    "w": "墙",
+    "py": "qiáng",
+    "pos": "n.",
+    "en": "wall"
+   },
+   {
+    "i": 17,
+    "w": "扇子",
+    "py": "shàn zi",
+    "pos": "n.",
+    "en": "fan"
+   },
+   {
+    "i": 18,
+    "w": "片面",
+    "py": "piàn miàn",
+    "pos": "adj.",
+    "en": "unilateral; one-sided"
+   },
+   {
+    "i": 19,
+    "w": "结论",
+    "py": "jié lùn",
+    "pos": "n.",
+    "en": "conclusion; verdict; epilogue"
+   },
+   {
+    "i": 20,
+    "w": "精诚所至金石为开",
+    "py": "jīng chéng suǒ zhì, jīn shí wéi kāi",
+    "pos": "v.",
+    "en": "absolute sincerity can affect even metal and stone; no difficulty is insurmountable if one sets one's mind on it"
+   },
+   {
+    "i": 21,
+    "w": "将军",
+    "py": "jiāng jūn",
+    "pos": "n.",
+    "en": "general; admiral"
+   },
+   {
+    "i": 22,
+    "w": "善于",
+    "py": "shàn yú",
+    "pos": "v.",
+    "en": "be good at; be adept in"
+   },
+   {
+    "i": 23,
+    "w": "称",
+    "py": "chēng",
+    "pos": "v.",
+    "en": "fit; match; to name"
+   },
+   {
+    "i": 24,
+    "w": "打猎",
+    "py": "dǎ liè",
+    "pos": "v.",
+    "en": "go hunting"
+   },
+   {
+    "i": 25,
+    "w": "忽然",
+    "py": "hū rán",
+    "pos": "adv.",
+    "en": "suddenly"
+   },
+   {
+    "i": 26,
+    "w": "蹲",
+    "py": "dūn",
+    "pos": "v.",
+    "en": "squat on the heels; to crouch"
+   },
+   {
+    "i": 27,
+    "w": "摇",
+    "py": "yáo",
+    "pos": "v.",
+    "en": "shake; wave; rock; turn"
+   },
+   {
+    "i": 28,
+    "w": "不要紧",
+    "py": "bú yào jǐn",
+    "pos": "adj.",
+    "en": "not important; not serious It doesn't matter; never mind"
+   },
+   {
+    "i": 29,
+    "w": "支",
+    "py": "zhī",
+    "pos": "m.",
+    "en": "branch; the twelve Earthly Branches"
+   },
+   {
+    "i": 30,
+    "w": "摆",
+    "py": "bǎi",
+    "pos": "v.",
+    "en": "to arrange; set in order; pendulum; lower hem (of a gown/jacket/skirt)"
+   },
+   {
+    "i": 31,
+    "w": "姿势",
+    "py": "zī shì",
+    "pos": "n.",
+    "en": "posture; gesture"
+   },
+   {
+    "i": 32,
+    "w": "全神贯注",
+    "py": "quán shén guàn zhù",
+    "pos": "v.",
+    "en": "to concentrate on; to be absorbed in"
+   },
+   {
+    "i": 33,
+    "w": "尽力",
+    "py": "jìn lì",
+    "pos": "v.",
+    "en": "to do all one can; try one's best"
+   },
+   {
+    "i": 34,
+    "w": "反应",
+    "py": "fǎn yìng",
+    "pos": "v.",
+    "en": "reaction; response; repercussion"
+   },
+   {
+    "i": 35,
+    "w": "确定",
+    "py": "què dìng",
+    "pos": "v.",
+    "en": "define; fix; determine"
+   },
+   {
+    "i": 36,
+    "w": "石头",
+    "py": "shí tou",
+    "pos": "n.",
+    "en": "rock; stone"
+   },
+   {
+    "i": 37,
+    "w": "连续",
+    "py": "lián xù",
+    "pos": "adj.",
+    "en": "continuous"
+   },
+   {
+    "i": 38,
+    "w": "根",
+    "py": "gēn",
+    "pos": "m.",
+    "en": "root; descendants; completely; [measure word for long, slender objects]"
+   },
+   {
+    "i": 39,
+    "w": "碎",
+    "py": "suì",
+    "pos": "adj.",
+    "en": "to break to pieces; smash; fragmentary"
+   },
+   {
+    "i": 40,
+    "w": "杆",
+    "py": "gān",
+    "pos": "n.",
+    "en": "pole; shaft"
+   },
+   {
+    "i": 41,
+    "w": "哎",
+    "py": "āi",
+    "pos": "int.",
+    "en": "hey"
+   },
+   {
+    "i": 42,
+    "w": "唉",
+    "py": "ài",
+    "pos": "int.",
+    "en": "oh; ah; well"
+   },
+   {
+    "i": 43,
+    "w": "金属",
+    "py": "jīn shǔ",
+    "pos": "n.",
+    "en": "metal"
+   },
+   {
+    "i": 44,
+    "w": "硬",
+    "py": "yìng",
+    "pos": "adj.",
+    "en": "hard"
+   },
+   {
+    "i": 45,
+    "w": "使",
+    "py": "shǐ",
+    "pos": "v.",
+    "en": "to send (someone); cause"
+   }
+  ]
+ },
+ {
+  "lesson": 8,
+  "title": "“朝三暮四”的古今义 Three at Dawn and Four at Dusk",
+  "items": [
+   {
+    "i": 1,
+    "w": "朝三暮四",
+    "py": "zhāo sān mù sì",
+    "pos": "to give three in the morning and four in the evening",
+    "en": "to play fast and loose, to chop and change"
+   },
+   {
+    "i": 2,
+    "w": "词汇",
+    "py": "cí huì",
+    "pos": "n.",
+    "en": "vocabulary"
+   },
+   {
+    "i": 3,
+    "w": "固定",
+    "py": "gù dìng",
+    "pos": "v./adj.",
+    "en": "fixed, settled; to fix"
+   },
+   {
+    "i": 4,
+    "w": "结构",
+    "py": "jié gòu",
+    "pos": "n.",
+    "en": "structure"
+   },
+   {
+    "i": 5,
+    "w": "整体",
+    "py": "zhěng tǐ",
+    "pos": "n.",
+    "en": "whole, entirety"
+   },
+   {
+    "i": 6,
+    "w": "综合",
+    "py": "zōng hé",
+    "pos": "v./adj.",
+    "en": "to synthesize, to summarize; comprehensive, integrated"
+   },
+   {
+    "i": 7,
+    "w": "完整",
+    "py": "wán zhěng",
+    "pos": "adj.",
+    "en": "complete"
+   },
+   {
+    "i": 8,
+    "w": "哲学家",
+    "py": "zhé xué jiā",
+    "pos": "n.",
+    "en": "philosopher"
+   },
+   {
+    "i": 9,
+    "w": "寓言",
+    "py": "yù yán",
+    "pos": "n.",
+    "en": "fable"
+   },
+   {
+    "i": 10,
+    "w": "喂养",
+    "py": "wèi yǎng",
+    "pos": "v.",
+    "en": "to feed, to raise"
+   },
+   {
+    "i": 11,
+    "w": "群",
+    "py": "qún",
+    "pos": "n.",
+    "en": "group"
+   },
+   {
+    "i": 12,
+    "w": "猴子",
+    "py": "hóu zi",
+    "pos": "n.",
+    "en": "monkey"
+   },
+   {
+    "i": 13,
+    "w": "宠物",
+    "py": "chǒng wù",
+    "pos": "n.",
+    "en": "pet"
+   },
+   {
+    "i": 14,
+    "w": "相处",
+    "py": "xiāng chǔ",
+    "pos": "v.",
+    "en": "get along with; get on"
+   },
+   {
+    "i": 15,
+    "w": "彼此",
+    "py": "bǐ cǐ",
+    "pos": "pron.",
+    "en": "each other; both parties; one another"
+   },
+   {
+    "i": 16,
+    "w": "表情",
+    "py": "biǎo qíng",
+    "pos": "n.",
+    "en": "expression; look"
+   },
+   {
+    "i": 17,
+    "w": "行为",
+    "py": "xíng wéi",
+    "pos": "n.",
+    "en": "action; behaviour; conduct"
+   },
+   {
+    "i": 18,
+    "w": "对方",
+    "py": "duì fāng",
+    "pos": "n.",
+    "en": "counterpart; the other party"
+   },
+   {
+    "i": 19,
+    "w": "蔬菜",
+    "py": "shū cài",
+    "pos": "n.",
+    "en": "vegetables"
+   },
+   {
+    "i": 20,
+    "w": "粮食",
+    "py": "liáng shi",
+    "pos": "n.",
+    "en": "grain; cereals"
+   },
+   {
+    "i": 21,
+    "w": "家庭",
+    "py": "jiā tíng",
+    "pos": "n.",
+    "en": "family; household"
+   },
+   {
+    "i": 22,
+    "w": "财产",
+    "py": "cái chǎn",
+    "pos": "n.",
+    "en": "property; assets; estate"
+   },
+   {
+    "i": 23,
+    "w": "消费",
+    "py": "xiāo fèi",
+    "pos": "v.",
+    "en": "consume"
+   },
+   {
+    "i": 24,
+    "w": "节省",
+    "py": "jié shěng",
+    "pos": "v.",
+    "en": "to economise; save; use sparingly"
+   },
+   {
+    "i": 25,
+    "w": "限制",
+    "py": "xiàn zhì",
+    "pos": "v.",
+    "en": "to restrict"
+   },
+   {
+    "i": 26,
+    "w": "猪",
+    "py": "zhū",
+    "pos": "n.",
+    "en": "pig"
+   },
+   {
+    "i": 27,
+    "w": "调皮",
+    "py": "tiáo pí",
+    "pos": "adj.",
+    "en": "naughty; mischievous"
+   },
+   {
+    "i": 28,
+    "w": "淘气",
+    "py": "táo qì",
+    "pos": "adj.",
+    "en": "naughty; mischievous"
+   },
+   {
+    "i": 29,
+    "w": "橡子",
+    "py": "xiàng zǐ",
+    "pos": "n.",
+    "en": "acorn"
+   },
+   {
+    "i": 30,
+    "w": "果实",
+    "py": "guǒ shí",
+    "pos": "n.",
+    "en": "fruit; gains"
+   },
+   {
+    "i": 31,
+    "w": "不足",
+    "py": "bù zú",
+    "pos": "v.",
+    "en": "not enough; insufficient"
+   },
+   {
+    "i": 32,
+    "w": "倒",
+    "py": "dào",
+    "pos": "v.",
+    "en": "to reverse; turn upside down; to pour"
+   },
+   {
+    "i": 33,
+    "w": "馒头",
+    "py": "mán tou",
+    "pos": "n.",
+    "en": "[steamed bread]"
+   },
+   {
+    "i": 34,
+    "w": "颗",
+    "py": "kē",
+    "pos": "m.",
+    "en": "grain; [measure word for anything small and roundish]"
+   },
+   {
+    "i": 35,
+    "w": "似乎",
+    "py": "sì hū",
+    "pos": "adv.",
+    "en": "it seems; as if; it looks like"
+   },
+   {
+    "i": 36,
+    "w": "吃亏",
+    "py": "chī kuī",
+    "pos": "v.",
+    "en": "to suffer losses; come to grief; take a beating"
+   },
+   {
+    "i": 37,
+    "w": "方式",
+    "py": "fāng shì",
+    "pos": "n.",
+    "en": "way; fashion; pattern"
+   },
+   {
+    "i": 38,
+    "w": "安慰",
+    "py": "ān wèi",
+    "pos": "v.",
+    "en": "to comfort; console"
+   },
+   {
+    "i": 39,
+    "w": "要不",
+    "py": "yào bù",
+    "pos": "conj.",
+    "en": "otherwise; or else; or"
+   },
+   {
+    "i": 40,
+    "w": "显得",
+    "py": "xiǎn de",
+    "pos": "v.",
+    "en": "look; seem; appear"
+   },
+   {
+    "i": 41,
+    "w": "格外",
+    "py": "gé wài",
+    "pos": "adv.",
+    "en": "especially; exceptionally"
+   },
+   {
+    "i": 42,
+    "w": "情景",
+    "py": "qíng jǐng",
+    "pos": "n.",
+    "en": "scene; sight; circumstances"
+   },
+   {
+    "i": 43,
+    "w": "哈",
+    "py": "hā",
+    "pos": "int.",
+    "en": "ha"
+   }
+  ]
+ },
+ {
+  "lesson": 9,
+  "title": "别样鲁迅 The Lu Xun You Don&#x27;t Know",
+  "items": [
+   {
+    "i": 1,
+    "w": "表现",
+    "py": "biǎo xiàn",
+    "pos": "v.",
+    "en": "expression; representation; display"
+   },
+   {
+    "i": 2,
+    "w": "突出",
+    "py": "tū chū",
+    "pos": "adj.",
+    "en": "protruding; sticking out; outstanding"
+   },
+   {
+    "i": 3,
+    "w": "文学家",
+    "py": "wén xué jiā",
+    "pos": "n.",
+    "en": "writer; man of letters"
+   },
+   {
+    "i": 4,
+    "w": "算",
+    "py": "suàn",
+    "pos": "v.",
+    "en": "to regard as, to count as"
+   },
+   {
+    "i": 5,
+    "w": "地道",
+    "py": "dì dao",
+    "pos": "adj.",
+    "en": "tunnel; underpass; typical [of a place]"
+   },
+   {
+    "i": 6,
+    "w": "行家",
+    "py": "háng jia",
+    "pos": "n.",
+    "en": "expert"
+   },
+   {
+    "i": 7,
+    "w": "亲自",
+    "py": "qīn zì",
+    "pos": "adv.",
+    "en": "in person; oneself"
+   },
+   {
+    "i": 8,
+    "w": "见解",
+    "py": "jiàn jiě",
+    "pos": "n.",
+    "en": "view; opinion; understanding"
+   },
+   {
+    "i": 9,
+    "w": "近代",
+    "py": "jìn dài",
+    "pos": "n.",
+    "en": "modern times"
+   },
+   {
+    "i": 10,
+    "w": "时尚",
+    "py": "shí shàng",
+    "pos": "adj.",
+    "en": "vogue; trend; fashion"
+   },
+   {
+    "i": 11,
+    "w": "写作",
+    "py": "xiě zuò",
+    "pos": "v.",
+    "en": "writing; pen and ink; penmanship"
+   },
+   {
+    "i": 12,
+    "w": "点心",
+    "py": "diǎn xin",
+    "pos": "n.",
+    "en": "snack; dim sum"
+   },
+   {
+    "i": 13,
+    "w": "作为",
+    "py": "zuò wéi",
+    "pos": "v./prep.",
+    "en": "to be; as, being"
+   },
+   {
+    "i": 14,
+    "w": "学问",
+    "py": "xué wèn",
+    "pos": "n.",
+    "en": "learning; knowledge; scholarship"
+   },
+   {
+    "i": 15,
+    "w": "讲究",
+    "py": "jiǎng jiu",
+    "pos": "v.",
+    "en": "be particular about; to pay attention to"
+   },
+   {
+    "i": 16,
+    "w": "平均",
+    "py": "píng jūn",
+    "pos": "adj.",
+    "en": "average; mean; equally"
+   },
+   {
+    "i": 17,
+    "w": "胡同",
+    "py": "hú tòng",
+    "pos": "n.",
+    "en": "alleyway; lane"
+   },
+   {
+    "i": 18,
+    "w": "位于",
+    "py": "wèi yú",
+    "pos": "v.",
+    "en": "be located; be situated"
+   },
+   {
+    "i": 19,
+    "w": "首",
+    "py": "shǒu",
+    "pos": "m.",
+    "en": "first (occasion, thing etc.)"
+   },
+   {
+    "i": 20,
+    "w": "豪华",
+    "py": "háo huá",
+    "pos": "adj.",
+    "en": "luxurious; sumptuous"
+   },
+   {
+    "i": 21,
+    "w": "光临",
+    "py": "guāng lín",
+    "pos": "v.",
+    "en": "to honour with your presence"
+   },
+   {
+    "i": 22,
+    "w": "交际",
+    "py": "jiāo jì",
+    "pos": "v.",
+    "en": "communication; social intercourse"
+   },
+   {
+    "i": 23,
+    "w": "大方",
+    "py": "dà fang",
+    "pos": "adj.",
+    "en": "generous; liberal"
+   },
+   {
+    "i": 24,
+    "w": "好客",
+    "py": "hào kè",
+    "pos": "adj.",
+    "en": "be hospitable"
+   },
+   {
+    "i": 26,
+    "w": "招待",
+    "py": "zhāo dài",
+    "pos": "v.",
+    "en": "receive; entertain; serve"
+   },
+   {
+    "i": 27,
+    "w": "高档",
+    "py": "gāo dàng",
+    "pos": "adj.",
+    "en": "top; superior quality"
+   },
+   {
+    "i": 28,
+    "w": "胃口",
+    "py": "wèi kǒu",
+    "pos": "n.",
+    "en": "appetite; belly"
+   },
+   {
+    "i": 29,
+    "w": "明明",
+    "py": "míng míng",
+    "pos": "adv.",
+    "en": "obviously; undoubtedly; plainly"
+   },
+   {
+    "i": 30,
+    "w": "胃",
+    "py": "wèi",
+    "pos": "n.",
+    "en": "stomach"
+   },
+   {
+    "i": 31,
+    "w": "戒",
+    "py": "jiè",
+    "pos": "v.",
+    "en": "to give up or stop doing something"
+   },
+   {
+    "i": 32,
+    "w": "保存",
+    "py": "bǎo cún",
+    "pos": "v.",
+    "en": "preserve; keep; conserve"
+   },
+   {
+    "i": 33,
+    "w": "资料",
+    "py": "zī liào",
+    "pos": "n.",
+    "en": "means; resources; materials"
+   },
+   {
+    "i": 34,
+    "w": "曾经",
+    "py": "céng jīng",
+    "pos": "adv.",
+    "en": "once"
+   },
+   {
+    "i": 35,
+    "w": "形容",
+    "py": "xíng róng",
+    "pos": "v.",
+    "en": "appearance; countenance"
+   },
+   {
+    "i": 36,
+    "w": "蒙眬",
+    "py": "méng lóng",
+    "pos": "adj.",
+    "en": "drowsy, half asleep"
+   },
+   {
+    "i": 37,
+    "w": "悠悠",
+    "py": "yōu yōu",
+    "pos": "adj.",
+    "en": "leisurely, unhurried"
+   },
+   {
+    "i": 38,
+    "w": "形象",
+    "py": "xíng xiàng",
+    "pos": "n.",
+    "en": "image; figure; vivid"
+   }
+  ]
+ },
+ {
+  "lesson": 10,
+  "title": "争论的奇迹 Miracle of Debate",
+  "items": [
+   {
+    "i": 1,
+    "w": "争论",
+    "py": "zhēng lùn",
+    "pos": "v.",
+    "en": "argue; debate"
+   },
+   {
+    "i": 2,
+    "w": "奇迹",
+    "py": "qí jì",
+    "pos": "n.",
+    "en": "miracle; wonder; marvel"
+   },
+   {
+    "i": 3,
+    "w": "围绕",
+    "py": "wéi rào",
+    "pos": "v.",
+    "en": "center on; revolve round"
+   },
+   {
+    "i": 4,
+    "w": "奔跑",
+    "py": "bēn pǎo",
+    "pos": "v.",
+    "en": "to run, to gallop"
+   },
+   {
+    "i": 5,
+    "w": "蹄子",
+    "py": "tí zǐ",
+    "pos": "n.",
+    "en": "hoof"
+   },
+   {
+    "i": 6,
+    "w": "辩论",
+    "py": "biàn lùn",
+    "pos": "v.",
+    "en": "argue; debate"
+   },
+   {
+    "i": 7,
+    "w": "青蛙",
+    "py": "qīng wā",
+    "pos": "n.",
+    "en": "frog"
+   },
+   {
+    "i": 8,
+    "w": "啦",
+    "py": "lā",
+    "pos": "part.",
+    "en": "[indicates excitement or doubt]"
+   },
+   {
+    "i": 9,
+    "w": "始终",
+    "py": "shǐ zhōng",
+    "pos": "adv.",
+    "en": "from beginning to end; from start to finish; throughout"
+   },
+   {
+    "i": 10,
+    "w": "脖子",
+    "py": "bó zi",
+    "pos": "n.",
+    "en": "neck"
+   },
+   {
+    "i": 11,
+    "w": "说服",
+    "py": "shuō fú",
+    "pos": "v.",
+    "en": "to convince; persuade"
+   },
+   {
+    "i": 12,
+    "w": "摄影师",
+    "py": "shè yǐng shī",
+    "pos": "n.",
+    "en": "photographer"
+   },
+   {
+    "i": 13,
+    "w": "毕竟",
+    "py": "bì jìng",
+    "pos": "adv.",
+    "en": "after all; all in all; when all is said and done"
+   },
+   {
+    "i": 14,
+    "w": "操场",
+    "py": "cāo chǎng",
+    "pos": "n.",
+    "en": "playground; sports ground; drill ground"
+   },
+   {
+    "i": 15,
+    "w": "洞",
+    "py": "dòng",
+    "pos": "n.",
+    "en": "hole; cavity"
+   },
+   {
+    "i": 16,
+    "w": "插",
+    "py": "chā",
+    "pos": "v.",
+    "en": "stick in; to insert; interpose"
+   },
+   {
+    "i": 17,
+    "w": "棍",
+    "py": "gùn",
+    "pos": "n.",
+    "en": "stick, cudgel"
+   },
+   {
+    "i": 18,
+    "w": "系",
+    "py": "xì",
+    "pos": "n.",
+    "en": "tie; fasten; system; department"
+   },
+   {
+    "i": 19,
+    "w": "匹",
+    "py": "pǐ",
+    "pos": "m.",
+    "en": "[measure word for horses and cloth]"
+   },
+   {
+    "i": 20,
+    "w": "挡",
+    "py": "dǎng",
+    "pos": "v.",
+    "en": "to block; hinder; resist"
+   },
+   {
+    "i": 21,
+    "w": "拍",
+    "py": "pāi",
+    "pos": "v.",
+    "en": "to clap; slap; bat; racket; to take (a photo)"
+   },
+   {
+    "i": 22,
+    "w": "差距",
+    "py": "chā jù",
+    "pos": "n.",
+    "en": "gap; disparity"
+   },
+   {
+    "i": 23,
+    "w": "显示",
+    "py": "xiǎn shì",
+    "pos": "v.",
+    "en": "display; demonstrate; exhibit"
+   },
+   {
+    "i": 24,
+    "w": "意识",
+    "py": "yì shi",
+    "pos": "n.",
+    "en": "be conscious of; be aware of; realise"
+   },
+   {
+    "i": 25,
+    "w": "艰苦",
+    "py": "jiān kǔ",
+    "pos": "adj.",
+    "en": "arduous; difficult; tough"
+   },
+   {
+    "i": 26,
+    "w": "试验",
+    "py": "shì yàn",
+    "pos": "v.",
+    "en": "trial; experiment; test"
+   },
+   {
+    "i": 27,
+    "w": "逐渐",
+    "py": "zhú jiàn",
+    "pos": "adv.",
+    "en": "gradually"
+   },
+   {
+    "i": 28,
+    "w": "改进",
+    "py": "gǎi jìn",
+    "pos": "v.",
+    "en": "to improve; make better; mend"
+   },
+   {
+    "i": 29,
+    "w": "成熟",
+    "py": "chéng shú",
+    "pos": "adj.",
+    "en": "mature"
+   },
+   {
+    "i": 30,
+    "w": "兄弟",
+    "py": "xiōng dì",
+    "pos": "n.",
+    "en": "brothers"
+   },
+   {
+    "i": 31,
+    "w": "播放",
+    "py": "bō fàng",
+    "pos": "v.",
+    "en": "broadcast"
+   },
+   {
+    "i": 32,
+    "w": "纪念",
+    "py": "jì niàn",
+    "pos": "v.",
+    "en": "commemorate"
+   },
+   {
+    "i": 33,
+    "w": "导演",
+    "py": "dǎo yǎn",
+    "pos": "n.",
+    "en": "director"
+   },
+   {
+    "i": 34,
+    "w": "瞬间",
+    "py": "shùn jiān",
+    "pos": "n.",
+    "en": "moment"
+   },
+   {
+    "i": 35,
+    "w": "请求",
+    "py": "qǐng qiú",
+    "pos": "v.",
+    "en": "request; demand; beg"
+   },
+   {
+    "i": 36,
+    "w": "或许",
+    "py": "huò xǔ",
+    "pos": "adv.",
+    "en": "perhaps; maybe"
+   },
+   {
+    "i": 37,
+    "w": "重大",
+    "py": "zhòng dà",
+    "pos": "adj.",
+    "en": "important"
+   }
+  ]
+ },
+ {
+  "lesson": 11,
+  "title": "闹钟的危害 Harm of Alarm Clocks",
+  "items": [
+   {
+    "i": 1,
+    "w": "闹钟",
+    "py": "nào zhōng",
+    "pos": "n.",
+    "en": "alarm clock"
+   },
+   {
+    "i": 2,
+    "w": "危害",
+    "py": "wēi hài",
+    "pos": "adj.",
+    "en": "harm; detriment; damage"
+   },
+   {
+    "i": 3,
+    "w": "人类",
+    "py": "rén lèi",
+    "pos": "n.",
+    "en": "humanity"
+   },
+   {
+    "i": 4,
+    "w": "机制",
+    "py": "jī zhì",
+    "pos": "n.",
+    "en": "mechanism"
+   },
+   {
+    "i": 5,
+    "w": "生物",
+    "py": "shēng wù",
+    "pos": "n.",
+    "en": "biology; living things; organisms"
+   },
+   {
+    "i": 6,
+    "w": "规律",
+    "py": "guī lǜ",
+    "pos": "n.",
+    "en": "law; regular pattern"
+   },
+   {
+    "i": 7,
+    "w": "光线",
+    "py": "guāng xiàn",
+    "pos": "n.",
+    "en": "light,ray"
+   },
+   {
+    "i": 8,
+    "w": "必要",
+    "py": "bì yào",
+    "pos": "adj.",
+    "en": "requisite; necessary; essential"
+   },
+   {
+    "i": 9,
+    "w": "过渡",
+    "py": "guò dù",
+    "pos": "v.",
+    "en": "transit"
+   },
+   {
+    "i": 10,
+    "w": "浅",
+    "py": "qiǎn",
+    "pos": "adj.",
+    "en": "light [colour]; shallow"
+   },
+   {
+    "i": 11,
+    "w": "现代",
+    "py": "xiàn dài",
+    "pos": "n.",
+    "en": "modern"
+   },
+   {
+    "i": 12,
+    "w": "享受",
+    "py": "xiǎng shòu",
+    "pos": "v.",
+    "en": "enjoy"
+   },
+   {
+    "i": 13,
+    "w": "用途",
+    "py": "yòng tú",
+    "pos": "n.",
+    "en": "use"
+   },
+   {
+    "i": 14,
+    "w": "实验",
+    "py": "shí yàn",
+    "pos": "n.",
+    "en": "experiment; test; trial run"
+   },
+   {
+    "i": 15,
+    "w": "铃",
+    "py": "líng",
+    "pos": "n.",
+    "en": "bell; [bell-shaped things]"
+   },
+   {
+    "i": 16,
+    "w": "所",
+    "py": "suǒ",
+    "pos": "m.",
+    "en": "[2nd syllable of many places]; [measure word for houses, buildings, institutions]"
+   },
+   {
+    "i": 17,
+    "w": "状态",
+    "py": "zhuàng tài",
+    "pos": "n.",
+    "en": "status; condition; state of affairs"
+   },
+   {
+    "i": 18,
+    "w": "清醒",
+    "py": "qīng xǐng",
+    "pos": "adj.",
+    "en": "clear-headed; sober; come to/round"
+   },
+   {
+    "i": 19,
+    "w": "呼吸",
+    "py": "hū xī",
+    "pos": "v.",
+    "en": "to breathe; respire"
+   },
+   {
+    "i": 20,
+    "w": "心理",
+    "py": "xīn lǐ",
+    "pos": "n.",
+    "en": "psychology; mentality; mind"
+   },
+   {
+    "i": 21,
+    "w": "慌张",
+    "py": "huāng zhāng",
+    "pos": "adj.",
+    "en": "flustered; confused; trepidation"
+   },
+   {
+    "i": 22,
+    "w": "情绪",
+    "py": "qíng xù",
+    "pos": "n.",
+    "en": "mood; sentiments; feeling"
+   },
+   {
+    "i": 23,
+    "w": "低落",
+    "py": "dī luò",
+    "pos": "adj.",
+    "en": "down, depressed"
+   },
+   {
+    "i": 24,
+    "w": "记忆",
+    "py": "jì yì",
+    "pos": "n.",
+    "en": "recall; memory; storage"
+   },
+   {
+    "i": 25,
+    "w": "计算",
+    "py": "jì suàn",
+    "pos": "v.",
+    "en": "count; compute; calculate"
+   },
+   {
+    "i": 26,
+    "w": "相当",
+    "py": "xiāng dāng",
+    "pos": "adv.",
+    "en": "match; correspond to; be equivalent to"
+   },
+   {
+    "i": 27,
+    "w": "持续",
+    "py": "chí xù",
+    "pos": "v.",
+    "en": "last; continue; sustain"
+   },
+   {
+    "i": 28,
+    "w": "数",
+    "py": "shǔ",
+    "pos": "v.",
+    "en": "frequently; repeatedly"
+   },
+   {
+    "i": 29,
+    "w": "导致",
+    "py": "dǎo zhì",
+    "pos": "v.",
+    "en": "to cause; lead to; result in"
+   },
+   {
+    "i": 30,
+    "w": "失眠",
+    "py": "shī mián",
+    "pos": "v.",
+    "en": "lose sleep; wakefulness; insomnia"
+   },
+   {
+    "i": 31,
+    "w": "精神",
+    "py": "jīng shén",
+    "pos": "n.",
+    "en": "essence; spirit"
+   },
+   {
+    "i": 32,
+    "w": "专家",
+    "py": "zhuān jiā",
+    "pos": "n.",
+    "en": "specialist; expert"
+   },
+   {
+    "i": 33,
+    "w": "采用",
+    "py": "cǎi yòng",
+    "pos": "v.",
+    "en": "to use, to employ"
+   },
+   {
+    "i": 34,
+    "w": "柔和",
+    "py": "róu hé",
+    "pos": "adj.",
+    "en": "soft; gentle; mild"
+   },
+   {
+    "i": 35,
+    "w": "愿望",
+    "py": "yuàn wàng",
+    "pos": "n.",
+    "en": "desire; wish; aspiration"
+   },
+   {
+    "i": 36,
+    "w": "窗帘",
+    "py": "chuāng lián",
+    "pos": "n.",
+    "en": "curtains; sunblind"
+   },
+   {
+    "i": 37,
+    "w": "市场",
+    "py": "shì chǎng",
+    "pos": "n.",
+    "en": "market"
+   },
+   {
+    "i": 38,
+    "w": "产品",
+    "py": "chǎn pǐn",
+    "pos": "n.",
+    "en": "product"
+   },
+   {
+    "i": 39,
+    "w": "模仿",
+    "py": "mó fǎng",
+    "pos": "v.",
+    "en": "to imitate; to copy; model oneself on"
+   },
+   {
+    "i": 40,
+    "w": "避免",
+    "py": "bì miǎn",
+    "pos": "v.",
+    "en": "to avoid; refrain from; prevent something from happening"
+   },
+   {
+    "i": 41,
+    "w": "传统",
+    "py": "chuán tǒng",
+    "pos": "n.",
+    "en": "tradition; custom"
+   }
+  ]
+ },
+ {
+  "lesson": 12,
+  "title": "海外用户玩儿微信 Overseas Users of WeChat",
+  "items": [
+   {
+    "i": 1,
+    "w": "用户",
+    "py": "yòng hù",
+    "pos": "n.",
+    "en": "user; subscriber; consumer"
+   },
+   {
+    "i": 2,
+    "w": "颠球",
+    "py": "diān qiú",
+    "pos": "v.",
+    "en": "to juggle a ball"
+   },
+   {
+    "i": 3,
+    "w": "明星",
+    "py": "míng xīng",
+    "pos": "n.",
+    "en": "celebrity; star"
+   },
+   {
+    "i": 4,
+    "w": "直播",
+    "py": "zhí bō",
+    "pos": "v.",
+    "en": "direct broadcast; live telecast"
+   },
+   {
+    "i": 5,
+    "w": "宝贝",
+    "py": "bǎo bèi",
+    "pos": "n.",
+    "en": "treasure; baby"
+   },
+   {
+    "i": 6,
+    "w": "逗",
+    "py": "dòu",
+    "pos": "v.",
+    "en": "to tease; play with; amuse"
+   },
+   {
+    "i": 7,
+    "w": "宣传",
+    "py": "xuān chuán",
+    "pos": "v.",
+    "en": "propagate; disseminate; give publicity to"
+   },
+   {
+    "i": 8,
+    "w": "手笔",
+    "py": "shǒu bǐ",
+    "pos": "n.",
+    "en": "style (of handling affairs)"
+   },
+   {
+    "i": 9,
+    "w": "推广",
+    "py": "tuī guǎng",
+    "pos": "v.",
+    "en": "popularise; spread; generalisation"
+   },
+   {
+    "i": 10,
+    "w": "注册",
+    "py": "zhù cè",
+    "pos": "v.",
+    "en": "register"
+   },
+   {
+    "i": 11,
+    "w": "召开",
+    "py": "zhào kāi",
+    "pos": "v.",
+    "en": "convene"
+   },
+   {
+    "i": 12,
+    "w": "合作",
+    "py": "hé zuò",
+    "pos": "v.",
+    "en": "cooperate; collaborate; work together"
+   },
+   {
+    "i": 13,
+    "w": "伙伴",
+    "py": "huǒ bàn",
+    "pos": "n.",
+    "en": "partner; companion; colleague"
+   },
+   {
+    "i": 14,
+    "w": "总裁",
+    "py": "zǒng cái",
+    "pos": "n.",
+    "en": "president; director general"
+   },
+   {
+    "i": 15,
+    "w": "实现",
+    "py": "shí xiàn",
+    "pos": "v.",
+    "en": "realise; achieve; bring about"
+   },
+   {
+    "i": 16,
+    "w": "覆盖",
+    "py": "fù gài",
+    "pos": "v.",
+    "en": "cover; overlap; vegetation"
+   },
+   {
+    "i": 17,
+    "w": "移动",
+    "py": "yí dòng",
+    "pos": "v.",
+    "en": "shift; move; removal"
+   },
+   {
+    "i": 18,
+    "w": "通信",
+    "py": "tōng xìn",
+    "pos": "v.",
+    "en": "to communicate"
+   },
+   {
+    "i": 19,
+    "w": "应用",
+    "py": "yìng yòng",
+    "pos": "v.",
+    "en": "use; app; application"
+   },
+   {
+    "i": 20,
+    "w": "企业",
+    "py": "qǐ yè",
+    "pos": "n.",
+    "en": "enterprise; establishment; business"
+   },
+   {
+    "i": 21,
+    "w": "称霸",
+    "py": "chēng bà",
+    "pos": "v.",
+    "en": "to dominate, to maintain hegemony"
+   },
+   {
+    "i": 22,
+    "w": "背景",
+    "py": "bèi jǐng",
+    "pos": "n.",
+    "en": "background"
+   },
+   {
+    "i": 23,
+    "w": "高级",
+    "py": "gāo jí",
+    "pos": "adj.",
+    "en": "advanced; high level"
+   },
+   {
+    "i": 24,
+    "w": "副",
+    "py": "fù",
+    "pos": "m.",
+    "en": "deputy; vice-; auxiliary"
+   },
+   {
+    "i": 25,
+    "w": "开发",
+    "py": "kāi fā",
+    "pos": "v.",
+    "en": "develop; open up; exploit"
+   },
+   {
+    "i": 26,
+    "w": "中心",
+    "py": "zhōng xīn",
+    "pos": "n.",
+    "en": "centre"
+   },
+   {
+    "i": 27,
+    "w": "相关",
+    "py": "xiāng guān",
+    "pos": "v.",
+    "en": "be related to; be bound up with; correlation"
+   },
+   {
+    "i": 28,
+    "w": "业务",
+    "py": "yè wù",
+    "pos": "n.",
+    "en": "business; professional work"
+   },
+   {
+    "i": 29,
+    "w": "现实",
+    "py": "xiàn shí",
+    "pos": "n.",
+    "en": "reality; actual"
+   },
+   {
+    "i": 30,
+    "w": "个人",
+    "py": "gè rén",
+    "pos": "n.",
+    "en": "oneself; personal; individual"
+   },
+   {
+    "i": 31,
+    "w": "以及",
+    "py": "yǐ jí",
+    "pos": "conj.",
+    "en": "as well as; along with; and"
+   },
+   {
+    "i": 32,
+    "w": "程度",
+    "py": "chéng dù",
+    "pos": "n.",
+    "en": "level; degree; extent"
+   },
+   {
+    "i": 33,
+    "w": "发达",
+    "py": "fā dá",
+    "pos": "adj.",
+    "en": "developed; advanced; prosperous"
+   },
+   {
+    "i": 34,
+    "w": "创新",
+    "py": "chuàng xīn",
+    "pos": "v.",
+    "en": "innovate"
+   },
+   {
+    "i": 35,
+    "w": "领导",
+    "py": "lǐng dǎo",
+    "pos": "v.",
+    "en": "lead; leader"
+   },
+   {
+    "i": 36,
+    "w": "地位",
+    "py": "dì wèi",
+    "pos": "n.",
+    "en": "position; standing; status"
+   },
+   {
+    "i": 37,
+    "w": "经营",
+    "py": "jīng yíng",
+    "pos": "v.",
+    "en": "manage; to operate; to run"
+   },
+   {
+    "i": 38,
+    "w": "销售",
+    "py": "xiāo shòu",
+    "pos": "v.",
+    "en": "sell; sales"
+   },
+   {
+    "i": 39,
+    "w": "针对",
+    "py": "zhēn duì",
+    "pos": "v.",
+    "en": "be directed against; be aimed at"
+   },
+   {
+    "i": 40,
+    "w": "当地",
+    "py": "dāng dì",
+    "pos": "n.",
+    "en": "local area"
+   },
+   {
+    "i": 41,
+    "w": "代言",
+    "py": "dài yán",
+    "pos": "v.",
+    "en": "to speak on behalf of; to star in a commercial"
+   },
+   {
+    "i": 42,
+    "w": "华裔",
+    "py": "huá yì",
+    "pos": "n.",
+    "en": "foreign citizen of Chinese origin"
+   },
+   {
+    "i": 43,
+    "w": "移民",
+    "py": "yí mín",
+    "pos": "v.",
+    "en": "migrate; migrant"
+   }
+  ]
+ },
+ {
+  "lesson": 13,
+  "title": "锯掉生活的“筐底” Cutting Off the “Bottom of the Basket” in Life",
+  "items": [
+   {
+    "i": 1,
+    "w": "锯子",
+    "py": "jù zǐ",
+    "pos": "n./v.",
+    "en": "to cut with a saw; saw"
+   },
+   {
+    "i": 2,
+    "w": "筐",
+    "py": "kuāng",
+    "pos": "n.",
+    "en": "basket; basketful"
+   },
+   {
+    "i": 3,
+    "w": "训练",
+    "py": "xùn liàn",
+    "pos": "v.",
+    "en": "train; drill"
+   },
+   {
+    "i": 4,
+    "w": "缺乏",
+    "py": "quē fá",
+    "pos": "v.",
+    "en": "be short of; lack; deficiency"
+   },
+   {
+    "i": 5,
+    "w": "项目",
+    "py": "xiàng mù",
+    "pos": "n.",
+    "en": "project; item; clause"
+   },
+   {
+    "i": 6,
+    "w": "桃",
+    "py": "táo",
+    "pos": "n.",
+    "en": "peach"
+   },
+   {
+    "i": 7,
+    "w": "装",
+    "py": "zhuāng",
+    "pos": "v.",
+    "en": "dress; attire; clothing"
+   },
+   {
+    "i": 8,
+    "w": "启发",
+    "py": "qǐ fā",
+    "pos": "v.",
+    "en": "inspire; illuminate; enlighten"
+   },
+   {
+    "i": 9,
+    "w": "安装",
+    "py": "ān zhuāng",
+    "pos": "v.",
+    "en": "to install; mount; erect"
+   },
+   {
+    "i": 10,
+    "w": "栏杆",
+    "py": "lán gān",
+    "pos": "n.",
+    "en": "railing, balustrade"
+   },
+   {
+    "i": 11,
+    "w": "甲",
+    "py": "jiǎ",
+    "pos": "n.",
+    "en": "shell; nail; first; the first of the ten Heavenly Stems"
+   },
+   {
+    "i": 12,
+    "w": "乙",
+    "py": "yǐ",
+    "pos": "n.",
+    "en": "second(ly); the second of the ten Heavenly Stems"
+   },
+   {
+    "i": 13,
+    "w": "工具",
+    "py": "gōng jù",
+    "pos": "n.",
+    "en": "tool"
+   },
+   {
+    "i": 14,
+    "w": "投篮",
+    "py": "tóu lán",
+    "pos": "v.",
+    "en": "to shoot (a basket)"
+   },
+   {
+    "i": 15,
+    "w": "踩",
+    "py": "cǎi",
+    "pos": "v.",
+    "en": "to step on; to stamp on; trample"
+   },
+   {
+    "i": 16,
+    "w": "一再",
+    "py": "yí zài",
+    "pos": "adv.",
+    "en": "time and again; again and again; repeatedly"
+   },
+   {
+    "i": 17,
+    "w": "重复",
+    "py": "chóng fù",
+    "pos": "v.",
+    "en": "to repeat; to duplicate; iterate"
+   },
+   {
+    "i": 18,
+    "w": "断断续续",
+    "py": "duàn duàn xù xù",
+    "pos": "adj.",
+    "en": "off and on, intermittent"
+   },
+   {
+    "i": 19,
+    "w": "激烈",
+    "py": "jī liè",
+    "pos": "adj.",
+    "en": "intense; sharp; fierce"
+   },
+   {
+    "i": 20,
+    "w": "气氛",
+    "py": "qì fēn",
+    "pos": "n.",
+    "en": "atmosphere; air"
+   },
+   {
+    "i": 21,
+    "w": "何况",
+    "py": "hé kuàng",
+    "pos": "conj.",
+    "en": "much less; let alone"
+   },
+   {
+    "i": 22,
+    "w": "球迷",
+    "py": "qiú mí",
+    "pos": "n.",
+    "en": "fan (of a ball sport)"
+   },
+   {
+    "i": 23,
+    "w": "工程师",
+    "py": "gōng chéng shī",
+    "pos": "n.",
+    "en": "engineer"
+   },
+   {
+    "i": 24,
+    "w": "机器",
+    "py": "jī qì",
+    "pos": "n.",
+    "en": "machine; engine; apparatus"
+   },
+   {
+    "i": 25,
+    "w": "顺畅",
+    "py": "shùn chàng",
+    "pos": "adj.",
+    "en": "smooth, unhindered"
+   },
+   {
+    "i": 26,
+    "w": "幼儿园",
+    "py": "yòu ér yuán",
+    "pos": "n.",
+    "en": "kindergarten; nursery school"
+   },
+   {
+    "i": 27,
+    "w": "好奇",
+    "py": "hào qí",
+    "pos": "adj.",
+    "en": "curious"
+   },
+   {
+    "i": 28,
+    "w": "何必",
+    "py": "hé bì",
+    "pos": "adv.",
+    "en": "there is no need"
+   },
+   {
+    "i": 29,
+    "w": "多亏",
+    "py": "duō kuī",
+    "pos": "v.",
+    "en": "thanks to; owing to; fortunately"
+   },
+   {
+    "i": 30,
+    "w": "连忙",
+    "py": "lián máng",
+    "pos": "adv.",
+    "en": "promptly; immediately; instantly"
+   },
+   {
+    "i": 31,
+    "w": "瞧",
+    "py": "qiáo",
+    "pos": "v.",
+    "en": "look; see"
+   },
+   {
+    "i": 32,
+    "w": "困扰",
+    "py": "kùn rǎo",
+    "pos": "v.",
+    "en": "to trouble; to haunt"
+   },
+   {
+    "i": 33,
+    "w": "思维",
+    "py": "sī wéi",
+    "pos": "n.",
+    "en": "thought; thinking"
+   },
+   {
+    "i": 34,
+    "w": "呆",
+    "py": "dāi",
+    "pos": "v.",
+    "en": "slow-witted; stupid; to stay"
+   },
+   {
+    "i": 35,
+    "w": "造成",
+    "py": "zào chéng",
+    "pos": "v.",
+    "en": "give rise to; bring about; cause"
+   },
+   {
+    "i": 36,
+    "w": "仿佛",
+    "py": "fǎng fú",
+    "pos": "adv.",
+    "en": "to seem as if; be more or less the same; be alike"
+   },
+   {
+    "i": 37,
+    "w": "阻碍",
+    "py": "zǔ ài",
+    "pos": "v.",
+    "en": "hinder; block; impede"
+   }
+  ]
+ },
+ {
+  "lesson": 14,
+  "title": "北京的四合院 Quadrangle Courtyards in Beijing",
+  "items": [
+   {
+    "i": 1,
+    "w": "四合院",
+    "py": "sì hé yuàn",
+    "pos": "n.",
+    "en": "quadrangle courtyard"
+   },
+   {
+    "i": 2,
+    "w": "民居",
+    "py": "mín jū",
+    "pos": "n.",
+    "en": "civilian dwelling"
+   },
+   {
+    "i": 3,
+    "w": "组合",
+    "py": "zǔ hé",
+    "pos": "v.",
+    "en": "make up; compose; constitute"
+   },
+   {
+    "i": 4,
+    "w": "建筑",
+    "py": "jiàn zhù",
+    "pos": "n.",
+    "en": "build; construct; erect"
+   },
+   {
+    "i": 5,
+    "w": "形式",
+    "py": "xíng shì",
+    "pos": "n.",
+    "en": "form; shape; layout"
+   },
+   {
+    "i": 6,
+    "w": "所谓",
+    "py": "suǒ wèi",
+    "pos": "adj.",
+    "en": "so-called"
+   },
+   {
+    "i": 7,
+    "w": "方",
+    "py": "fāng",
+    "pos": "adj.",
+    "en": "square; honest; just now"
+   },
+   {
+    "i": 8,
+    "w": "广泛",
+    "py": "guǎng fàn",
+    "pos": "adj.",
+    "en": "extensive; wide-ranging"
+   },
+   {
+    "i": 9,
+    "w": "样式",
+    "py": "yàng shì",
+    "pos": "n.",
+    "en": "pattern; type; form"
+   },
+   {
+    "i": 10,
+    "w": "代表",
+    "py": "dài biǎo",
+    "pos": "v.",
+    "en": "to stand for; on behalf of representative"
+   },
+   {
+    "i": 11,
+    "w": "通常",
+    "py": "tōng cháng",
+    "pos": "adv.",
+    "en": "general; usual; normal"
+   },
+   {
+    "i": 12,
+    "w": "并列",
+    "py": "bìng liè",
+    "pos": "v.",
+    "en": "stand side by side; be juxtaposed; put something on a par with"
+   },
+   {
+    "i": 13,
+    "w": "组成",
+    "py": "zǔ chéng",
+    "pos": "v.",
+    "en": "to form"
+   },
+   {
+    "i": 14,
+    "w": "长辈",
+    "py": "zhǎng bèi",
+    "pos": "n.",
+    "en": "elder member of a family"
+   },
+   {
+    "i": 15,
+    "w": "具备",
+    "py": "jù bèi",
+    "pos": "v.",
+    "en": "possess; have; be provided with"
+   },
+   {
+    "i": 16,
+    "w": "日常",
+    "py": "rì cháng",
+    "pos": "adj.",
+    "en": "day-to-day; everyday; usual"
+   },
+   {
+    "i": 17,
+    "w": "起居",
+    "py": "qǐ jū",
+    "pos": "n.",
+    "en": "daily life"
+   },
+   {
+    "i": 18,
+    "w": "接待",
+    "py": "jiē dài",
+    "pos": "v.",
+    "en": "to receive (visitor); admit"
+   },
+   {
+    "i": 19,
+    "w": "功能",
+    "py": "gōng néng",
+    "pos": "n.",
+    "en": "function"
+   },
+   {
+    "i": 20,
+    "w": "厢房",
+    "py": "xiāng fáng",
+    "pos": "n.",
+    "en": "wing,wing room"
+   },
+   {
+    "i": 21,
+    "w": "走廊",
+    "py": "zǒu láng",
+    "pos": "n.",
+    "en": "corridor"
+   },
+   {
+    "i": 22,
+    "w": "空间",
+    "py": "kōng jiān",
+    "pos": "n.",
+    "en": "space; enclosure"
+   },
+   {
+    "i": 23,
+    "w": "种",
+    "py": "zhǒng",
+    "pos": "m.",
+    "en": "kind"
+   },
+   {
+    "i": 24,
+    "w": "竹子",
+    "py": "zhú zi",
+    "pos": "n.",
+    "en": "bamboo"
+   },
+   {
+    "i": 25,
+    "w": "则",
+    "py": "zé",
+    "pos": "conj.",
+    "en": "standard; norm; criterion"
+   },
+   {
+    "i": 26,
+    "w": "金鱼",
+    "py": "jīn yú",
+    "pos": "n.",
+    "en": "goldfish"
+   },
+   {
+    "i": 27,
+    "w": "创造",
+    "py": "chuàng zào",
+    "pos": "v.",
+    "en": "create"
+   },
+   {
+    "i": 28,
+    "w": "情趣",
+    "py": "qíng qù",
+    "pos": "n.",
+    "en": "emotional appeal, interest"
+   },
+   {
+    "i": 29,
+    "w": "因而",
+    "py": "yīn ér",
+    "pos": "conj.",
+    "en": "thus; as a result; with the result that"
+   },
+   {
+    "i": 30,
+    "w": "为",
+    "py": "wèi",
+    "pos": "prep.",
+    "en": "for (someone; something); to do; to be"
+   },
+   {
+    "i": 31,
+    "w": "关闭",
+    "py": "guān bì",
+    "pos": "v.",
+    "en": "to close; to shut"
+   },
+   {
+    "i": 32,
+    "w": "封闭",
+    "py": "fēng bì",
+    "pos": "v.",
+    "en": "seal off; close"
+   },
+   {
+    "i": 34,
+    "w": "日子",
+    "py": "rì zi",
+    "pos": "n.",
+    "en": "life"
+   },
+   {
+    "i": 35,
+    "w": "充分",
+    "py": "chōng fèn",
+    "pos": "adj.",
+    "en": "full; ample"
+   },
+   {
+    "i": 36,
+    "w": "令",
+    "py": "lìng",
+    "pos": "v.",
+    "en": "to make, to cause"
+   },
+   {
+    "i": 37,
+    "w": "亲切",
+    "py": "qīn qiè",
+    "pos": "adj.",
+    "en": "kind; amiable; cordial"
+   },
+   {
+    "i": 38,
+    "w": "劳动",
+    "py": "láo dòng",
+    "pos": "v.",
+    "en": "labour; bother"
+   },
+   {
+    "i": 39,
+    "w": "人民",
+    "py": "rén mín",
+    "pos": "n.",
+    "en": "people"
+   },
+   {
+    "i": 40,
+    "w": "矛盾",
+    "py": "máo dùn",
+    "pos": "n.",
+    "en": "contradictory"
+   },
+   {
+    "i": 41,
+    "w": "浓",
+    "py": "nóng",
+    "pos": "adj.",
+    "en": "dense; thick; concentrated"
+   }
+  ]
+ },
+ {
+  "lesson": 15,
+  "title": "纸上谈兵 Being an Armchair Strategist",
+  "items": [
+   {
+    "i": 1,
+    "w": "纸上谈兵",
+    "py": "zhǐ shàng tán bīng",
+    "pos": "v.",
+    "en": "to be an armchair strategist"
+   },
+   {
+    "i": 2,
+    "w": "军事",
+    "py": "jūn shì",
+    "pos": "n.",
+    "en": "military affairs"
+   },
+   {
+    "i": 3,
+    "w": "敌人",
+    "py": "dí rén",
+    "pos": "n.",
+    "en": "enemy; foe"
+   },
+   {
+    "i": 4,
+    "w": "理论",
+    "py": "lǐ lùn",
+    "pos": "n.",
+    "en": "theory"
+   },
+   {
+    "i": 5,
+    "w": "作战",
+    "py": "zuò zhàn",
+    "pos": "v.",
+    "en": "to fight a battle"
+   },
+   {
+    "i": 6,
+    "w": "毛病",
+    "py": "máo bìng",
+    "pos": "n.",
+    "en": "illness; disease; fault"
+   },
+   {
+    "i": 7,
+    "w": "道理",
+    "py": "dào lǐ",
+    "pos": "n.",
+    "en": "reason; principle; truth"
+   },
+   {
+    "i": 8,
+    "w": "迟早",
+    "py": "chí zǎo",
+    "pos": "adv.",
+    "en": "sooner or later"
+   },
+   {
+    "i": 9,
+    "w": "军队",
+    "py": "jūn duì",
+    "pos": "n.",
+    "en": "armed forces; troops"
+   },
+   {
+    "i": 10,
+    "w": "派",
+    "py": "pài",
+    "pos": "v.",
+    "en": "faction; clique; to dispatch"
+   },
+   {
+    "i": 11,
+    "w": "弱",
+    "py": "ruò",
+    "pos": "adj.",
+    "en": "weak; feeble"
+   },
+   {
+    "i": 12,
+    "w": "形势",
+    "py": "xíng shì",
+    "pos": "n.",
+    "en": "terrain; topographical features; circumstances"
+   },
+   {
+    "i": 13,
+    "w": "命令",
+    "py": "mìng lìng",
+    "pos": "n.",
+    "en": "order; command; directive"
+   },
+   {
+    "i": 14,
+    "w": "守",
+    "py": "shǒu",
+    "pos": "v.",
+    "en": "to guard, to defend"
+   },
+   {
+    "i": 15,
+    "w": "阵地",
+    "py": "zhèn dì",
+    "pos": "n.",
+    "en": "battle field; front"
+   },
+   {
+    "i": 16,
+    "w": "绝对",
+    "py": "jué duì",
+    "pos": "adv.",
+    "en": "absolutely; perfectly"
+   },
+   {
+    "i": 17,
+    "w": "主动",
+    "py": "zhǔ dòng",
+    "pos": "adj.",
+    "en": "take the initiative"
+   },
+   {
+    "i": 18,
+    "w": "挑战",
+    "py": "tiǎo zhàn",
+    "pos": "v.",
+    "en": "throw down the gauntlet; challenge"
+   },
+   {
+    "i": 19,
+    "w": "骂",
+    "py": "mà",
+    "pos": "v.",
+    "en": "scold; abuse; call names"
+   },
+   {
+    "i": 20,
+    "w": "胆小鬼",
+    "py": "dǎn xiǎo guǐ",
+    "pos": "n.",
+    "en": "coward"
+   },
+   {
+    "i": 21,
+    "w": "胜利",
+    "py": "shèng lì",
+    "pos": "v.",
+    "en": "win; victory; triumph"
+   },
+   {
+    "i": 22,
+    "w": "调动",
+    "py": "diào dòng",
+    "pos": "v.",
+    "en": "to transfer, to shift"
+   },
+   {
+    "i": 23,
+    "w": "散布",
+    "py": "sàn bù",
+    "pos": "v.",
+    "en": "go for a walk"
+   },
+   {
+    "i": 24,
+    "w": "谣言",
+    "py": "yáo yán",
+    "pos": "n.",
+    "en": "rumour; groundless allegation"
+   },
+   {
+    "i": 25,
+    "w": "上当",
+    "py": "shàng dàng",
+    "pos": "v.",
+    "en": "be taken in; be fooled; be duped"
+   },
+   {
+    "i": 26,
+    "w": "再三",
+    "py": "zài sān",
+    "pos": "adv.",
+    "en": "again and again; repeatedly"
+   },
+   {
+    "i": 27,
+    "w": "阻止",
+    "py": "zǔ zhǐ",
+    "pos": "v.",
+    "en": "arrest; stop; prevent"
+   },
+   {
+    "i": 28,
+    "w": "任命",
+    "py": "rèn mìng",
+    "pos": "v.",
+    "en": "appoint; commission; designate"
+   },
+   {
+    "i": 29,
+    "w": "独立",
+    "py": "dú lì",
+    "pos": "v.",
+    "en": "stand alone; independent; on one's own"
+   },
+   {
+    "i": 30,
+    "w": "资格",
+    "py": "zī gé",
+    "pos": "n.",
+    "en": "qualification; seniority"
+   },
+   {
+    "i": 31,
+    "w": "糊涂",
+    "py": "hú tu",
+    "pos": "adj.",
+    "en": "muddled; confused; bewildered"
+   },
+   {
+    "i": 32,
+    "w": "公元",
+    "py": "gōng yuán",
+    "pos": "n.",
+    "en": "the Christian/Common era"
+   },
+   {
+    "i": 33,
+    "w": "盲目",
+    "py": "máng mù",
+    "pos": "adj.",
+    "en": "blind"
+   },
+   {
+    "i": 34,
+    "w": "轻视",
+    "py": "qīng shì",
+    "pos": "v.",
+    "en": "despise; look down on"
+   },
+   {
+    "i": 35,
+    "w": "方案",
+    "py": "fāng àn",
+    "pos": "n.",
+    "en": "scheme; plan; programme"
+   },
+   {
+    "i": 36,
+    "w": "进攻",
+    "py": "jìn gōng",
+    "pos": "v.",
+    "en": "attack; assault; offensive"
+   },
+   {
+    "i": 37,
+    "w": "宝贵",
+    "py": "bǎo guì",
+    "pos": "adj.",
+    "en": "valuable; precious"
+   },
+   {
+    "i": 38,
+    "w": "讽刺",
+    "py": "fěng cì",
+    "pos": "v.",
+    "en": "satire; sarcasm; to mock"
+   },
+   {
+    "i": 39,
+    "w": "灵活",
+    "py": "líng huó",
+    "pos": "adj.",
+    "en": "nimble; agile; flexible"
+   }
+  ]
+ },
+ {
+  "lesson": 16,
+  "title": "体重与节食 Weight and Diet",
+  "items": [
+   {
+    "i": 1,
+    "w": "节食",
+    "py": "jié shí",
+    "pos": "v.",
+    "en": "to go on a diet"
+   },
+   {
+    "i": 2,
+    "w": "报道",
+    "py": "bào dào",
+    "pos": "v.",
+    "en": "report"
+   },
+   {
+    "i": 3,
+    "w": "营养",
+    "py": "yíng yǎng",
+    "pos": "n.",
+    "en": "nutrition; nourishment"
+   },
+   {
+    "i": 4,
+    "w": "摄入",
+    "py": "shè rù",
+    "pos": "v.",
+    "en": "to take in; to ingest"
+   },
+   {
+    "i": 5,
+    "w": "模式",
+    "py": "mó shì",
+    "pos": "n.",
+    "en": "model; mode; type"
+   },
+   {
+    "i": 6,
+    "w": "波动",
+    "py": "bō dòng",
+    "pos": "v.",
+    "en": "to undulate; to rise and fall"
+   },
+   {
+    "i": 7,
+    "w": "总共",
+    "py": "zǒng gòng",
+    "pos": "adv.",
+    "en": "in all; altogether"
+   },
+   {
+    "i": 8,
+    "w": "参与",
+    "py": "cān yù",
+    "pos": "v.",
+    "en": "to take part; to participate in"
+   },
+   {
+    "i": 9,
+    "w": "人员",
+    "py": "rén yuán",
+    "pos": "n.",
+    "en": "personnel; staff"
+   },
+   {
+    "i": 10,
+    "w": "相对",
+    "py": "xiāng duì",
+    "pos": "adj.",
+    "en": "opposite; face to face; relatively"
+   },
+   {
+    "i": 11,
+    "w": "类型",
+    "py": "lèi xíng",
+    "pos": "n.",
+    "en": "type"
+   },
+   {
+    "i": 12,
+    "w": "称",
+    "py": "chēng",
+    "pos": "v.",
+    "en": "fit; match; to name"
+   },
+   {
+    "i": 13,
+    "w": "可靠",
+    "py": "kě kào",
+    "pos": "adj.",
+    "en": "reliable; dependable; trustworthy"
+   },
+   {
+    "i": 14,
+    "w": "纳入",
+    "py": "nà rù",
+    "pos": "v.",
+    "en": "to include, to incorporate into"
+   },
+   {
+    "i": 15,
+    "w": "分析",
+    "py": "fēn xī",
+    "pos": "v.",
+    "en": "analysis"
+   },
+   {
+    "i": 16,
+    "w": "志愿者",
+    "py": "zhì yuàn zhě",
+    "pos": "n.",
+    "en": "volunteer"
+   },
+   {
+    "i": 17,
+    "w": "跟踪",
+    "py": "gēn zōng",
+    "pos": "v.",
+    "en": "follow the tracks of; following"
+   },
+   {
+    "i": 18,
+    "w": "成果",
+    "py": "chéng guǒ",
+    "pos": "n.",
+    "en": "achievement; gain; positive result"
+   },
+   {
+    "i": 19,
+    "w": "清晰",
+    "py": "qīng xī",
+    "pos": "adj.",
+    "en": "vivid; distinct; clear"
+   },
+   {
+    "i": 20,
+    "w": "即",
+    "py": "jí",
+    "pos": "v.",
+    "en": "/adv.to be; namely"
+   },
+   {
+    "i": 21,
+    "w": "升",
+    "py": "shēng",
+    "pos": "v.",
+    "en": "litre; to promote; to rise"
+   },
+   {
+    "i": 22,
+    "w": "达到",
+    "py": "dá dào",
+    "pos": "v.",
+    "en": "to achieve; attain; reach"
+   },
+   {
+    "i": 23,
+    "w": "意外",
+    "py": "yì wài",
+    "pos": "adj.",
+    "en": "unexpected; unforeseen"
+   },
+   {
+    "i": 24,
+    "w": "存在",
+    "py": "cún zài",
+    "pos": "v.",
+    "en": "to exist; be"
+   },
+   {
+    "i": 25,
+    "w": "明显",
+    "py": "míng xiǎn",
+    "pos": "adj.",
+    "en": "clear; obvious; evident"
+   },
+   {
+    "i": 26,
+    "w": "补偿",
+    "py": "bǔ cháng",
+    "pos": "v.",
+    "en": "compensate; make up for"
+   },
+   {
+    "i": 27,
+    "w": "立即",
+    "py": "lì jí",
+    "pos": "adv.",
+    "en": "immediately; at once; promptly"
+   },
+   {
+    "i": 28,
+    "w": "趋势",
+    "py": "qū shì",
+    "pos": "n.",
+    "en": "trend; tendency"
+   },
+   {
+    "i": 29,
+    "w": "差异",
+    "py": "chā yì",
+    "pos": "n.",
+    "en": "difference"
+   },
+   {
+    "i": 30,
+    "w": "联合",
+    "py": "lián hé",
+    "pos": "v.",
+    "en": "alliance; union"
+   },
+   {
+    "i": 31,
+    "w": "个别",
+    "py": "gè bié",
+    "pos": "adv.",
+    "en": "individually; separately"
+   },
+   {
+    "i": 32,
+    "w": "表明",
+    "py": "biǎo míng",
+    "pos": "v.",
+    "en": "make known; state clearly; indicate"
+   },
+   {
+    "i": 33,
+    "w": "临时",
+    "py": "lín shí",
+    "pos": "adv.",
+    "en": "temporary; provisional"
+   },
+   {
+    "i": 34,
+    "w": "现象",
+    "py": "xiàn xiàng",
+    "pos": "n.",
+    "en": "appearance; phenomenon"
+   },
+   {
+    "i": 35,
+    "w": "非",
+    "py": "fēi",
+    "pos": "adv.",
+    "en": "un-; non-; short for Africa"
+   },
+   {
+    "i": 36,
+    "w": "就餐",
+    "py": "jiù cān",
+    "pos": "v.",
+    "en": "to have one's meal"
+   },
+   {
+    "i": 37,
+    "w": "放纵",
+    "py": "fàng zòng",
+    "pos": "v.",
+    "en": "to indulge, to be unrestrained"
+   },
+   {
+    "i": 38,
+    "w": "苗条",
+    "py": "miáo tiáo",
+    "pos": "adj.",
+    "en": "slender; slim"
+   },
+   {
+    "i": 39,
+    "w": "借口",
+    "py": "jiè kǒu",
+    "pos": "n.",
+    "en": "use as an excuse; on the pretext of"
+   },
+   {
+    "i": 40,
+    "w": "采取",
+    "py": "cǎi qǔ",
+    "pos": "v.",
+    "en": "to carry out; adopt; take"
+   },
+   {
+    "i": 41,
+    "w": "措施",
+    "py": "cuò shī",
+    "pos": "n.",
+    "en": "measure; step"
+   }
+  ]
+ },
+ {
+  "lesson": 17,
+  "title": "在最美好的时刻离开 Ending at the Best Moment",
+  "items": [
+   {
+    "i": 1,
+    "w": "事物",
+    "py": "shì wù",
+    "pos": "n.",
+    "en": "thing; object"
+   },
+   {
+    "i": 2,
+    "w": "高峰",
+    "py": "gāo fēng",
+    "pos": "n.",
+    "en": "peak; summit"
+   },
+   {
+    "i": 3,
+    "w": "终点",
+    "py": "zhōng diǎn",
+    "pos": "n.",
+    "en": "finishing point; destination"
+   },
+   {
+    "i": 4,
+    "w": "迅速",
+    "py": "xùn sù",
+    "pos": "adj.",
+    "en": "rapid; swift; prompt"
+   },
+   {
+    "i": 5,
+    "w": "深刻",
+    "py": "shēn kè",
+    "pos": "adj.",
+    "en": "deep; profound"
+   },
+   {
+    "i": 6,
+    "w": "戏剧",
+    "py": "xì jù",
+    "pos": "n.",
+    "en": "play; theatre; script"
+   },
+   {
+    "i": 7,
+    "w": "投入",
+    "py": "tóu rù",
+    "pos": "v.",
+    "en": "invest, put into"
+   },
+   {
+    "i": 8,
+    "w": "服装",
+    "py": "fú zhuāng",
+    "pos": "n.",
+    "en": "dress; clothing; costume"
+   },
+   {
+    "i": 9,
+    "w": "化妆",
+    "py": "huà zhuāng",
+    "pos": "v.",
+    "en": "make up; apply cosmetics"
+   },
+   {
+    "i": 10,
+    "w": "道具",
+    "py": "dào jù",
+    "pos": "n.",
+    "en": "stage property,prop"
+   },
+   {
+    "i": 11,
+    "w": "美术",
+    "py": "měi shù",
+    "pos": "n.",
+    "en": "art"
+   },
+   {
+    "i": 12,
+    "w": "以",
+    "py": "yǐ",
+    "pos": "prep.",
+    "en": "using because of; so as to"
+   },
+   {
+    "i": 13,
+    "w": "良好",
+    "py": "liáng hǎo",
+    "pos": "adj.",
+    "en": "good; fine"
+   },
+   {
+    "i": 14,
+    "w": "争取",
+    "py": "zhēng qǔ",
+    "pos": "v.",
+    "en": "strive for; fight for"
+   },
+   {
+    "i": 15,
+    "w": "忽视",
+    "py": "hū shì",
+    "pos": "v.",
+    "en": "ignore; look down upon; overlook"
+   },
+   {
+    "i": 16,
+    "w": "魅力",
+    "py": "mèi lì",
+    "pos": "n.",
+    "en": "enchantment"
+   },
+   {
+    "i": 17,
+    "w": "糟糕",
+    "py": "zāo gāo",
+    "pos": "adj.",
+    "en": "how terrible; what bad luck; too bad"
+   },
+   {
+    "i": 18,
+    "w": "婚礼",
+    "py": "hūn lǐ",
+    "pos": "n.",
+    "en": "wedding"
+   },
+   {
+    "i": 19,
+    "w": "等于",
+    "py": "děng yú",
+    "pos": "v.",
+    "en": "equal to; equivalent to; be worth"
+   },
+   {
+    "i": 20,
+    "w": "度过",
+    "py": "dù guò",
+    "pos": "v.",
+    "en": "spend; pass"
+   },
+   {
+    "i": 21,
+    "w": "告别",
+    "py": "gào bié",
+    "pos": "v.",
+    "en": "bid farewell to; to say good-bye to"
+   },
+   {
+    "i": 22,
+    "w": "平常",
+    "py": "píng cháng",
+    "pos": "n.",
+    "en": "ordinarily; generally; usually"
+   },
+   {
+    "i": 23,
+    "w": "依然",
+    "py": "yī rán",
+    "pos": "adv.",
+    "en": "still; as before"
+   },
+   {
+    "i": 24,
+    "w": "推荐",
+    "py": "tuī jiàn",
+    "pos": "v.",
+    "en": "recommend"
+   },
+   {
+    "i": 25,
+    "w": "淋漓尽致",
+    "py": "lín lí jìn zhì",
+    "pos": "adj.",
+    "en": "vivid and incisive; fully and thoroughly"
+   },
+   {
+    "i": 26,
+    "w": "评价",
+    "py": "píng jià",
+    "pos": "n.",
+    "en": "appraise; evaluate; assess"
+   },
+   {
+    "i": 27,
+    "w": "烂",
+    "py": "làn",
+    "pos": "adj.",
+    "en": "mashed; mushy; sodden"
+   },
+   {
+    "i": 28,
+    "w": "主持",
+    "py": "zhǔ chí",
+    "pos": "v.",
+    "en": "take charge of; manage; direct"
+   },
+   {
+    "i": 29,
+    "w": "运用",
+    "py": "yùn yòng",
+    "pos": "v.",
+    "en": "to put into practice, to apply"
+   },
+   {
+    "i": 30,
+    "w": "开幕式",
+    "py": "kāi mù shì",
+    "pos": "n.",
+    "en": "opening ceremony"
+   },
+   {
+    "i": 31,
+    "w": "宁可",
+    "py": "nìng kě",
+    "pos": "adv.",
+    "en": "would rather; better"
+   },
+   {
+    "i": 32,
+    "w": "集中",
+    "py": "jí zhōng",
+    "pos": "v.",
+    "en": "to concentrate; focus; pay attention"
+   },
+   {
+    "i": 33,
+    "w": "体会",
+    "py": "tǐ huì",
+    "pos": "v.",
+    "en": "know from experience"
+   }
+  ]
+ },
+ {
+  "lesson": 18,
+  "title": "抽象艺术美不美 Abstract Art: Beautiful or Not?",
+  "items": [
+   {
+    "i": 1,
+    "w": "抽象",
+    "py": "chōu xiàng",
+    "pos": "adj.",
+    "en": "abstract"
+   },
+   {
+    "i": 2,
+    "w": "古典",
+    "py": "gǔ diǎn",
+    "pos": "adj.",
+    "en": "classical"
+   },
+   {
+    "i": 3,
+    "w": "欣赏",
+    "py": "xīn shǎng",
+    "pos": "v.",
+    "en": "appreciate; enjoy; admire"
+   },
+   {
+    "i": 4,
+    "w": "布",
+    "py": "bù",
+    "pos": "n.",
+    "en": "cloth; textile; proclaim"
+   },
+   {
+    "i": 5,
+    "w": "规则",
+    "py": "guī zé",
+    "pos": "n.",
+    "en": "rule; regulation"
+   },
+   {
+    "i": 6,
+    "w": "派",
+    "py": "pài",
+    "pos": "v.",
+    "en": "faction; clique; to dispatch"
+   },
+   {
+    "i": 7,
+    "w": "作品",
+    "py": "zuò pǐn",
+    "pos": "n.",
+    "en": "works; opus"
+   },
+   {
+    "i": 8,
+    "w": "洒",
+    "py": "sǎ",
+    "pos": "v.",
+    "en": "to sprinkle; to spray"
+   },
+   {
+    "i": 9,
+    "w": "极其",
+    "py": "jí qí",
+    "pos": "adv.",
+    "en": "extremely"
+   },
+   {
+    "i": 10,
+    "w": "神秘",
+    "py": "shén mì",
+    "pos": "v.",
+    "en": "mysterious; mystical"
+   },
+   {
+    "i": 11,
+    "w": "丑陋",
+    "py": "chǒu lòu",
+    "pos": "adj.",
+    "en": "ugly"
+   },
+   {
+    "i": 12,
+    "w": "自由",
+    "py": "zì yóu",
+    "pos": "n./adj.",
+    "en": "freedom; free"
+   },
+   {
+    "i": 13,
+    "w": "设计",
+    "py": "shè jì",
+    "pos": "v.",
+    "en": "design"
+   },
+   {
+    "i": 14,
+    "w": "组",
+    "py": "zǔ",
+    "pos": "m.",
+    "en": "group; set; series"
+   },
+   {
+    "i": 15,
+    "w": "幅",
+    "py": "fú",
+    "pos": "m.",
+    "en": "width of cloth; [measure word (for paintings, pictures, textiles etc.)]"
+   },
+   {
+    "i": 16,
+    "w": "出自",
+    "py": "chū zì",
+    "pos": "v.",
+    "en": "to come from, to stem from"
+   },
+   {
+    "i": 17,
+    "w": "业余",
+    "py": "yè yú",
+    "pos": "adj.",
+    "en": "spare time; amateur"
+   },
+   {
+    "i": 18,
+    "w": "婴儿",
+    "py": "yīng ér",
+    "pos": "n.",
+    "en": "baby; infant"
+   },
+   {
+    "i": 19,
+    "w": "黑猩猩",
+    "py": "hēi xīng xīng",
+    "pos": "n.",
+    "en": "chimpanzee"
+   },
+   {
+    "i": 20,
+    "w": "涂鸦",
+    "py": "tú yā",
+    "pos": "v.",
+    "en": "to scrawl tuya"
+   },
+   {
+    "i": 21,
+    "w": "签",
+    "py": "qiān",
+    "pos": "v.",
+    "en": "to sign"
+   },
+   {
+    "i": 22,
+    "w": "其余",
+    "py": "qí yú",
+    "pos": "pron.",
+    "en": "the others; rest; remainder"
+   },
+   {
+    "i": 23,
+    "w": "身份",
+    "py": "shēn fèn",
+    "pos": "n.",
+    "en": "identity"
+   },
+   {
+    "i": 24,
+    "w": "确认",
+    "py": "què rèn",
+    "pos": "v.",
+    "en": "affirm; confirm; acknowledge"
+   },
+   {
+    "i": 25,
+    "w": "随手",
+    "py": "suí shǒu",
+    "pos": "adv.",
+    "en": "conveniently; without extra trouble"
+   },
+   {
+    "i": 26,
+    "w": "分辨",
+    "py": "fēn biàn",
+    "pos": "v.",
+    "en": "distinguish; differentiate; resolution"
+   },
+   {
+    "i": 27,
+    "w": "挥",
+    "py": "huī",
+    "pos": "v.",
+    "en": "wave; wield; wipe off"
+   },
+   {
+    "i": 28,
+    "w": "可见",
+    "py": "kě jiàn",
+    "pos": "conj.",
+    "en": "it is thus clear that; visible; visual"
+   },
+   {
+    "i": 29,
+    "w": "哪怕",
+    "py": "nǎ pà",
+    "pos": "conj.",
+    "en": "even if; even though"
+   },
+   {
+    "i": 30,
+    "w": "元素",
+    "py": "yuán sù",
+    "pos": "n.",
+    "en": "element"
+   },
+   {
+    "i": 31,
+    "w": "调整",
+    "py": "tiáo zhěng",
+    "pos": "v.",
+    "en": "to adjust; tune-up; trim"
+   },
+   {
+    "i": 32,
+    "w": "位置",
+    "py": "wèi zhi",
+    "pos": "n.",
+    "en": "position"
+   },
+   {
+    "i": 33,
+    "w": "含意",
+    "py": "hán yì",
+    "pos": "n.",
+    "en": "implied meaning, implication"
+   },
+   {
+    "i": 34,
+    "w": "区域",
+    "py": "qū yù",
+    "pos": "n.",
+    "en": "area; reach; domain"
+   },
+   {
+    "i": 35,
+    "w": "活跃",
+    "py": "huó yuè",
+    "pos": "adj.",
+    "en": "brisk; dynamic; lively"
+   },
+   {
+    "i": 36,
+    "w": "布局",
+    "py": "bù jú",
+    "pos": "v.",
+    "en": "layout; arrangement"
+   },
+   {
+    "i": 37,
+    "w": "事实",
+    "py": "shì shí",
+    "pos": "n.",
+    "en": "fact"
+   },
+   {
+    "i": 38,
+    "w": "目前",
+    "py": "mù qián",
+    "pos": "n.",
+    "en": "at present"
+   },
+   {
+    "i": 39,
+    "w": "证据",
+    "py": "zhèng jù",
+    "pos": "n.",
+    "en": "evidence; proof; testimony"
+   },
+   {
+    "i": 40,
+    "w": "话题",
+    "py": "huà tí",
+    "pos": "n.",
+    "en": "subject of a talk; topic of conversation"
+   }
+  ]
+ },
+ {
+  "lesson": 19,
+  "title": "家乡的萝卜饼 Turnip pancakes in my hometown",
+  "items": [
+   {
+    "i": 1,
+    "w": "家乡",
+    "py": "jiā xiāng",
+    "pos": "n.",
+    "en": "home town;native place"
+   },
+   {
+    "i": 2,
+    "w": "萝卜",
+    "py": "luó bo",
+    "pos": "n.",
+    "en": "turnip; radish"
+   },
+   {
+    "i": 3,
+    "w": "怀念",
+    "py": "huái niàn",
+    "pos": "v.",
+    "en": "cherish the memory of; remember fondly"
+   },
+   {
+    "i": 4,
+    "w": "色彩",
+    "py": "sè cǎi",
+    "pos": "n.",
+    "en": "colour; hue; tint"
+   },
+   {
+    "i": 5,
+    "w": "想念",
+    "py": "xiǎng niàn",
+    "pos": "v.",
+    "en": "long to see again; miss"
+   },
+   {
+    "i": 6,
+    "w": "青",
+    "py": "qīng",
+    "pos": "adj.",
+    "en": "blue or green [colour of water or grass]"
+   },
+   {
+    "i": 7,
+    "w": "紫",
+    "py": "zǐ",
+    "pos": "adj.",
+    "en": "purple"
+   },
+   {
+    "i": 8,
+    "w": "赏心悦目",
+    "py": "shǎng xīn yuè mù",
+    "pos": "adj.",
+    "en": "pleasant to the eye and mind"
+   },
+   {
+    "i": 9,
+    "w": "般",
+    "py": "bān",
+    "pos": "part.",
+    "en": "sort, kind"
+   },
+   {
+    "i": 10,
+    "w": "清淡",
+    "py": "qīng dàn",
+    "pos": "adj.",
+    "en": "light; mild; delicate"
+   },
+   {
+    "i": 11,
+    "w": "可口",
+    "py": "kě kǒu",
+    "pos": "adj.",
+    "en": "good to eat; tasty"
+   },
+   {
+    "i": 12,
+    "w": "夸",
+    "py": "kuā",
+    "pos": "v.",
+    "en": "exaggerate; boast"
+   },
+   {
+    "i": 13,
+    "w": "橘子",
+    "py": "jú zi",
+    "pos": "n.",
+    "en": "tangerine"
+   },
+   {
+    "i": 14,
+    "w": "梨",
+    "py": "lí",
+    "pos": "n.",
+    "en": "pear"
+   },
+   {
+    "i": 15,
+    "w": "炒",
+    "py": "chǎo",
+    "pos": "v.",
+    "en": "stir-fry"
+   },
+   {
+    "i": 16,
+    "w": "煮",
+    "py": "zhǔ",
+    "pos": "v.",
+    "en": "boil; cook; stew"
+   },
+   {
+    "i": 17,
+    "w": "油炸",
+    "py": "yóu zhá",
+    "pos": "v.",
+    "en": "deep-fry"
+   },
+   {
+    "i": 18,
+    "w": "切",
+    "py": "qiē",
+    "pos": "v.",
+    "en": "cut; slice"
+   },
+   {
+    "i": 19,
+    "w": "丝",
+    "py": "sī",
+    "pos": "n.",
+    "en": "shred, anything threadlike"
+   },
+   {
+    "i": 20,
+    "w": "搅拌",
+    "py": "jiǎo bàn",
+    "pos": "v.",
+    "en": "stir; whip; agitate"
+   },
+   {
+    "i": 21,
+    "w": "均匀",
+    "py": "jūn yún",
+    "pos": "adj.",
+    "en": "even; well-distributed; equality"
+   },
+   {
+    "i": 22,
+    "w": "原料",
+    "py": "yuán liào",
+    "pos": "n.",
+    "en": "raw material; crude material"
+   },
+   {
+    "i": 23,
+    "w": "擀",
+    "py": "gǎn",
+    "pos": "v.",
+    "en": "to roll (dough etc. with a rolling pin)"
+   },
+   {
+    "i": 24,
+    "w": "薄",
+    "py": "báo",
+    "pos": "adj.",
+    "en": "thin; flimsy"
+   },
+   {
+    "i": 25,
+    "w": "折叠",
+    "py": "zhé dié",
+    "pos": "v.",
+    "en": "to fold"
+   },
+   {
+    "i": 26,
+    "w": "透明",
+    "py": "tòu míng",
+    "pos": "adj.",
+    "en": "transparent"
+   },
+   {
+    "i": 27,
+    "w": "淋",
+    "py": "lín",
+    "pos": "v.",
+    "en": "filter; strain"
+   },
+   {
+    "i": 28,
+    "w": "圈",
+    "py": "quān",
+    "pos": "n.",
+    "en": "circle; ring"
+   },
+   {
+    "i": 29,
+    "w": "烫",
+    "py": "tàng",
+    "pos": "adj.",
+    "en": "burn; scald; heat up in hot water"
+   },
+   {
+    "i": 30,
+    "w": "盖",
+    "py": "gài",
+    "pos": "v.",
+    "en": "cover; lid"
+   },
+   {
+    "i": 31,
+    "w": "预防",
+    "py": "yù fáng",
+    "pos": "v.",
+    "en": "prevent; take precautions against; guard against"
+   },
+   {
+    "i": 32,
+    "w": "糊",
+    "py": "hú",
+    "pos": "v.",
+    "en": "to be burnt"
+   },
+   {
+    "i": 33,
+    "w": "文火",
+    "py": "wén huǒ",
+    "pos": "n.",
+    "en": "slow fire; gentle heat"
+   },
+   {
+    "i": 34,
+    "w": "闻",
+    "py": "wén",
+    "pos": "v.",
+    "en": "hear; smell"
+   },
+   {
+    "i": 35,
+    "w": "趁",
+    "py": "chèn",
+    "pos": "prep.",
+    "en": "to take advantage of; avail oneself of"
+   },
+   {
+    "i": 36,
+    "w": "口味",
+    "py": "kǒu wèi",
+    "pos": "n.",
+    "en": "flavour/taste"
+   },
+   {
+    "i": 37,
+    "w": "少许",
+    "py": "shǎo xǔ",
+    "pos": "adj.",
+    "en": "a little, some"
+   },
+   {
+    "i": 38,
+    "w": "酱油",
+    "py": "jiàng yóu",
+    "pos": "n.",
+    "en": "soy sauce"
+   },
+   {
+    "i": 39,
+    "w": "醋",
+    "py": "cù",
+    "pos": "n.",
+    "en": "vinegar"
+   },
+   {
+    "i": 40,
+    "w": "焦",
+    "py": "jiāo",
+    "pos": "adj.",
+    "en": "burnt, scorched"
+   },
+   {
+    "i": 41,
+    "w": "嫩",
+    "py": "nèn",
+    "pos": "adj.",
+    "en": "tender; delicate; underdone"
+   },
+   {
+    "i": 42,
+    "w": "特色",
+    "py": "tè sè",
+    "pos": "n.",
+    "en": "characteristic; distinguishing feature"
+   },
+   {
+    "i": 43,
+    "w": "痰",
+    "py": "tán",
+    "pos": "n.",
+    "en": "phlegm, sputum"
+   },
+   {
+    "i": 44,
+    "w": "平安",
+    "py": "píng ān",
+    "pos": "adj.",
+    "en": "peace, safe and sound"
+   }
+  ]
+ },
+ {
+  "lesson": 20,
+  "title": "小人书摊 Picture-story book stalls",
+  "items": [
+   {
+    "i": 1,
+    "w": "摊",
+    "py": "tān",
+    "pos": "v.",
+    "en": "to spread out"
+   },
+   {
+    "i": 2,
+    "w": "出版",
+    "py": "chū bǎn",
+    "pos": "v.",
+    "en": "publish; come off the press"
+   },
+   {
+    "i": 3,
+    "w": "连环画",
+    "py": "lián huán huà",
+    "pos": "n.",
+    "en": "picture-story book"
+   },
+   {
+    "i": 4,
+    "w": "年代",
+    "py": "nián dài",
+    "pos": "n.",
+    "en": "years; a decade of a century"
+   },
+   {
+    "i": 5,
+    "w": "单调",
+    "py": "dān diào",
+    "pos": "adj.",
+    "en": "monotonous, dull"
+   },
+   {
+    "i": 6,
+    "w": "网络",
+    "py": "wǎng luò",
+    "pos": "n.",
+    "en": "network, web"
+   },
+   {
+    "i": 7,
+    "w": "动画片",
+    "py": "dòng huà piān",
+    "pos": "n.",
+    "en": "cartoon"
+   },
+   {
+    "i": 8,
+    "w": "娱乐",
+    "py": "yú lè",
+    "pos": "v.",
+    "en": "amusement; entertainment; recreation"
+   },
+   {
+    "i": 9,
+    "w": "无数",
+    "py": "wú shù",
+    "pos": "adj.",
+    "en": "innumerable; countless; myriad"
+   },
+   {
+    "i": 10,
+    "w": "青少年",
+    "py": "qīng shào nián",
+    "pos": "n.",
+    "en": "youngsters"
+   },
+   {
+    "i": 11,
+    "w": "从事",
+    "py": "cóng shì",
+    "pos": "v.",
+    "en": "go in for; devote oneself to; be to engaged in [formal]"
+   },
+   {
+    "i": 12,
+    "w": "毫无",
+    "py": "háo wú",
+    "pos": "adv.",
+    "en": "not at all; completely without"
+   },
+   {
+    "i": 13,
+    "w": "疑问",
+    "py": "yí wèn",
+    "pos": "n.",
+    "en": "query; problem; doubt"
+   },
+   {
+    "i": 14,
+    "w": "棚子",
+    "py": "péng zi",
+    "pos": "n.",
+    "en": "shed, shack"
+   },
+   {
+    "i": 15,
+    "w": "砖头",
+    "py": "zhuān tóu",
+    "pos": "n.",
+    "en": "brick"
+   },
+   {
+    "i": 16,
+    "w": "支",
+    "py": "zhī",
+    "pos": "m.",
+    "en": "branch; the twelve Earthly Branches"
+   },
+   {
+    "i": 17,
+    "w": "粗糙",
+    "py": "cū cāo",
+    "pos": "adj.",
+    "en": "coarse"
+   },
+   {
+    "i": 18,
+    "w": "木头",
+    "py": "mù tou",
+    "pos": "n.",
+    "en": "wood; log; timber"
+   },
+   {
+    "i": 19,
+    "w": "题材",
+    "py": "tí cái",
+    "pos": "n.",
+    "en": "subject matter; theme"
+   },
+   {
+    "i": 20,
+    "w": "翻",
+    "py": "fān",
+    "pos": "v.",
+    "en": "turn over; turn around; reverse"
+   },
+   {
+    "i": 21,
+    "w": "搭",
+    "py": "dā",
+    "pos": "v.",
+    "en": "put up; build"
+   },
+   {
+    "i": 22,
+    "w": "整齐",
+    "py": "zhěng qí",
+    "pos": "adj.",
+    "en": "tidy"
+   },
+   {
+    "i": 23,
+    "w": "年纪",
+    "py": "nián jì",
+    "pos": "n.",
+    "en": "age"
+   },
+   {
+    "i": 24,
+    "w": "身材",
+    "py": "shēn cái",
+    "pos": "n.",
+    "en": "stature; figure"
+   },
+   {
+    "i": 25,
+    "w": "成人",
+    "py": "chéng rén",
+    "pos": "n.",
+    "en": "adult"
+   },
+   {
+    "i": 26,
+    "w": "册",
+    "py": "cè",
+    "pos": "n.",
+    "en": "volume; copy [measure word for books]"
+   },
+   {
+    "i": 27,
+    "w": "假如",
+    "py": "jiǎ rú",
+    "pos": "conj.",
+    "en": "if; supposing; in case"
+   },
+   {
+    "i": 28,
+    "w": "登记",
+    "py": "dēng jì",
+    "pos": "v.",
+    "en": "to register; check in"
+   },
+   {
+    "i": 29,
+    "w": "记录",
+    "py": "jì lù",
+    "pos": "v.",
+    "en": "take notes; keep the minutes"
+   },
+   {
+    "i": 30,
+    "w": "手续",
+    "py": "shǒu xù",
+    "pos": "n.",
+    "en": "procedures; routine; process"
+   },
+   {
+    "i": 31,
+    "w": "办理",
+    "py": "bàn lǐ",
+    "pos": "v.",
+    "en": "deal with; attend to; handle"
+   },
+   {
+    "i": 32,
+    "w": "押金",
+    "py": "yā jīn",
+    "pos": "n.",
+    "en": "cash pledge; deposit; security"
+   },
+   {
+    "i": 33,
+    "w": "凭",
+    "py": "píng",
+    "pos": "prep.",
+    "en": "lean on; depend on; evidence"
+   },
+   {
+    "i": 34,
+    "w": "印刷",
+    "py": "yìn shuā",
+    "pos": "v.",
+    "en": "print; printing"
+   },
+   {
+    "i": 35,
+    "w": "涨",
+    "py": "zhǎng",
+    "pos": "v.",
+    "en": "swell up; rise; be more than expected"
+   },
+   {
+    "i": 36,
+    "w": "收藏",
+    "py": "shōu cáng",
+    "pos": "v.",
+    "en": "collect; store up"
+   }
+  ]
+ },
+ {
+  "lesson": 21,
+  "title": "汉字叔叔：一个美国人的汉字情缘 Uncle Hanzi: The predestined love of an American for Chinese characters",
+  "items": [
+   {
+    "i": 1,
+    "w": "情缘",
+    "py": "qíng yuán",
+    "pos": "n.",
+    "en": "predestined love, sentimental bond"
+   },
+   {
+    "i": 2,
+    "w": "逻辑",
+    "py": "luó ji",
+    "pos": "n.",
+    "en": "logic"
+   },
+   {
+    "i": 3,
+    "w": "硬",
+    "py": "yìng",
+    "pos": "adj.",
+    "en": "hard"
+   },
+   {
+    "i": 4,
+    "w": "偶然",
+    "py": "ǒu rán",
+    "pos": "adj./adv.",
+    "en": "accidental; by chance"
+   },
+   {
+    "i": 5,
+    "w": "演变",
+    "py": "yǎn biàn",
+    "pos": "v.",
+    "en": "develop; evolve"
+   },
+   {
+    "i": 6,
+    "w": "遗憾",
+    "py": "yí hàn",
+    "pos": "n.",
+    "en": "regret; pity"
+   },
+   {
+    "i": 7,
+    "w": "心脏",
+    "py": "xīn zàng",
+    "pos": "n.",
+    "en": "heart"
+   },
+   {
+    "i": 8,
+    "w": "思考",
+    "py": "sī kǎo",
+    "pos": "v.",
+    "en": "ponder; reflect on; deliberate"
+   },
+   {
+    "i": 9,
+    "w": "抓紧",
+    "py": "zhuā jǐn",
+    "pos": "v.",
+    "en": "firmly grasp; pay close attention to"
+   },
+   {
+    "i": 10,
+    "w": "尽快",
+    "py": "jǐn kuài",
+    "pos": "adv.",
+    "en": "as quickly as possible"
+   },
+   {
+    "i": 11,
+    "w": "经典",
+    "py": "jīng diǎn",
+    "pos": "adj.",
+    "en": "classics"
+   },
+   {
+    "i": 12,
+    "w": "库",
+    "py": "kù",
+    "pos": "n.",
+    "en": "storehouse, bank"
+   },
+   {
+    "i": 13,
+    "w": "输入",
+    "py": "shū rù",
+    "pos": "v.",
+    "en": "to import; input; entry"
+   },
+   {
+    "i": 14,
+    "w": "元旦",
+    "py": "yuán dàn",
+    "pos": "n.",
+    "en": "New Year's Day"
+   },
+   {
+    "i": 15,
+    "w": "疾病",
+    "py": "jí bìng",
+    "pos": "n.",
+    "en": "disease; illness; sickness"
+   },
+   {
+    "i": 16,
+    "w": "创办",
+    "py": "chuàng bàn",
+    "pos": "v.",
+    "en": "to establish, to set up"
+   },
+   {
+    "i": 17,
+    "w": "公开",
+    "py": "gōng kāi",
+    "pos": "v.",
+    "en": "open; overt; to make public"
+   },
+   {
+    "i": 18,
+    "w": "最初",
+    "py": "zuì chū",
+    "pos": "n.",
+    "en": "initial; first; prime"
+   },
+   {
+    "i": 19,
+    "w": "痛苦",
+    "py": "tòng kǔ",
+    "pos": "adj.",
+    "en": "pain; agony; sore"
+   },
+   {
+    "i": 20,
+    "w": "微博",
+    "py": "wēi bó",
+    "pos": "n.",
+    "en": "microblog"
+   },
+   {
+    "i": 21,
+    "w": "称呼",
+    "py": "chēng hu",
+    "pos": "n.",
+    "en": "call; address"
+   },
+   {
+    "i": 22,
+    "w": "克服",
+    "py": "kè fú",
+    "pos": "v.",
+    "en": "overcome; conquer; endure"
+   },
+   {
+    "i": 23,
+    "w": "收集",
+    "py": "shōu jí",
+    "pos": "v.",
+    "en": "to collect, to gather"
+   },
+   {
+    "i": 24,
+    "w": "包含",
+    "py": "bāo hán",
+    "pos": "v.",
+    "en": "to contain; embody; include; inclusion"
+   },
+   {
+    "i": 25,
+    "w": "繁体字",
+    "py": "fán tǐ zì",
+    "pos": "n.",
+    "en": "complex form, traditional Chinese characters"
+   },
+   {
+    "i": 26,
+    "w": "简体字",
+    "py": "jiǎn tǐ zì",
+    "pos": "n.",
+    "en": "simplified form, simplified Chinese characters"
+   },
+   {
+    "i": 27,
+    "w": "方言",
+    "py": "fāng yán",
+    "pos": "n.",
+    "en": "dialect"
+   },
+   {
+    "i": 28,
+    "w": "称赞",
+    "py": "chēng zàn",
+    "pos": "v.",
+    "en": "to praise; to acclaim; to commend"
+   },
+   {
+    "i": 29,
+    "w": "真相",
+    "py": "zhēn xiàng",
+    "pos": "n.",
+    "en": "truth, fact"
+   },
+   {
+    "i": 30,
+    "w": "佩服",
+    "py": "pèi fú",
+    "pos": "v.",
+    "en": "to admire; have a high opinion of"
+   },
+   {
+    "i": 31,
+    "w": "开放",
+    "py": "kāi fàng",
+    "pos": "v.",
+    "en": "lift a restriction; open up (to the outside world/ public etc.)"
+   },
+   {
+    "i": 32,
+    "w": "下载",
+    "py": "xià zài",
+    "pos": "v.",
+    "en": "download"
+   },
+   {
+    "i": 33,
+    "w": "单位",
+    "py": "dān wèi",
+    "pos": "n.",
+    "en": "unit"
+   },
+   {
+    "i": 34,
+    "w": "识别",
+    "py": "shí bié",
+    "pos": "v.",
+    "en": "discriminate; distinguish; discern"
+   },
+   {
+    "i": 35,
+    "w": "查询",
+    "py": "chá xún",
+    "pos": "v.",
+    "en": "to search, to retrieve"
+   },
+   {
+    "i": 36,
+    "w": "物理",
+    "py": "wù lǐ",
+    "pos": "n.",
+    "en": "physics"
+   },
+   {
+    "i": 37,
+    "w": "完善",
+    "py": "wán shàn",
+    "pos": "adj.",
+    "en": "perfect; to improve and perfect"
+   },
+   {
+    "i": 38,
+    "w": "退休",
+    "py": "tuì xiū",
+    "pos": "v.",
+    "en": "retire"
+   },
+   {
+    "i": 39,
+    "w": "日程",
+    "py": "rì chéng",
+    "pos": "n.",
+    "en": "programme; schedule; agenda for the day"
+   },
+   {
+    "i": 40,
+    "w": "追求",
+    "py": "zhuī qiú",
+    "pos": "v.",
+    "en": "seek; pursue; woo"
+   },
+   {
+    "i": 41,
+    "w": "梦想",
+    "py": "mèng xiǎng",
+    "pos": "n.",
+    "en": "hope vainly; pipe dream"
+   }
+  ]
+ },
+ {
+  "lesson": 22,
+  "title": "阅读与思考 Reading and thinking",
+  "items": [
+   {
+    "i": 1,
+    "w": "过分",
+    "py": "guò fèn",
+    "pos": "adj.",
+    "en": "excessive; go too far"
+   },
+   {
+    "i": 2,
+    "w": "强调",
+    "py": "qiáng diào",
+    "pos": "v.",
+    "en": "stress; emphasize; underline"
+   },
+   {
+    "i": 3,
+    "w": "作文",
+    "py": "zuò wén",
+    "pos": "n.",
+    "en": "write a composition"
+   },
+   {
+    "i": 4,
+    "w": "观点",
+    "py": "guān diǎn",
+    "pos": "n.",
+    "en": "point of view; standpoint"
+   },
+   {
+    "i": 5,
+    "w": "客观",
+    "py": "kè guān",
+    "pos": "adj.",
+    "en": "objective"
+   },
+   {
+    "i": 6,
+    "w": "全面",
+    "py": "quán miàn",
+    "pos": "adj.",
+    "en": "all-round; entire; comprehensive;"
+   },
+   {
+    "i": 7,
+    "w": "转变",
+    "py": "zhuǎn biàn",
+    "pos": "v.",
+    "en": "change; convert; turn"
+   },
+   {
+    "i": 8,
+    "w": "观念",
+    "py": "guān niàn",
+    "pos": "n.",
+    "en": "sense; concept; perception"
+   },
+   {
+    "i": 9,
+    "w": "火柴",
+    "py": "huǒ chái",
+    "pos": "n.",
+    "en": "match"
+   },
+   {
+    "i": 10,
+    "w": "灰",
+    "py": "huī",
+    "pos": "adj.",
+    "en": "grey; ash; dust"
+   },
+   {
+    "i": 11,
+    "w": "一旦",
+    "py": "yí dàn",
+    "pos": "adv.",
+    "en": "in a single day; in a very short time; in case [something happens]"
+   },
+   {
+    "i": 12,
+    "w": "王宫",
+    "py": "wáng gōng",
+    "pos": "n.",
+    "en": "royal palace"
+   },
+   {
+    "i": 13,
+    "w": "王子",
+    "py": "wáng zǐ",
+    "pos": "n.",
+    "en": "prince; king's son"
+   },
+   {
+    "i": 14,
+    "w": "属于",
+    "py": "shǔ yú",
+    "pos": "v.",
+    "en": "belong to; be part of; pertain to"
+   },
+   {
+    "i": 15,
+    "w": "对待",
+    "py": "duì dài",
+    "pos": "v.",
+    "en": "to treat; handle; be in a position related to another"
+   },
+   {
+    "i": 16,
+    "w": "交换",
+    "py": "jiāo huàn",
+    "pos": "v.",
+    "en": "swap; to exchange"
+   },
+   {
+    "i": 17,
+    "w": "拥有",
+    "py": "yōng yǒu",
+    "pos": "v.",
+    "en": "possess; have; own"
+   },
+   {
+    "i": 18,
+    "w": "巨大",
+    "py": "jù dà",
+    "pos": "adj.",
+    "en": "huge; enormous; gigantic"
+   },
+   {
+    "i": 19,
+    "w": "承认",
+    "py": "chéng rèn",
+    "pos": "v.",
+    "en": "to admit; to acknowledge; to recognise"
+   },
+   {
+    "i": 20,
+    "w": "人性",
+    "py": "rén xìng",
+    "pos": "n.",
+    "en": "human feelings; reason"
+   },
+   {
+    "i": 21,
+    "w": "完美",
+    "py": "wán měi",
+    "pos": "adj.",
+    "en": "perfect; flawless"
+   },
+   {
+    "i": 22,
+    "w": "难免",
+    "py": "nán miǎn",
+    "pos": "adj.",
+    "en": "hard to avoid"
+   },
+   {
+    "i": 23,
+    "w": "疼爱",
+    "py": "téng ài",
+    "pos": "v.",
+    "en": "be very fond of; love dearly"
+   },
+   {
+    "i": 24,
+    "w": "平等",
+    "py": "píng děng",
+    "pos": "adj.",
+    "en": "equal; equality"
+   },
+   {
+    "i": 25,
+    "w": "自私",
+    "py": "zì sī",
+    "pos": "adj.",
+    "en": "selfish; self-centred; self-seeking"
+   },
+   {
+    "i": 26,
+    "w": "倾向",
+    "py": "qīng xiàng",
+    "pos": "v.",
+    "en": "be inclined to; prefer"
+   },
+   {
+    "i": 27,
+    "w": "理由",
+    "py": "lǐ yóu",
+    "pos": "n.",
+    "en": "reason; justification"
+   },
+   {
+    "i": 28,
+    "w": "道德",
+    "py": "dào dé",
+    "pos": "n.",
+    "en": "morality; ethics"
+   },
+   {
+    "i": 29,
+    "w": "自从",
+    "py": "zì cóng",
+    "pos": "prep.",
+    "en": "since"
+   },
+   {
+    "i": 30,
+    "w": "童话",
+    "py": "tóng huà",
+    "pos": "n.",
+    "en": "children's stories; fairy tales"
+   },
+   {
+    "i": 31,
+    "w": "价值",
+    "py": "jià zhí",
+    "pos": "n.",
+    "en": "value; cost; worth"
+   },
+   {
+    "i": 32,
+    "w": "单纯",
+    "py": "dān chún",
+    "pos": "adj.",
+    "en": "simple; pure; alone"
+   },
+   {
+    "i": 33,
+    "w": "主张",
+    "py": "zhǔ zhāng",
+    "pos": "v.",
+    "en": "claim; assertionl; proposal"
+   },
+   {
+    "i": 34,
+    "w": "知觉",
+    "py": "zhī jué",
+    "pos": "n.",
+    "en": "consciousness; perception"
+   }
+  ]
+ },
+ {
+  "lesson": 23,
+  "title": "放手 Letting go",
+  "items": [
+   {
+    "i": 1,
+    "w": "乖",
+    "py": "guāi",
+    "pos": "adj.",
+    "en": "obeident; well-behaved [child]"
+   },
+   {
+    "i": 2,
+    "w": "刻苦",
+    "py": "kè kǔ",
+    "pos": "adj.",
+    "en": "assiduous; hardworking; painstaking"
+   },
+   {
+    "i": 3,
+    "w": "遵守",
+    "py": "zūn shǒu",
+    "pos": "v.",
+    "en": "observe; abide by; comply with"
+   },
+   {
+    "i": 4,
+    "w": "纪律",
+    "py": "jì lǜ",
+    "pos": "n.",
+    "en": "discipline"
+   },
+   {
+    "i": 5,
+    "w": "征求",
+    "py": "zhēng qiú",
+    "pos": "v.",
+    "en": "solicit; seek; ask for"
+   },
+   {
+    "i": 6,
+    "w": "念",
+    "py": "niàn",
+    "pos": "v.",
+    "en": "to read aloud; attend school; think of"
+   },
+   {
+    "i": 7,
+    "w": "基本",
+    "py": "jī běn",
+    "pos": "adj.",
+    "en": "basic; fundamental"
+   },
+   {
+    "i": 8,
+    "w": "阶段",
+    "py": "jiē duàn",
+    "pos": "n.",
+    "en": "section; stage; phase"
+   },
+   {
+    "i": 9,
+    "w": "亲爱",
+    "py": "qīn ài",
+    "pos": "adj.",
+    "en": "dear; beloved"
+   },
+   {
+    "i": 10,
+    "w": "违反",
+    "py": "wéi fǎn",
+    "pos": "v.",
+    "en": "to violate; transgress; infringe"
+   },
+   {
+    "i": 11,
+    "w": "规矩",
+    "py": "guī ju",
+    "pos": "n.",
+    "en": "rule; established practice; custom"
+   },
+   {
+    "i": 12,
+    "w": "能干",
+    "py": "néng gàn",
+    "pos": "adj.",
+    "en": "able; capable; competent"
+   },
+   {
+    "i": 13,
+    "w": "讲座",
+    "py": "jiǎng zuò",
+    "pos": "n.",
+    "en": "series of lectures"
+   },
+   {
+    "i": 14,
+    "w": "出席",
+    "py": "chū xí",
+    "pos": "v.",
+    "en": "to attend; to be present"
+   },
+   {
+    "i": 15,
+    "w": "酒吧",
+    "py": "jiǔ bā",
+    "pos": "n.",
+    "en": "bar"
+   },
+   {
+    "i": 16,
+    "w": "担任",
+    "py": "dān rèn",
+    "pos": "v.",
+    "en": "assume the office of; to hold the post of"
+   },
+   {
+    "i": 17,
+    "w": "主席",
+    "py": "zhǔ xí",
+    "pos": "n.",
+    "en": "chairperson"
+   },
+   {
+    "i": 18,
+    "w": "组织",
+    "py": "zǔ zhī",
+    "pos": "v.",
+    "en": "organisation"
+   },
+   {
+    "i": 19,
+    "w": "外交",
+    "py": "wài jiāo",
+    "pos": "n.",
+    "en": "diplomacy; foreign affairs"
+   },
+   {
+    "i": 20,
+    "w": "经商",
+    "py": "jīng shāng",
+    "pos": "v.",
+    "en": "engage in trade; be in business"
+   },
+   {
+    "i": 21,
+    "w": "目标",
+    "py": "mù biāo",
+    "pos": "n.",
+    "en": "aim; objective; goal"
+   },
+   {
+    "i": 22,
+    "w": "系",
+    "py": "xì",
+    "pos": "n.",
+    "en": "tie; fasten; system; department"
+   },
+   {
+    "i": 23,
+    "w": "名牌",
+    "py": "míng pái",
+    "pos": "n.",
+    "en": "famous brand"
+   },
+   {
+    "i": 24,
+    "w": "录取",
+    "py": "lù qǔ",
+    "pos": "v.",
+    "en": "enroll; recruit; admit to"
+   },
+   {
+    "i": 25,
+    "w": "面临",
+    "py": "miàn lín",
+    "pos": "v.",
+    "en": "be faced with; be up against"
+   },
+   {
+    "i": 26,
+    "w": "一致",
+    "py": "yí zhì",
+    "pos": "adj.",
+    "en": "identical; unanimous"
+   },
+   {
+    "i": 27,
+    "w": "让步",
+    "py": "ràng bù",
+    "pos": "v.",
+    "en": "to concede; compromise"
+   },
+   {
+    "i": 28,
+    "w": "隐约",
+    "py": "yǐn yuē",
+    "pos": "adj.",
+    "en": "indistinct; faint"
+   },
+   {
+    "i": 29,
+    "w": "陌生",
+    "py": "mò shēng",
+    "pos": "adj.",
+    "en": "strange; unfamiliar; inexperienced"
+   },
+   {
+    "i": 30,
+    "w": "某",
+    "py": "mǒu",
+    "pos": "pron.",
+    "en": "certain; some"
+   },
+   {
+    "i": 31,
+    "w": "建立",
+    "py": "jiàn lì",
+    "pos": "v.",
+    "en": "build; set up; establish"
+   },
+   {
+    "i": 32,
+    "w": "单独",
+    "py": "dān dú",
+    "pos": "adv.",
+    "en": "alone; by oneself; on one's own; single-handed"
+   },
+   {
+    "i": 33,
+    "w": "沟通",
+    "py": "gōu tōng",
+    "pos": "v.",
+    "en": "to communicate; link up; connect"
+   },
+   {
+    "i": 34,
+    "w": "横",
+    "py": "héng",
+    "pos": "v.",
+    "en": "horizontal"
+   },
+   {
+    "i": 35,
+    "w": "沙滩",
+    "py": "shā tān",
+    "pos": "n.",
+    "en": "beach"
+   },
+   {
+    "i": 36,
+    "w": "沉默",
+    "py": "chén mò",
+    "pos": "v.",
+    "en": "reticent; taciturn; uncommunicative"
+   },
+   {
+    "i": 37,
+    "w": "吻",
+    "py": "wěn",
+    "pos": "v.",
+    "en": "kiss"
+   },
+   {
+    "i": 39,
+    "w": "幸亏",
+    "py": "xìng kuī",
+    "pos": "adv.",
+    "en": "fortunately; luckily"
+   },
+   {
+    "i": 40,
+    "w": "暗",
+    "py": "àn",
+    "pos": "adj.",
+    "en": "dark"
+   }
+  ]
+ },
+ {
+  "lesson": 24,
+  "title": "支教行动 Volunteer teaching",
+  "items": [
+   {
+    "i": 1,
+    "w": "支教",
+    "py": "zhī jiào",
+    "pos": "v.",
+    "en": "to volunteer to teach in a backward region"
+   },
+   {
+    "i": 2,
+    "w": "行动",
+    "py": "xíng dòng",
+    "pos": "v.",
+    "en": "operation; move about; mobile"
+   },
+   {
+    "i": 3,
+    "w": "家访",
+    "py": "jiā fǎng",
+    "pos": "v.",
+    "en": "to visit the parents of schoolchildren"
+   },
+   {
+    "i": 4,
+    "w": "发言",
+    "py": "fā yán",
+    "pos": "v.",
+    "en": "speak; make a statement; take the floor"
+   },
+   {
+    "i": 5,
+    "w": "及格",
+    "py": "jí gé",
+    "pos": "v.",
+    "en": "pass (a test, examination etc)"
+   },
+   {
+    "i": 6,
+    "w": "交往",
+    "py": "jiāo wǎng",
+    "pos": "v.",
+    "en": "be in contact with; associate with"
+   },
+   {
+    "i": 7,
+    "w": "家务",
+    "py": "jiā wù",
+    "pos": "n.",
+    "en": "house work"
+   },
+   {
+    "i": 8,
+    "w": "体贴",
+    "py": "tǐ tiē",
+    "pos": "v.",
+    "en": "show consideration for"
+   },
+   {
+    "i": 9,
+    "w": "排练",
+    "py": "pái liàn",
+    "pos": "v.",
+    "en": "rehearse"
+   },
+   {
+    "i": 10,
+    "w": "蝴蝶",
+    "py": "hú dié",
+    "pos": "n.",
+    "en": "butterfly"
+   },
+   {
+    "i": 11,
+    "w": "舞蹈",
+    "py": "wǔ dǎo",
+    "pos": "n.",
+    "en": "dance"
+   },
+   {
+    "i": 12,
+    "w": "冠军",
+    "py": "guàn jūn",
+    "pos": "n.",
+    "en": "champion"
+   },
+   {
+    "i": 13,
+    "w": "鼓掌",
+    "py": "gǔ zhǎng",
+    "pos": "v.",
+    "en": "applaud"
+   },
+   {
+    "i": 14,
+    "w": "用功",
+    "py": "yòng gōng",
+    "pos": "adj.",
+    "en": "hardworking; diligent; studious"
+   },
+   {
+    "i": 15,
+    "w": "进步",
+    "py": "jìn bù",
+    "pos": "v.",
+    "en": "progress"
+   },
+   {
+    "i": 16,
+    "w": "题目",
+    "py": "tí mù",
+    "pos": "n.",
+    "en": "topic; subject; title"
+   },
+   {
+    "i": 17,
+    "w": "朗读",
+    "py": "lǎng dú",
+    "pos": "v.",
+    "en": "read aloud; read loudly and clearly"
+   },
+   {
+    "i": 18,
+    "w": "温柔",
+    "py": "wēn róu",
+    "pos": "adj.",
+    "en": "meek; pleasingly affectionate; gentle and soft"
+   },
+   {
+    "i": 19,
+    "w": "热烈",
+    "py": "rè liè",
+    "pos": "adj.",
+    "en": "warm; heartily; fervent"
+   },
+   {
+    "i": 20,
+    "w": "勇气",
+    "py": "yǒng qì",
+    "pos": "n.",
+    "en": "courage; nerve"
+   },
+   {
+    "i": 21,
+    "w": "青壮年",
+    "py": "qīng zhuàng nián",
+    "pos": "young and middle",
+    "en": "aged adults"
+   },
+   {
+    "i": 22,
+    "w": "闯",
+    "py": "chuǎng",
+    "pos": "v.",
+    "en": "to rush; charge"
+   },
+   {
+    "i": 23,
+    "w": "留守",
+    "py": "liú shǒu",
+    "pos": "v.",
+    "en": "to stay behind to take care of things"
+   },
+   {
+    "i": 24,
+    "w": "主题",
+    "py": "zhǔ tí",
+    "pos": "n.",
+    "en": "theme; subject; topic"
+   },
+   {
+    "i": 25,
+    "w": "地理",
+    "py": "dì lǐ",
+    "pos": "n.",
+    "en": "geographical features of a place; geography"
+   },
+   {
+    "i": 26,
+    "w": "采访",
+    "py": "cǎi fǎng",
+    "pos": "v.",
+    "en": "to interview"
+   },
+   {
+    "i": 27,
+    "w": "利用",
+    "py": "lì yòng",
+    "pos": "v.",
+    "en": "make use of; take advantage of"
+   },
+   {
+    "i": 28,
+    "w": "空闲",
+    "py": "kòng xián",
+    "pos": "adj.",
+    "en": "free time; spare time"
+   },
+   {
+    "i": 29,
+    "w": "指导",
+    "py": "zhǐ dǎo",
+    "pos": "v.",
+    "en": "guide; direct; conduct"
+   },
+   {
+    "i": 30,
+    "w": "培训",
+    "py": "péi xùn",
+    "pos": "v.",
+    "en": "training; cultivate"
+   },
+   {
+    "i": 31,
+    "w": "建设",
+    "py": "jiàn shè",
+    "pos": "v.",
+    "en": "to build; to construct; develop"
+   },
+   {
+    "i": 32,
+    "w": "操心",
+    "py": "cāo xīn",
+    "pos": "v.",
+    "en": "to worry about; to take pains over; be concerned over"
+   },
+   {
+    "i": 33,
+    "w": "承担",
+    "py": "chéng dān",
+    "pos": "v.",
+    "en": "bear; to undertake; assume"
+   },
+   {
+    "i": 34,
+    "w": "义务",
+    "py": "yì wù",
+    "pos": "n.",
+    "en": "duty; obligation"
+   },
+   {
+    "i": 35,
+    "w": "艰巨",
+    "py": "jiān jù",
+    "pos": "adj.",
+    "en": "arduous; formidable; onerous"
+   },
+   {
+    "i": 36,
+    "w": "力量",
+    "py": "lì liang",
+    "pos": "n.",
+    "en": "physical strength; power"
+   },
+   {
+    "i": 37,
+    "w": "收获",
+    "py": "shōu huò",
+    "pos": "v.",
+    "en": "gather in the crops; harvest; reap"
+   }
+  ]
+ },
+ {
+  "lesson": 25,
+  "title": "给自己加满水 Adding up the load on yourself",
+  "items": [
+   {
+    "i": 1,
+    "w": "返航",
+    "py": "fǎn háng",
+    "pos": "v.",
+    "en": "to be on the homeward voyage"
+   },
+   {
+    "i": 2,
+    "w": "恶劣",
+    "py": "è liè",
+    "pos": "adj.",
+    "en": "odious; vile; disgusting"
+   },
+   {
+    "i": 3,
+    "w": "可怕",
+    "py": "kě pà",
+    "pos": "adj.",
+    "en": "frightening; dreadful"
+   },
+   {
+    "i": 4,
+    "w": "风浪",
+    "py": "fēng làng",
+    "pos": "n.",
+    "en": "storm, stormy waves"
+   },
+   {
+    "i": 5,
+    "w": "慌张",
+    "py": "huāng zhāng",
+    "pos": "adj.",
+    "en": "flustered; confused; trepidation"
+   },
+   {
+    "i": 6,
+    "w": "舱",
+    "py": "cāng",
+    "pos": "n.",
+    "en": "cabin; module"
+   },
+   {
+    "i": 7,
+    "w": "使劲儿",
+    "py": "shǐ jìn er",
+    "pos": "v.",
+    "en": "exert all one's strength"
+   },
+   {
+    "i": 8,
+    "w": "朝",
+    "py": "cháo",
+    "pos": "prep.",
+    "en": "dynasty; court; government"
+   },
+   {
+    "i": 9,
+    "w": "简直",
+    "py": "jiǎn zhí",
+    "pos": "adv.",
+    "en": "simply"
+   },
+   {
+    "i": 10,
+    "w": "沉",
+    "py": "chén",
+    "pos": "v.",
+    "en": "to sink"
+   },
+   {
+    "i": 11,
+    "w": "严肃",
+    "py": "yán sù",
+    "pos": "adj.",
+    "en": "serious; solemn; earnest"
+   },
+   {
+    "i": 12,
+    "w": "猛烈",
+    "py": "měng liè",
+    "pos": "adj.",
+    "en": "fierce; violent; vigorous"
+   },
+   {
+    "i": 13,
+    "w": "狂",
+    "py": "kuáng",
+    "pos": "adj.",
+    "en": "wildly, unrestrainedly"
+   },
+   {
+    "i": 14,
+    "w": "威胁",
+    "py": "wēi xié",
+    "pos": "v.",
+    "en": "threaten; menace"
+   },
+   {
+    "i": 15,
+    "w": "平衡",
+    "py": "píng héng",
+    "pos": "v.",
+    "en": "balance; equilibrium"
+   },
+   {
+    "i": 16,
+    "w": "吨",
+    "py": "dūn",
+    "pos": "m.",
+    "en": "ton"
+   },
+   {
+    "i": 17,
+    "w": "钢铁",
+    "py": "gāng tiě",
+    "pos": "n.",
+    "en": "iron and steel"
+   },
+   {
+    "i": 18,
+    "w": "根基",
+    "py": "gēn jī",
+    "pos": "n.",
+    "en": "basis, foundation"
+   },
+   {
+    "i": 19,
+    "w": "重量",
+    "py": "zhòng liàng",
+    "pos": "n.",
+    "en": "weight; scale; heft"
+   },
+   {
+    "i": 20,
+    "w": "相似",
+    "py": "xiāng sì",
+    "pos": "adj.",
+    "en": "resemble; be similar; be alike"
+   },
+   {
+    "i": 21,
+    "w": "风景",
+    "py": "fēng jǐng",
+    "pos": "n.",
+    "en": "scenery"
+   },
+   {
+    "i": 22,
+    "w": "窄",
+    "py": "zhǎi",
+    "pos": "adj.",
+    "en": "narrow"
+   },
+   {
+    "i": 23,
+    "w": "万丈",
+    "py": "wàn zhàng",
+    "pos": "num./mw.",
+    "en": "lofty, bottomless"
+   },
+   {
+    "i": 24,
+    "w": "深渊",
+    "py": "shēn yuān",
+    "pos": "n.",
+    "en": "abyss, bottomless pit"
+   },
+   {
+    "i": 25,
+    "w": "游览",
+    "py": "yóu lǎn",
+    "pos": "v.",
+    "en": "go sightseeing; tour; visit"
+   },
+   {
+    "i": 26,
+    "w": "发抖",
+    "py": "fā dǒu",
+    "pos": "v.",
+    "en": "to shiver; shake; tremble"
+   },
+   {
+    "i": 27,
+    "w": "负重",
+    "py": "fù zhòng",
+    "pos": "v.",
+    "en": "to bear a load or weight"
+   },
+   {
+    "i": 28,
+    "w": "摔倒",
+    "py": "shuāi dǎo",
+    "pos": "v.",
+    "en": "to fall down"
+   },
+   {
+    "i": 29,
+    "w": "妇女",
+    "py": "fù nǚ",
+    "pos": "n.",
+    "en": "woman"
+   },
+   {
+    "i": 30,
+    "w": "起",
+    "py": "qǐ",
+    "pos": "m.",
+    "en": "case, instance"
+   },
+   {
+    "i": 31,
+    "w": "丝毫",
+    "py": "sī háo",
+    "pos": "adj.",
+    "en": "the slightest amount"
+   },
+   {
+    "i": 32,
+    "w": "滚",
+    "py": "gǔn",
+    "pos": "v.",
+    "en": "to roll; trundle"
+   },
+   {
+    "i": 33,
+    "w": "风险",
+    "py": "fēng xiǎn",
+    "pos": "n.",
+    "en": "risk; hazard; danger"
+   },
+   {
+    "i": 34,
+    "w": "谨慎",
+    "py": "jǐn shèn",
+    "pos": "adj.",
+    "en": "prudent; careful; cautious"
+   },
+   {
+    "i": 35,
+    "w": "效应",
+    "py": "xiào yìng",
+    "pos": "n.",
+    "en": "effect [scientific phenomenon]"
+   },
+   {
+    "i": 36,
+    "w": "胸",
+    "py": "xiōng",
+    "pos": "n.",
+    "en": "chest; bosom; thorax"
+   },
+   {
+    "i": 37,
+    "w": "承受",
+    "py": "chéng shòu",
+    "pos": "v.",
+    "en": "to bear; support; to endure; inherit"
+   },
+   {
+    "i": 38,
+    "w": "和尚",
+    "py": "hé shàng",
+    "pos": "n.",
+    "en": "(Buddhist) monk"
+   },
+   {
+    "i": 39,
+    "w": "钟",
+    "py": "zhōng",
+    "pos": "n.",
+    "en": "bell"
+   },
+   {
+    "i": 40,
+    "w": "彻底",
+    "py": "chè dǐ",
+    "pos": "adj.",
+    "en": "thorough"
+   }
+  ]
+ },
+ {
+  "lesson": 26,
+  "title": "你属于哪一种“忙” Which kind of “busy” person are you",
+  "items": [
+   {
+    "i": 1,
+    "w": "忙碌",
+    "py": "máng lù",
+    "pos": "adj.",
+    "en": "be busy; bustle about; be on the go"
+   },
+   {
+    "i": 2,
+    "w": "被动",
+    "py": "bèi dòng",
+    "pos": "adj.",
+    "en": "passive"
+   },
+   {
+    "i": 3,
+    "w": "奴隶",
+    "py": "nú lì",
+    "pos": "n.",
+    "en": "slave"
+   },
+   {
+    "i": 4,
+    "w": "虚伪",
+    "py": "xū wěi",
+    "pos": "adj.",
+    "en": "sham; false; hypocritical"
+   },
+   {
+    "i": 5,
+    "w": "思想",
+    "py": "sī xiǎng",
+    "pos": "n.",
+    "en": "thought; idea"
+   },
+   {
+    "i": 6,
+    "w": "反省",
+    "py": "fǎn xǐng",
+    "pos": "v.",
+    "en": "to reflect on oneself; to self-examine"
+   },
+   {
+    "i": 7,
+    "w": "据说",
+    "py": "jù shuō",
+    "pos": "v.",
+    "en": "it is said; they say; allegedly"
+   },
+   {
+    "i": 8,
+    "w": "个性",
+    "py": "gè xìng",
+    "pos": "n.",
+    "en": "individual character; personality"
+   },
+   {
+    "i": 9,
+    "w": "冒险",
+    "py": "mào xiǎn",
+    "pos": "v.",
+    "en": "take a risk; adventure"
+   },
+   {
+    "i": 10,
+    "w": "丛林",
+    "py": "cóng lín",
+    "pos": "n.",
+    "en": "jungle, forest"
+   },
+   {
+    "i": 11,
+    "w": "文明",
+    "py": "wén míng",
+    "pos": "n.",
+    "en": "civilisation; culture; civilised"
+   },
+   {
+    "i": 12,
+    "w": "纪录",
+    "py": "jì lù",
+    "pos": "v.",
+    "en": "to record"
+   },
+   {
+    "i": 13,
+    "w": "雇",
+    "py": "gù",
+    "pos": "v.",
+    "en": "to employ, to hire"
+   },
+   {
+    "i": 14,
+    "w": "米",
+    "py": "mǐ",
+    "pos": "m.",
+    "en": "rice; metre"
+   },
+   {
+    "i": 15,
+    "w": "批",
+    "py": "pī",
+    "pos": "m.",
+    "en": "to criticize; refute; batch"
+   },
+   {
+    "i": 16,
+    "w": "出色",
+    "py": "chū sè",
+    "pos": "adj.",
+    "en": "outstanding; remarkable; splendid"
+   },
+   {
+    "i": 17,
+    "w": "健步如飞",
+    "py": "jiàn bù rú fēi",
+    "pos": "adj.",
+    "en": "walking swiftly and vigorously"
+   },
+   {
+    "i": 18,
+    "w": "一连",
+    "py": "yì lián",
+    "pos": "adv.",
+    "en": "in a row, in succession"
+   },
+   {
+    "i": 19,
+    "w": "耽误",
+    "py": "dān wu",
+    "pos": "v.",
+    "en": "delay; hold up"
+   },
+   {
+    "i": 20,
+    "w": "至于",
+    "py": "zhì yú",
+    "pos": "prep.",
+    "en": "go so far as to"
+   },
+   {
+    "i": 21,
+    "w": "投资",
+    "py": "tóu zī",
+    "pos": "v.",
+    "en": "invest"
+   },
+   {
+    "i": 22,
+    "w": "人物",
+    "py": "rén wù",
+    "pos": "n.",
+    "en": "character; figure; personage"
+   },
+   {
+    "i": 23,
+    "w": "得罪",
+    "py": "dé zuì",
+    "pos": "v.",
+    "en": "offend; displease"
+   },
+   {
+    "i": 24,
+    "w": "总算",
+    "py": "zǒng suàn",
+    "pos": "adv.",
+    "en": "at long last; finally"
+   },
+   {
+    "i": 25,
+    "w": "搞",
+    "py": "gǎo",
+    "pos": "v.",
+    "en": "to make/do; carry on; be engaged in"
+   },
+   {
+    "i": 26,
+    "w": "习俗",
+    "py": "xí sú",
+    "pos": "n.",
+    "en": "customs; traditions"
+   },
+   {
+    "i": 27,
+    "w": "灵魂",
+    "py": "líng hún",
+    "pos": "n.",
+    "en": "soul; spirit"
+   },
+   {
+    "i": 28,
+    "w": "疲劳",
+    "py": "pí láo",
+    "pos": "adj.",
+    "en": "tired; fatigued; weary"
+   },
+   {
+    "i": 29,
+    "w": "哲理",
+    "py": "zhé lǐ",
+    "pos": "n.",
+    "en": "philosophy"
+   },
+   {
+    "i": 30,
+    "w": "提倡",
+    "py": "tí chàng",
+    "pos": "v.",
+    "en": "advocate; promote; recommend"
+   },
+   {
+    "i": 31,
+    "w": "步骤",
+    "py": "bù zhòu",
+    "pos": "n.",
+    "en": "step; move; procedure"
+   },
+   {
+    "i": 32,
+    "w": "闭关",
+    "py": "bì guān",
+    "pos": "v.",
+    "en": "to stay secluded (a Taoist Practice)"
+   },
+   {
+    "i": 33,
+    "w": "一律",
+    "py": "yí lǜ",
+    "pos": "adv.",
+    "en": "same; alike; uniform"
+   },
+   {
+    "i": 34,
+    "w": "寂寞",
+    "py": "jì mò",
+    "pos": "adj.",
+    "en": "lonely; lonesome"
+   },
+   {
+    "i": 35,
+    "w": "效率",
+    "py": "xiào lǜ",
+    "pos": "n.",
+    "en": "efficiency; productivity"
+   }
+  ]
+ },
+ {
+  "lesson": 27,
+  "title": "下棋 Playing chess",
+  "items": [
+   {
+    "i": 1,
+    "w": "象棋",
+    "py": "xiàng qí",
+    "pos": "n.",
+    "en": "Chinese chess"
+   },
+   {
+    "i": 2,
+    "w": "教练",
+    "py": "jiào liàn",
+    "pos": "n.",
+    "en": "train; drill; (sports) coach"
+   },
+   {
+    "i": 3,
+    "w": "答应",
+    "py": "dā ying",
+    "pos": "v.",
+    "en": "answer; reply; to agree"
+   },
+   {
+    "i": 4,
+    "w": "损失",
+    "py": "sǔn shī",
+    "pos": "v.",
+    "en": "lose; loss; wastage"
+   },
+   {
+    "i": 5,
+    "w": "睁",
+    "py": "zhēng",
+    "pos": "v.",
+    "en": "open (eyes)"
+   },
+   {
+    "i": 6,
+    "w": "眼睁睁",
+    "py": "yǎn zhēng zhēng",
+    "pos": "adj.",
+    "en": "(looking on) helplessly or indifferently"
+   },
+   {
+    "i": 7,
+    "w": "将军",
+    "py": "jiāng jūn",
+    "pos": "n.",
+    "en": "general; admiral"
+   },
+   {
+    "i": 8,
+    "w": "服气",
+    "py": "fú qì",
+    "pos": "v.",
+    "en": "be convinced"
+   },
+   {
+    "i": 9,
+    "w": "运气",
+    "py": "yùn qi",
+    "pos": "n.",
+    "en": "fortune; luck"
+   },
+   {
+    "i": 10,
+    "w": "局",
+    "py": "jú",
+    "pos": "m.",
+    "en": "game, set"
+   },
+   {
+    "i": 11,
+    "w": "发挥",
+    "py": "fā huī",
+    "pos": "v.",
+    "en": "bring into play; give free rein to"
+   },
+   {
+    "i": 12,
+    "w": "灰心",
+    "py": "huī xīn",
+    "pos": "adj.",
+    "en": "to lose heart; to be discouraged; be disappointed"
+   },
+   {
+    "i": 13,
+    "w": "吸取",
+    "py": "xī qǔ",
+    "pos": "v.",
+    "en": "absorb; suck up; assimilate"
+   },
+   {
+    "i": 14,
+    "w": "教训",
+    "py": "jiào xun",
+    "pos": "v.",
+    "en": "lesson; moral"
+   },
+   {
+    "i": 15,
+    "w": "未必",
+    "py": "wèi bì",
+    "pos": "adv.",
+    "en": "may not; not necessarily"
+   },
+   {
+    "i": 16,
+    "w": "因素",
+    "py": "yīn sù",
+    "pos": "n.",
+    "en": "factor"
+   },
+   {
+    "i": 17,
+    "w": "次要",
+    "py": "cì yào",
+    "pos": "adj.",
+    "en": "less important; secondary; subordinate"
+   },
+   {
+    "i": 18,
+    "w": "在于",
+    "py": "zài yú",
+    "pos": "v.",
+    "en": "to be in/at"
+   },
+   {
+    "i": 19,
+    "w": "心态",
+    "py": "xīn tài",
+    "pos": "n.",
+    "en": "mentality; psychology"
+   },
+   {
+    "i": 20,
+    "w": "珍惜",
+    "py": "zhēn xī",
+    "pos": "v.",
+    "en": "treasure; value; cherish"
+   },
+   {
+    "i": 21,
+    "w": "否认",
+    "py": "fǒu rèn",
+    "pos": "v.",
+    "en": "to deny; repudiate"
+   },
+   {
+    "i": 22,
+    "w": "观察",
+    "py": "guān chá",
+    "pos": "v.",
+    "en": "observe; watch; survey"
+   },
+   {
+    "i": 23,
+    "w": "失去",
+    "py": "shī qù",
+    "pos": "v.",
+    "en": "lose"
+   },
+   {
+    "i": 24,
+    "w": "期间",
+    "py": "qī jiān",
+    "pos": "n.",
+    "en": "time; period; duration"
+   },
+   {
+    "i": 25,
+    "w": "把握",
+    "py": "bǎ wò",
+    "pos": "v.",
+    "en": "to grasp; to hold; seize"
+   },
+   {
+    "i": 26,
+    "w": "不假思索",
+    "py": "bù jiǎ sī suǒ",
+    "pos": "adv.",
+    "en": "without thinking or hesitation"
+   },
+   {
+    "i": 27,
+    "w": "犯",
+    "py": "fàn",
+    "pos": "v.",
+    "en": "to commit (an error, a crime, etc.)"
+   },
+   {
+    "i": 28,
+    "w": "过于",
+    "py": "guò yú",
+    "pos": "adv.",
+    "en": "too; unduly; excessively"
+   },
+   {
+    "i": 29,
+    "w": "原则",
+    "py": "yuán zé",
+    "pos": "n.",
+    "en": "principle"
+   },
+   {
+    "i": 30,
+    "w": "责备",
+    "py": "zé bèi",
+    "pos": "v.",
+    "en": "reproach; blame; reprove"
+   },
+   {
+    "i": 31,
+    "w": "必然",
+    "py": "bì rán",
+    "pos": "adj.",
+    "en": "inevitable; certain; necessarily"
+   },
+   {
+    "i": 32,
+    "w": "事先",
+    "py": "shì xiān",
+    "pos": "n.",
+    "en": "in advance; beforehand"
+   },
+   {
+    "i": 33,
+    "w": "舍不得",
+    "py": "shě bu de",
+    "pos": "v.",
+    "en": "hate to part with; be loath to leave"
+   },
+   {
+    "i": 34,
+    "w": "后果",
+    "py": "hòu guǒ",
+    "pos": "n.",
+    "en": "consequence; aftermath"
+   },
+   {
+    "i": 35,
+    "w": "屡",
+    "py": "lǚ",
+    "pos": "adv.",
+    "en": "repeatedly; time and again"
+   }
+  ]
+ },
+ {
+  "lesson": 28,
+  "title": "最受欢迎的毕业生 The most popular graduate",
+  "items": [
+   {
+    "i": 1,
+    "w": "届",
+    "py": "jiè",
+    "pos": "m.",
+    "en": "fall due; [measure word for meetings, events, etc.]"
+   },
+   {
+    "i": 2,
+    "w": "本科",
+    "py": "běn kē",
+    "pos": "n.",
+    "en": "undergraduate course; regular college course"
+   },
+   {
+    "i": 3,
+    "w": "面对",
+    "py": "miàn duì",
+    "pos": "v.",
+    "en": "face; confront"
+   },
+   {
+    "i": 4,
+    "w": "乐观",
+    "py": "lè guān",
+    "pos": "adj.",
+    "en": "optimistic"
+   },
+   {
+    "i": 5,
+    "w": "就业",
+    "py": "jiù yè",
+    "pos": "v.",
+    "en": "obtain employment; get a job"
+   },
+   {
+    "i": 6,
+    "w": "实话",
+    "py": "shí huà",
+    "pos": "n.",
+    "en": "truth"
+   },
+   {
+    "i": 7,
+    "w": "优势",
+    "py": "yōu shì",
+    "pos": "n.",
+    "en": "superiority"
+   },
+   {
+    "i": 8,
+    "w": "简历",
+    "py": "jiǎn lì",
+    "pos": "n.",
+    "en": "Curriculum Vitae (CV); résumé"
+   },
+   {
+    "i": 9,
+    "w": "现场",
+    "py": "xiàn chǎng",
+    "pos": "n.",
+    "en": "scene; site; spot"
+   },
+   {
+    "i": 10,
+    "w": "职位",
+    "py": "zhí wèi",
+    "pos": "n.",
+    "en": "position; post"
+   },
+   {
+    "i": 11,
+    "w": "体验",
+    "py": "tǐ yàn",
+    "pos": "v.",
+    "en": "experience; learn through practice"
+   },
+   {
+    "i": 12,
+    "w": "从此",
+    "py": "cóng cǐ",
+    "pos": "adv.",
+    "en": "from this time on; from now; then on"
+   },
+   {
+    "i": 13,
+    "w": "范围",
+    "py": "fàn wéi",
+    "pos": "n.",
+    "en": "range"
+   },
+   {
+    "i": 14,
+    "w": "初级中学",
+    "py": "chū jí zhōng xué",
+    "pos": "n.",
+    "en": "junior high school"
+   },
+   {
+    "i": 15,
+    "w": "顾问",
+    "py": "gù wèn",
+    "pos": "n.",
+    "en": "advisor; consultant"
+   },
+   {
+    "i": 16,
+    "w": "参考",
+    "py": "cān kǎo",
+    "pos": "v.",
+    "en": "to consult; to refer to"
+   },
+   {
+    "i": 17,
+    "w": "成长",
+    "py": "chéng zhǎng",
+    "pos": "v.",
+    "en": "to grow up"
+   },
+   {
+    "i": 18,
+    "w": "制作",
+    "py": "zhì zuò",
+    "pos": "v.",
+    "en": "manufacture"
+   },
+   {
+    "i": 19,
+    "w": "才艺",
+    "py": "cái yì",
+    "pos": "n.",
+    "en": "talent and skill"
+   },
+   {
+    "i": 20,
+    "w": "假设",
+    "py": "jiǎ shè",
+    "pos": "v.",
+    "en": "suppose; assume; presume"
+   },
+   {
+    "i": 21,
+    "w": "乘",
+    "py": "chéng",
+    "pos": "v.",
+    "en": "to ride on; avail oneself of to multiply"
+   },
+   {
+    "i": 22,
+    "w": "反应",
+    "py": "fǎn yìng",
+    "pos": "v.",
+    "en": "reaction; response; repercussion"
+   },
+   {
+    "i": 23,
+    "w": "到达",
+    "py": "dào dá",
+    "pos": "v.",
+    "en": "to arrive; get to reach"
+   },
+   {
+    "i": 24,
+    "w": "老板",
+    "py": "lǎo bǎn",
+    "pos": "n.",
+    "en": "boss; proprietor; shopkeeper"
+   },
+   {
+    "i": 25,
+    "w": "陆续",
+    "py": "lù xù",
+    "pos": "adv.",
+    "en": "one after another; in succession"
+   },
+   {
+    "i": 26,
+    "w": "提问",
+    "py": "tí wèn",
+    "pos": "v.",
+    "en": "ask a question; put questions to; quiz"
+   },
+   {
+    "i": 27,
+    "w": "堆",
+    "py": "duī",
+    "pos": "v.",
+    "en": "heap; pile; crowd"
+   },
+   {
+    "i": 28,
+    "w": "情侣",
+    "py": "qíng lǚ",
+    "pos": "n.",
+    "en": "couple, lovers"
+   },
+   {
+    "i": 29,
+    "w": "制订",
+    "py": "zhì dìng",
+    "pos": "v.",
+    "en": "to make, to draw up, to work out"
+   },
+   {
+    "i": 30,
+    "w": "休闲",
+    "py": "xiū xián",
+    "pos": "v.",
+    "en": "enjoy free time; lie fallow"
+   },
+   {
+    "i": 31,
+    "w": "具体",
+    "py": "jù tǐ",
+    "pos": "adj.",
+    "en": "concrete; specific; particular"
+   },
+   {
+    "i": 32,
+    "w": "专注",
+    "py": "zhuān zhù",
+    "pos": "adj.",
+    "en": "concentrated, engrossed"
+   },
+   {
+    "i": 33,
+    "w": "显然",
+    "py": "xiǎn rán",
+    "pos": "adj.",
+    "en": "obvious; evident; clear"
+   },
+   {
+    "i": 34,
+    "w": "成立",
+    "py": "chéng lì",
+    "pos": "v.",
+    "en": "found; to establish; set up"
+   },
+   {
+    "i": 35,
+    "w": "部门",
+    "py": "bù mén",
+    "pos": "n.",
+    "en": "department; branch; section"
+   },
+   {
+    "i": 36,
+    "w": "执着",
+    "py": "zhí zhuó",
+    "pos": "v.",
+    "en": "persistence"
+   },
+   {
+    "i": 37,
+    "w": "光明",
+    "py": "guāng míng",
+    "pos": "adj.",
+    "en": "light; bright; openhearted"
+   },
+   {
+    "i": 38,
+    "w": "前途",
+    "py": "qián tú",
+    "pos": "n.",
+    "en": "future; prospect; promise"
+   },
+   {
+    "i": 39,
+    "w": "行业",
+    "py": "háng yè",
+    "pos": "n.",
+    "en": "trade; profession; industry"
+   },
+   {
+    "i": 40,
+    "w": "缺乏",
+    "py": "quē fá",
+    "pos": "v.",
+    "en": "be short of; lack; deficiency"
+   }
+  ]
+ },
+ {
+  "lesson": 29,
+  "title": "培养对手 Training your rivals",
+  "items": [
+   {
+    "i": 1,
+    "w": "培养",
+    "py": "péi yǎng",
+    "pos": "v.",
+    "en": "train; foster"
+   },
+   {
+    "i": 2,
+    "w": "对手",
+    "py": "duì shǒu",
+    "pos": "n.",
+    "en": "opponent; adversary; rival"
+   },
+   {
+    "i": 3,
+    "w": "公寓",
+    "py": "gōng yù",
+    "pos": "n.",
+    "en": "flats; apartment"
+   },
+   {
+    "i": 4,
+    "w": "文具",
+    "py": "wén jù",
+    "pos": "n.",
+    "en": "stationery; writing materials"
+   },
+   {
+    "i": 5,
+    "w": "电池",
+    "py": "diàn chí",
+    "pos": "n.",
+    "en": "battery; cell"
+   },
+   {
+    "i": 6,
+    "w": "日用品",
+    "py": "rì yòng pǐn",
+    "pos": "n.",
+    "en": "articles for everyday use"
+   },
+   {
+    "i": 7,
+    "w": "利润",
+    "py": "lì rùn",
+    "pos": "n.",
+    "en": "profit"
+   },
+   {
+    "i": 8,
+    "w": "诚信",
+    "py": "chéng xìn",
+    "pos": "adj.",
+    "en": "honest, in good faith"
+   },
+   {
+    "i": 9,
+    "w": "媒体",
+    "py": "méi tǐ",
+    "pos": "n.",
+    "en": "media"
+   },
+   {
+    "i": 10,
+    "w": "对象",
+    "py": "duì xiàng",
+    "pos": "n.",
+    "en": "target; object; partner"
+   },
+   {
+    "i": 11,
+    "w": "营业",
+    "py": "yíng yè",
+    "pos": "v.",
+    "en": "do business"
+   },
+   {
+    "i": 12,
+    "w": "额",
+    "py": "é",
+    "pos": "n.",
+    "en": "specified number, sum, volume or amount"
+   },
+   {
+    "i": 13,
+    "w": "不如",
+    "py": "bù rú",
+    "pos": "v.",
+    "en": "it would be better to …not as good as"
+   },
+   {
+    "i": 14,
+    "w": "干脆",
+    "py": "gān cuì",
+    "pos": "adv.",
+    "en": "clear-cut; straightforward; frank"
+   },
+   {
+    "i": 15,
+    "w": "挤",
+    "py": "jǐ",
+    "pos": "v.",
+    "en": "to squeeze out, to push out"
+   },
+   {
+    "i": 16,
+    "w": "垮",
+    "py": "kuǎ",
+    "pos": "v.",
+    "en": "to collapse, to break down"
+   },
+   {
+    "i": 17,
+    "w": "垄断",
+    "py": "lǒng duàn",
+    "pos": "v.",
+    "en": "monopolise; forestall"
+   },
+   {
+    "i": 18,
+    "w": "倒闭",
+    "py": "dǎo bì",
+    "pos": "v.",
+    "en": "close down; go bankrupt; go out of business"
+   },
+   {
+    "i": 19,
+    "w": "热心",
+    "py": "rè xīn",
+    "pos": "adj.",
+    "en": "enthusiastic; ardent; earnest"
+   },
+   {
+    "i": 20,
+    "w": "资金",
+    "py": "zī jīn",
+    "pos": "n.",
+    "en": "fund"
+   },
+   {
+    "i": 21,
+    "w": "傻",
+    "py": "shǎ",
+    "pos": "adj.",
+    "en": "stupid; muddleheaded; silly"
+   },
+   {
+    "i": 22,
+    "w": "倒霉",
+    "py": "dǎo méi",
+    "pos": "adj.",
+    "en": "fall on hard times; have bad luck"
+   },
+   {
+    "i": 23,
+    "w": "生态",
+    "py": "shēng tài",
+    "pos": "n.",
+    "en": "ecology; organism's modes of life and relation to their environment"
+   },
+   {
+    "i": 24,
+    "w": "商业",
+    "py": "shāng yè",
+    "pos": "n.",
+    "en": "commerce; trade; business"
+   },
+   {
+    "i": 25,
+    "w": "领域",
+    "py": "lǐng yù",
+    "pos": "n.",
+    "en": "territory; domain; field"
+   },
+   {
+    "i": 26,
+    "w": "适当",
+    "py": "shì dàng",
+    "pos": "adj.",
+    "en": "proper, adequate"
+   },
+   {
+    "i": 27,
+    "w": "促使",
+    "py": "cù shǐ",
+    "pos": "v.",
+    "en": "precipitate; impel; to urge"
+   },
+   {
+    "i": 28,
+    "w": "生长",
+    "py": "shēng zhǎng",
+    "pos": "v.",
+    "en": "to grow"
+   },
+   {
+    "i": 29,
+    "w": "妨碍",
+    "py": "fáng ài",
+    "pos": "v.",
+    "en": "to hinder; hamper; impede"
+   },
+   {
+    "i": 30,
+    "w": "促进",
+    "py": "cù jìn",
+    "pos": "v.",
+    "en": "promote; boost; accelerate"
+   },
+   {
+    "i": 31,
+    "w": "利益",
+    "py": "lì yì",
+    "pos": "n.",
+    "en": "gain; benefit; profit"
+   },
+   {
+    "i": 32,
+    "w": "合理",
+    "py": "hé lǐ",
+    "pos": "adj.",
+    "en": "rational; reasonable; equitable"
+   },
+   {
+    "i": 33,
+    "w": "万一",
+    "py": "wàn yī",
+    "pos": "conj.",
+    "en": "just in case; if by any chance"
+   },
+   {
+    "i": 34,
+    "w": "维持",
+    "py": "wéi chí",
+    "pos": "v.",
+    "en": "keep; maintain; preserve"
+   },
+   {
+    "i": 35,
+    "w": "饱和",
+    "py": "bǎo hé",
+    "pos": "v.",
+    "en": "saturated"
+   },
+   {
+    "i": 36,
+    "w": "不见得",
+    "py": "bú jiàn de",
+    "pos": "adv.",
+    "en": "not likely; not necessarily"
+   }
+  ]
+ },
+ {
+  "lesson": 30,
+  "title": "竞争让市场更高效 Competition makes the market more efficient",
+  "items": [
+   {
+    "i": 1,
+    "w": "沙丁鱼",
+    "py": "shā dīng yú",
+    "pos": "n.",
+    "en": "sardine"
+   },
+   {
+    "i": 2,
+    "w": "运输",
+    "py": "yùn shū",
+    "pos": "v.",
+    "en": "to transport, to convey"
+   },
+   {
+    "i": 3,
+    "w": "岸",
+    "py": "àn",
+    "pos": "n.",
+    "en": "shore; coast; bank;"
+   },
+   {
+    "i": 4,
+    "w": "商品",
+    "py": "shāng pǐn",
+    "pos": "n.",
+    "en": "goods; merchandise; wares"
+   },
+   {
+    "i": 5,
+    "w": "延长",
+    "py": "yán cháng",
+    "pos": "v.",
+    "en": "lengthen; extend; prolong"
+   },
+   {
+    "i": 6,
+    "w": "存活",
+    "py": "cún huó",
+    "pos": "v.",
+    "en": "to survive, to exist"
+   },
+   {
+    "i": 7,
+    "w": "改善",
+    "py": "gǎi shàn",
+    "pos": "v.",
+    "en": "to improve"
+   },
+   {
+    "i": 8,
+    "w": "无意",
+    "py": "wú yì",
+    "pos": "adv.",
+    "en": "accidentally, inadvertently"
+   },
+   {
+    "i": 9,
+    "w": "巧妙",
+    "py": "qiǎo miào",
+    "pos": "adj.",
+    "en": "ingenious; clever"
+   },
+   {
+    "i": 10,
+    "w": "实用",
+    "py": "shí yòng",
+    "pos": "adj.",
+    "en": "practical; pragmatic; functional"
+   },
+   {
+    "i": 11,
+    "w": "天敌",
+    "py": "tiān dí",
+    "pos": "n.",
+    "en": "natural enemy"
+   },
+   {
+    "i": 12,
+    "w": "鲇鱼",
+    "py": "nián yú",
+    "pos": "n.",
+    "en": "catfish nidnyu"
+   },
+   {
+    "i": 13,
+    "w": "设备",
+    "py": "shè bèi",
+    "pos": "n.",
+    "en": "equipment; device"
+   },
+   {
+    "i": 14,
+    "w": "和平",
+    "py": "hé píng",
+    "pos": "n.",
+    "en": "peace; mild"
+   },
+   {
+    "i": 15,
+    "w": "构成",
+    "py": "gòu chéng",
+    "pos": "n.",
+    "en": "to constitute; form; consist of"
+   },
+   {
+    "i": 16,
+    "w": "逃避",
+    "py": "táo bì",
+    "pos": "v.",
+    "en": "escape; evade; shirk"
+   },
+   {
+    "i": 17,
+    "w": "不断",
+    "py": "bú duàn",
+    "pos": "adv.",
+    "en": "ceaseless; uninterrupted; continual continuous; unceasing"
+   },
+   {
+    "i": 18,
+    "w": "旺盛",
+    "py": "wàng shèng",
+    "pos": "adj.",
+    "en": "exuberant, vibrant"
+   },
+   {
+    "i": 19,
+    "w": "比例",
+    "py": "bǐ lì",
+    "pos": "n.",
+    "en": "scale; proportion; ratio"
+   },
+   {
+    "i": 20,
+    "w": "感想",
+    "py": "gǎn xiǎng",
+    "pos": "n.",
+    "en": "impression; reflection; thought"
+   },
+   {
+    "i": 21,
+    "w": "体会",
+    "py": "tǐ huì",
+    "pos": "v.",
+    "en": "know from experience"
+   },
+   {
+    "i": 22,
+    "w": "概念",
+    "py": "gài niàn",
+    "pos": "n.",
+    "en": "concept; notion; idea"
+   },
+   {
+    "i": 23,
+    "w": "核心",
+    "py": "hé xīn",
+    "pos": "n.",
+    "en": "core; kernel; heart"
+   },
+   {
+    "i": 24,
+    "w": "刺激",
+    "py": "cì jī",
+    "pos": "v.",
+    "en": "to stimulate; provoke; irritate"
+   },
+   {
+    "i": 25,
+    "w": "活力",
+    "py": "huó lì",
+    "pos": "n.",
+    "en": "vigour; vitality"
+   },
+   {
+    "i": 26,
+    "w": "落后",
+    "py": "luò hòu",
+    "pos": "adj.",
+    "en": "fall behind; lag behind; backward"
+   },
+   {
+    "i": 27,
+    "w": "本质",
+    "py": "běn zhì",
+    "pos": "n.",
+    "en": "nature; innate character; intrinsic quality"
+   },
+   {
+    "i": 28,
+    "w": "员工",
+    "py": "yuán gōng",
+    "pos": "n.",
+    "en": "staff"
+   },
+   {
+    "i": 29,
+    "w": "危机",
+    "py": "wēi jī",
+    "pos": "n.",
+    "en": "crisis; crunch"
+   },
+   {
+    "i": 30,
+    "w": "有利",
+    "py": "yǒu lì",
+    "pos": "adj.",
+    "en": "advantageous; beneficial; favourable"
+   },
+   {
+    "i": 31,
+    "w": "挖掘",
+    "py": "wā jué",
+    "pos": "v.",
+    "en": "excavate; unearth; dig"
+   },
+   {
+    "i": 32,
+    "w": "潜力",
+    "py": "qián lì",
+    "pos": "v.",
+    "en": "latent capacity; potential"
+   },
+   {
+    "i": 33,
+    "w": "决赛",
+    "py": "jué sài",
+    "pos": "n.",
+    "en": "finals [of a competition]"
+   },
+   {
+    "i": 34,
+    "w": "接近",
+    "py": "jiē jìn",
+    "pos": "v.",
+    "en": "be close to; to approach"
+   },
+   {
+    "i": 35,
+    "w": "佳",
+    "py": "jiā",
+    "pos": "adj.",
+    "en": "good, fine"
+   },
+   {
+    "i": 36,
+    "w": "的确",
+    "py": "dí què",
+    "pos": "adv.",
+    "en": "really; and no mistake; indeed"
+   }
+  ]
+ },
+ {
+  "lesson": 31,
+  "title": "登门槛效应 Foot-in-the-door effect",
+  "items": [
+   {
+    "i": 1,
+    "w": "门槛",
+    "py": "mén kǎn",
+    "pos": "n.",
+    "en": "threshold"
+   },
+   {
+    "i": 2,
+    "w": "报社",
+    "py": "bào shè",
+    "pos": "n.",
+    "en": "newspaper office"
+   },
+   {
+    "i": 3,
+    "w": "编辑",
+    "py": "biān jí",
+    "pos": "n.",
+    "en": "edit; compile"
+   },
+   {
+    "i": 4,
+    "w": "嗯",
+    "py": "ng",
+    "pos": "int.",
+    "en": "huh; yeah"
+   },
+   {
+    "i": 5,
+    "w": "轻易",
+    "py": "qīng yì",
+    "pos": "adv.",
+    "en": "easily"
+   },
+   {
+    "i": 6,
+    "w": "处理",
+    "py": "chǔ lǐ",
+    "pos": "v.",
+    "en": "to handle; deal with; manage"
+   },
+   {
+    "i": 7,
+    "w": "社区",
+    "py": "shè qū",
+    "pos": "n.",
+    "en": "community (district)"
+   },
+   {
+    "i": 8,
+    "w": "劝",
+    "py": "quàn",
+    "pos": "v.",
+    "en": "advise; urge; try to persuade"
+   },
+   {
+    "i": 9,
+    "w": "圆",
+    "py": "yuán",
+    "pos": "adj.",
+    "en": "round"
+   },
+   {
+    "i": 10,
+    "w": "标志",
+    "py": "biāo zhì",
+    "pos": "v.",
+    "en": "sign; symbol; hallmark"
+   },
+   {
+    "i": 11,
+    "w": "出示",
+    "py": "chū shì",
+    "pos": "v.",
+    "en": "to show"
+   },
+   {
+    "i": 12,
+    "w": "赞成",
+    "py": "zàn chéng",
+    "pos": "v.",
+    "en": "approve of; agree with; endorse"
+   },
+   {
+    "i": 13,
+    "w": "请愿书",
+    "py": "qǐng yuàn shū",
+    "pos": "n.",
+    "en": "petition"
+   },
+   {
+    "i": 14,
+    "w": "恋爱",
+    "py": "liàn ài",
+    "pos": "v.",
+    "en": "love"
+   },
+   {
+    "i": 15,
+    "w": "迫切",
+    "py": "pò qiè",
+    "pos": "adj.",
+    "en": "urgent; pressing"
+   },
+   {
+    "i": 16,
+    "w": "犹豫",
+    "py": "yóu yù",
+    "pos": "adj.",
+    "en": "hesitate; be irresolute"
+   },
+   {
+    "i": 17,
+    "w": "冷淡",
+    "py": "lěng dàn",
+    "pos": "adj.",
+    "en": "treat coldly; give the cold shoulder to"
+   },
+   {
+    "i": 18,
+    "w": "无所谓",
+    "py": "wú suǒ wèi",
+    "pos": "v.",
+    "en": "to not care, to not mind, to not take seriously"
+   },
+   {
+    "i": 19,
+    "w": "值班",
+    "py": "zhí bān",
+    "pos": "v.",
+    "en": "be on duty"
+   },
+   {
+    "i": 20,
+    "w": "报告",
+    "py": "bào gào",
+    "pos": "n.",
+    "en": "report; make known; inform"
+   },
+   {
+    "i": 21,
+    "w": "八成儿",
+    "py": "bā chéngr",
+    "pos": "adv.",
+    "en": "most probably, most likely; eighty percent"
+   },
+   {
+    "i": 22,
+    "w": "模糊",
+    "py": "mó hu",
+    "pos": "adj.",
+    "en": "vague; indistinct; obscure"
+   },
+   {
+    "i": 23,
+    "w": "狡猾",
+    "py": "jiǎo huá",
+    "pos": "adj.",
+    "en": "sly; crafty; cunning"
+   },
+   {
+    "i": 24,
+    "w": "了不起",
+    "py": "liǎo bu qǐ",
+    "pos": "adj.",
+    "en": "great, amazing"
+   },
+   {
+    "i": 25,
+    "w": "身段",
+    "py": "shēn duàn",
+    "pos": "n.",
+    "en": "posture, manner, attitude"
+   },
+   {
+    "i": 26,
+    "w": "缩短",
+    "py": "suō duǎn",
+    "pos": "v.",
+    "en": "shorten; curtail; cut down"
+   },
+   {
+    "i": 27,
+    "w": "看不起",
+    "py": "kàn bu qǐ",
+    "pos": "v.",
+    "en": "look down upon; scorn; disdain"
+   },
+   {
+    "i": 28,
+    "w": "谦虚",
+    "py": "qiān xū",
+    "pos": "adj.",
+    "en": "modest; self-effacing"
+   },
+   {
+    "i": 29,
+    "w": "实践",
+    "py": "shí jiàn",
+    "pos": "v.",
+    "en": "put into practice; carry out"
+   }
+  ]
+ },
+ {
+  "lesson": 32,
+  "title": "身边的环保 Protecting the environment around us",
+  "items": [
+   {
+    "i": 1,
+    "w": "消失",
+    "py": "xiāo shī",
+    "pos": "v.",
+    "en": "disappear; vanish; dissolve"
+   },
+   {
+    "i": 2,
+    "w": "洪水",
+    "py": "hóng shuǐ",
+    "pos": "n.",
+    "en": "flood; deluge"
+   },
+   {
+    "i": 3,
+    "w": "地震",
+    "py": "dì zhèn",
+    "pos": "v.",
+    "en": "earthquake; tremour"
+   },
+   {
+    "i": 4,
+    "w": "破坏",
+    "py": "pò huài",
+    "pos": "v.",
+    "en": "destroy; wreck; ruin"
+   },
+   {
+    "i": 5,
+    "w": "砍",
+    "py": "kǎn",
+    "pos": "v.",
+    "en": "cut; chop; hack"
+   },
+   {
+    "i": 6,
+    "w": "生存",
+    "py": "shēng cún",
+    "pos": "v.",
+    "en": "exist; survive"
+   },
+   {
+    "i": 7,
+    "w": "沙漠",
+    "py": "shā mò",
+    "pos": "n.",
+    "en": "desert"
+   },
+   {
+    "i": 8,
+    "w": "公布",
+    "py": "gōng bù",
+    "pos": "v.",
+    "en": "to announce; make public"
+   },
+   {
+    "i": 9,
+    "w": "数据",
+    "py": "shù jù",
+    "pos": "n.",
+    "en": "data"
+   },
+   {
+    "i": 10,
+    "w": "真实",
+    "py": "zhēn shí",
+    "pos": "adj.",
+    "en": "true; real; authentic"
+   },
+   {
+    "i": 11,
+    "w": "夸张",
+    "py": "kuā zhāng",
+    "pos": "adj.",
+    "en": "to exaggerate"
+   },
+   {
+    "i": 12,
+    "w": "资源",
+    "py": "zī yuán",
+    "pos": "n.",
+    "en": "(natural) resources"
+   },
+   {
+    "i": 13,
+    "w": "车祸",
+    "py": "chē huò",
+    "pos": "n.",
+    "en": "traffic accident chehuo"
+   },
+   {
+    "i": 14,
+    "w": "不安",
+    "py": "bù ān",
+    "pos": "adj.",
+    "en": "uneasy; unsettled; unstable"
+   },
+   {
+    "i": 15,
+    "w": "工业",
+    "py": "gōng yè",
+    "pos": "n.",
+    "en": "industry"
+   },
+   {
+    "i": 16,
+    "w": "农业",
+    "py": "nóng yè",
+    "pos": "n.",
+    "en": "agriculture; farming"
+   },
+   {
+    "i": 17,
+    "w": "生产",
+    "py": "shēng chǎn",
+    "pos": "v.",
+    "en": "produce; manufacture; give birth to"
+   },
+   {
+    "i": 18,
+    "w": "大型",
+    "py": "dà xíng",
+    "pos": "adj.",
+    "en": "large-scale"
+   },
+   {
+    "i": 19,
+    "w": "工厂",
+    "py": "gōng chǎng",
+    "pos": "n.",
+    "en": "factory; plant; works"
+   },
+   {
+    "i": 20,
+    "w": "废",
+    "py": "fèi",
+    "pos": "adj.",
+    "en": "waste, useless"
+   },
+   {
+    "i": 21,
+    "w": "燃烧",
+    "py": "rán shāo",
+    "pos": "v.",
+    "en": "burn; kindle; set on fire"
+   },
+   {
+    "i": 22,
+    "w": "煤炭",
+    "py": "méi tàn",
+    "pos": "n.",
+    "en": "coal"
+   },
+   {
+    "i": 23,
+    "w": "密切",
+    "py": "mì qiè",
+    "pos": "adj.",
+    "en": "close; intimate; carefully"
+   },
+   {
+    "i": 24,
+    "w": "尾气",
+    "py": "wěi qì",
+    "pos": "n.",
+    "en": "exhaust gas; vehicle emission"
+   },
+   {
+    "i": 25,
+    "w": "幸运",
+    "py": "xìng yùn",
+    "pos": "adj.",
+    "en": "good fortune; good luck"
+   },
+   {
+    "i": 26,
+    "w": "敏感",
+    "py": "mǐn gǎn",
+    "pos": "adj.",
+    "en": "sensitive; susceptible; tactful"
+   },
+   {
+    "i": 27,
+    "w": "自觉",
+    "py": "zì jué",
+    "pos": "v.",
+    "en": "be aware of; conscientious"
+   },
+   {
+    "i": 28,
+    "w": "设施",
+    "py": "shè shī",
+    "pos": "n.",
+    "en": "facilities"
+   },
+   {
+    "i": 29,
+    "w": "能源",
+    "py": "néng yuán",
+    "pos": "n.",
+    "en": "energy"
+   },
+   {
+    "i": 30,
+    "w": "逐步",
+    "py": "zhú bù",
+    "pos": "adv.",
+    "en": "step by step; progressively; gradually"
+   },
+   {
+    "i": 31,
+    "w": "尽量",
+    "py": "jìn liàng",
+    "pos": "adv.",
+    "en": "to the best of one's ability; as far as possible"
+   },
+   {
+    "i": 32,
+    "w": "私人",
+    "py": "sī rén",
+    "pos": "n.",
+    "en": "private"
+   },
+   {
+    "i": 33,
+    "w": "尊敬",
+    "py": "zūn jìng",
+    "pos": "v.",
+    "en": "respect; honour; esteem"
+   },
+   {
+    "i": 34,
+    "w": "鼓舞",
+    "py": "gǔ wǔ",
+    "pos": "v.",
+    "en": "to inspire; hearten; embolden"
+   },
+   {
+    "i": 35,
+    "w": "消极",
+    "py": "xiāo jí",
+    "pos": "adj.",
+    "en": "negative; passive; inactive"
+   },
+   {
+    "i": 36,
+    "w": "幻想",
+    "py": "huàn xiǎng",
+    "pos": "v.",
+    "en": "illusion; fantasy; figment of one's imagination"
+   },
+   {
+    "i": 37,
+    "w": "贡献",
+    "py": "gòng xiàn",
+    "pos": "n.",
+    "en": "to dedicate; devote; contribution"
+   },
+   {
+    "i": 38,
+    "w": "命运",
+    "py": "mìng yùn",
+    "pos": "n.",
+    "en": "destiny; lot; fortune"
+   },
+   {
+    "i": 39,
+    "w": "掌握",
+    "py": "zhǎng wò",
+    "pos": "v.",
+    "en": "grasp; master; know well"
+   }
+  ]
+ },
+ {
+  "lesson": 33,
+  "title": "以堵治堵—缓解交通有妙招 Treating congestion with congestion: A smart way to relieve traffic burden",
+  "items": [
+   {
+    "i": 1,
+    "w": "缓解",
+    "py": "huǎn jiě",
+    "pos": "v.",
+    "en": "relieve; ease"
+   },
+   {
+    "i": 2,
+    "w": "招儿",
+    "py": "zhāor",
+    "pos": "n.",
+    "en": "trick, move, method"
+   },
+   {
+    "i": 3,
+    "w": "繁荣",
+    "py": "fán róng",
+    "pos": "adj.",
+    "en": "flourishing; prosperous; booming"
+   },
+   {
+    "i": 4,
+    "w": "体现",
+    "py": "tǐ xiàn",
+    "pos": "v.",
+    "en": "to manifest, to reflect"
+   },
+   {
+    "i": 5,
+    "w": "拥挤",
+    "py": "yōng jǐ",
+    "pos": "v.",
+    "en": "crowd; push and squeeze"
+   },
+   {
+    "i": 6,
+    "w": "家常",
+    "py": "jiā cháng",
+    "pos": "n.",
+    "en": "the daily life of a family"
+   },
+   {
+    "i": 7,
+    "w": "面积",
+    "py": "miàn jī",
+    "pos": "n.",
+    "en": "area"
+   },
+   {
+    "i": 8,
+    "w": "宽",
+    "py": "kuān",
+    "pos": "adj.",
+    "en": "wide"
+   },
+   {
+    "i": 9,
+    "w": "主观",
+    "py": "zhǔ guān",
+    "pos": "adj.",
+    "en": "subjective"
+   },
+   {
+    "i": 10,
+    "w": "扩大",
+    "py": "kuò dà",
+    "pos": "v.",
+    "en": "to expand"
+   },
+   {
+    "i": 11,
+    "w": "根治",
+    "py": "gēn zhì",
+    "pos": "v.",
+    "en": "to cure once and for all"
+   },
+   {
+    "i": 12,
+    "w": "不妨",
+    "py": "bù fáng",
+    "pos": "adv.",
+    "en": "there is no harm in; might as well"
+   },
+   {
+    "i": 13,
+    "w": "展开",
+    "py": "zhǎn kāi",
+    "pos": "v.",
+    "en": "develop; spread; unfold"
+   },
+   {
+    "i": 14,
+    "w": "归纳",
+    "py": "guī nà",
+    "pos": "v.",
+    "en": "induce; conclude; sum up"
+   },
+   {
+    "i": 15,
+    "w": "虚心",
+    "py": "xū xīn",
+    "pos": "adj.",
+    "en": "modest; with an open mind"
+   },
+   {
+    "i": 16,
+    "w": "咨询",
+    "py": "zī xún",
+    "pos": "v.",
+    "en": "seek advice from; consult"
+   },
+   {
+    "i": 17,
+    "w": "中旬",
+    "py": "zhōng xún",
+    "pos": "n.",
+    "en": "[the middle ten days of a month]"
+   },
+   {
+    "i": 18,
+    "w": "照常",
+    "py": "zhào cháng",
+    "pos": "adv.",
+    "en": "as usual"
+   },
+   {
+    "i": 19,
+    "w": "健身",
+    "py": "jiàn shēn",
+    "pos": "v.",
+    "en": "keep fit"
+   },
+   {
+    "i": 20,
+    "w": "图",
+    "py": "tú",
+    "pos": "v.",
+    "en": "to covet; to be after"
+   },
+   {
+    "i": 21,
+    "w": "受伤",
+    "py": "shòu shāng",
+    "pos": "v.",
+    "en": "to be hurt, to be injured"
+   },
+   {
+    "i": 22,
+    "w": "保险",
+    "py": "bǎo xiǎn",
+    "pos": "n.",
+    "en": "guarantee; insurance"
+   },
+   {
+    "i": 23,
+    "w": "赔偿",
+    "py": "péi cháng",
+    "pos": "v.",
+    "en": "compensate for; pay for"
+   },
+   {
+    "i": 24,
+    "w": "政府",
+    "py": "zhèng fǔ",
+    "pos": "n.",
+    "en": "government"
+   },
+   {
+    "i": 25,
+    "w": "批准",
+    "py": "pī zhǔn",
+    "pos": "v.",
+    "en": "ratify; approve; authorise"
+   },
+   {
+    "i": 26,
+    "w": "改革",
+    "py": "gǎi gé",
+    "pos": "v.",
+    "en": "reform"
+   },
+   {
+    "i": 27,
+    "w": "取消",
+    "py": "qǔ xiāo",
+    "pos": "v.",
+    "en": "cancel; call off; abolish"
+   },
+   {
+    "i": 28,
+    "w": "行人",
+    "py": "xíng rén",
+    "pos": "n.",
+    "en": "pedestrian"
+   },
+   {
+    "i": 29,
+    "w": "广场",
+    "py": "guǎng chǎng",
+    "pos": "n.",
+    "en": "(public) square"
+   },
+   {
+    "i": 30,
+    "w": "商务",
+    "py": "shāng wù",
+    "pos": "n.",
+    "en": "commercial affairs"
+   },
+   {
+    "i": 31,
+    "w": "大厦",
+    "py": "dà shà",
+    "pos": "n.",
+    "en": "large building; edifice"
+   },
+   {
+    "i": 32,
+    "w": "自愿",
+    "py": "zì yuàn",
+    "pos": "v.",
+    "en": "of one's own free will; voluntarily"
+   },
+   {
+    "i": 33,
+    "w": "难怪",
+    "py": "nán guài",
+    "pos": "adv.",
+    "en": "no wonder"
+   },
+   {
+    "i": 34,
+    "w": "与其",
+    "py": "yǔ qí",
+    "pos": "conj.",
+    "en": "rather than; better than"
+   },
+   {
+    "i": 35,
+    "w": "汽油",
+    "py": "qì yóu",
+    "pos": "n.",
+    "en": "gasoline; petrol"
+   },
+   {
+    "i": 36,
+    "w": "明确",
+    "py": "míng què",
+    "pos": "v.",
+    "en": "clear and definite; clear-cut; unequivocal"
+   },
+   {
+    "i": 37,
+    "w": "期待",
+    "py": "qī dài",
+    "pos": "v.",
+    "en": "anticipate; await; expect"
+   },
+   {
+    "i": 38,
+    "w": "解放",
+    "py": "jiě fàng",
+    "pos": "v.",
+    "en": "to liberate; emancipate"
+   }
+  ]
+ },
+ {
+  "lesson": 34,
+  "title": "鸟儿的护肤术 How birds take care of their feathers",
+  "items": [
+   {
+    "i": 1,
+    "w": "接触",
+    "py": "jiē chù",
+    "pos": "v.",
+    "en": "come into contact with; to get in touch with; engage"
+   },
+   {
+    "i": 2,
+    "w": "特征",
+    "py": "tè zhēng",
+    "pos": "n.",
+    "en": "characteristic; feature; property"
+   },
+   {
+    "i": 3,
+    "w": "翅膀",
+    "py": "chì bǎng",
+    "pos": "n.",
+    "en": "wing [of a bird]"
+   },
+   {
+    "i": 4,
+    "w": "昆虫",
+    "py": "kūn chóng",
+    "pos": "n.",
+    "en": "insect"
+   },
+   {
+    "i": 5,
+    "w": "天空",
+    "py": "tiān kōng",
+    "pos": "n.",
+    "en": "sky; the heavens"
+   },
+   {
+    "i": 6,
+    "w": "区分",
+    "py": "qū fēn",
+    "pos": "v.",
+    "en": "to distinguish, to differentiate"
+   },
+   {
+    "i": 7,
+    "w": "唯一",
+    "py": "wéi yī",
+    "pos": "adj.",
+    "en": "only; sole; unique"
+   },
+   {
+    "i": 8,
+    "w": "斑",
+    "py": "bān",
+    "pos": "n.",
+    "en": "spot"
+   },
+   {
+    "i": 9,
+    "w": "充当",
+    "py": "chōng dāng",
+    "pos": "v.",
+    "en": "act as; play the part of; pose as"
+   },
+   {
+    "i": 10,
+    "w": "总之",
+    "py": "zǒng zhī",
+    "pos": "conj.",
+    "en": "in a word; in short; in brief"
+   },
+   {
+    "i": 11,
+    "w": "角色",
+    "py": "jué sè",
+    "pos": "n.",
+    "en": "role; part"
+   },
+   {
+    "i": 12,
+    "w": "爱惜",
+    "py": "ài xī",
+    "pos": "v.",
+    "en": "value; cherish; treasure"
+   },
+   {
+    "i": 13,
+    "w": "保养",
+    "py": "bǎo yǎng",
+    "pos": "v.",
+    "en": "take good care of one's health; keep fit; keep in good repair"
+   },
+   {
+    "i": 14,
+    "w": "反复",
+    "py": "fǎn fù",
+    "pos": "adv.",
+    "en": "repeatedly; again and again; over and over"
+   },
+   {
+    "i": 15,
+    "w": "啄",
+    "py": "zhuó",
+    "pos": "v.",
+    "en": "to peck"
+   },
+   {
+    "i": 16,
+    "w": "随身",
+    "py": "suí shēn",
+    "pos": "adj.",
+    "en": "carry... with one; with one"
+   },
+   {
+    "i": 17,
+    "w": "梳子",
+    "py": "shū zi",
+    "pos": "n.",
+    "en": "comb"
+   },
+   {
+    "i": 18,
+    "w": "光滑",
+    "py": "guāng huá",
+    "pos": "adj.",
+    "en": "smooth; glossy; slick"
+   },
+   {
+    "i": 19,
+    "w": "抓",
+    "py": "zhuā",
+    "pos": "v.",
+    "en": "to grab"
+   },
+   {
+    "i": 20,
+    "w": "寄生",
+    "py": "jì shēng",
+    "pos": "v.",
+    "en": "to live on another animal or plant, to be parasitic"
+   },
+   {
+    "i": 21,
+    "w": "肥皂",
+    "py": "féi zào",
+    "pos": "n.",
+    "en": "soap"
+   },
+   {
+    "i": 22,
+    "w": "种类",
+    "py": "zhǒng lèi",
+    "pos": "n.",
+    "en": "kind"
+   },
+   {
+    "i": 23,
+    "w": "概括",
+    "py": "gài kuò",
+    "pos": "v.",
+    "en": "to summarise; generalise; epitomise"
+   },
+   {
+    "i": 24,
+    "w": "岛屿",
+    "py": "dǎo yǔ",
+    "pos": "n.",
+    "en": "islands and islets"
+   },
+   {
+    "i": 25,
+    "w": "知更鸟",
+    "py": "zhī gēng niǎo",
+    "pos": "n.",
+    "en": "robin, redbreast"
+   },
+   {
+    "i": 26,
+    "w": "坑",
+    "py": "kēng",
+    "pos": "n.",
+    "en": "pit"
+   },
+   {
+    "i": 27,
+    "w": "池塘",
+    "py": "chí táng",
+    "pos": "n.",
+    "en": "pool; pond"
+   },
+   {
+    "i": 28,
+    "w": "老鹰",
+    "py": "lǎo yīng",
+    "pos": "n.",
+    "en": "eagle; hawk"
+   },
+   {
+    "i": 29,
+    "w": "痛快",
+    "py": "tòng kuài",
+    "pos": "adj.",
+    "en": "very happy; delighted; joyful"
+   },
+   {
+    "i": 30,
+    "w": "迎接",
+    "py": "yíng jiē",
+    "pos": "v.",
+    "en": "welcome; greet; reception"
+   },
+   {
+    "i": 31,
+    "w": "洗礼",
+    "py": "xǐ lǐ",
+    "pos": "n.",
+    "en": "baptism; washing ceremony"
+   },
+   {
+    "i": 32,
+    "w": "沙子",
+    "py": "shā zi",
+    "pos": "n.",
+    "en": "sand"
+   },
+   {
+    "i": 33,
+    "w": "干燥",
+    "py": "gān zào",
+    "pos": "adj.",
+    "en": "dull; dry"
+   },
+   {
+    "i": 34,
+    "w": "秘密",
+    "py": "mì mì",
+    "pos": "n.",
+    "en": "secret; clandestine; confidential"
+   }
+  ]
+ },
+ {
+  "lesson": 35,
+  "title": "植物会出汗 Plants also sweat",
+  "items": [
+   {
+    "i": 1,
+    "w": "炎热",
+    "py": "yán rè",
+    "pos": "adj.",
+    "en": "scorching; blazing; burning hot"
+   },
+   {
+    "i": 2,
+    "w": "歇",
+    "py": "xiē",
+    "pos": "v.",
+    "en": "have a rest"
+   },
+   {
+    "i": 3,
+    "w": "开水",
+    "py": "kāi shuǐ",
+    "pos": "n.",
+    "en": "boiling water"
+   },
+   {
+    "i": 4,
+    "w": "冰激凌",
+    "py": "bīng jī líng",
+    "pos": "n.",
+    "en": "ice cream"
+   },
+   {
+    "i": 5,
+    "w": "肌肉",
+    "py": "jī ròu",
+    "pos": "n.",
+    "en": "muscle"
+   },
+   {
+    "i": 6,
+    "w": "恢复",
+    "py": "huī fù",
+    "pos": "v.",
+    "en": "resume; renew; to recover"
+   },
+   {
+    "i": 7,
+    "w": "湿润",
+    "py": "shī rùn",
+    "pos": "adj.",
+    "en": "moist"
+   },
+   {
+    "i": 8,
+    "w": "荫凉",
+    "py": "yìn liáng",
+    "pos": "adj.",
+    "en": "shady and cool yinliang"
+   },
+   {
+    "i": 9,
+    "w": "指挥",
+    "py": "zhǐ huī",
+    "pos": "v.",
+    "en": "command; direct; conduct"
+   },
+   {
+    "i": 10,
+    "w": "赶快",
+    "py": "gǎn kuài",
+    "pos": "adv.",
+    "en": "at once; quickly"
+   },
+   {
+    "i": 11,
+    "w": "汗腺",
+    "py": "hàn xiàn",
+    "pos": "n.",
+    "en": "sweat gland"
+   },
+   {
+    "i": 12,
+    "w": "毛孔",
+    "py": "máo kǒng",
+    "pos": "n.",
+    "en": "pore"
+   },
+   {
+    "i": 13,
+    "w": "冒",
+    "py": "mào",
+    "pos": "v.",
+    "en": "to emit, to give off, to send out"
+   },
+   {
+    "i": 14,
+    "w": "片",
+    "py": "piàn",
+    "pos": "m.",
+    "en": "[flat, thin piece of]; slice; flake"
+   },
+   {
+    "i": 15,
+    "w": "常识",
+    "py": "cháng shí",
+    "pos": "n.",
+    "en": "general knowledge"
+   },
+   {
+    "i": 16,
+    "w": "根",
+    "py": "gēn",
+    "pos": "m.",
+    "en": "root; descendants; completely; [measure word for long, slender objects]"
+   },
+   {
+    "i": 17,
+    "w": "吸收",
+    "py": "xī shōu",
+    "pos": "v.",
+    "en": "absorb; soak up; assimilate"
+   },
+   {
+    "i": 18,
+    "w": "控制",
+    "py": "kòng zhì",
+    "pos": "v.",
+    "en": "control; regulate"
+   },
+   {
+    "i": 19,
+    "w": "成分",
+    "py": "chéng fèn",
+    "pos": "n.",
+    "en": "composition; component part; ingredient"
+   },
+   {
+    "i": 20,
+    "w": "梢",
+    "py": "shāo",
+    "pos": "n.",
+    "en": "tip; the thin end of a twig; etc"
+   },
+   {
+    "i": 21,
+    "w": "管子",
+    "py": "guǎn zi",
+    "pos": "v.",
+    "en": "tube; pipe; valve"
+   },
+   {
+    "i": 22,
+    "w": "玻璃",
+    "py": "bō li",
+    "pos": "n.",
+    "en": "glass"
+   },
+   {
+    "i": 23,
+    "w": "测验",
+    "py": "cè yàn",
+    "pos": "v.",
+    "en": "test; trial run; examination"
+   },
+   {
+    "i": 24,
+    "w": "根本",
+    "py": "gēn běn",
+    "pos": "adv.",
+    "en": "root; basic; fundamental"
+   },
+   {
+    "i": 25,
+    "w": "枝干",
+    "py": "zhī gàn",
+    "pos": "n.",
+    "en": "branch, limb"
+   },
+   {
+    "i": 26,
+    "w": "释放",
+    "py": "shì fàng",
+    "pos": "v.",
+    "en": "release; deliver; set free"
+   },
+   {
+    "i": 27,
+    "w": "自动",
+    "py": "zì dòng",
+    "pos": "adj.",
+    "en": "voluntarily; of one's own accord; spontaneous"
+   },
+   {
+    "i": 28,
+    "w": "补充",
+    "py": "bǔ chōng",
+    "pos": "v.",
+    "en": "add; supplement; replenish"
+   },
+   {
+    "i": 29,
+    "w": "抽",
+    "py": "chōu",
+    "pos": "v.",
+    "en": "to draw, to obtain by drawing"
+   },
+   {
+    "i": 30,
+    "w": "蒸腾",
+    "py": "zhēng téng",
+    "pos": "v.",
+    "en": "(of steam) to rise, to vaporize"
+   },
+   {
+    "i": 31,
+    "w": "特殊",
+    "py": "tè shū",
+    "pos": "adj.",
+    "en": "special; particular; exceptional"
+   },
+   {
+    "i": 32,
+    "w": "内部",
+    "py": "nèi bù",
+    "pos": "n.",
+    "en": "interior"
+   },
+   {
+    "i": 33,
+    "w": "系统",
+    "py": "xì tǒng",
+    "pos": "n.",
+    "en": "system"
+   },
+   {
+    "i": 34,
+    "w": "状况",
+    "py": "zhuàng kuàng",
+    "pos": "n.",
+    "en": "condition; state; status"
+   },
+   {
+    "i": 35,
+    "w": "秩序",
+    "py": "zhì xù",
+    "pos": "n.",
+    "en": "order; sequence"
+   }
+  ]
+ },
+ {
+  "lesson": 36,
+  "title": "老舍与养花 Lao She and his flowers",
+  "items": [
+   {
+    "i": 1,
+    "w": "养",
+    "py": "yǎng",
+    "pos": "v.",
+    "en": "to raise, to keep, to grow"
+   },
+   {
+    "i": 2,
+    "w": "除非",
+    "py": "chú fēi",
+    "pos": "conj.",
+    "en": "only if; only when; unless"
+   },
+   {
+    "i": 3,
+    "w": "奋斗",
+    "py": "fèn dòu",
+    "pos": "v.",
+    "en": "struggle; to fight for; to strive for"
+   },
+   {
+    "i": 4,
+    "w": "乐趣",
+    "py": "lè qù",
+    "pos": "n.",
+    "en": "delight; pleasure"
+   },
+   {
+    "i": 5,
+    "w": "在乎",
+    "py": "zài hu",
+    "pos": "v.",
+    "en": "care about; mind; take to heart"
+   },
+   {
+    "i": 6,
+    "w": "朵",
+    "py": "duǒ",
+    "pos": "m.",
+    "en": "stem; [measure word for flowers]"
+   },
+   {
+    "i": 7,
+    "w": "剪刀",
+    "py": "jiǎn dāo",
+    "pos": "n.",
+    "en": "scissors; shears"
+   },
+   {
+    "i": 8,
+    "w": "捡",
+    "py": "jiǎn",
+    "pos": "v.",
+    "en": "to pick up; collect; to gather"
+   },
+   {
+    "i": 9,
+    "w": "装饰",
+    "py": "zhuāng shì",
+    "pos": "v.",
+    "en": "ornament; decorate; embellish"
+   },
+   {
+    "i": 10,
+    "w": "结合",
+    "py": "jié hé",
+    "pos": "v.",
+    "en": "to combine; unite; integrate"
+   },
+   {
+    "i": 11,
+    "w": "暴雨",
+    "py": "bào yǔ",
+    "pos": "n.",
+    "en": "rainstorm"
+   },
+   {
+    "i": 12,
+    "w": "紧急",
+    "py": "jǐn jí",
+    "pos": "adj.",
+    "en": "urgent; pressing"
+   },
+   {
+    "i": 13,
+    "w": "劳驾",
+    "py": "láo jià",
+    "pos": "v.",
+    "en": "excuse me"
+   },
+   {
+    "i": 14,
+    "w": "抢救",
+    "py": "qiǎng jiù",
+    "pos": "v.",
+    "en": "rescue; save; salvage"
+   },
+   {
+    "i": 15,
+    "w": "腰",
+    "py": "yāo",
+    "pos": "n.",
+    "en": "waist; small of the back"
+   },
+   {
+    "i": 16,
+    "w": "直",
+    "py": "zhí",
+    "pos": "adj.",
+    "en": "straight; direct"
+   },
+   {
+    "i": 17,
+    "w": "不然",
+    "py": "bù rán",
+    "pos": "conj.",
+    "en": "not the case; otherwise"
+   },
+   {
+    "i": 18,
+    "w": "回报",
+    "py": "huí bào",
+    "pos": "v.",
+    "en": "bring back a report"
+   },
+   {
+    "i": 19,
+    "w": "真理",
+    "py": "zhēn lǐ",
+    "pos": "n.",
+    "en": "truth"
+   },
+   {
+    "i": 20,
+    "w": "浇",
+    "py": "jiāo",
+    "pos": "v.",
+    "en": "sprinkle water on; irrigate; to water"
+   },
+   {
+    "i": 21,
+    "w": "潮湿",
+    "py": "cháo shī",
+    "pos": "adj.",
+    "en": "damp; moist; humidy"
+   },
+   {
+    "i": 22,
+    "w": "施肥",
+    "py": "shī féi",
+    "pos": "v.",
+    "en": "to apply fertilizer"
+   },
+   {
+    "i": 23,
+    "w": "熟练",
+    "py": "shú liàn",
+    "pos": "adj.",
+    "en": "skilled; practised; proficient"
+   },
+   {
+    "i": 24,
+    "w": "应付",
+    "py": "yìng fu",
+    "pos": "v.",
+    "en": "deal with; cope with; handle"
+   },
+   {
+    "i": 25,
+    "w": "鲜艳",
+    "py": "xiān yàn",
+    "pos": "adj.",
+    "en": "brightly coloured"
+   },
+   {
+    "i": 26,
+    "w": "自豪",
+    "py": "zì háo",
+    "pos": "adj.",
+    "en": "be proud of"
+   },
+   {
+    "i": 27,
+    "w": "吹",
+    "py": "chuī",
+    "pos": "v.",
+    "en": "to blow; puff"
+   },
+   {
+    "i": 28,
+    "w": "爱心",
+    "py": "ài xīn",
+    "pos": "n.",
+    "en": "compassion; kindness; consideration"
+   },
+   {
+    "i": 29,
+    "w": "分享",
+    "py": "fēn xiǎng",
+    "pos": "v.",
+    "en": "to share"
+   },
+   {
+    "i": 30,
+    "w": "昙花",
+    "py": "tán huā",
+    "pos": "n.",
+    "en": "broad-leaved epiphyllum"
+   },
+   {
+    "i": 31,
+    "w": "庆祝",
+    "py": "qìng zhù",
+    "pos": "v.",
+    "en": "celebration(s); to celebrate"
+   },
+   {
+    "i": 32,
+    "w": "保留",
+    "py": "bǎo liú",
+    "pos": "v.",
+    "en": "continue to have; persist; to retain; hold back"
+   },
+   {
+    "i": 33,
+    "w": "菊花",
+    "py": "jú huā",
+    "pos": "n.",
+    "en": "chrysanthemum"
+   },
+   {
+    "i": 34,
+    "w": "砸",
+    "py": "zá",
+    "pos": "v.",
+    "en": "pound; tamp; crush"
+   },
+   {
+    "i": 35,
+    "w": "悲伤",
+    "py": "bēi shāng",
+    "pos": "adj.",
+    "en": "sad, sorrowful"
+   },
+   {
+    "i": 36,
+    "w": "反正",
+    "py": "fǎn zhèng",
+    "pos": "adv.",
+    "en": "anyway; anyhow; in any case"
+   },
+   {
+    "i": 37,
+    "w": "热爱",
+    "py": "rè ài",
+    "pos": "v.",
+    "en": "have deep love for; love heartily"
+   }
+  ]
+ }
+]

@@ -1,0 +1,116 @@
+{
+  "lesson": 10,
+  "title_zh": "争论的奇迹",
+  "title_en": "Miracle of Debate",
+  "theme": "A neighbourhood argument over a sports ground that turned productive once the group agreed on what they already shared.",
+  "grammar": {
+    "id": "g10",
+    "point": "既然……就……",
+    "point_en": "since A, then B",
+    "structure": "既然 + accepted fact + 就 + conclusion or next step",
+    "explain_en": "既然……就…… links a premise the speaker treats as already true and already known to both sides to the conclusion, advice or next step that follows from it: 'since A, then B'. 既然 opens the first clause, or comes right after its subject (你既然……); 就 comes after the subject of the second clause and before its predicate. In speech 既然 can also be answered by 那么, or by nothing at all, but 就 is the normal written partner. Compare 因为……所以……: 因为 introduces a cause the listener may not know and the sentence explains why something happened or is true; 既然 takes the fact as granted and then moves forward, so the second clause is usually a decision, a suggestion or a question. Compare 如果……就……, which is a pure hypothesis and may be wrong about reality. Word order is fixed: 既然 never follows the verb, and 就 cannot open the sentence in front of the second subject.",
+    "common_mistake": "Learners translate 既然 as a plain 'because' and attach 所以, producing 既然你病了，所以你休息吧. The reason is already marked by 既然, so the second clause needs 就 — or no connector at all — and never 所以.",
+    "examples": [
+      {
+        "zh": "既然大家都同意，就不用再讨论了。",
+        "py": "jì rán dà jiā dōu tóng yì jiù bú yòng zài tǎo lùn le",
+        "en": "Since everyone agrees, there is no need to discuss it any further."
+      },
+      {
+        "zh": "你既然知道问题在哪里，就早点改。",
+        "py": "nǐ jì rán zhī dào wèn tí zài nǎ lǐ jiù zǎo diǎn gǎi",
+        "en": "Since you know where the problem is, fix it early."
+      },
+      {
+        "zh": "既然试验已经做完，就按结果改进吧。",
+        "py": "jì rán shì yàn yǐ jīng zuò wán jiù àn jié guǒ gǎi jìn ba",
+        "en": "Since the trial is finished, let us improve it according to the results."
+      }
+    ],
+    "drills": [
+      {
+        "q": "____你已经把资料看完了，____说说你的判断吧。",
+        "options": [
+          "既然……就……",
+          "只有……才……",
+          "与其……不如……",
+          "除了……还……"
+        ],
+        "answer": 0,
+        "explain": "The first clause states something both sides already accept and the second asks for a conclusion, which is the job of 既然……就……. 只有……才…… would put 才 in front of an imperative (才说说), which 才 cannot do; 与其……不如…… compares two options; 除了……还…… adds an item to an existing one."
+      },
+      {
+        "q": "既然你已经决定了，____。",
+        "options": [
+          "就直接去做吧",
+          "所以就直接去做吧",
+          "因为就直接去做吧",
+          "而就直接去做吧"
+        ],
+        "answer": 0,
+        "explain": "既然 already marks the reason, so the second clause simply follows with 就; adding 所以 would double the connector and belongs to the 因为……所以…… frame. 因为 cannot open a result clause, and 而 only links parallel or contrastive items."
+      }
+    ]
+  },
+  "reading": {
+    "title": "争出来的方案",
+    "text": "去年夏天，我们组为社区要不要修一个操场争了整整两周。有人担心孩子奔跑时太吵，有人觉得那块空地闲着可惜。会议一开始，大家围绕图纸各说各的，谁也说服不了谁。\n\n第三周，组长换了做法。他先请每个人写下一条自己最在意的担心，再把大家意见一致的部分标出来。这时我才意识到，多数人的想法并没有那么大的差距，真正对不上的只有两点。\n\n既然安全是大家都同意的前提，就先把两种方案各做一个小试验。试验只用了两周，问题就显示出来了：操场离楼房太近，拍球的声音确实很响。方案逐渐改进，最后大家都点了头。\n\n这次争论让我明白，好的讨论不靠声音大，而靠把事实放上桌面。毕竟大家要的是同一件事。",
+    "translation": "Last summer our team argued for two solid weeks about whether the neighbourhood should build a sports ground. Some worried it would be too noisy with children running about; others thought it a shame to leave the empty lot unused. From the first meeting everyone talked around the drawings, and nobody convinced anybody.\n\nIn the third week the team leader changed tack. He asked each person to write down the one worry they cared about most, then marked the points everyone agreed on. Only then did I realise that most of us were not far apart at all — the genuine disagreements were just two.\n\nSince safety was a premise everyone accepted, we first ran one small trial of each design. The trial took two weeks and the problem showed up immediately: the court was too close to the buildings and the sound of a bouncing ball really did carry. The plan was gradually improved, and in the end everyone nodded.\n\nThat argument taught me that a good discussion does not depend on who is loudest but on putting the facts on the table. After all, we wanted the same thing.",
+    "questions": [
+      {
+        "q": "这篇文章主要讲的是____。",
+        "options": [
+          "社区操场是怎么修起来的",
+          "一场争论怎样变成有用的讨论",
+          "孩子为什么喜欢在操场玩",
+          "组长怎样批评自己的同事"
+        ],
+        "answer": 1,
+        "explain": "The passage follows the argument from deadlock to agreement and ends by naming what made the difference, so the process of the argument is the subject."
+      },
+      {
+        "q": "第三周，组长让每个人先写下____。",
+        "options": [
+          "自己最担心的一个问题",
+          "自己最喜欢的方案",
+          "自己对组长的意见",
+          "自己周末的安排"
+        ],
+        "answer": 0,
+        "explain": "The text says 他先请每个人写下一条自己最在意的担心."
+      },
+      {
+        "q": "从文章看，作者认为好的讨论主要靠____。",
+        "options": [
+          "声音比别人大",
+          "经验比别人多",
+          "把事实摆出来",
+          "组长直接做决定"
+        ],
+        "answer": 2,
+        "explain": "The last paragraph sets 不靠声音大 against 靠把事实放上桌面, which is the author's own conclusion."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "这次争论没有结果，大家都很累。",
+      "我们先做一次小试验，再决定用哪个方案。",
+      "两个人的差距没有想象中那么大。",
+      "我逐渐意识到，问题出在沟通上。",
+      "他花了一个小时，终于说服了对方。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe an argument at work where both sides had good reasons. Explain how the disagreement was settled and what you would do sooner next time. Use the words below.",
+    "required_words": [
+      "争论",
+      "试验",
+      "改进",
+      "毕竟"
+    ],
+    "min_chars": 80,
+    "model": "上个月我和同事为一个页面该怎么排争论了三天。他觉得标题放在下面，我认为放在上面更清楚，谁也说服不了谁。后来我们做了一个小试验：请五位同事分别用两个版本做同一个任务，大家都能更快找到上面的按钮。我们照结果改进，事情当天就定了。毕竟争论不是目的，谁的想法更好，试一下就知道。",
+    "tips": "Open with the deadlock in one or two sentences, then show the test that broke it and what the result was. Close on the general rule you now follow."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "lesson": 27,
+  "title_zh": "下棋",
+  "title_en": "Playing chess",
+  "theme": "A coach's one quiet question turns a lost chess game into a professional habit: stop, look again, and name the real reason you lost.",
+  "grammar": {
+    "id": "g27",
+    "point": "反而 / 却 / 竟然 / 居然",
+    "point_en": "on the contrary / yet / unexpectedly / to one's surprise",
+    "structure": "反而 + 动词短语（与预期相反） ｜ 却 + 动词短语（转折） ｜ 竟然/居然 + 动词短语（出乎意料）",
+    "explain_en": "Four words, two jobs. 反而 and 却 both mark a turn. 反而 means 'on the contrary': the result is the opposite of what the situation predicts, and the expectation is usually already on the table — 吃了药，病反而更重了. It often follows 不但不 or 不仅没, and it pairs with 更: 越忙反而越乱. 却 is the plainest written 'yet, however'. It sets two clauses against each other without claiming the result is surprising: 他说了对不起，我却没有生气. 却 cannot open a sentence; it comes after the subject and before the verb. 竟然 and 居然 both mark real surprise — the speaker did not expect this at all. 竟然 is neutral and slightly formal; 居然 is more colloquial and often carries disbelief or disapproval, and it works well in rhetorical questions: 你居然不知道？ Both stand after the subject and before the verb. A practical test: if the result contradicts what you expected, use 反而; if you are simply setting two facts side by side in writing, use 却; if you are registering surprise at a fact, use 竟然 or 居然. Do not stack them in one slot, and remember that 反而 often needs a partner such as 不但不, 不仅没 or 越……越…… to sound complete.",
+    "common_mistake": "Learners put 却 or 竟然 at the head of a clause — 但是我却觉得, 却他没来. All four words sit after the subject and before the predicate.",
+    "examples": [
+      {
+        "zh": "他吃了两天药，病反而更重了。",
+        "py": "tā chī le liǎng tiān yào bìng fǎn ér gèng zhòng le",
+        "en": "He took the medicine for two days and the illness got worse instead."
+      },
+      {
+        "zh": "我提醒过他三次，他却一句也没听进去。",
+        "py": "wǒ tí xǐng guò tā sān cì tā què yī jù yě méi tīng jìn qù",
+        "en": "I reminded him three times, yet he did not take in a single word."
+      },
+      {
+        "zh": "这么简单的题，他居然算错了。",
+        "py": "zhè me jiǎn dān de tí tā jū rán suàn cuò le",
+        "en": "Such a simple question, and he actually got it wrong."
+      }
+    ],
+    "drills": [
+      {
+        "q": "我解释了半天，他不但没有消气，____。",
+        "options": ["反而更生气了", "却更生气了", "竟然更生气", "居然更生气"],
+        "answer": 0,
+        "explain": "反而 is the fixed second half of 不但没有…… in this frame. 却 does not pair with 不但, and 竟然/居然 mark surprise at a new fact rather than the opposite of the expected result; both would also need 了 before the final particle."
+      },
+      {
+        "q": "这张表我昨天才发给他，他____已经填完交上来了。",
+        "options": ["居然", "反而", "难免", "鉴于"],
+        "answer": 0,
+        "explain": "居然 marks surprise at a fact that was not expected, here the speed. 反而 needs an opposite result, 难免 predicts a natural consequence and takes 会, and 鉴于 introduces an observed situation at the start of a sentence."
+      }
+    ]
+  },
+  "reading": {
+    "title": "那盘棋",
+    "text": "我学象棋的那一年，输得很惨。教练从不骂人，只是在旁边看着，等一局结束后才问我一句：刚才那一步，你为什么那么走？\n\n有一次，我明明看见对方的马已经跳到了危险的位置，却还是急着去吃一个小兵，结果输了。我很不服气，说运气不好。教练没有责备我，只是把棋盘摆回原来的样子，让我再走一遍，说是让我自己找教训。这一次我看清了：问题不在运气，在于我太想赢，反而忽略了眼前的危险。\n\n那盘棋我记了很多年。后来工作里遇到类似的情况，急着抢一个看起来不错的项目，我竟然会想起那句问话，于是停下来，多观察一会儿。承认自己会犯错并不丢人；真正丢人的是，输了却不知道为什么。",
+    "translation": "In the year I learned Chinese chess I lost badly. The coach never scolded anyone. He just watched from the side and, once a game was over, asked me one question: why did you play that move? Once I clearly saw that his knight had already landed in a dangerous square, yet I still rushed to capture a small pawn, and lost. I was not convinced; I said it was bad luck. He did not blame me. He only set the board back the way it was and told me to play it again, saying I should find the lesson myself. This time I saw it: the problem was not luck but that I wanted to win so badly that I ignored the danger in front of me. That game stayed with me for years. Later at work, when I was in a hurry to grab a project that looked good, I would unexpectedly hear that question again, so I stopped and watched a little longer. Admitting you can make a mistake costs you nothing; what really costs you is losing and not knowing why.",
+    "questions": [
+      {
+        "q": "这篇文章主要写的是____。",
+        "options": ["一场正式的象棋比赛", "一盘输掉的棋带来的改变", "教练怎样教孩子学棋", "怎样才能提高象棋水平"],
+        "answer": 1,
+        "explain": "The passage moves from the lost game and the coach's question to the same habit showing up later at work, so the game's effect on the author is the subject."
+      },
+      {
+        "q": "作者认为那盘棋输掉的主要原因是____。",
+        "options": ["当天的运气不好", "太想赢而忽略了危险", "教练事先没有提醒", "对手的水平太高"],
+        "answer": 1,
+        "explain": "The author says '问题不在运气，在于我太想赢，反而忽略了眼前的危险', which rejects luck and names the real cause."
+      },
+      {
+        "q": "从最后一段可以看出，作者后来对“输”的态度是____。",
+        "options": ["尽量想办法避免再输", "认为输赢一点也不重要", "输了也要弄清楚原因", "不再参加任何比赛和项目"],
+        "answer": 2,
+        "explain": "The closing line says the real loss is losing without knowing why, which shows the author wants the reason, not simply the avoidance of defeat."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "那盘象棋我输得很不服气。",
+      "教练没有责备我，只让我再走一遍。",
+      "我太想赢，反而忽略了眼前的危险。",
+      "他一直在旁边观察，一句话也没说。",
+      "那次教训让我改掉了急着下结论的习惯。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe a mistake you made at work and what you learned by going back over it. Use at least three of the words below.",
+    "required_words": ["教训", "观察", "服气", "责备"],
+    "min_chars": 90,
+    "model": "刚工作时，我把一份报价单发错了客户，被经理叫去谈话。一开始我不太服气，觉得那只是小错。后来我们把整个过程重新走了一遍，我才发现自己在发送之前从没有观察过附件。那次的教训很简单：发出去以前停三秒，检查收件人和附件。经理没有责备我，只让我把步骤写下来贴在电脑旁边。那张纸我留了三年。",
+    "tips": "Set the scene in one sentence, show the moment you looked again instead of defending yourself, and end with the concrete rule you kept."
+  }
+}

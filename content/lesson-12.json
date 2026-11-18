@@ -1,0 +1,116 @@
+{
+  "lesson": 12,
+  "title_zh": "海外用户玩儿微信",
+  "title_en": "Overseas Users of WeChat",
+  "theme": "How a small app team learned that going abroad means rebuilding the product around local habits, not just translating it.",
+  "grammar": {
+    "id": "g12",
+    "point": "越……越……",
+    "point_en": "the more A, the more B",
+    "structure": "越 + change 1 + 越 + change 2",
+    "explain_en": "越……越…… links two changes that move together: the more A, the more B. Each clause carries its own 越, placed directly before the adjective or verb it changes, and the two halves sit in one sentence without any other connective. When the two subjects are different, the second subject comes before the second 越: 你说得越多，我越糊涂. When both clauses share a subject, the subject may stand at the very front (我越说越糊涂) or be repeated. The second clause often takes 就 for emphasis — 越……就越…… — and 是 can be added for weight (越是忙，越要小心). Compare 越来越, which has a single 越 and describes one thing changing over time without linking it to a second change: 天气越来越热 simply reports a trend. Do not double up 越来越 inside the two-part frame. Compare 一……就……, which is about immediate sequence, not proportional change.",
+    "common_mistake": "The typical slip is to write 越来越 in both halves — 越来越便宜，越来越多人买 — which gives two separate trends instead of one dependent pair. Each clause needs one plain 越: 越便宜，买的人越多.",
+    "examples": [
+      {
+        "zh": "越早开始准备，后面越轻松。",
+        "py": "yuè zǎo kāi shǐ zhǔn bèi hòu miàn yuè qīng sōng",
+        "en": "The earlier you start preparing, the easier things are later."
+      },
+      {
+        "zh": "他越解释，我越不明白。",
+        "py": "tā yuè jiě shì wǒ yuè bù míng bai",
+        "en": "The more he explained, the less I understood."
+      },
+      {
+        "zh": "这个软件用得越多，越觉得好用。",
+        "py": "zhè ge ruǎn jiàn yòng de yuè duō yuè jué de hǎo yòng",
+        "en": "The more you use this software, the better it seems."
+      }
+    ],
+    "drills": [
+      {
+        "q": "____往后拖，这件事____难办。",
+        "options": [
+          "越……越……",
+          "越来越……",
+          "越……越来越……",
+          "越来越……越来越……"
+        ],
+        "answer": 0,
+        "explain": "The frame is exactly 越 + A + 越 + B, one 越 in each clause. 越来越 takes a single adjective and reports a trend over time (越来越难办), so it has no second half to open a two-part sentence, and the mixed forms in the other two options are not patterns at all."
+      },
+      {
+        "q": "你说得越快，我____听不清楚。",
+        "options": [
+          "更",
+          "最",
+          "越",
+          "太"
+        ],
+        "answer": 2,
+        "explain": "The first clause already carries 越, so the second needs its own 越 before the predicate to complete the pair. 更, 最 and 太 are plain degree adverbs: 最 cannot describe a two-way correlation at all, and the other two leave the frame unfinished."
+      }
+    ]
+  },
+  "reading": {
+    "title": "从“能用”到“好用”",
+    "text": "朋友在一家做手机应用的公司上班。三年前，他们开始把产品带向海外，第一批用户来自东南亚。刚开始，团队的想法很简单：把国内的版本翻译成英文，能注册、能聊天就够了。\n\n真正上线以后，问题一个接一个。当地网络还不发达，图片经常打不开；用户习惯在手机上付钱，他们却没有准备好；客服只会说中文，一个问题常常要等两天。\n\n公司召开了几次会，决定从头改。产品经理去当地的市场待了两个月，回来重新设计了界面，又请本地人参与测试。推广也换了方式：短视频里请本地的小明星做示范，效果比广告好得多。\n\n一年以后，我最明显的感受是：用户越容易上手，就越愿意把朋友也拉进来。现在这款应用的业务覆盖了好几个国家，团队也比原来大了好几倍。",
+    "translation": "A friend of mine works at a company that makes a phone app. Three years ago they began taking the product overseas, starting with users in Southeast Asia. At first the team's thinking was simple: translate the Chinese version into English, and as long as people can register and chat, that is enough.\n\nOnce it actually launched, problems came one after another. Local networks were not yet well developed and pictures often failed to load; users were used to paying on their phones and the company was not ready for that; customer service spoke only Chinese, so a single question could take two days.\n\nAfter several meetings the company decided to rebuild from the start. The product manager went to the local market and stayed two months; when he came back the interface was redesigned and local people were brought in to test it. Promotion changed too: in short videos, small local celebrities demonstrated it, and that worked far better than advertising.\n\nA year on, what strikes me most is this: the easier users find the app, the more willing they are to pull their friends in. Today the business covers quite a few countries, and the team is several times larger than it was.",
+    "questions": [
+      {
+        "q": "这篇文章主要讲的是____。",
+        "options": [
+          "一家公司怎样把产品改到适合当地用户",
+          "短视频为什么比广告更受欢迎",
+          "出国工作会遇到哪些困难",
+          "手机应用靠什么赚钱"
+        ],
+        "answer": 0,
+        "explain": "The passage runs from the naive translate-only plan through the launch problems to the local rebuild, so the subject is adapting the product to the people who use it."
+      },
+      {
+        "q": "文中说，产品刚上线时，当地用户习惯____。",
+        "options": [
+          "用电脑上网找工作",
+          "在手机上付钱",
+          "写信联系客服",
+          "不用手机看视频"
+        ],
+        "answer": 1,
+        "explain": "The second paragraph says 用户习惯在手机上付钱，他们却没有准备好."
+      },
+      {
+        "q": "从最后一段看，作者认为用户愿意留下来的原因是____。",
+        "options": [
+          "广告投入比较大",
+          "请明星做代言",
+          "觉得用起来容易",
+          "价格比别人便宜"
+        ],
+        "answer": 2,
+        "explain": "The closing lines tie growth to 用户越容易上手，就越愿意把朋友也拉进来: people stay because the app is easy to use. Advertising and price are not part of that conclusion."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "新用户只要填一个手机号就能注册。",
+      "我们下个月开始在当地推广新产品。",
+      "这个功能是去年开发的，用起来很方便。",
+      "两家公司合作以后，业务增长得很快。",
+      "这个应用的市场主要在东南亚。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe a product, a service or a document that worked for your team but confused outsiders. What did you change, and what did you learn about your users? Use the words below.",
+    "required_words": [
+      "用户",
+      "当地",
+      "推广",
+      "合作"
+    ],
+    "min_chars": 80,
+    "model": "去年我们做了一款小工具，最早只在公司内部用。后来决定推广出去，才发现问题很多：界面上的说法，新用户看不明白。我们找了一家当地的公司合作，请他们的员工先试用，再把意见一条一条改掉。半年以后，新的用户第一次就能自己完成注册。越了解用户，越知道该改哪里。",
+    "tips": "Start with what worked inside and failed outside, then the concrete fix. End by naming the general lesson in one short 越……越…… sentence."
+  }
+}

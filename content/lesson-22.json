@@ -1,0 +1,116 @@
+{
+  "lesson": 22,
+  "title_zh": "阅读与思考",
+  "title_en": "Reading and thinking",
+  "theme": "How a change in reading habits turned a habit of quick judgement into a habit of asking better questions.",
+  "grammar": {
+    "id": "g22",
+    "point": "拿……来说 / 就……而言",
+    "point_en": "taking X as an example / as far as X is concerned",
+    "structure": "拿 + X + 来说，…… / 就 + X + 而言，……",
+    "explain_en": "Both phrases push a topic to the front of the sentence and limit what the rest of it is about, but they do different jobs. 拿……来说 introduces a concrete, individual example that supports a claim you have just made or are about to make: 这里的书很便宜，拿这本来说，只要十块钱. It answers 'for instance'. 就……而言 narrows the scope or the angle of a judgement — 'as far as X is concerned, as regards X': 就质量而言，这台机器没有问题. It often sets up a contrast or a concession, because it quietly excludes every other angle. 而言 is bookish; in speech people more often say 就……来说 or 从……来看. The slots must be noun phrases, not clauses, and the two halves of each pairing cannot be mixed: 拿 goes with 来说, 就 goes with 而言, and 拿……而言 is a common written slip. Position: sentence-initial, or straight after a short subject. In an exam essay these frames are cheap, effective signposts for an opinion paragraph — one sets an example, the other limits a claim.",
+    "common_mistake": "The frequent error is mismatching the partners (拿……而言), or putting a whole clause after 拿 instead of a noun phrase. Also remember that 就……而言 names a scope, not a case, so it cannot be used to give an example.",
+    "examples": [
+      {
+        "zh": "拿这本童话来说，孩子读三遍也不会烦。",
+        "py": "ná zhè běn tóng huà lái shuō hái zi dú sān biàn yě bú huì fán",
+        "en": "Take this fairy tale: a child can read it three times without getting bored."
+      },
+      {
+        "zh": "就阅读方法而言，他觉得朗读比背诵更有用。",
+        "py": "jiù yuè dú fāng fǎ ér yán tā jué de lǎng dú bǐ bèi sòng gèng yǒu yòng",
+        "en": "As far as reading methods go, he thinks reading aloud is more useful than memorising."
+      },
+      {
+        "zh": "就目前的进度而言，我们还有两周时间。",
+        "py": "jiù mù qián de jìn dù ér yán wǒ men hái yǒu liǎng zhōu shí jiān",
+        "en": "As far as the current schedule goes, we still have two weeks."
+      }
+    ],
+    "drills": [
+      {
+        "q": "拿这次考试____，他的准备还不够充分。",
+        "options": [
+          "来说",
+          "而言",
+          "来看",
+          "说法"
+        ],
+        "answer": 0,
+        "explain": "拿 pairs only with 来说. 而言 belongs with 就, 从……来看 is a third frame that needs 从 rather than 拿, and 说法 is a noun and cannot complete the phrase."
+      },
+      {
+        "q": "____，这台机器的质量没有问题。",
+        "options": [
+          "就质量而言",
+          "拿质量而言",
+          "就质量而说",
+          "质量而言"
+        ],
+        "answer": 0,
+        "explain": "就 pairs with 而言. 拿 cannot take 而言, 就……而说 is not a form at all, and a bare noun phrase cannot open the sentence without the preposition."
+      }
+    ]
+  },
+  "reading": {
+    "title": "慢读的理由",
+    "text": "很多人读书有个习惯：先看结论，再看别人的观点，最后才翻正文。我以前也这样，觉得这样省时间。自从开始写读书笔记，我的想法有了转变。就阅读而言，快并不等于好。一本好书之所以值得反复读，是因为它给不同年纪的人准备了不同的答案。拿我最喜欢的一篇童话来说，小时候我只看到那个孩子在冬天里很冷、很饿。长大以后再读，我注意到周围的人并不是坏人，他们只是太忙，太习惯别人的痛苦。作者没有过分强调悲伤，只是把一种常见的冷漠写得很清楚。读到这里，我不再急着判断谁对谁错，而是问自己：如果我在那条街上，我会怎么做？我承认，这个问题没有完美的答案。但阅读的价值就在这里：它让我们愿意停下来，全面地想一想。",
+    "translation": "Many people read with a fixed habit: first the conclusion, then other people's opinions, and only at the end the actual text. I used to do the same, thinking it saved time. Since I began keeping reading notes, my view has changed. As far as reading is concerned, fast is not the same as good. A good book deserves a second and third reading because it keeps different answers ready for people of different ages. Take my favourite fairy tale: as a child I saw only that the little girl was cold and hungry in the winter. Reading it again as an adult, I noticed that the people around her are not villains — they are simply too busy, too used to other people's pain. The author does not overdo the sadness; she just makes an ordinary kind of coldness very clear. At that point I stopped rushing to decide who was right and asked myself: if I had been on that street, what would I have done? I admit there is no perfect answer to that question. But perhaps that is where the value of reading lies: it makes us willing to stop and think about the whole picture.",
+    "questions": [
+      {
+        "q": "这篇文章主要写了____。",
+        "options": [
+          "作者对怎么读书的看法和它带来的改变",
+          "一篇童话的写作背景",
+          "作者学习写作文的经历",
+          "读书笔记的几种常见格式"
+        ],
+        "answer": 0,
+        "explain": "The first paragraph describes the old habit and the change, and the rest explains what slow, questioning reading means to the author."
+      },
+      {
+        "q": "作者小时候读那篇童话，注意到的是____。",
+        "options": [
+          "那个孩子在冬天里很冷、很饿",
+          "周围的人只是太忙",
+          "作者没有过分强调悲伤",
+          "故事里那条街的名字"
+        ],
+        "answer": 0,
+        "explain": "The text contrasts 小时候我只看到那个孩子在冬天里很冷、很饿 with what the author noticed 长大以后再读."
+      },
+      {
+        "q": "作者说“这个问题没有完美的答案”，作者的态度是____。",
+        "options": [
+          "承认问题复杂，但值得一直想下去",
+          "认为这篇童话写得不好",
+          "决定以后不再读童话",
+          "觉得孩子不该读这样的故事"
+        ],
+        "answer": 0,
+        "explain": "The next sentence says the value of reading lies in stopping to think about the whole picture, which accepts the open question instead of rejecting the book."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "读书的时候，千万不要过分相信别人的观点。",
+      "我承认这本书的结论并不完美。",
+      "从客观的角度看，这个观点还需要更多理由。",
+      "自从开始写作文，他比以前认真多了。",
+      "读一本好书，常常能让人想得更全面。"
+    ]
+  },
+  "writing": {
+    "prompt": "Describe a book or story that changed how you see something. Say what you noticed first, what you noticed later, and what question it left you with. Use four of the words below.",
+    "required_words": [
+      "观点",
+      "转变",
+      "客观",
+      "价值"
+    ],
+    "min_chars": 80,
+    "model": "大学时我读一篇童话，只觉得故事里的穷人很可怜。工作以后重读，我的观点有了转变。我开始注意那些路过的人：他们并不坏，只是太忙。这个发现让我对自己也客观了一些。一本书的价值也许不在答案，而在它让你多问一句为什么。我在读书笔记里写下这个问题，后来又读了第二遍。",
+    "tips": "Begin with your first reading, contrast it with a later one, and finish with the question the book left you instead of summarising the plot."
+  }
+}

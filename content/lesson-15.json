@@ -1,0 +1,101 @@
+{
+  "lesson": 15,
+  "title_zh": "纸上谈兵",
+  "title_en": "Being an Armchair Strategist",
+  "theme": "A half-day business simulation in which the strongest theorist on the team learns what happens when the facts change.",
+  "grammar": {
+    "id": "g15",
+    "point": "因此 / 因而 / 从而",
+    "point_en": "therefore; as a result; and thereby",
+    "structure": "原因或做法 + 因此/因而/从而 + 结果",
+    "explain_en": "All three words introduce a result, but they are not interchangeable. 因此 and 因而 are close to “therefore”: the first half gives a cause or a fact, and the second half gives the consequence. 因此 is the most common in written and semi-formal Chinese and can follow either a comma or a full stop; 因而 is a little more literary, usually keeps both halves inside one sentence and often pairs with 由于. 从而 is different: it links a means or a step to the result achieved by it, so the first half must be something someone did, and the second half is what that action produced — 他改进了流程，从而减少了错误. With 从而 the two halves normally share a subject, and it cannot be used when the first half is only a situation or a state. In short: use 因此 and 因而 for cause and effect, and 从而 for means and result.",
+    "common_mistake": "The classic mistake is to use 从而 for a plain cause, as in 昨天下雨，从而比赛取消了, where rain is a situation rather than a method. Use 因此 or 因而 there, and keep 从而 for an action that produces a result.",
+    "examples": [
+      {
+        "zh": "他没有检查数据，因此报告里出现了两个错误。",
+        "py": "tā méi yǒu jiǎn chá shù jù yīn cǐ bào gào lǐ chū xiàn le liǎng ge cuò wù",
+        "en": "He did not check the figures, so two errors appeared in the report."
+      },
+      {
+        "zh": "由于准备得比较充分，因而这次演练非常顺利。",
+        "py": "yóu yú zhǔn bèi de bǐ jiào chōng fèn yīn ér zhè cì yǎn liàn fēi cháng shùn lì",
+        "en": "Because the preparation was fairly thorough, the exercise went very smoothly."
+      },
+      {
+        "zh": "公司简化了审批步骤，从而缩短了项目的时间。",
+        "py": "gōng sī jiǎn huà le shěn pī bù zhòu cóng ér suō duǎn le xiàng mù de shí jiān",
+        "en": "The company simplified its approval steps and thereby shortened the project timeline."
+      }
+    ],
+    "drills": [
+      {
+        "q": "昨天下了一夜的大雨，____比赛推迟了一天。",
+        "options": ["因此", "从而", "何况", "甚至"],
+        "answer": 0,
+        "explain": "因此 reports the consequence of a situation. 从而 needs the first half to be an action taken in order to achieve something, but a night of rain is a situation, not a method; 何况 and 甚至 do not introduce a result."
+      },
+      {
+        "q": "他把每次会议的记录整理成模板，____让新同事也能很快上手。",
+        "options": ["从而", "因为", "由于", "尽管"],
+        "answer": 0,
+        "explain": "从而 introduces the result produced by the action 整理成模板, with the same subject in both halves. 因为 and 由于 introduce a reason, and 尽管 needs a concession, so none of them fits this result slot."
+      }
+    ]
+  },
+  "reading": {
+    "title": "会议室里的四个字",
+    "text": "公司每年秋天有一次内部培训，内容是半天的模拟经营。五个人一组，每组要在半天里“经营”一家小公司。\n\n小陈是我们组理论最强的人。他读过很多管理书，一开口就是数据和方法，大家很快同意了他的方案。前半场我们一直领先，气氛很轻松。\n\n到了后半场，形势变了：客户的要求一变再变。小陈仍然按原来的计划推进，别人提醒他灵活一点，他却说方案没有问题。两个小时过去，我们从第一变成了最后。\n\n讨论时，带队的经理没有批评谁，只说了四个字：“纸上谈兵。”他说，理论很重要，但不能盲目相信纸上的方案。由于只顾方案而没有听客户的声音，我们组因而失去了机会。\n\n那次培训以后，小陈变了。他开始主动去客户那里听意见，从而发现自己方案里的毛病。",
+    "translation": "Every autumn the company runs an internal training session: half a day of business simulation. We work in groups of five, and each group has half a day to “run” a small company.\n\nChen was the strongest theorist in our group. He had read a lot of management books, and the moment he opened his mouth it was data and methods, so the rest of us quickly agreed to his plan. For the first half we led the field and the mood was relaxed.\n\nIn the second half the situation changed: the client's requirements kept shifting. Chen carried on with the original plan; when people suggested he stay flexible, he said the plan was fine. Two hours later we had gone from first place to last.\n\nIn the discussion the team leader did not criticise anyone. He said four words: “Armchair strategy.” Theory matters, he went on, but you cannot blindly trust a plan on paper. Because we looked only at the plan and did not listen to the client, our group lost its chance.\n\nAfter that session Chen changed. He began going to clients to hear their views, and in this way he found the flaws in his own plans.",
+    "questions": [
+      {
+        "q": "这次培训最想让参加的人明白____。",
+        "options": [
+          "理论必须和事实结合才有用",
+          "模拟经营比真实工作容易",
+          "团队应该由理论最好的人决定",
+          "客户的要求总是在变"
+        ],
+        "answer": 0,
+        "explain": "The team leader's remark — theory matters but you cannot blindly trust a paper plan — states the lesson the exercise was meant to teach."
+      },
+      {
+        "q": "我们组在后半场落后的直接原因是____。",
+        "options": [
+          "小陈不肯按变化调整方案",
+          "客户临时取消了合作",
+          "组里有人没有参加培训",
+          "经理提前结束了练习"
+        ],
+        "answer": 0,
+        "explain": "The text says Chen kept to the original plan and insisted it was fine while the client's requirements kept changing."
+      },
+      {
+        "q": "从小陈后来的变化可以看出，他____。",
+        "options": [
+          "接受了那次失败的教训",
+          "对管理理论失去了兴趣",
+          "希望换一个团队工作",
+          "认为培训没有意义"
+        ],
+        "answer": 0,
+        "explain": "He now goes to clients to listen and finds the flaws in his own plans, which shows he took the lesson to heart."
+      }
+    ]
+  },
+  "listening": {
+    "dictation": [
+      "他的方案写得很好，可惜只是纸上谈兵。",
+      "形势变了，我们必须马上调整计划。",
+      "经理再三提醒我们，不要盲目相信数据。",
+      "他主动承认了自己的毛病，大家都笑了。",
+      "他讲的道理没错，只是缺少实际的经验。"
+    ]
+  },
+  "writing": {
+    "prompt": "Think of a plan that looked perfect on paper but met reality. What did you change, and what did you learn? Use 4 of the words below.",
+    "required_words": ["方案", "盲目", "灵活", "宝贵"],
+    "min_chars": 80,
+    "model": "刚接手客户工作时，我总想写一份完美的方案，把每一步安排好。第一次提案，客户只问了一句：“如果预算减一半，你们怎么办？”我当场愣住了。那次失败很宝贵：我明白只按计划做事是不够的，方案必须留出调整的余地。后来我先听客户的实际困难，把几种可能都写进去。计划可以简单，但要灵活，不能盲目相信纸上的数字。",
+    "tips": "Set up the plan briefly, then show the moment reality intervened. End with the one principle you now apply, not a general moral."
+  }
+}
