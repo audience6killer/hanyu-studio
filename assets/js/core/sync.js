@@ -68,15 +68,24 @@
     HY.store.save(true);
   }
 
+  /* Merge partial settings into the current connection. The site-config path
+   * calls this with only email/enabled, so omitted fields must survive. */
   S.saveConfig = function (opts) {
-    const url = String(opts.url || "").trim().replace(/\/+$/, "");
+    opts = opts || {};
+    const current = config() || {};
+    const url = String(opts.url !== undefined ? opts.url : current.url || "").trim().replace(/\/+$/, "");
     if (!/^https?:\/\//i.test(url)) throw new Error("The project URL must start with https://");
-    saveConfig({
+    const patch = {
       url,
-      anonKey: String(opts.anonKey || "").trim(),
-      email: String(opts.email || "").trim(),
-      enabled: opts.enabled !== false
-    });
+      anonKey: String(opts.anonKey !== undefined ? opts.anonKey : current.anonKey || "").trim(),
+      email: String(opts.email !== undefined ? opts.email : current.email || "").trim(),
+      enabled: opts.enabled === undefined ? current.enabled !== false : opts.enabled !== false
+    };
+    /* A new project must not receive the old project's session token. */
+    if (current.url && current.url !== url) {
+      Object.assign(patch, { accessToken: "", refreshToken: "", expiresAt: 0, baseRev: 0, lastSyncAt: 0, lastError: "" });
+    }
+    saveConfig(patch);
   };
 
   S.disconnect = function () {
