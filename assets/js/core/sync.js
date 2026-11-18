@@ -26,7 +26,7 @@
     return (s && s.meta && s.meta.sync) || null;
   }
   S.config = config;
-  S.configured = () => !!(config() && config().url && config().anonKey);
+  S.configured = () => !!(S.siteConfig() || (config() && config().url && config().anonKey));
   S.signedIn = () => !!(config() && config().accessToken && config().refreshToken);
 
   /* Build-time defaults written into assets/js/data/config.js at deploy time.
@@ -69,15 +69,17 @@
   }
 
   /* Merge partial settings into the current connection. The site-config path
-   * calls this with only email/enabled, so omitted fields must survive. */
+   * calls this with only email/enabled, so omitted fields must survive. The
+   * baked project also acts as the fallback if meta.sync was never applied. */
   S.saveConfig = function (opts) {
     opts = opts || {};
     const current = config() || {};
-    const url = String(opts.url !== undefined ? opts.url : current.url || "").trim().replace(/\/+$/, "");
+    const site = S.siteConfig() || {};
+    const url = String(opts.url !== undefined ? opts.url : (site.url || current.url || "")).trim().replace(/\/+$/, "");
     if (!/^https?:\/\//i.test(url)) throw new Error("The project URL must start with https://");
     const patch = {
       url,
-      anonKey: String(opts.anonKey !== undefined ? opts.anonKey : current.anonKey || "").trim(),
+      anonKey: String(opts.anonKey !== undefined ? opts.anonKey : (site.anonKey || current.anonKey || "")).trim(),
       email: String(opts.email !== undefined ? opts.email : current.email || "").trim(),
       enabled: opts.enabled === undefined ? current.enabled !== false : opts.enabled !== false
     };
