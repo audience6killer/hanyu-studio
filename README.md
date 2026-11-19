@@ -164,6 +164,8 @@ Both alternatives use the same Node build, the same SQL injection into `setup.ht
 
 The vocabulary data is embedded as JavaScript, lesson content is generated into `assets/js/data/lessons.js`, and local state is saved under the `hanyu.v1` key.
 
+To build a sibling instance for Japanese or English, read `PORTING.md`: it separates the reusable engine from the Chinese-specific seams and gives the build order, content contracts, and QA checklist.
+
 ---
 
 ## A normal session (about 35 minutes)
@@ -261,6 +263,7 @@ tools/validate_content.py   schema/content validator
 serve.py                    optional local HTTP server
 start-server.bat            Windows shortcut for serve.py
 STUDY_PLAN.md               plan and exam mapping
+PORTING.md                  handoff guide for building Japanese/English instances
 deploy/                     generated static site (safe to drag to Netlify)
 hsk5-studio-site.zip        generated drag-and-drop bundle
 ```
