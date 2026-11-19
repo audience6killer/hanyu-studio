@@ -3,7 +3,7 @@
 > A handoff manual for AI agents (and humans) who will build sibling language instances.
 >
 > The current instance is **Chinese (L2) for English speakers (L1)**, following HSK Standard Course 5.
-> The planned instances are **Japanese (L2) for Spanish speakers** and **English (L2) for Spanish speakers**.
+> The planned instances are **Japanese (L2) for English speakers** and **English (L2) for Spanish speakers**.
 >
 > Read in this order:
 >
@@ -16,7 +16,7 @@
 
 **TL;DR workflow:** fill the brief → fork and rename → build the vocabulary pipeline → ship one vertical lesson → add the language adapter → scale content in validated batches → adapt plan/diagnostic/checkpoints → localize the interface → isolate sync → deploy and run the QA matrix.
 
-**Contents:** 1 Brief · 2 Invariants · 3 Architecture · 4 Learning design · 5 Content model · 6 Chinese-specific seams · 7 Workflow · 8 Japanese · 9 English · 10 Spanish UI · 11 Sync isolation · 12 Build/QA · 13 Traps · 14 Prompts · 15 Definition of done · 16 File map · 17 Glossary.
+**Contents:** 1 Brief · 2 Invariants · 3 Architecture · 4 Learning design · 5 Content model · 6 Chinese-specific seams · 7 Workflow · 8 Japanese · 9 English · 10 Spanish UI (English instance) · 11 Sync isolation · 12 Build/QA · 13 Traps · 14 Prompts · 15 Definition of done · 16 File map · 17 Glossary.
 
 ---
 
@@ -27,8 +27,8 @@ Fill this in before writing code or content. The Japanese and English columns ar
 | Decision | Chinese instance (current) | Japanese instance | English instance |
 |---|---|---|---|
 | Target language (L2) | Chinese | Japanese | English |
-| Learner language (L1) | English | Spanish | Spanish |
-| Interface language | English | Spanish (recommended) | Spanish (recommended) |
+| Learner language (L1) | English | English | Spanish |
+| Interface language | English | English (reuse the shell) | Spanish (recommended) |
 | Anchor exam | HSK 2.0 level 5 | JLPT N3 or N2 — confirm | CEFR B1/B2 or Cambridge B2 First — confirm |
 | Anchor textbook | HSK Standard Course 5 | Genki / Tobira / Minna no Nihongo — confirm | English File / Speakout — confirm |
 | Lesson count | 36 (two HSK5 volumes) | Textbook units — do not force 36 | Textbook units — do not force 36 |
@@ -45,19 +45,19 @@ Questions that must be answered by the human before content work:
 2. **Which textbook?** The app follows a book’s lesson order. Without a book, define a custom syllabus and vocabulary list.
 3. **What is the starting point?** Total beginner, false beginner, or returning after a gap? The current app assumes a returning HSK4 learner and uses calibration to refresh old vocabulary.
 4. **How many minutes per weekday, and how many days per week?** The current design assumes 35 minutes and five weekdays.
-5. **Is the interface Spanish, English, or bilingual?** Spanish is the learner’s L1; the content explanations should normally be Spanish.
+5. **Is the interface English or Spanish?** The Japanese instance can reuse the English shell; the English instance should normally use a Spanish interface. Content explanations follow the learner’s L1.
 6. **One device or computer + phone sync?** Sync determines whether a Supabase project is needed at all.
 7. **Is speaking out of scope?** The current app deliberately has no speaking practice. Keep that constraint unless the human explicitly changes it.
 
-### Spanish is the mother tongue
+### Learner language differs by instance
 
-This has two separate consequences:
+The two instances do **not** share an L1:
 
-- **Content L1 = Spanish.** Glosses, grammar explanations, reading translations, writing prompts, and error messages for the learner should be Spanish.
-- **Target text L2 = Japanese or English.** Passages, example sentences, dictation, prompts the learner must read in the target language, and answers stay in L2.
-- **The interface** can be Spanish or English. Spanish is recommended for a Spanish speaker; if time is short, keep the English shell for the first MVP and schedule the Spanish pass before daily use.
+- **Japanese instance — L1 English.** Glosses, grammar explanations, reading translations, writing prompts, and error messages for the learner stay in English. The existing English shell and the current `en` field names can be reused. Only the target-language content, TTS locale, tokenizer, and exam/book copy change.
+- **English instance — L1 Spanish.** Those same learner-facing fields must be Spanish. The interface should normally be Spanish too. Rename `en` → `gloss_l1`, `title_en` → `title_l1`, `explain_en` → `explain_l1`, `translation` → `translation_l1`, and `prompt` → `prompt_l1` in this fork; otherwise “en” silently means Spanish and the first content review will be a bug hunt.
+- **Target text L2** stays Japanese or English respectively. Passages, example sentences, dictation, and answers are always in the target language.
 
-The current data schema uses fields named `en` (`en` gloss, `title_en`, `explain_en`, etc.). In this document, “`en`” means **the learner’s language field**, not “English”. If L1 is Spanish, those fields must contain Spanish. Rename them to `gloss`, `title_l1`, `explain_l1`, etc. in a fork, or the confusion will cause bugs.
+The current data schema uses fields named `en` (`en` gloss, `title_en`, `explain_en`, etc.). In this document, “`en`” means **the learner’s language field**. For the Japanese instance that is literally English; for the English instance it must contain Spanish, which is why the rename matters.
 
 ---
 
@@ -184,7 +184,7 @@ These decisions are the product. Document any change in the new instance brief.
 
 **Why:** Recognition is not production. A learner can read a word in a passage and fail to type it. Listening is a third skill, especially when the script is not phonetic (Chinese, Japanese). Scheduling them separately prevents one strong skill from hiding two weak ones.
 
-**Porting:** Keep all three. For Japanese, decide what `rec` shows (kanji? kana? both?) and what `prod` accepts (kanji, kana, or both if the reading matches). For English, `rec` can be word → Spanish gloss, `prod` Spanish → English, `listen` audio → meaning.
+**Porting:** Keep all three. For Japanese, decide what `rec` shows (kanji? kana? both?) and what `prod` accepts (kanji, kana, or both if the reading matches). For the English instance, `rec` can be word → Spanish gloss, `prod` Spanish → English, `listen` audio → meaning.
 
 ### 4.3 Binary grading, not Anki’s four buttons
 
@@ -356,13 +356,15 @@ Do not refactor and author at the same time. For a new fork, start from the curr
 | `lang="zh-Hans"` | `lang` from config | HTML language tag |
 | `hanyu.v1` | app-specific key | Local storage namespace |
 
-Target content shape:
+The Japanese instance can keep the `en` field names because its L1 is English; the English instance must do the rename because its learner-language fields contain Spanish.
+
+Target content shape (shown for Japanese; the English instance sets `l1` to `es`):
 
 ```json
 {
   "schema": 2,
   "l2": "ja",
-  "l1": "es",
+  "l1": "en",
   "lesson": 1,
   "title": { "l2": "...", "l1": "..." },
   "grammar": {
@@ -392,7 +394,7 @@ Target content shape:
 }
 ```
 
-This shape is a target, not a requirement for the first fork. The important change is **sentence-level L1 translations** and **unit-aware writing**.
+This shape is a target, not a requirement for the first fork. The important change is **sentence-level L1 translations** and **unit-aware writing**. The example above is the Japanese instance (L1 English, character unit); the English instance uses `"l1": "es"` and `"unit": "words"`.
 
 ### 5.4 Content volume and plan math
 
@@ -517,8 +519,8 @@ A first release may ship one lesson with all exercise types and local storage; s
   - `assets/js/core/storage.js` key (`ja.v1` / `en.v1`).
   - `README.md`, `setup.html`, `netlify.toml` names and instructions.
   - `sw.js` cache prefix.
-- Add an app identity constant, e.g. `window.HY_APP = { id: "ja", l1: "es", l2: "ja" }`, and use it in exports/sync.
-- Decide UI language; if Spanish, plan the i18n pass (section 10).
+- Add an app identity constant, e.g. `window.HY_APP = { id: "ja", l1: "en", l2: "ja" }` for Japanese; the English instance uses `l1: "es"` and `l2: "en"`.
+- Decide UI language: the Japanese instance can keep the English shell; the English instance plans the Spanish i18n pass (section 10).
 - **Done when:** a fresh clone builds and opens with the new name and an empty, separate local state.
 
 ### Phase 2 — Data sources and vocabulary
@@ -574,10 +576,10 @@ A first release may ship one lesson with all exercise types and local storage; s
 
 ### Phase 7 — UI language and branding
 
-- Translate the interface if the brief says Spanish UI.
+- Translate the interface for the English instance if the brief says Spanish UI; the Japanese instance can keep the English shell.
 - Replace Chinese-specific labels (`hanzi`, `pinyin`, `字`) with target-language equivalents.
 - Add target fonts and `lang` attributes.
-- Review mobile layout with longer Spanish strings and Japanese text.
+- Review mobile layout with longer Spanish strings (English instance) and Japanese text.
 - **Done when:** no untranslated English/Chinese text appears in the primary flow.
 
 ### Phase 8 — Sync isolation
@@ -610,6 +612,7 @@ A first release may ship one lesson with all exercise types and local storage; s
 
 ### 8.1 Scope
 
+- The Japanese instance's L1 is **English**. Keep glosses, grammar explanations, reading translations, writing prompts, and error messages in English; reuse the existing English interface.
 - Confirm JLPT level: N3 is a reasonable “resume after a gap” target; N2 is a much larger vocabulary/grammar project.
 - Confirm textbook: Genki I/II (23 lessons), Minna no Nihongo I/II (50 lessons), Tobira (15 chapters), or a custom syllabus. Lesson count drives the plan and checkpoint spacing.
 - JLPT has **no writing or speaking section**. The app’s writing stage is extra production practice; label it as such. Checkpoints should follow JLPT’s language-knowledge/reading/listening format if the goal is exam preparation.
@@ -617,7 +620,7 @@ A first release may ship one lesson with all exercise types and local storage; s
 ### 8.2 Script and lookup
 
 - A Japanese “word” may mix kanji, hiragana, and katakana. The lookup key can be the standard written form; store kana reading separately.
-- Store at least: surface, kana reading, romaji (optional, for search), gloss in Spanish, part of speech, JLPT level, frequency, lesson.
+- Store at least: surface, kana reading, romaji (optional, for search), gloss in English, part of speech, JLPT level, frequency, lesson.
 - For tap-to-define, build a dictionary from JMdict/KANJIDIC2 (verify licenses) and a tokenizer (MeCab, Sudachi, or Juman++) at build time. Do not ship a tokenizer runtime unless necessary; precompute the passage tokens and dictionary entries.
 - Character-level fallback is less useful than word-level; kanji have multiple readings. If you show a kanji entry, show its common readings and a caveat.
 
@@ -706,7 +709,9 @@ Decide explicitly:
 
 ---
 
-## 10. Spanish interface and L1
+## 10. Spanish interface and L1 (English instance)
+
+This section applies to the **English instance** (L2 English, L1 Spanish). The Japanese instance reuses the current English interface and English glosses; for it, skip the Spanish i18n work and only change target-language labels, fonts, TTS, and content.
 
 ### 10.1 Decide the UI language early
 
@@ -715,7 +720,7 @@ Decide explicitly:
 
 ### 10.2 Minimal i18n approach
 
-The current UI strings are hardcoded in the `ui/*.js` files. A pragmatic approach:
+For the English instance, the current UI strings are hardcoded in the `ui/*.js` files. A pragmatic approach:
 
 1. Add `assets/js/i18n/es.js` with `window.HY_I18N = { "nav.today": "Hoy", ... }`.
 2. Add `U.t(key, vars)` that returns the string or the key if missing.
@@ -726,6 +731,8 @@ The current UI strings are hardcoded in the `ui/*.js` files. A pragmatic approac
 Do not machine-translate the whole UI and ship it unreviewed; a native Spanish speaker should read the primary flow.
 
 ### 10.3 Content fields
+
+In the English instance:
 
 - Rename `en` → `gloss_l1`, `title_en` → `title_l1`, `explain_en` → `explain_l1`, `translation` → `translation_l1`, `prompt` → `prompt_l1`.
 - Store Spanish with correct accents and punctuation.
@@ -853,6 +860,8 @@ Open `deploy/index.html` or the served URL. Keep a clean browser profile for fir
 ```text
 You are authoring lesson {N} for a {L2} course at {level} for a {L1} speaker.
 
+Instance reminder: the Japanese course uses L1 English; the English course uses L1 Spanish. Do not mix the two.
+
 Inputs:
 - content/vocab-by-lesson.json, lesson {N}: the exact target words and glosses.
 - CONTENT_SPEC.md: schema and rules (adapt the language-specific parts).
@@ -970,7 +979,7 @@ A new instance is done when:
 
 ## 17. Glossary
 
-- **L1** — learner’s native language (Spanish for the planned instances).
+- **L1** — learner’s native language: English for the current Chinese and Japanese instances; Spanish for the English instance.
 - **L2** — target language (Japanese/English).
 - **Instance** — one language course, one deployment, one data set, one sync scope.
 - **Skill** — `rec`, `prod`, `listen`; one scheduled card each per word.
